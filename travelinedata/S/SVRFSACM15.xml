@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:20:00-00:00" ModificationDateTime="2019-10-07T13:20:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRFSACM15.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300LMR</StopPointRef>
+      <CommonName>Lismore Ferry Terminal</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300OBA</StopPointRef>
+      <CommonName>Oban Ferry Terminal</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="FSACM15_001">
+      <RouteLink id="FSACM15_001_260213">
+        <From>
+          <StopPointRef>9300LMR</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300OBA</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSACM15_002">
+      <RouteLink id="FSACM15_002_260215">
+        <From>
+          <StopPointRef>9300OBA</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300LMR</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="FSACM15_001">
+      <Description>Lismore - Oban
+</Description>
+      <RouteSectionRef>FSACM15_001</RouteSectionRef>
+    </Route>
+    <Route id="FSACM15_002">
+      <Description>Oban - Lismore
+</Description>
+      <RouteSectionRef>FSACM15_002</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_FSACM15-3">
+      <JourneyPatternTimingLink id="JPS_FSACM15-3_260213">
+        <From>
+          <StopPointRef>9300LMR</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300OBA</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM15_001_260213</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT3300S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSACM15-4">
+      <JourneyPatternTimingLink id="JPS_FSACM15-4_260215">
+        <From>
+          <StopPointRef>9300OBA</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300LMR</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM15_002_260215</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT3300S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="CAL">
+      <NationalOperatorCode>CALM</NationalOperatorCode>
+      <OperatorCode>CAL</OperatorCode>
+      <OperatorShortName>Caledonian MacBrayne</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>FSACM15</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>CM15</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2019-03-29</StartDate>
+        <EndDate>2049-12-31</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>CAL</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>ferry</Mode>
+      <Description>Oban - Lismore</Description>
+      <StandardService>
+        <Origin>Oban</Origin>
+        <Destination>Lismore</Destination>
+        <JourneyPattern id="JPS_FSACM15-3">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSACM15-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSACM15-4">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSACM15-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>CAL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82237</VehicleJourneyCode>
+      <ServiceRef>FSACM15</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSACM15-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>07:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CAL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82238</VehicleJourneyCode>
+      <ServiceRef>FSACM15</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSACM15-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>10:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CAL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82239</VehicleJourneyCode>
+      <ServiceRef>FSACM15</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSACM15-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>15:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CAL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82240</VehicleJourneyCode>
+      <ServiceRef>FSACM15</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSACM15-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>18:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CAL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82241</VehicleJourneyCode>
+      <ServiceRef>FSACM15</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSACM15-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>09:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CAL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82242</VehicleJourneyCode>
+      <ServiceRef>FSACM15</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSACM15-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>12:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CAL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82243</VehicleJourneyCode>
+      <ServiceRef>FSACM15</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSACM15-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>15:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CAL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82244</VehicleJourneyCode>
+      <ServiceRef>FSACM15</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSACM15-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>18:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CAL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82245</VehicleJourneyCode>
+      <ServiceRef>FSACM15</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSACM15-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>BK4</NoteCode>
+        <NoteText>Must be booked by 1600 on day before travel</NoteText>
+      </Note>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>20:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CAL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82246</VehicleJourneyCode>
+      <ServiceRef>FSACM15</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSACM15-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>11:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CAL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82247</VehicleJourneyCode>
+      <ServiceRef>FSACM15</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSACM15-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>17:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CAL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82248</VehicleJourneyCode>
+      <ServiceRef>FSACM15</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSACM15-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>06:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CAL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82249</VehicleJourneyCode>
+      <ServiceRef>FSACM15</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSACM15-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>09:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CAL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82250</VehicleJourneyCode>
+      <ServiceRef>FSACM15</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSACM15-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>14:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CAL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82251</VehicleJourneyCode>
+      <ServiceRef>FSACM15</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSACM15-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>17:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CAL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82252</VehicleJourneyCode>
+      <ServiceRef>FSACM15</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSACM15-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>08:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CAL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82253</VehicleJourneyCode>
+      <ServiceRef>FSACM15</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSACM15-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>11:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CAL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82254</VehicleJourneyCode>
+      <ServiceRef>FSACM15</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSACM15-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>14:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CAL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82255</VehicleJourneyCode>
+      <ServiceRef>FSACM15</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSACM15-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>17:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CAL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82256</VehicleJourneyCode>
+      <ServiceRef>FSACM15</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSACM15-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <Note>
+        <NoteCode>BK4</NoteCode>
+        <NoteText>Must be booked by 1600 on day before travel</NoteText>
+      </Note>
+      <DepartureTime>19:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CAL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82257</VehicleJourneyCode>
+      <ServiceRef>FSACM15</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSACM15-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>10:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CAL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82258</VehicleJourneyCode>
+      <ServiceRef>FSACM15</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSACM15-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>16:00:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

@@ -1,0 +1,1136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:28:00-00:00" ModificationDateTime="2019-10-07T13:28:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRDNAX090.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>640017262</StopPointRef>
+      <CommonName>Malmaison</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6200247619</StopPointRef>
+      <CommonName>Airport</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="DNAX090_001">
+      <RouteLink id="DNAX090_001_85344">
+        <From>
+          <StopPointRef>640017262</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200247619</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="DNAX090_002">
+      <RouteLink id="DNAX090_002_85342">
+        <From>
+          <StopPointRef>6200247619</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>640017262</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="DNAX090_001">
+      <Description>Dundee - Edinburgh Airport
+</Description>
+      <RouteSectionRef>DNAX090_001</RouteSectionRef>
+    </Route>
+    <Route id="DNAX090_002">
+      <Description>Edinburgh Airport - Dundee
+</Description>
+      <RouteSectionRef>DNAX090_002</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_DNAX090-3">
+      <JourneyPatternTimingLink id="JPS_DNAX090-3_85344">
+        <From>
+          <StopPointRef>640017262</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200247619</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DNAX090_001_85344</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT4800S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_DNAX090-4">
+      <JourneyPatternTimingLink id="JPS_DNAX090-4_85342">
+        <From>
+          <StopPointRef>6200247619</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>640017262</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DNAX090_002_85342</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT4800S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="TRD">
+      <NationalOperatorCode>TRDU</NationalOperatorCode>
+      <OperatorCode>TRD</OperatorCode>
+      <OperatorShortName>Xplore Dundee</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>DNAX090</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>X90</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2019-06-09</StartDate>
+        <EndDate>2020-01-31</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>TRD</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>coach</Mode>
+      <Description>Dundee - Edinburgh Airport</Description>
+      <StandardService>
+        <Origin>Dundee</Origin>
+        <Destination>Edinburgh Airport</Destination>
+        <JourneyPattern id="JPS_DNAX090-3">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_DNAX090-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_DNAX090-4">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_DNAX090-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>TRD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-02</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>21472</VehicleJourneyCode>
+      <ServiceRef>DNAX090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DNAX090-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>NB</NoteCode>
+        <NoteText>Night Bus, higher fares apply</NoteText>
+      </Note>
+      <DepartureTime>02:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TRD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>21473</VehicleJourneyCode>
+      <ServiceRef>DNAX090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DNAX090-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>NB</NoteCode>
+        <NoteText>Night Bus, higher fares apply</NoteText>
+      </Note>
+      <DepartureTime>04:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TRD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>21474</VehicleJourneyCode>
+      <ServiceRef>DNAX090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DNAX090-3</JourneyPatternRef>
+      <DepartureTime>05:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TRD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>21475</VehicleJourneyCode>
+      <ServiceRef>DNAX090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DNAX090-3</JourneyPatternRef>
+      <DepartureTime>07:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TRD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>21476</VehicleJourneyCode>
+      <ServiceRef>DNAX090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DNAX090-3</JourneyPatternRef>
+      <DepartureTime>08:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TRD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>21477</VehicleJourneyCode>
+      <ServiceRef>DNAX090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DNAX090-3</JourneyPatternRef>
+      <DepartureTime>10:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TRD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>21478</VehicleJourneyCode>
+      <ServiceRef>DNAX090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DNAX090-3</JourneyPatternRef>
+      <DepartureTime>11:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TRD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>21479</VehicleJourneyCode>
+      <ServiceRef>DNAX090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DNAX090-3</JourneyPatternRef>
+      <DepartureTime>13:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TRD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>21480</VehicleJourneyCode>
+      <ServiceRef>DNAX090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DNAX090-3</JourneyPatternRef>
+      <DepartureTime>14:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TRD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>21481</VehicleJourneyCode>
+      <ServiceRef>DNAX090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DNAX090-3</JourneyPatternRef>
+      <DepartureTime>16:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TRD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>21482</VehicleJourneyCode>
+      <ServiceRef>DNAX090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DNAX090-3</JourneyPatternRef>
+      <DepartureTime>17:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TRD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>21483</VehicleJourneyCode>
+      <ServiceRef>DNAX090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DNAX090-3</JourneyPatternRef>
+      <DepartureTime>19:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TRD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>21484</VehicleJourneyCode>
+      <ServiceRef>DNAX090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DNAX090-3</JourneyPatternRef>
+      <DepartureTime>20:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TRD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-24</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-31</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>21485</VehicleJourneyCode>
+      <ServiceRef>DNAX090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DNAX090-3</JourneyPatternRef>
+      <DepartureTime>22:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TRD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-24</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-31</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>21486</VehicleJourneyCode>
+      <ServiceRef>DNAX090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DNAX090-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>NB</NoteCode>
+        <NoteText>Night Bus, higher fares apply</NoteText>
+      </Note>
+      <DepartureTime>23:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TRD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-02</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>21457</VehicleJourneyCode>
+      <ServiceRef>DNAX090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DNAX090-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>NB</NoteCode>
+        <NoteText>Night Bus, higher fares apply</NoteText>
+      </Note>
+      <DepartureTime>01:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TRD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>21458</VehicleJourneyCode>
+      <ServiceRef>DNAX090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DNAX090-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>NB</NoteCode>
+        <NoteText>Night Bus, higher fares apply</NoteText>
+      </Note>
+      <DepartureTime>04:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TRD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>21459</VehicleJourneyCode>
+      <ServiceRef>DNAX090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DNAX090-4</JourneyPatternRef>
+      <DepartureTime>05:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TRD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>21460</VehicleJourneyCode>
+      <ServiceRef>DNAX090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DNAX090-4</JourneyPatternRef>
+      <DepartureTime>07:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TRD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>21461</VehicleJourneyCode>
+      <ServiceRef>DNAX090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DNAX090-4</JourneyPatternRef>
+      <DepartureTime>08:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TRD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>21462</VehicleJourneyCode>
+      <ServiceRef>DNAX090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DNAX090-4</JourneyPatternRef>
+      <DepartureTime>10:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TRD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>21463</VehicleJourneyCode>
+      <ServiceRef>DNAX090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DNAX090-4</JourneyPatternRef>
+      <DepartureTime>11:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TRD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>21464</VehicleJourneyCode>
+      <ServiceRef>DNAX090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DNAX090-4</JourneyPatternRef>
+      <DepartureTime>13:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TRD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>21465</VehicleJourneyCode>
+      <ServiceRef>DNAX090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DNAX090-4</JourneyPatternRef>
+      <DepartureTime>14:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TRD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>21466</VehicleJourneyCode>
+      <ServiceRef>DNAX090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DNAX090-4</JourneyPatternRef>
+      <DepartureTime>16:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TRD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>21467</VehicleJourneyCode>
+      <ServiceRef>DNAX090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DNAX090-4</JourneyPatternRef>
+      <DepartureTime>17:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TRD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>21468</VehicleJourneyCode>
+      <ServiceRef>DNAX090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DNAX090-4</JourneyPatternRef>
+      <DepartureTime>19:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TRD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>21469</VehicleJourneyCode>
+      <ServiceRef>DNAX090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DNAX090-4</JourneyPatternRef>
+      <DepartureTime>20:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TRD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>21470</VehicleJourneyCode>
+      <ServiceRef>DNAX090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DNAX090-4</JourneyPatternRef>
+      <DepartureTime>22:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TRD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-24</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-31</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>21471</VehicleJourneyCode>
+      <ServiceRef>DNAX090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DNAX090-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>NB</NoteCode>
+        <NoteText>Night Bus, higher fares apply</NoteText>
+      </Note>
+      <DepartureTime>23:30:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

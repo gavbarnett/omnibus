@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:17:00-00:00" ModificationDateTime="2019-10-07T13:17:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRPTCO521.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>614035</StopPointRef>
+      <CommonName>Bridgewater Shopping Centre</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>614022</StopPointRef>
+      <CommonName>Shilton Lane</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61401073</StopPointRef>
+      <CommonName>Hewlett Packard</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61401173</StopPointRef>
+      <CommonName>HP Factory</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61401143</StopPointRef>
+      <CommonName>Drumcross Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6140943</StopPointRef>
+      <CommonName>Golf Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>614017</StopPointRef>
+      <CommonName>Old Greenock Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61406</StopPointRef>
+      <CommonName>The Grove</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61404</StopPointRef>
+      <CommonName>Castle Crescent</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61402</StopPointRef>
+      <CommonName>Bishopton Railway Station</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="PTCO521_002">
+      <RouteLink id="PTCO521_002_241577">
+        <From>
+          <StopPointRef>614035</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>614022</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTCO521_002_241578">
+        <From>
+          <StopPointRef>614022</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61401073</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTCO521_002_241579">
+        <From>
+          <StopPointRef>61401073</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61401173</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTCO521_002_241580">
+        <From>
+          <StopPointRef>61401173</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61401143</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTCO521_002_241581">
+        <From>
+          <StopPointRef>61401143</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6140943</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTCO521_002_241582">
+        <From>
+          <StopPointRef>6140943</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>614017</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTCO521_002_241583">
+        <From>
+          <StopPointRef>614017</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61406</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTCO521_002_241584">
+        <From>
+          <StopPointRef>61406</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61404</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTCO521_002_241585">
+        <From>
+          <StopPointRef>61404</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61402</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="PTCO521_002">
+      <Description>Erskine - Bishopton
+</Description>
+      <RouteSectionRef>PTCO521_002</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_PTCO521-2">
+      <JourneyPatternTimingLink id="JPS_PTCO521-2_241577">
+        <From>
+          <StopPointRef>614035</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>614022</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTCO521_002_241577</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT387S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTCO521-2_241578">
+        <From>
+          <StopPointRef>614022</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61401073</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTCO521_002_241578</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT67S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTCO521-2_241579">
+        <From>
+          <StopPointRef>61401073</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61401173</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTCO521_002_241579</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT86S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTCO521-2_241580">
+        <From>
+          <StopPointRef>61401173</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61401143</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTCO521_002_241580</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTCO521-2_241581">
+        <From>
+          <StopPointRef>61401143</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6140943</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTCO521_002_241581</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT174S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTCO521-2_241582">
+        <From>
+          <StopPointRef>6140943</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>614017</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTCO521_002_241582</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT99S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTCO521-2_241583">
+        <From>
+          <StopPointRef>614017</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61406</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTCO521_002_241583</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT38S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTCO521-2_241584">
+        <From>
+          <StopPointRef>61406</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61404</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTCO521_002_241584</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT97S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTCO521-2_241585">
+        <From>
+          <StopPointRef>61404</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61402</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTCO521_002_241585</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT72S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="CTB">
+      <NationalOperatorCode>GCTB</NationalOperatorCode>
+      <OperatorCode>CTB</OperatorCode>
+      <OperatorShortName>Glasgow Citybus</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PTCO521</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>521</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2016-04-01</StartDate>
+        <EndDate>2099-01-01</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>CTB</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Erskine - Bishopton</Description>
+      <StandardService>
+        <Origin>Erskine</Origin>
+        <Destination>Bishopton</Destination>
+        <JourneyPattern id="JPS_PTCO521-2">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_PTCO521-2</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>74385</VehicleJourneyCode>
+      <ServiceRef>PTCO521</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTCO521-2</JourneyPatternRef>
+      <DepartureTime>17:22:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

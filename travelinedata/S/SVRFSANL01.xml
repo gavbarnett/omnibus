@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:23:00-00:00" ModificationDateTime="2019-10-07T13:23:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRFSANL01.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <ServicedOrganisations>
+    <ServicedOrganisation>
+      <OrganisationCode>907</OrganisationCode>
+      <Name>
+QE0 : DATA.cif
+</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2018-11-19</StartDate>
+          <EndDate>2019-10-06</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-01-01</StartDate>
+          <EndDate>2049-12-31</EndDate>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+    <ServicedOrganisation>
+      <OrganisationCode>908</OrganisationCode>
+      <Name>
+QE0 : DATA.cif
+</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2018-11-19</StartDate>
+          <EndDate>2019-10-11</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-10-13</StartDate>
+          <EndDate>2019-10-18</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-10-20</StartDate>
+          <EndDate>2019-10-25</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-10-27</StartDate>
+          <EndDate>2049-12-31</EndDate>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+    <ServicedOrganisation>
+      <OrganisationCode>909</OrganisationCode>
+      <Name>
+QE0 : DATA.cif
+</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2018-11-19</StartDate>
+          <EndDate>2019-10-12</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-10-14</StartDate>
+          <EndDate>2019-10-19</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-10-21</StartDate>
+          <EndDate>2019-10-26</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-10-28</StartDate>
+          <EndDate>2019-11-01</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-11-04</StartDate>
+          <EndDate>2019-11-08</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-11-11</StartDate>
+          <EndDate>2019-11-15</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-11-18</StartDate>
+          <EndDate>2019-11-22</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-11-25</StartDate>
+          <EndDate>2019-11-29</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-12-02</StartDate>
+          <EndDate>2019-12-06</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-12-09</StartDate>
+          <EndDate>2019-12-13</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-12-16</StartDate>
+          <EndDate>2019-12-20</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-12-23</StartDate>
+          <EndDate>2019-12-27</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-12-30</StartDate>
+          <EndDate>2049-12-31</EndDate>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+  </ServicedOrganisations>
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300SCR</StopPointRef>
+      <CommonName>Scrabster Ferry Terminal</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300SNS</StopPointRef>
+      <CommonName>Stromness Orkney Ferry Terminal</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="FSANL01_002">
+      <RouteLink id="FSANL01_002_260832">
+        <From>
+          <StopPointRef>9300SCR</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300SNS</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSANL01_001">
+      <RouteLink id="FSANL01_001_260834">
+        <From>
+          <StopPointRef>9300SNS</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300SCR</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="FSANL01_002">
+      <Description>Scrabster - Stromness
+</Description>
+      <RouteSectionRef>FSANL01_002</RouteSectionRef>
+    </Route>
+    <Route id="FSANL01_001">
+      <Description>Stromness - Scrabster
+</Description>
+      <RouteSectionRef>FSANL01_001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_FSANL01-3">
+      <JourneyPatternTimingLink id="JPS_FSANL01-3_260832">
+        <From>
+          <StopPointRef>9300SCR</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300SNS</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSANL01_002_260832</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT5400S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSANL01-4">
+      <JourneyPatternTimingLink id="JPS_FSANL01-4_260834">
+        <From>
+          <StopPointRef>9300SNS</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300SCR</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSANL01_001_260834</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT5400S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="NLK">
+      <NationalOperatorCode>NLKF</NationalOperatorCode>
+      <OperatorCode>NLK</OperatorCode>
+      <OperatorShortName>Northlink Ferries</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>FSANL01</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>NL1</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2018-11-19</StartDate>
+        <EndDate>2049-12-31</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>NLK</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>ferry</Mode>
+      <Description>Stromness - Scrabster</Description>
+      <StandardService>
+        <Origin>Stromness</Origin>
+        <Destination>Scrabster</Destination>
+        <JourneyPattern id="JPS_FSANL01-3">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSANL01-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSANL01-4">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSANL01-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>NLK</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>907</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-12</StartDate>
+              <EndDate>2019-10-13</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-10-19</StartDate>
+              <EndDate>2019-10-20</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-10-26</StartDate>
+              <EndDate>2019-10-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-11-02</StartDate>
+              <EndDate>2019-11-03</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-11-09</StartDate>
+              <EndDate>2019-11-10</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-11-16</StartDate>
+              <EndDate>2019-11-17</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-11-23</StartDate>
+              <EndDate>2019-11-24</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-11-30</StartDate>
+              <EndDate>2019-12-01</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-07</StartDate>
+              <EndDate>2019-12-08</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-14</StartDate>
+              <EndDate>2019-12-15</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-21</StartDate>
+              <EndDate>2019-12-22</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-28</StartDate>
+              <EndDate>2019-12-29</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>83026</VehicleJourneyCode>
+      <ServiceRef>FSANL01</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSANL01-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>08:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>NLK</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>909</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83027</VehicleJourneyCode>
+      <ServiceRef>FSANL01</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSANL01-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>12:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>NLK</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>908</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83028</VehicleJourneyCode>
+      <ServiceRef>FSANL01</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSANL01-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>08:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>NLK</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>908</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83029</VehicleJourneyCode>
+      <ServiceRef>FSANL01</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSANL01-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>13:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>NLK</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>907</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-12</StartDate>
+              <EndDate>2019-10-13</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-10-19</StartDate>
+              <EndDate>2019-10-20</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-10-26</StartDate>
+              <EndDate>2019-10-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-11-02</StartDate>
+              <EndDate>2019-11-03</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-11-09</StartDate>
+              <EndDate>2019-11-10</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-11-16</StartDate>
+              <EndDate>2019-11-17</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-11-23</StartDate>
+              <EndDate>2019-11-24</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-11-30</StartDate>
+              <EndDate>2019-12-01</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-07</StartDate>
+              <EndDate>2019-12-08</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-14</StartDate>
+              <EndDate>2019-12-15</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-21</StartDate>
+              <EndDate>2019-12-22</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-28</StartDate>
+              <EndDate>2019-12-29</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>83030</VehicleJourneyCode>
+      <ServiceRef>FSANL01</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSANL01-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>19:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>NLK</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>908</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83031</VehicleJourneyCode>
+      <ServiceRef>FSANL01</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSANL01-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>19:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>NLK</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>909</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83032</VehicleJourneyCode>
+      <ServiceRef>FSANL01</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSANL01-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>19:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>NLK</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>907</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-12</StartDate>
+              <EndDate>2019-10-13</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-10-19</StartDate>
+              <EndDate>2019-10-20</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-10-26</StartDate>
+              <EndDate>2019-10-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-11-02</StartDate>
+              <EndDate>2019-11-03</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-11-09</StartDate>
+              <EndDate>2019-11-10</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-11-16</StartDate>
+              <EndDate>2019-11-17</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-11-23</StartDate>
+              <EndDate>2019-11-24</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-11-30</StartDate>
+              <EndDate>2019-12-01</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-07</StartDate>
+              <EndDate>2019-12-08</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-14</StartDate>
+              <EndDate>2019-12-15</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-21</StartDate>
+              <EndDate>2019-12-22</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-28</StartDate>
+              <EndDate>2019-12-29</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>83033</VehicleJourneyCode>
+      <ServiceRef>FSANL01</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSANL01-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>06:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>NLK</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>909</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83034</VehicleJourneyCode>
+      <ServiceRef>FSANL01</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSANL01-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>09:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>NLK</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>908</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83035</VehicleJourneyCode>
+      <ServiceRef>FSANL01</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSANL01-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>06:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>NLK</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>908</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83036</VehicleJourneyCode>
+      <ServiceRef>FSANL01</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSANL01-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>11:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>NLK</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>907</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-12</StartDate>
+              <EndDate>2019-10-13</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-10-19</StartDate>
+              <EndDate>2019-10-20</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-10-26</StartDate>
+              <EndDate>2019-10-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-11-02</StartDate>
+              <EndDate>2019-11-03</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-11-09</StartDate>
+              <EndDate>2019-11-10</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-11-16</StartDate>
+              <EndDate>2019-11-17</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-11-23</StartDate>
+              <EndDate>2019-11-24</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-11-30</StartDate>
+              <EndDate>2019-12-01</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-07</StartDate>
+              <EndDate>2019-12-08</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-14</StartDate>
+              <EndDate>2019-12-15</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-21</StartDate>
+              <EndDate>2019-12-22</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-28</StartDate>
+              <EndDate>2019-12-29</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>83037</VehicleJourneyCode>
+      <ServiceRef>FSANL01</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSANL01-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>16:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>NLK</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>908</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83038</VehicleJourneyCode>
+      <ServiceRef>FSANL01</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSANL01-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>16:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>NLK</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>909</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83039</VehicleJourneyCode>
+      <ServiceRef>FSANL01</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSANL01-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>16:45:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

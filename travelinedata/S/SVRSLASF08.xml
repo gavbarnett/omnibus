@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:23:00-00:00" ModificationDateTime="2019-10-07T13:23:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRSLASF08.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300FOA</StopPointRef>
+      <CommonName>Foula Shetland Ferry Terminal</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300WLS</StopPointRef>
+      <CommonName>Walls Shetland Ferry Terminal</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="SLASF08_001">
+      <RouteLink id="SLASF08_001_197924">
+        <From>
+          <StopPointRef>9300FOA</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300WLS</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="SLASF08_002">
+      <RouteLink id="SLASF08_002_197926">
+        <From>
+          <StopPointRef>9300WLS</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300FOA</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="SLASF08_001">
+      <Description>Foula - Shetland
+</Description>
+      <RouteSectionRef>SLASF08_001</RouteSectionRef>
+    </Route>
+    <Route id="SLASF08_002">
+      <Description>Shetland - Foula
+</Description>
+      <RouteSectionRef>SLASF08_002</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_SLASF08-3">
+      <JourneyPatternTimingLink id="JPS_SLASF08-3_197924">
+        <From>
+          <StopPointRef>9300FOA</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300WLS</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>SLASF08_001_197924</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT7200S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_SLASF08-4">
+      <JourneyPatternTimingLink id="JPS_SLASF08-4_197926">
+        <From>
+          <StopPointRef>9300WLS</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300FOA</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>SLASF08_002_197926</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT8100S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="ATL">
+      <NationalOperatorCode>ATLF</NationalOperatorCode>
+      <OperatorCode>ATL</OperatorCode>
+      <OperatorShortName>BK Marine</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>SLASF08</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>SF8</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2019-05-06</StartDate>
+        <EndDate>2049-12-31</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>ATL</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>ferry</Mode>
+      <Description>Shetland - Foula</Description>
+      <StandardService>
+        <Origin>Shetland</Origin>
+        <Destination>Foula</Destination>
+        <JourneyPattern id="JPS_SLASF08-3">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_SLASF08-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_SLASF08-4">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_SLASF08-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>ATL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>58430</VehicleJourneyCode>
+      <ServiceRef>SLASF08</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF08-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>WEA</NoteCode>
+        <NoteText>Weather permitting, confirm the day before travel</NoteText>
+      </Note>
+      <DepartureTime>09:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ATL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>58432</VehicleJourneyCode>
+      <ServiceRef>SLASF08</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF08-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>WEA</NoteCode>
+        <NoteText>Weather permitting, confirm the day before travel</NoteText>
+      </Note>
+      <DepartureTime>13:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ATL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-05-06</StartDate>
+              <EndDate>2020-05-01</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-03</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58429</VehicleJourneyCode>
+      <ServiceRef>SLASF08</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF08-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>WEA</NoteCode>
+        <NoteText>Weather permitting, confirm the day before travel</NoteText>
+      </Note>
+      <DepartureTime>09:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ATL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-05-06</StartDate>
+              <EndDate>2020-05-01</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-03</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58431</VehicleJourneyCode>
+      <ServiceRef>SLASF08</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF08-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>WEA</NoteCode>
+        <NoteText>Weather permitting, confirm the day before travel</NoteText>
+      </Note>
+      <DepartureTime>13:30:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

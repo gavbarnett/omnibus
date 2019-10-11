@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T11:40:00-00:00" ModificationDateTime="2019-10-07T11:40:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRPKDO045.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>64801105</StopPointRef>
+      <CommonName>Hill Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>64802378</StopPointRef>
+      <CommonName>Dollerie Terrace</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>64802376</StopPointRef>
+      <CommonName>Ochill View Gardens</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>64803154</StopPointRef>
+      <CommonName>Ochil View Gardens</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>64803134</StopPointRef>
+      <CommonName>Holly Place</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>64803152</StopPointRef>
+      <CommonName>Inchbrakie Gardens</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>64803156</StopPointRef>
+      <CommonName>Hollybush Drive</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>64802426</StopPointRef>
+      <CommonName>Hollybush Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>64802429</StopPointRef>
+      <CommonName>Turleum Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>64802430</StopPointRef>
+      <CommonName>Fletcher Place</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>64802431</StopPointRef>
+      <CommonName>Alligan Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>64801580</StopPointRef>
+      <CommonName>Strathearn Community Campus</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>64803084</StopPointRef>
+      <CommonName>Leadenflower Place</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>64802380</StopPointRef>
+      <CommonName>Ramsay Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>64801104</StopPointRef>
+      <CommonName>RS McColl</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="PKDO045_002">
+      <RouteLink id="PKDO045_002_193135">
+        <From>
+          <StopPointRef>64801105</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64802378</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PKDO045_002_193136">
+        <From>
+          <StopPointRef>64802378</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64802376</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PKDO045_002_193137">
+        <From>
+          <StopPointRef>64802376</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64803154</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PKDO045_002_193138">
+        <From>
+          <StopPointRef>64803154</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64803134</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PKDO045_002_193139">
+        <From>
+          <StopPointRef>64803134</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64803152</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PKDO045_002_193140">
+        <From>
+          <StopPointRef>64803152</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64803156</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PKDO045_002_193141">
+        <From>
+          <StopPointRef>64803156</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64802426</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PKDO045_002_193142">
+        <From>
+          <StopPointRef>64802426</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64802429</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PKDO045_002_193143">
+        <From>
+          <StopPointRef>64802429</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64802430</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PKDO045_002_193144">
+        <From>
+          <StopPointRef>64802430</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64802431</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PKDO045_002_193145">
+        <From>
+          <StopPointRef>64802431</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64801580</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PKDO045_002_193146">
+        <From>
+          <StopPointRef>64801580</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64803084</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PKDO045_002_193147">
+        <From>
+          <StopPointRef>64803084</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64802380</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PKDO045_002_193148">
+        <From>
+          <StopPointRef>64802380</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64801104</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="PKDO045_002">
+      <Description>Town Service - Crieff
+</Description>
+      <RouteSectionRef>PKDO045_002</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_PKDO045-2">
+      <JourneyPatternTimingLink id="JPS_PKDO045-2_193135">
+        <From>
+          <StopPointRef>64801105</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64802378</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PKDO045_002_193135</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKDO045-2_193136">
+        <From>
+          <StopPointRef>64802378</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64802376</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PKDO045_002_193136</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKDO045-2_193137">
+        <From>
+          <StopPointRef>64802376</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64803154</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PKDO045_002_193137</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKDO045-2_193138">
+        <From>
+          <StopPointRef>64803154</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64803134</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PKDO045_002_193138</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKDO045-2_193139">
+        <From>
+          <StopPointRef>64803134</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64803152</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PKDO045_002_193139</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKDO045-2_193140">
+        <From>
+          <StopPointRef>64803152</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64803156</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PKDO045_002_193140</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKDO045-2_193141">
+        <From>
+          <StopPointRef>64803156</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64802426</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PKDO045_002_193141</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKDO045-2_193142">
+        <From>
+          <StopPointRef>64802426</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64802429</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PKDO045_002_193142</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKDO045-2_193143">
+        <From>
+          <StopPointRef>64802429</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64802430</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PKDO045_002_193143</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKDO045-2_193144">
+        <From>
+          <StopPointRef>64802430</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64802431</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PKDO045_002_193144</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKDO045-2_193145">
+        <From>
+          <StopPointRef>64802431</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64801580</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PKDO045_002_193145</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKDO045-2_193146">
+        <From>
+          <StopPointRef>64801580</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64803084</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PKDO045_002_193146</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKDO045-2_193147">
+        <From>
+          <StopPointRef>64803084</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64802380</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PKDO045_002_193147</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKDO045-2_193148">
+        <From>
+          <StopPointRef>64802380</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64801104</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PKDO045_002_193148</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_PKDO045-3">
+      <JourneyPatternTimingLink id="JPS_PKDO045-3_193135">
+        <From>
+          <StopPointRef>64801105</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64802378</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PKDO045_002_193135</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKDO045-3_193136">
+        <From>
+          <StopPointRef>64802378</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64802376</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PKDO045_002_193136</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKDO045-3_193137">
+        <From>
+          <StopPointRef>64802376</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64803154</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PKDO045_002_193137</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKDO045-3_193138">
+        <From>
+          <StopPointRef>64803154</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64803134</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PKDO045_002_193138</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKDO045-3_193139">
+        <From>
+          <StopPointRef>64803134</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64803152</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PKDO045_002_193139</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKDO045-3_193140">
+        <From>
+          <StopPointRef>64803152</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64803156</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PKDO045_002_193140</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKDO045-3_193141">
+        <From>
+          <StopPointRef>64803156</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64802426</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PKDO045_002_193141</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKDO045-3_193142">
+        <From>
+          <StopPointRef>64802426</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64802429</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PKDO045_002_193142</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKDO045-3_193143">
+        <From>
+          <StopPointRef>64802429</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64802430</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PKDO045_002_193143</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKDO045-3_193144">
+        <From>
+          <StopPointRef>64802430</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64802431</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PKDO045_002_193144</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKDO045-3_193145">
+        <From>
+          <StopPointRef>64802431</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64801580</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PKDO045_002_193145</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKDO045-3_193146">
+        <From>
+          <StopPointRef>64801580</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64803084</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PKDO045_002_193146</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKDO045-3_193147">
+        <From>
+          <StopPointRef>64803084</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64802380</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PKDO045_002_193147</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKDO045-3_193148">
+        <From>
+          <StopPointRef>64802380</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64801104</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PKDO045_002_193148</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_PKDO045-4">
+      <JourneyPatternTimingLink id="JPS_PKDO045-4_193135">
+        <From>
+          <StopPointRef>64801105</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64802378</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PKDO045_002_193135</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKDO045-4_193136">
+        <From>
+          <StopPointRef>64802378</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64802376</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PKDO045_002_193136</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKDO045-4_193137">
+        <From>
+          <StopPointRef>64802376</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64803154</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PKDO045_002_193137</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKDO045-4_193138">
+        <From>
+          <StopPointRef>64803154</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64803134</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PKDO045_002_193138</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKDO045-4_193139">
+        <From>
+          <StopPointRef>64803134</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64803152</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PKDO045_002_193139</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKDO045-4_193140">
+        <From>
+          <StopPointRef>64803152</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64803156</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PKDO045_002_193140</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKDO045-4_193141">
+        <From>
+          <StopPointRef>64803156</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64802426</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PKDO045_002_193141</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKDO045-4_193142">
+        <From>
+          <StopPointRef>64802426</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64802429</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PKDO045_002_193142</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKDO045-4_193143">
+        <From>
+          <StopPointRef>64802429</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64802430</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PKDO045_002_193143</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKDO045-4_193144">
+        <From>
+          <StopPointRef>64802430</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64802431</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PKDO045_002_193144</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKDO045-4_193145">
+        <From>
+          <StopPointRef>64802431</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64801580</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PKDO045_002_193145</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKDO045-4_193146">
+        <From>
+          <StopPointRef>64801580</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64803084</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PKDO045_002_193146</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKDO045-4_193147">
+        <From>
+          <StopPointRef>64803084</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64802380</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PKDO045_002_193147</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKDO045-4_193148">
+        <From>
+          <StopPointRef>64802380</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64801104</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PKDO045_002_193148</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="DMC">
+      <NationalOperatorCode>DMCO</NationalOperatorCode>
+      <OperatorCode>DMC</OperatorCode>
+      <OperatorShortName>Dochertys Midland Coache</OperatorShortName>
+    </Operator>
+    <Operator id="SWG">
+      <NationalOperatorCode>SWGG</NationalOperatorCode>
+      <OperatorCode>SWG</OperatorCode>
+      <OperatorShortName>Sweeneys Garage</OperatorShortName>
+    </Operator>
+    <Operator id="BBG">
+      <NationalOperatorCode>BBGG</NationalOperatorCode>
+      <OperatorCode>BBG</OperatorCode>
+      <OperatorShortName>Burnbrae Garage</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PKDO045</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>45</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2015-01-26</StartDate>
+        <EndDate>2020-09-26</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>DMC</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Town Service - Crieff</Description>
+      <StandardService>
+        <Origin>Town Service</Origin>
+        <Destination>Crieff</Destination>
+        <JourneyPattern id="JPS_PKDO045-2">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_PKDO045-2</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_PKDO045-3">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_PKDO045-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_PKDO045-4">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_PKDO045-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>DMC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2015-01-26</StartDate>
+              <EndDate>2018-05-13</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-26</StartDate>
+              <EndDate>2019-12-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-02</StartDate>
+              <EndDate>2020-01-02</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>57403</VehicleJourneyCode>
+      <ServiceRef>PKDO045</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PKDO045-2</JourneyPatternRef>
+      <DepartureTime>10:03:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>DMC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2015-01-26</StartDate>
+              <EndDate>2018-05-13</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-26</StartDate>
+              <EndDate>2019-12-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-02</StartDate>
+              <EndDate>2020-01-02</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>57404</VehicleJourneyCode>
+      <ServiceRef>PKDO045</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PKDO045-3</JourneyPatternRef>
+      <DepartureTime>11:56:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>DMC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2015-01-26</StartDate>
+              <EndDate>2018-05-13</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-26</StartDate>
+              <EndDate>2019-12-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-02</StartDate>
+              <EndDate>2020-01-02</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>57405</VehicleJourneyCode>
+      <ServiceRef>PKDO045</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PKDO045-4</JourneyPatternRef>
+      <DepartureTime>13:57:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

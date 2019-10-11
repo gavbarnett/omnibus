@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T12:23:00-00:00" ModificationDateTime="2019-10-07T12:23:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRFSBW016.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <ServicedOrganisations>
+    <ServicedOrganisation>
+      <OrganisationCode>831</OrganisationCode>
+      <Name>
+QE0 : DATA.cif
+</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2019-10-12</StartDate>
+          <EndDate>2019-10-22</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-11-22</StartDate>
+          <EndDate>2019-11-25</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-12-21</StartDate>
+          <EndDate>2020-01-05</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-02-05</StartDate>
+          <EndDate>2020-02-10</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-03-28</StartDate>
+          <EndDate>2020-04-13</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-05-01</StartDate>
+          <EndDate>2020-05-04</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-06-27</StartDate>
+          <EndDate>2049-12-31</EndDate>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+  </ServicedOrganisations>
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6010759</StopPointRef>
+      <CommonName>Junction</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6010760</StopPointRef>
+      <CommonName>Locheport Rd End</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6010763</StopPointRef>
+      <CommonName>Township</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6010765</StopPointRef>
+      <CommonName>Township</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6010731811</StopPointRef>
+      <CommonName>Turning Point</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6010764</StopPointRef>
+      <CommonName>Township</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6010731730</StopPointRef>
+      <CommonName>Township</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60101322</StopPointRef>
+      <CommonName>Locheport Rd End</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="FSBW016_004">
+      <RouteLink id="FSBW016_004_280948">
+        <From>
+          <StopPointRef>6010759</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6010760</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSBW016_004_280949">
+        <From>
+          <StopPointRef>6010760</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6010763</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSBW016_004_280950">
+        <From>
+          <StopPointRef>6010763</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6010765</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSBW016_004_280951">
+        <From>
+          <StopPointRef>6010765</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6010731811</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSBW016_001">
+      <RouteLink id="FSBW016_001_280953">
+        <From>
+          <StopPointRef>6010731811</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6010764</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSBW016_001_280954">
+        <From>
+          <StopPointRef>6010764</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6010731730</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSBW016_001_280955">
+        <From>
+          <StopPointRef>6010731730</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60101322</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSBW016_002">
+      <RouteLink id="FSBW016_002_280957">
+        <From>
+          <StopPointRef>6010731811</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6010764</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSBW016_002_280958">
+        <From>
+          <StopPointRef>6010764</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6010731730</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSBW016_002_280959">
+        <From>
+          <StopPointRef>6010731730</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60101322</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSBW016_002_280960">
+        <From>
+          <StopPointRef>60101322</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6010759</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="FSBW016_004">
+      <Description>JMQ Benbecula - Berneray
+</Description>
+      <RouteSectionRef>FSBW016_004</RouteSectionRef>
+    </Route>
+    <Route id="FSBW016_001">
+      <Description>JMQ Berneray - Benbecula
+</Description>
+      <RouteSectionRef>FSBW016_001</RouteSectionRef>
+    </Route>
+    <Route id="FSBW016_002">
+      <Description>JMQ Berneray - Benbecula
+</Description>
+      <RouteSectionRef>FSBW016_002</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_FSBW016-4">
+      <JourneyPatternTimingLink id="JPS_FSBW016-4_280948">
+        <From>
+          <StopPointRef>6010759</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6010760</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSBW016_004_280948</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSBW016-4_280949">
+        <From>
+          <StopPointRef>6010760</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6010763</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSBW016_004_280949</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT540S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSBW016-4_280950">
+        <From>
+          <StopPointRef>6010763</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6010765</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FSBW016_004_280950</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSBW016-4_280951">
+        <From>
+          <StopPointRef>6010765</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6010731811</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSBW016_004_280951</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSBW016-5">
+      <JourneyPatternTimingLink id="JPS_FSBW016-5_280953">
+        <From>
+          <StopPointRef>6010731811</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6010764</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FSBW016_001_280953</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSBW016-5_280954">
+        <From>
+          <StopPointRef>6010764</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6010731730</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSBW016_001_280954</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSBW016-5_280955">
+        <From>
+          <StopPointRef>6010731730</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60101322</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSBW016_001_280955</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT600S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSBW016-6">
+      <JourneyPatternTimingLink id="JPS_FSBW016-6_280957">
+        <From>
+          <StopPointRef>6010731811</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6010764</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FSBW016_002_280957</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSBW016-6_280958">
+        <From>
+          <StopPointRef>6010764</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6010731730</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSBW016_002_280958</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSBW016-6_280959">
+        <From>
+          <StopPointRef>6010731730</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60101322</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSBW016_002_280959</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT420S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSBW016-6_280960">
+        <From>
+          <StopPointRef>60101322</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6010759</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSBW016_002_280960</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="JMQ">
+      <NationalOperatorCode>JMQU</NationalOperatorCode>
+      <OperatorCode>JMQ</OperatorCode>
+      <OperatorShortName>John Macquarrie</OperatorShortName>
+    </Operator>
+    <Operator id="TAG">
+      <NationalOperatorCode>TAGS</NationalOperatorCode>
+      <OperatorCode>TAG</OperatorCode>
+      <OperatorShortName>Tagsa Uibhist</OperatorShortName>
+    </Operator>
+    <Operator id="GRE">
+      <NationalOperatorCode>GRET</NationalOperatorCode>
+      <OperatorCode>GRE</OperatorCode>
+      <OperatorShortName>Grenitote Travel</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>FSBW016</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>W16</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2019-03-29</StartDate>
+        <EndDate>2049-12-31</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>JMQ</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>JMQ Berneray - Benbecula</Description>
+      <StandardService>
+        <Origin>JMQ Berneray</Origin>
+        <Destination>Benbecula</Destination>
+        <JourneyPattern id="JPS_FSBW016-4">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSBW016-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSBW016-5">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSBW016-5</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSBW016-6">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSBW016-6</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>JMQ</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>831</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>88013</VehicleJourneyCode>
+      <ServiceRef>FSBW016</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSBW016-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>SCH</NoteCode>
+        <NoteText>School Days Only</NoteText>
+      </Note>
+      <DepartureTime>16:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>JMQ</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>831</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>88014</VehicleJourneyCode>
+      <ServiceRef>FSBW016</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSBW016-5</JourneyPatternRef>
+      <Note>
+        <NoteCode>SCH</NoteCode>
+        <NoteText>School Days Only</NoteText>
+      </Note>
+      <Note>
+        <NoteCode>ADV</NoteCode>
+        <NoteText>Must be booked in advance, contact operator</NoteText>
+      </Note>
+      <DepartureTime>07:56:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>JMQ</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>831</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>88015</VehicleJourneyCode>
+      <ServiceRef>FSBW016</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSBW016-6</JourneyPatternRef>
+      <Note>
+        <NoteCode>SCH</NoteCode>
+        <NoteText>School Days Only</NoteText>
+      </Note>
+      <Note>
+        <NoteCode>ADV</NoteCode>
+        <NoteText>Must be booked in advance, contact operator</NoteText>
+      </Note>
+      <DepartureTime>08:31:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

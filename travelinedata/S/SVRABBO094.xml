@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:02:00-00:00" ModificationDateTime="2019-10-07T13:02:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRABBO094.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>639007411</StopPointRef>
+      <CommonName>Aberdeen Royal Infirmary</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>639000721</StopPointRef>
+      <CommonName>Summerhill Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>639000521</StopPointRef>
+      <CommonName>Hazlehead Gardens</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>639000523</StopPointRef>
+      <CommonName>Woodend Hospital</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>639007173</StopPointRef>
+      <CommonName>Crematorium</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>639000722</StopPointRef>
+      <CommonName>King's Cross Avenue</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="ABBO094_005">
+      <RouteLink id="ABBO094_005_27030">
+        <From>
+          <StopPointRef>639007411</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>639000721</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ABBO094_005_27031">
+        <From>
+          <StopPointRef>639000721</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>639000521</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ABBO094_005_27032">
+        <From>
+          <StopPointRef>639000521</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>639000523</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ABBO094_005_27033">
+        <From>
+          <StopPointRef>639000523</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>639007173</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="ABBO094_006">
+      <RouteLink id="ABBO094_006_27026">
+        <From>
+          <StopPointRef>639007173</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>639000521</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="ABBO094_006_27027">
+        <From>
+          <StopPointRef>639000521</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>639000722</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="ABBO094_006_27028">
+        <From>
+          <StopPointRef>639000722</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>639007411</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="ABBO094_005">
+      <Description>Aberdeen Royal Infirmary - Hazlehead Crematorium
+</Description>
+      <RouteSectionRef>ABBO094_005</RouteSectionRef>
+    </Route>
+    <Route id="ABBO094_006">
+      <Description>Hazlehead Crematorium - Aberdeen Royal Infirmary
+</Description>
+      <RouteSectionRef>ABBO094_006</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_ABBO094-3">
+      <JourneyPatternTimingLink id="JPS_ABBO094-3_27030">
+        <From>
+          <StopPointRef>639007411</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>639000721</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ABBO094_005_27030</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ABBO094-3_27031">
+        <From>
+          <StopPointRef>639000721</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>639000521</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>ABBO094_005_27031</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ABBO094-3_27032">
+        <From>
+          <StopPointRef>639000521</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>639000523</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ABBO094_005_27032</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ABBO094-3_27033">
+        <From>
+          <StopPointRef>639000523</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>639007173</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>ABBO094_005_27033</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT420S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_ABBO094-4">
+      <JourneyPatternTimingLink id="JPS_ABBO094-4_27026">
+        <From>
+          <StopPointRef>639007173</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>639000521</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>ABBO094_006_27026</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT540S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ABBO094-4_27027">
+        <From>
+          <StopPointRef>639000521</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>639000722</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ABBO094_006_27027</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT240S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ABBO094-4_27028">
+        <From>
+          <StopPointRef>639000722</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>639007411</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>ABBO094_006_27028</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT420S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="BLB">
+      <NationalOperatorCode>SBLB</NationalOperatorCode>
+      <OperatorCode>BLB</OperatorCode>
+      <OperatorShortName>Stagecoach North Scotlan</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>ABBO094</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>94</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2018-05-07</StartDate>
+        <EndDate>2021-05-07</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>BLB</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Aberdeen Royal Infirmary - Hazlehead Crematorium</Description>
+      <StandardService>
+        <Origin>Aberdeen Royal Infirmary</Origin>
+        <Destination>Hazlehead Crematorium</Destination>
+        <JourneyPattern id="JPS_ABBO094-3">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_ABBO094-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_ABBO094-4">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_ABBO094-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>BLB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-02</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-04</StartDate>
+              <EndDate>2020-05-04</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>11932</VehicleJourneyCode>
+      <ServiceRef>ABBO094</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ABBO094-3</JourneyPatternRef>
+      <DepartureTime>09:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>BLB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-02</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-04</StartDate>
+              <EndDate>2020-05-04</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>11933</VehicleJourneyCode>
+      <ServiceRef>ABBO094</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ABBO094-3</JourneyPatternRef>
+      <DepartureTime>09:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>BLB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-02</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-04</StartDate>
+              <EndDate>2020-05-04</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>11934</VehicleJourneyCode>
+      <ServiceRef>ABBO094</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ABBO094-3</JourneyPatternRef>
+      <DepartureTime>10:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>BLB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-02</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-04</StartDate>
+              <EndDate>2020-05-04</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>11935</VehicleJourneyCode>
+      <ServiceRef>ABBO094</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ABBO094-3</JourneyPatternRef>
+      <DepartureTime>11:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>BLB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-02</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-04</StartDate>
+              <EndDate>2020-05-04</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>11936</VehicleJourneyCode>
+      <ServiceRef>ABBO094</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ABBO094-3</JourneyPatternRef>
+      <DepartureTime>11:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>BLB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-02</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-04</StartDate>
+              <EndDate>2020-05-04</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>11937</VehicleJourneyCode>
+      <ServiceRef>ABBO094</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ABBO094-3</JourneyPatternRef>
+      <DepartureTime>12:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>BLB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-02</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-04</StartDate>
+              <EndDate>2020-05-04</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>11938</VehicleJourneyCode>
+      <ServiceRef>ABBO094</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ABBO094-3</JourneyPatternRef>
+      <DepartureTime>13:35:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>BLB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-02</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-04</StartDate>
+              <EndDate>2020-05-04</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>11939</VehicleJourneyCode>
+      <ServiceRef>ABBO094</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ABBO094-3</JourneyPatternRef>
+      <DepartureTime>14:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>BLB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-02</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-04</StartDate>
+              <EndDate>2020-05-04</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>11940</VehicleJourneyCode>
+      <ServiceRef>ABBO094</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ABBO094-3</JourneyPatternRef>
+      <DepartureTime>14:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>BLB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-02</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-04</StartDate>
+              <EndDate>2020-05-04</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>11941</VehicleJourneyCode>
+      <ServiceRef>ABBO094</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ABBO094-3</JourneyPatternRef>
+      <DepartureTime>15:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>BLB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-02</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-04</StartDate>
+              <EndDate>2020-05-04</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>11922</VehicleJourneyCode>
+      <ServiceRef>ABBO094</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ABBO094-4</JourneyPatternRef>
+      <DepartureTime>09:19:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>BLB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-02</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-04</StartDate>
+              <EndDate>2020-05-04</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>11923</VehicleJourneyCode>
+      <ServiceRef>ABBO094</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ABBO094-4</JourneyPatternRef>
+      <DepartureTime>09:59:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>BLB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-02</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-04</StartDate>
+              <EndDate>2020-05-04</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>11924</VehicleJourneyCode>
+      <ServiceRef>ABBO094</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ABBO094-4</JourneyPatternRef>
+      <DepartureTime>10:44:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>BLB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-02</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-04</StartDate>
+              <EndDate>2020-05-04</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>11925</VehicleJourneyCode>
+      <ServiceRef>ABBO094</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ABBO094-4</JourneyPatternRef>
+      <DepartureTime>11:24:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>BLB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-02</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-04</StartDate>
+              <EndDate>2020-05-04</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>11926</VehicleJourneyCode>
+      <ServiceRef>ABBO094</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ABBO094-4</JourneyPatternRef>
+      <DepartureTime>12:04:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>BLB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-02</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-04</StartDate>
+              <EndDate>2020-05-04</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>11927</VehicleJourneyCode>
+      <ServiceRef>ABBO094</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ABBO094-4</JourneyPatternRef>
+      <DepartureTime>13:14:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>BLB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-02</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-04</StartDate>
+              <EndDate>2020-05-04</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>11928</VehicleJourneyCode>
+      <ServiceRef>ABBO094</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ABBO094-4</JourneyPatternRef>
+      <DepartureTime>13:54:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>BLB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-02</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-04</StartDate>
+              <EndDate>2020-05-04</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>11929</VehicleJourneyCode>
+      <ServiceRef>ABBO094</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ABBO094-4</JourneyPatternRef>
+      <DepartureTime>14:34:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>BLB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-02</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-04</StartDate>
+              <EndDate>2020-05-04</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>11930</VehicleJourneyCode>
+      <ServiceRef>ABBO094</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ABBO094-4</JourneyPatternRef>
+      <DepartureTime>15:14:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>BLB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-02</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-04</StartDate>
+              <EndDate>2020-05-04</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>11931</VehicleJourneyCode>
+      <ServiceRef>ABBO094</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ABBO094-4</JourneyPatternRef>
+      <DepartureTime>16:14:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

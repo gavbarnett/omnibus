@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T12:22:00-00:00" ModificationDateTime="2019-10-07T12:22:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRFSAG092.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>639070021</StopPointRef>
+      <CommonName>Union Square Bus Station</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6400L00040</StopPointRef>
+      <CommonName>Bus Station</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6200600750</StopPointRef>
+      <CommonName>Bus Station</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500D1701</StopPointRef>
+      <CommonName>Park &amp; Ride</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>64802054</StopPointRef>
+      <CommonName>Park and Ride</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500D1704</StopPointRef>
+      <CommonName>Park &amp; Ride</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="FSAG092_006">
+      <RouteLink id="FSAG092_006_260366">
+        <From>
+          <StopPointRef>639070021</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6400L00040</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAG092_006_260367">
+        <From>
+          <StopPointRef>6400L00040</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200600750</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSAG092_004">
+      <RouteLink id="FSAG092_004_260374">
+        <From>
+          <StopPointRef>6200600750</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500D1701</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAG092_004_260375">
+        <From>
+          <StopPointRef>6500D1701</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6400L00040</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAG092_004_260376">
+        <From>
+          <StopPointRef>6400L00040</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>639070021</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSAG092_005">
+      <RouteLink id="FSAG092_005_260378">
+        <From>
+          <StopPointRef>6200600750</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6400L00040</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAG092_005_260379">
+        <From>
+          <StopPointRef>6400L00040</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>639070021</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSAG092_007">
+      <RouteLink id="FSAG092_007_260369">
+        <From>
+          <StopPointRef>639070021</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6400L00040</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAG092_007_260370">
+        <From>
+          <StopPointRef>6400L00040</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64802054</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAG092_007_260371">
+        <From>
+          <StopPointRef>64802054</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500D1704</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAG092_007_260372">
+        <From>
+          <StopPointRef>6500D1704</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200600750</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="FSAG092_006">
+      <Description>Aberdeen - Edinburgh
+</Description>
+      <RouteSectionRef>FSAG092_006</RouteSectionRef>
+    </Route>
+    <Route id="FSAG092_004">
+      <Description>Edinburgh - Aberdeen
+</Description>
+      <RouteSectionRef>FSAG092_004</RouteSectionRef>
+    </Route>
+    <Route id="FSAG092_005">
+      <Description>Edinburgh - Aberdeen
+</Description>
+      <RouteSectionRef>FSAG092_005</RouteSectionRef>
+    </Route>
+    <Route id="FSAG092_007">
+      <Description>Aberdeen - Edinburgh
+</Description>
+      <RouteSectionRef>FSAG092_007</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_FSAG092-5">
+      <JourneyPatternTimingLink id="JPS_FSAG092-5_260366">
+        <From>
+          <StopPointRef>639070021</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6400L00040</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAG092_006_260366</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT5100S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAG092-5_260367">
+        <From>
+          <WaitTime>PT300S</WaitTime>
+          <StopPointRef>6400L00040</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200600750</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAG092_006_260367</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT5280S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSAG092-6">
+      <JourneyPatternTimingLink id="JPS_FSAG092-6_260374">
+        <From>
+          <StopPointRef>6200600750</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D1701</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAG092_004_260374</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2280S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAG092-6_260375">
+        <From>
+          <StopPointRef>6500D1701</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6400L00040</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAG092_004_260375</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT3300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAG092-6_260376">
+        <From>
+          <WaitTime>PT120S</WaitTime>
+          <StopPointRef>6400L00040</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>639070021</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAG092_004_260376</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT5100S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSAG092-7">
+      <JourneyPatternTimingLink id="JPS_FSAG092-7_260378">
+        <From>
+          <StopPointRef>6200600750</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6400L00040</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAG092_005_260378</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT5280S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAG092-7_260379">
+        <From>
+          <WaitTime>PT420S</WaitTime>
+          <StopPointRef>6400L00040</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>639070021</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAG092_005_260379</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT5100S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSAG092-8">
+      <JourneyPatternTimingLink id="JPS_FSAG092-8_260378">
+        <From>
+          <StopPointRef>6200600750</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6400L00040</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAG092_005_260378</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT5700S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAG092-8_260379">
+        <From>
+          <WaitTime>PT300S</WaitTime>
+          <StopPointRef>6400L00040</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>639070021</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAG092_005_260379</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT5100S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSAG092-9">
+      <JourneyPatternTimingLink id="JPS_FSAG092-9_260369">
+        <From>
+          <StopPointRef>639070021</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6400L00040</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAG092_007_260369</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT5100S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAG092-9_260370">
+        <From>
+          <WaitTime>PT300S</WaitTime>
+          <StopPointRef>6400L00040</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64802054</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAG092_007_260370</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT2100S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAG092-9_260371">
+        <From>
+          <WaitTime>PT300S</WaitTime>
+          <StopPointRef>64802054</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D1704</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAG092_007_260371</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT2040S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAG092-9_260372">
+        <From>
+          <StopPointRef>6500D1704</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200600750</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAG092_007_260372</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1920S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="MBGD">
+      <NationalOperatorCode>MBGD</NationalOperatorCode>
+      <OperatorCode>MBGD</OperatorCode>
+      <OperatorShortName>Megabus Gold</OperatorShortName>
+    </Operator>
+    <Operator id="MEGA">
+      <NationalOperatorCode>MEGA</NationalOperatorCode>
+      <OperatorCode>MEGA</OperatorCode>
+      <OperatorShortName>Megabus</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>FSAG092</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>G92</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2019-09-30</StartDate>
+        <EndDate>2049-12-31</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>MBGD</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>coach</Mode>
+      <Description>Edinburgh - Aberdeen</Description>
+      <StandardService>
+        <Origin>Edinburgh</Origin>
+        <Destination>Aberdeen</Destination>
+        <JourneyPattern id="JPS_FSAG092-5">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSAG092-5</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSAG092-6">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSAG092-6</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSAG092-7">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSAG092-7</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSAG092-8">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSAG092-8</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSAG092-9">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSAG092-9</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>MBGD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82536</VehicleJourneyCode>
+      <ServiceRef>FSAG092</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAG092-5</JourneyPatternRef>
+      <DepartureTime>08:35:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MBGD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82537</VehicleJourneyCode>
+      <ServiceRef>FSAG092</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAG092-5</JourneyPatternRef>
+      <DepartureTime>12:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MBGD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82538</VehicleJourneyCode>
+      <ServiceRef>FSAG092</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAG092-5</JourneyPatternRef>
+      <DepartureTime>16:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MBGD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82548</VehicleJourneyCode>
+      <ServiceRef>FSAG092</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAG092-6</JourneyPatternRef>
+      <DepartureTime>08:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MBGD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82549</VehicleJourneyCode>
+      <ServiceRef>FSAG092</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAG092-7</JourneyPatternRef>
+      <DepartureTime>12:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MBGD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82550</VehicleJourneyCode>
+      <ServiceRef>FSAG092</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAG092-8</JourneyPatternRef>
+      <DepartureTime>16:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MBGD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82551</VehicleJourneyCode>
+      <ServiceRef>FSAG092</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAG092-7</JourneyPatternRef>
+      <DepartureTime>18:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MBGD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82552</VehicleJourneyCode>
+      <ServiceRef>FSAG092</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAG092-6</JourneyPatternRef>
+      <DepartureTime>08:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MBGD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82553</VehicleJourneyCode>
+      <ServiceRef>FSAG092</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAG092-7</JourneyPatternRef>
+      <DepartureTime>12:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MBGD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82554</VehicleJourneyCode>
+      <ServiceRef>FSAG092</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAG092-8</JourneyPatternRef>
+      <DepartureTime>16:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MBGD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82555</VehicleJourneyCode>
+      <ServiceRef>FSAG092</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAG092-7</JourneyPatternRef>
+      <DepartureTime>18:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MBGD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82556</VehicleJourneyCode>
+      <ServiceRef>FSAG092</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAG092-6</JourneyPatternRef>
+      <DepartureTime>08:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MBGD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82557</VehicleJourneyCode>
+      <ServiceRef>FSAG092</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAG092-7</JourneyPatternRef>
+      <DepartureTime>12:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MBGD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82558</VehicleJourneyCode>
+      <ServiceRef>FSAG092</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAG092-8</JourneyPatternRef>
+      <DepartureTime>16:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MBGD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82559</VehicleJourneyCode>
+      <ServiceRef>FSAG092</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAG092-7</JourneyPatternRef>
+      <DepartureTime>18:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MBGD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82539</VehicleJourneyCode>
+      <ServiceRef>FSAG092</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAG092-9</JourneyPatternRef>
+      <DepartureTime>18:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MBGD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82540</VehicleJourneyCode>
+      <ServiceRef>FSAG092</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAG092-5</JourneyPatternRef>
+      <DepartureTime>08:35:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MBGD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82541</VehicleJourneyCode>
+      <ServiceRef>FSAG092</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAG092-5</JourneyPatternRef>
+      <DepartureTime>12:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MBGD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82542</VehicleJourneyCode>
+      <ServiceRef>FSAG092</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAG092-5</JourneyPatternRef>
+      <DepartureTime>16:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MBGD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82543</VehicleJourneyCode>
+      <ServiceRef>FSAG092</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAG092-9</JourneyPatternRef>
+      <DepartureTime>18:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MBGD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82544</VehicleJourneyCode>
+      <ServiceRef>FSAG092</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAG092-5</JourneyPatternRef>
+      <DepartureTime>08:35:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MBGD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82545</VehicleJourneyCode>
+      <ServiceRef>FSAG092</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAG092-5</JourneyPatternRef>
+      <DepartureTime>12:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MBGD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82546</VehicleJourneyCode>
+      <ServiceRef>FSAG092</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAG092-5</JourneyPatternRef>
+      <DepartureTime>16:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MBGD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82547</VehicleJourneyCode>
+      <ServiceRef>FSAG092</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAG092-9</JourneyPatternRef>
+      <DepartureTime>18:45:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

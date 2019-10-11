@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:20:00-00:00" ModificationDateTime="2019-10-07T13:20:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRFSACM10.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300CSY</StopPointRef>
+      <CommonName>Colonsay Ferry Terminal</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300OBA</StopPointRef>
+      <CommonName>Oban Ferry Terminal</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="FSACM10_001">
+      <RouteLink id="FSACM10_001_260193">
+        <From>
+          <StopPointRef>9300CSY</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300OBA</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSACM10_002">
+      <RouteLink id="FSACM10_002_260195">
+        <From>
+          <StopPointRef>9300OBA</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300CSY</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="FSACM10_001">
+      <Description>Colonsay - Oban
+</Description>
+      <RouteSectionRef>FSACM10_001</RouteSectionRef>
+    </Route>
+    <Route id="FSACM10_002">
+      <Description>Oban - Colonsay
+</Description>
+      <RouteSectionRef>FSACM10_002</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_FSACM10-3">
+      <JourneyPatternTimingLink id="JPS_FSACM10-3_260193">
+        <From>
+          <StopPointRef>9300CSY</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300OBA</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM10_001_260193</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT8100S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSACM10-4">
+      <JourneyPatternTimingLink id="JPS_FSACM10-4_260193">
+        <From>
+          <StopPointRef>9300CSY</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300OBA</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM10_001_260193</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT8700S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSACM10-5">
+      <JourneyPatternTimingLink id="JPS_FSACM10-5_260195">
+        <From>
+          <StopPointRef>9300OBA</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300CSY</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM10_002_260195</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT8100S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSACM10-6">
+      <JourneyPatternTimingLink id="JPS_FSACM10-6_260195">
+        <From>
+          <StopPointRef>9300OBA</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300CSY</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM10_002_260195</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT8700S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="CAL">
+      <NationalOperatorCode>CALM</NationalOperatorCode>
+      <OperatorCode>CAL</OperatorCode>
+      <OperatorShortName>Caledonian MacBrayne</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>FSACM10</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>CM10</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2019-03-29</StartDate>
+        <EndDate>2049-12-31</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>CAL</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>ferry</Mode>
+      <Description>Oban - Colonsay</Description>
+      <StandardService>
+        <Origin>Oban</Origin>
+        <Destination>Colonsay</Destination>
+        <JourneyPattern id="JPS_FSACM10-3">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSACM10-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSACM10-4">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSACM10-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSACM10-5">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSACM10-5</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSACM10-6">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSACM10-6</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>CAL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Thursday />
+            <Friday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82077</VehicleJourneyCode>
+      <ServiceRef>FSACM10</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSACM10-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>19:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CAL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82078</VehicleJourneyCode>
+      <ServiceRef>FSACM10</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSACM10-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>11:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CAL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Thursday />
+            <Friday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82079</VehicleJourneyCode>
+      <ServiceRef>FSACM10</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSACM10-5</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>16:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CAL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82080</VehicleJourneyCode>
+      <ServiceRef>FSACM10</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSACM10-6</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>09:00:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

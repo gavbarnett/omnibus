@@ -1,0 +1,1036 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:13:00-00:00" ModificationDateTime="2019-10-07T13:13:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRFSAO321.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <ServicedOrganisations>
+    <ServicedOrganisation>
+      <OrganisationCode>914</OrganisationCode>
+      <Name>
+QE0 : DATA.cif
+</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2019-10-05</StartDate>
+          <EndDate>2019-10-21</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-12-21</StartDate>
+          <EndDate>2020-01-05</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-02-08</StartDate>
+          <EndDate>2020-02-10</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-04-04</StartDate>
+          <EndDate>2020-04-19</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-05-02</StartDate>
+          <EndDate>2020-05-04</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-05-23</StartDate>
+          <EndDate>2020-05-25</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-06-27</StartDate>
+          <EndDate>2049-12-31</EndDate>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+  </ServicedOrganisations>
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6170664</StopPointRef>
+      <CommonName>Ferry Terminal</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6170698</StopPointRef>
+      <CommonName>Strathwhillan</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6170968</StopPointRef>
+      <CommonName>Corriegills</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6170956</StopPointRef>
+      <CommonName>Douglas Hotel</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6170970</StopPointRef>
+      <CommonName>Shore Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6170971</StopPointRef>
+      <CommonName>Braithwic Terrace</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6170969</StopPointRef>
+      <CommonName>Shore Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6170595</StopPointRef>
+      <CommonName>Royal bank</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6170598</StopPointRef>
+      <CommonName>Manse Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61701186</StopPointRef>
+      <CommonName>Auchrannie Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6170781</StopPointRef>
+      <CommonName>Brodick Golf Course</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6170600</StopPointRef>
+      <CommonName>Douglas Place</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6170853</StopPointRef>
+      <CommonName>Douglas Place</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6170599</StopPointRef>
+      <CommonName>Brodick Golf Course</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61701185</StopPointRef>
+      <CommonName>Auchrannie Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6170597</StopPointRef>
+      <CommonName>Alma Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6170780</StopPointRef>
+      <CommonName>Royal Bank</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61701184</StopPointRef>
+      <CommonName>Alma Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6170668</StopPointRef>
+      <CommonName>Ferry Terminal</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="FSAO321_006">
+      <RouteLink id="FSAO321_006_263258">
+        <From>
+          <StopPointRef>6170664</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170698</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO321_006_263259">
+        <From>
+          <StopPointRef>6170698</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170968</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO321_006_263260">
+        <From>
+          <StopPointRef>6170968</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170956</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO321_006_263261">
+        <From>
+          <StopPointRef>6170956</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170970</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO321_006_263262">
+        <From>
+          <StopPointRef>6170970</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170971</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO321_006_263263">
+        <From>
+          <StopPointRef>6170971</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170969</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO321_006_263264">
+        <From>
+          <StopPointRef>6170969</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170595</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO321_006_263265">
+        <From>
+          <StopPointRef>6170595</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170598</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO321_006_263266">
+        <From>
+          <StopPointRef>6170598</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61701186</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO321_006_263267">
+        <From>
+          <StopPointRef>61701186</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170781</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO321_006_263268">
+        <From>
+          <StopPointRef>6170781</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170600</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO321_006_263269">
+        <From>
+          <StopPointRef>6170600</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170853</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO321_006_263270">
+        <From>
+          <StopPointRef>6170853</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170599</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO321_006_263271">
+        <From>
+          <StopPointRef>6170599</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61701185</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO321_006_263272">
+        <From>
+          <StopPointRef>61701185</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170597</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO321_006_263273">
+        <From>
+          <StopPointRef>6170597</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170780</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO321_006_263274">
+        <From>
+          <StopPointRef>6170780</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61701184</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO321_006_263275">
+        <From>
+          <StopPointRef>61701184</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170668</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSAO321_005">
+      <RouteLink id="FSAO321_005_263277">
+        <From>
+          <StopPointRef>6170668</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170956</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO321_005_263278">
+        <From>
+          <StopPointRef>6170956</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170595</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO321_005_263279">
+        <From>
+          <StopPointRef>6170595</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170598</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO321_005_263280">
+        <From>
+          <StopPointRef>6170598</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61701186</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO321_005_263281">
+        <From>
+          <StopPointRef>61701186</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170781</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO321_005_263282">
+        <From>
+          <StopPointRef>6170781</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170600</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO321_005_263283">
+        <From>
+          <StopPointRef>6170600</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170853</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO321_005_263284">
+        <From>
+          <StopPointRef>6170853</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170599</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO321_005_263285">
+        <From>
+          <StopPointRef>6170599</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61701185</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO321_005_263286">
+        <From>
+          <StopPointRef>61701185</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170597</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO321_005_263287">
+        <From>
+          <StopPointRef>6170597</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170780</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO321_005_263288">
+        <From>
+          <StopPointRef>6170780</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61701184</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO321_005_263289">
+        <From>
+          <StopPointRef>61701184</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170970</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO321_005_263290">
+        <From>
+          <StopPointRef>6170970</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170971</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO321_005_263291">
+        <From>
+          <StopPointRef>6170971</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170969</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO321_005_263292">
+        <From>
+          <StopPointRef>6170969</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170698</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO321_005_263293">
+        <From>
+          <StopPointRef>6170698</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170968</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO321_005_263294">
+        <From>
+          <StopPointRef>6170968</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170668</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="FSAO321_006">
+      <Description>Corriegills circular - Brodick
+</Description>
+      <RouteSectionRef>FSAO321_006</RouteSectionRef>
+    </Route>
+    <Route id="FSAO321_005">
+      <Description>Corriegills circular - Brodick
+</Description>
+      <RouteSectionRef>FSAO321_005</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_FSAO321-3">
+      <JourneyPatternTimingLink id="JPS_FSAO321-3_263258">
+        <From>
+          <StopPointRef>6170664</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170698</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO321_006_263258</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO321-3_263259">
+        <From>
+          <StopPointRef>6170698</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170968</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO321_006_263259</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT240S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO321-3_263260">
+        <From>
+          <StopPointRef>6170968</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170956</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO321_006_263260</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT240S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO321-3_263261">
+        <From>
+          <StopPointRef>6170956</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170970</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO321_006_263261</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO321-3_263262">
+        <From>
+          <StopPointRef>6170970</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170971</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO321_006_263262</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO321-3_263263">
+        <From>
+          <StopPointRef>6170971</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170969</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO321_006_263263</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO321-3_263264">
+        <From>
+          <StopPointRef>6170969</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170595</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO321_006_263264</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO321-3_263265">
+        <From>
+          <StopPointRef>6170595</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170598</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO321_006_263265</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO321-3_263266">
+        <From>
+          <StopPointRef>6170598</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61701186</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO321_006_263266</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO321-3_263267">
+        <From>
+          <StopPointRef>61701186</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170781</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO321_006_263267</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO321-3_263268">
+        <From>
+          <StopPointRef>6170781</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170600</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO321_006_263268</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO321-3_263269">
+        <From>
+          <StopPointRef>6170600</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170853</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO321_006_263269</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO321-3_263270">
+        <From>
+          <StopPointRef>6170853</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170599</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO321_006_263270</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO321-3_263271">
+        <From>
+          <StopPointRef>6170599</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61701185</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO321_006_263271</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO321-3_263272">
+        <From>
+          <StopPointRef>61701185</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170597</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO321_006_263272</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO321-3_263273">
+        <From>
+          <StopPointRef>6170597</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170780</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO321_006_263273</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO321-3_263274">
+        <From>
+          <StopPointRef>6170780</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61701184</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO321_006_263274</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO321-3_263275">
+        <From>
+          <StopPointRef>61701184</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170668</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO321_006_263275</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSAO321-4">
+      <JourneyPatternTimingLink id="JPS_FSAO321-4_263277">
+        <From>
+          <StopPointRef>6170668</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170956</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO321_005_263277</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO321-4_263278">
+        <From>
+          <StopPointRef>6170956</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170595</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO321_005_263278</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO321-4_263279">
+        <From>
+          <StopPointRef>6170595</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170598</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO321_005_263279</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO321-4_263280">
+        <From>
+          <StopPointRef>6170598</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61701186</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO321_005_263280</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO321-4_263281">
+        <From>
+          <StopPointRef>61701186</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170781</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO321_005_263281</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO321-4_263282">
+        <From>
+          <StopPointRef>6170781</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170600</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO321_005_263282</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO321-4_263283">
+        <From>
+          <StopPointRef>6170600</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170853</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO321_005_263283</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO321-4_263284">
+        <From>
+          <StopPointRef>6170853</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170599</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO321_005_263284</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO321-4_263285">
+        <From>
+          <StopPointRef>6170599</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61701185</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO321_005_263285</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO321-4_263286">
+        <From>
+          <StopPointRef>61701185</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170597</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO321_005_263286</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO321-4_263287">
+        <From>
+          <StopPointRef>6170597</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170780</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO321_005_263287</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO321-4_263288">
+        <From>
+          <StopPointRef>6170780</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61701184</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO321_005_263288</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO321-4_263289">
+        <From>
+          <StopPointRef>61701184</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170970</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO321_005_263289</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO321-4_263290">
+        <From>
+          <StopPointRef>6170970</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170971</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO321_005_263290</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO321-4_263291">
+        <From>
+          <StopPointRef>6170971</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170969</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO321_005_263291</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO321-4_263292">
+        <From>
+          <StopPointRef>6170969</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170698</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO321_005_263292</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO321-4_263293">
+        <From>
+          <StopPointRef>6170698</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170968</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO321_005_263293</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO321-4_263294">
+        <From>
+          <StopPointRef>6170968</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170668</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO321_005_263294</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="STW">
+      <NationalOperatorCode>STWS</NationalOperatorCode>
+      <OperatorCode>STW</OperatorCode>
+      <OperatorShortName>Stagecoach West Scotland</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>FSAO321</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>321</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2019-03-31</StartDate>
+        <EndDate>2049-12-31</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>STW</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Corriegills circular - Brodick</Description>
+      <StandardService>
+        <Origin>Corriegills circular</Origin>
+        <Destination>Brodick</Destination>
+        <JourneyPattern id="JPS_FSAO321-3">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSAO321-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSAO321-4">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSAO321-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>STW</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>914</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83442</VehicleJourneyCode>
+      <ServiceRef>FSAO321</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAO321-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>SCH</NoteCode>
+        <NoteText>School Days Only</NoteText>
+      </Note>
+      <DepartureTime>08:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>STW</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>914</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83443</VehicleJourneyCode>
+      <ServiceRef>FSAO321</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAO321-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>SCH</NoteCode>
+        <NoteText>School Days Only</NoteText>
+      </Note>
+      <DepartureTime>15:05:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

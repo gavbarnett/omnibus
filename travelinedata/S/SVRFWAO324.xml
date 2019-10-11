@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:13:00-00:00" ModificationDateTime="2019-10-07T13:13:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRFWAO324.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61601642</StopPointRef>
+      <CommonName>Bothlyn Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6090134</StopPointRef>
+      <CommonName>Cathedral Square</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60903487</StopPointRef>
+      <CommonName>Cumberland Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60902515</StopPointRef>
+      <CommonName>Cumberland Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6090135</StopPointRef>
+      <CommonName>Rottenrow East</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="FWAO324_001">
+      <RouteLink id="FWAO324_001_395320">
+        <From>
+          <StopPointRef>61601642</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6090134</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FWAO324_001_395321">
+        <From>
+          <StopPointRef>6090134</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60903487</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FWAO324_002">
+      <RouteLink id="FWAO324_002_395323">
+        <From>
+          <StopPointRef>60902515</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6090135</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FWAO324_002_395324">
+        <From>
+          <StopPointRef>6090135</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61601642</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="FWAO324_001">
+      <Description>Chryston - Govanhill
+</Description>
+      <RouteSectionRef>FWAO324_001</RouteSectionRef>
+    </Route>
+    <Route id="FWAO324_002">
+      <Description>Govanhill - Chryston
+</Description>
+      <RouteSectionRef>FWAO324_002</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_FWAO324-3">
+      <JourneyPatternTimingLink id="JPS_FWAO324-3_395320">
+        <From>
+          <StopPointRef>61601642</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090134</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO324_001_395320</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1200S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FWAO324-3_395321">
+        <From>
+          <StopPointRef>6090134</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60903487</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO324_001_395321</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT660S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FWAO324-4">
+      <JourneyPatternTimingLink id="JPS_FWAO324-4_395320">
+        <From>
+          <StopPointRef>61601642</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090134</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO324_001_395320</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT900S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FWAO324-4_395321">
+        <From>
+          <StopPointRef>6090134</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60903487</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO324_001_395321</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT720S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FWAO324-5">
+      <JourneyPatternTimingLink id="JPS_FWAO324-5_395323">
+        <From>
+          <StopPointRef>60902515</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090135</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO324_002_395323</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT480S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FWAO324-5_395324">
+        <From>
+          <StopPointRef>6090135</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61601642</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO324_002_395324</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1200S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FWAO324-6">
+      <JourneyPatternTimingLink id="JPS_FWAO324-6_395323">
+        <From>
+          <StopPointRef>60902515</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090135</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO324_002_395323</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT600S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FWAO324-6_395324">
+        <From>
+          <StopPointRef>6090135</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61601642</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO324_002_395324</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1200S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="FGL">
+      <NationalOperatorCode>FGLA</NationalOperatorCode>
+      <OperatorCode>FGL</OperatorCode>
+      <OperatorShortName>First Glasgow</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>FWAO324</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>324</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2014-04-27</StartDate>
+        <EndDate>2019-10-26</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>FGL</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Govanhill - Chryston</Description>
+      <StandardService>
+        <Origin>Govanhill</Origin>
+        <Destination>Chryston</Destination>
+        <JourneyPattern id="JPS_FWAO324-3">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FWAO324-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FWAO324-4">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FWAO324-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FWAO324-5">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FWAO324-5</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FWAO324-6">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FWAO324-6</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>FGL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>137533</VehicleJourneyCode>
+      <ServiceRef>FWAO324</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FWAO324-3</JourneyPatternRef>
+      <DepartureTime>19:03:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>FGL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>137534</VehicleJourneyCode>
+      <ServiceRef>FWAO324</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FWAO324-3</JourneyPatternRef>
+      <DepartureTime>23:36:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>FGL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>137535</VehicleJourneyCode>
+      <ServiceRef>FWAO324</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FWAO324-3</JourneyPatternRef>
+      <DepartureTime>17:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>FGL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>137536</VehicleJourneyCode>
+      <ServiceRef>FWAO324</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FWAO324-3</JourneyPatternRef>
+      <DepartureTime>18:54:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>FGL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>137537</VehicleJourneyCode>
+      <ServiceRef>FWAO324</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FWAO324-3</JourneyPatternRef>
+      <DepartureTime>23:36:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>FGL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>137538</VehicleJourneyCode>
+      <ServiceRef>FWAO324</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FWAO324-4</JourneyPatternRef>
+      <DepartureTime>23:35:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>FGL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>137539</VehicleJourneyCode>
+      <ServiceRef>FWAO324</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FWAO324-5</JourneyPatternRef>
+      <DepartureTime>05:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>FGL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>137540</VehicleJourneyCode>
+      <ServiceRef>FWAO324</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FWAO324-6</JourneyPatternRef>
+      <DepartureTime>06:24:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>FGL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>137541</VehicleJourneyCode>
+      <ServiceRef>FWAO324</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FWAO324-5</JourneyPatternRef>
+      <DepartureTime>05:38:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>FGL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>137542</VehicleJourneyCode>
+      <ServiceRef>FWAO324</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FWAO324-5</JourneyPatternRef>
+      <DepartureTime>06:28:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

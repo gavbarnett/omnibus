@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:14:00-00:00" ModificationDateTime="2019-10-07T13:14:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRFWAO370.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <ServicedOrganisations>
+    <ServicedOrganisation>
+      <OrganisationCode>1614</OrganisationCode>
+      <Name>
+QE0 : 370MFO57T.cif
+</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2019-10-13</StartDate>
+          <EndDate>2019-10-19</EndDate>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+  </ServicedOrganisations>
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6090282</StopPointRef>
+      <CommonName>University Library</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6090284</StopPointRef>
+      <CommonName>Boyd Orr building</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6090290</StopPointRef>
+      <CommonName>Havelock Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6090295</StopPointRef>
+      <CommonName>Byres Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6090294</StopPointRef>
+      <CommonName>Dumbarton Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6090232</StopPointRef>
+      <CommonName>Bunhouse Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6090231</StopPointRef>
+      <CommonName>Blantyre Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6090227</StopPointRef>
+      <CommonName>Haugh Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6090225</StopPointRef>
+      <CommonName>Derby Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6090223</StopPointRef>
+      <CommonName>Berkeley Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60902620</StopPointRef>
+      <CommonName>Bedford Street</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="FWAO370_001">
+      <RouteLink id="FWAO370_001_395649">
+        <From>
+          <StopPointRef>6090282</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6090284</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FWAO370_001_395650">
+        <From>
+          <StopPointRef>6090284</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6090290</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FWAO370_001_395651">
+        <From>
+          <StopPointRef>6090290</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6090295</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FWAO370_001_395652">
+        <From>
+          <StopPointRef>6090295</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6090294</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FWAO370_001_395653">
+        <From>
+          <StopPointRef>6090294</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6090232</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FWAO370_001_395654">
+        <From>
+          <StopPointRef>6090232</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6090231</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FWAO370_001_395655">
+        <From>
+          <StopPointRef>6090231</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6090227</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FWAO370_001_395656">
+        <From>
+          <StopPointRef>6090227</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6090225</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FWAO370_001_395657">
+        <From>
+          <StopPointRef>6090225</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6090223</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FWAO370_001_395658">
+        <From>
+          <StopPointRef>6090223</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60902620</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="FWAO370_001">
+      <Description>Hillhead - Tradeston
+</Description>
+      <RouteSectionRef>FWAO370_001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_FWAO370-2">
+      <JourneyPatternTimingLink id="JPS_FWAO370-2_395649">
+        <From>
+          <StopPointRef>6090282</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090284</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO370_001_395649</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FWAO370-2_395650">
+        <From>
+          <StopPointRef>6090284</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090290</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO370_001_395650</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FWAO370-2_395651">
+        <From>
+          <StopPointRef>6090290</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090295</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO370_001_395651</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FWAO370-2_395652">
+        <From>
+          <StopPointRef>6090295</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090294</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO370_001_395652</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FWAO370-2_395653">
+        <From>
+          <StopPointRef>6090294</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090232</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO370_001_395653</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FWAO370-2_395654">
+        <From>
+          <StopPointRef>6090232</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090231</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO370_001_395654</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FWAO370-2_395655">
+        <From>
+          <StopPointRef>6090231</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090227</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO370_001_395655</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FWAO370-2_395656">
+        <From>
+          <StopPointRef>6090227</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090225</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO370_001_395656</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FWAO370-2_395657">
+        <From>
+          <StopPointRef>6090225</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090223</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO370_001_395657</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FWAO370-2_395658">
+        <From>
+          <StopPointRef>6090223</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60902620</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO370_001_395658</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT900S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="FGL">
+      <NationalOperatorCode>FGLA</NationalOperatorCode>
+      <OperatorCode>FGL</OperatorCode>
+      <OperatorShortName>First Glasgow</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>FWAO370</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>370</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2017-04-23</StartDate>
+        <EndDate>2019-10-26</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>FGL</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Hillhead - Tradeston</Description>
+      <StandardService>
+        <Origin>Hillhead</Origin>
+        <Destination>Tradeston</Destination>
+        <JourneyPattern id="JPS_FWAO370-2">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FWAO370-2</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>FGL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>1614</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>137675</VehicleJourneyCode>
+      <ServiceRef>FWAO370</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FWAO370-2</JourneyPatternRef>
+      <DepartureTime>09:16:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>FGL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>1614</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>137676</VehicleJourneyCode>
+      <ServiceRef>FWAO370</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FWAO370-2</JourneyPatternRef>
+      <DepartureTime>09:46:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

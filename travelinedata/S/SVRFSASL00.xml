@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:23:00-00:00" ModificationDateTime="2019-10-07T13:23:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRFSASL00.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000088599</StopPointRef>
+      <CommonName>Stena Terminal</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6190840</StopPointRef>
+      <CommonName>Ayr Railway Station</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="FSASL00_002">
+      <RouteLink id="FSASL00_002_268163">
+        <From>
+          <StopPointRef>680000088599</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6190840</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSASL00_001">
+      <RouteLink id="FSASL00_001_268165">
+        <From>
+          <StopPointRef>6190840</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000088599</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="FSASL00_002">
+      <Description>Cairnryan Stena Line Terminal - Ayr
+</Description>
+      <RouteSectionRef>FSASL00_002</RouteSectionRef>
+    </Route>
+    <Route id="FSASL00_001">
+      <Description>Ayr - Cairnryan Stena Line Terminal
+</Description>
+      <RouteSectionRef>FSASL00_001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_FSASL00-3">
+      <JourneyPatternTimingLink id="JPS_FSASL00-3_268163">
+        <From>
+          <StopPointRef>680000088599</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6190840</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSASL00_002_268163</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT4500S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSASL00-4">
+      <JourneyPatternTimingLink id="JPS_FSASL00-4_268163">
+        <From>
+          <StopPointRef>680000088599</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6190840</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSASL00_002_268163</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT4200S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSASL00-5">
+      <JourneyPatternTimingLink id="JPS_FSASL00-5_268165">
+        <From>
+          <StopPointRef>6190840</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000088599</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSASL00_001_268165</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT4500S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSASL00-6">
+      <JourneyPatternTimingLink id="JPS_FSASL00-6_268165">
+        <From>
+          <StopPointRef>6190840</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000088599</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSASL00_001_268165</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT4200S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="DOD">
+      <NationalOperatorCode>DODT</NationalOperatorCode>
+      <OperatorCode>DOD</OperatorCode>
+      <OperatorShortName>Dodds of Troon</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>FSASL00</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>SL</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2016-08-08</StartDate>
+        <EndDate>2049-12-31</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>DOD</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Ayr - Cairnryan Stena Line Terminal</Description>
+      <StandardService>
+        <Origin>Ayr</Origin>
+        <Destination>Cairnryan Stena Line Terminal</Destination>
+        <JourneyPattern id="JPS_FSASL00-3">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSASL00-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSASL00-4">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSASL00-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSASL00-5">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSASL00-5</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSASL00-6">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSASL00-6</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>DOD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>84164</VehicleJourneyCode>
+      <ServiceRef>FSASL00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSASL00-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>SL</NoteCode>
+        <NoteText>Service only to and from Stenaline Ferry</NoteText>
+      </Note>
+      <DepartureTime>10:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>DOD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>84165</VehicleJourneyCode>
+      <ServiceRef>FSASL00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSASL00-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>SL</NoteCode>
+        <NoteText>Service only to and from Stenaline Ferry</NoteText>
+      </Note>
+      <DepartureTime>14:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>DOD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>84166</VehicleJourneyCode>
+      <ServiceRef>FSASL00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSASL00-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>SL</NoteCode>
+        <NoteText>Service only to and from Stenaline Ferry</NoteText>
+      </Note>
+      <DepartureTime>18:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>DOD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>84167</VehicleJourneyCode>
+      <ServiceRef>FSASL00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSASL00-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>SL</NoteCode>
+        <NoteText>Service only to and from Stenaline Ferry</NoteText>
+      </Note>
+      <DepartureTime>10:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>DOD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>84168</VehicleJourneyCode>
+      <ServiceRef>FSASL00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSASL00-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>SL</NoteCode>
+        <NoteText>Service only to and from Stenaline Ferry</NoteText>
+      </Note>
+      <DepartureTime>14:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>DOD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>84169</VehicleJourneyCode>
+      <ServiceRef>FSASL00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSASL00-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>SL</NoteCode>
+        <NoteText>Service only to and from Stenaline Ferry</NoteText>
+      </Note>
+      <DepartureTime>18:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>DOD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>84170</VehicleJourneyCode>
+      <ServiceRef>FSASL00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSASL00-5</JourneyPatternRef>
+      <Note>
+        <NoteCode>SL</NoteCode>
+        <NoteText>Service only to and from Stenaline Ferry</NoteText>
+      </Note>
+      <DepartureTime>08:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>DOD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>84171</VehicleJourneyCode>
+      <ServiceRef>FSASL00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSASL00-5</JourneyPatternRef>
+      <Note>
+        <NoteCode>SL</NoteCode>
+        <NoteText>Service only to and from Stenaline Ferry</NoteText>
+      </Note>
+      <DepartureTime>12:35:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>DOD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>84172</VehicleJourneyCode>
+      <ServiceRef>FSASL00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSASL00-6</JourneyPatternRef>
+      <Note>
+        <NoteCode>SL</NoteCode>
+        <NoteText>Service only to and from Stenaline Ferry</NoteText>
+      </Note>
+      <DepartureTime>17:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>DOD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>84173</VehicleJourneyCode>
+      <ServiceRef>FSASL00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSASL00-5</JourneyPatternRef>
+      <Note>
+        <NoteCode>SL</NoteCode>
+        <NoteText>Service only to and from Stenaline Ferry</NoteText>
+      </Note>
+      <DepartureTime>08:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>DOD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>84174</VehicleJourneyCode>
+      <ServiceRef>FSASL00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSASL00-5</JourneyPatternRef>
+      <Note>
+        <NoteCode>SL</NoteCode>
+        <NoteText>Service only to and from Stenaline Ferry</NoteText>
+      </Note>
+      <DepartureTime>12:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>DOD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>84175</VehicleJourneyCode>
+      <ServiceRef>FSASL00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSASL00-5</JourneyPatternRef>
+      <Note>
+        <NoteCode>SL</NoteCode>
+        <NoteText>Service only to and from Stenaline Ferry</NoteText>
+      </Note>
+      <DepartureTime>17:05:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

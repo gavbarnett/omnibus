@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T12:56:00-00:00" ModificationDateTime="2019-10-07T12:56:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRABAO055.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>630031131</StopPointRef>
+      <CommonName> Market Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>630031351</StopPointRef>
+      <CommonName>Bridge Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>630031261</StopPointRef>
+      <CommonName>Bridge Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>630031252</StopPointRef>
+      <CommonName>Whisky Brae</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>630066751</StopPointRef>
+      <CommonName>Ellon Primary</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>630031242</StopPointRef>
+      <CommonName>Modley Place</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>630063462</StopPointRef>
+      <CommonName>Modley Avenue</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>630031241</StopPointRef>
+      <CommonName>Modley Place</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>630031251</StopPointRef>
+      <CommonName>Whisky Brae</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>630031262</StopPointRef>
+      <CommonName>Bridge Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>630031132</StopPointRef>
+      <CommonName>Market Street</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="ABAO055_001">
+      <RouteLink id="ABAO055_001_14184">
+        <From>
+          <StopPointRef>630031131</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>630031351</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ABAO055_001_14185">
+        <From>
+          <StopPointRef>630031351</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>630031261</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ABAO055_001_14186">
+        <From>
+          <StopPointRef>630031261</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>630031252</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ABAO055_001_14187">
+        <From>
+          <StopPointRef>630031252</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>630066751</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ABAO055_001_14188">
+        <From>
+          <StopPointRef>630066751</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>630031242</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ABAO055_001_14189">
+        <From>
+          <StopPointRef>630031242</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>630063462</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ABAO055_001_14190">
+        <From>
+          <StopPointRef>630063462</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>630031241</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ABAO055_001_14191">
+        <From>
+          <StopPointRef>630031241</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>630031251</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ABAO055_001_14192">
+        <From>
+          <StopPointRef>630031251</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>630031262</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ABAO055_001_14193">
+        <From>
+          <StopPointRef>630031262</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>630031132</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="ABAO055_001">
+      <Description>Modley Avenue circular - Ellon
+</Description>
+      <RouteSectionRef>ABAO055_001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_ABAO055-2">
+      <JourneyPatternTimingLink id="JPS_ABAO055-2_14184">
+        <From>
+          <StopPointRef>630031131</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>630031351</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ABAO055_001_14184</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ABAO055-2_14185">
+        <From>
+          <StopPointRef>630031351</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>630031261</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ABAO055_001_14185</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ABAO055-2_14186">
+        <From>
+          <StopPointRef>630031261</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>630031252</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ABAO055_001_14186</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ABAO055-2_14187">
+        <From>
+          <StopPointRef>630031252</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>630066751</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ABAO055_001_14187</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ABAO055-2_14188">
+        <From>
+          <StopPointRef>630066751</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>630031242</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ABAO055_001_14188</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ABAO055-2_14189">
+        <From>
+          <StopPointRef>630031242</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>630063462</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>ABAO055_001_14189</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ABAO055-2_14190">
+        <From>
+          <WaitTime>PT60S</WaitTime>
+          <StopPointRef>630063462</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>630031241</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ABAO055_001_14190</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ABAO055-2_14191">
+        <From>
+          <StopPointRef>630031241</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>630031251</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ABAO055_001_14191</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ABAO055-2_14192">
+        <From>
+          <StopPointRef>630031251</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>630031262</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ABAO055_001_14192</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ABAO055-2_14193">
+        <From>
+          <StopPointRef>630031262</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>630031132</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>ABAO055_001_14193</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="BLB">
+      <NationalOperatorCode>SBLB</NationalOperatorCode>
+      <OperatorCode>BLB</OperatorCode>
+      <OperatorShortName>Stagecoach North Scotlan</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>ABAO055</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>55</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2019-04-15</StartDate>
+        <EndDate>2020-04-15</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>BLB</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Modley Avenue circular - Ellon</Description>
+      <StandardService>
+        <Origin>Modley Avenue circular</Origin>
+        <Destination>Ellon</Destination>
+        <JourneyPattern id="JPS_ABAO055-2">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_ABAO055-2</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>BLB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-02</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>6942</VehicleJourneyCode>
+      <ServiceRef>ABAO055</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ABAO055-2</JourneyPatternRef>
+      <DepartureTime>10:07:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>BLB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-02</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>6943</VehicleJourneyCode>
+      <ServiceRef>ABAO055</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ABAO055-2</JourneyPatternRef>
+      <DepartureTime>12:01:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>BLB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>6944</VehicleJourneyCode>
+      <ServiceRef>ABAO055</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ABAO055-2</JourneyPatternRef>
+      <DepartureTime>09:21:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>BLB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>6945</VehicleJourneyCode>
+      <ServiceRef>ABAO055</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ABAO055-2</JourneyPatternRef>
+      <DepartureTime>12:41:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

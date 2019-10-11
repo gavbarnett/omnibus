@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:20:00-00:00" ModificationDateTime="2019-10-07T13:20:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRAGAF002.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <ServicedOrganisations>
+    <ServicedOrganisation>
+      <OrganisationCode>161</OrganisationCode>
+      <Name>
+QE0 : BUS.CIF
+</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2019-10-05</StartDate>
+          <EndDate>2019-10-20</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-12-04</StartDate>
+          <EndDate>2019-12-08</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-12-21</StartDate>
+          <EndDate>2020-01-05</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-02-13</StartDate>
+          <EndDate>2020-02-17</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-04-04</StartDate>
+          <EndDate>2020-04-19</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-05-02</StartDate>
+          <EndDate>2020-05-04</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-05-23</StartDate>
+          <EndDate>2020-05-25</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-06-27</StartDate>
+          <EndDate>2099-12-31</EndDate>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+  </ServicedOrganisations>
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM1967</StopPointRef>
+      <CommonName>Nether Turin</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM109</StopPointRef>
+      <CommonName>Road End</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM203</StopPointRef>
+      <CommonName>Bus Shelter</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM703</StopPointRef>
+      <CommonName>Old Quarry</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM434</StopPointRef>
+      <CommonName>Bus Shelter</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM1970</StopPointRef>
+      <CommonName>Primary School</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM1969</StopPointRef>
+      <CommonName>Primary School</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM704</StopPointRef>
+      <CommonName>Old Quarry</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM105</StopPointRef>
+      <CommonName>Road End</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM1968</StopPointRef>
+      <CommonName>Nether Turin</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="AGAF002_001">
+      <RouteLink id="AGAF002_001_30047">
+        <From>
+          <StopPointRef>6490IM1967</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM109</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAF002_001_30048">
+        <From>
+          <StopPointRef>6490IM109</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM203</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAF002_001_30049">
+        <From>
+          <StopPointRef>6490IM203</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM703</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAF002_001_30050">
+        <From>
+          <StopPointRef>6490IM703</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM434</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAF002_001_30051">
+        <From>
+          <StopPointRef>6490IM434</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM1970</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="AGAF002_002">
+      <RouteLink id="AGAF002_002_30053">
+        <From>
+          <StopPointRef>6490IM1969</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM203</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAF002_002_30054">
+        <From>
+          <StopPointRef>6490IM203</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM704</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAF002_002_30055">
+        <From>
+          <StopPointRef>6490IM704</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM434</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAF002_002_30056">
+        <From>
+          <StopPointRef>6490IM434</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM105</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAF002_002_30057">
+        <From>
+          <StopPointRef>6490IM105</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM1968</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="AGAF002_001">
+      <Description>Nether Turin - Aberlemno Primary School
+</Description>
+      <RouteSectionRef>AGAF002_001</RouteSectionRef>
+    </Route>
+    <Route id="AGAF002_002">
+      <Description>Aberlemno Primary School - Nether Turin
+</Description>
+      <RouteSectionRef>AGAF002_002</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_AGAF002-3">
+      <JourneyPatternTimingLink id="JPS_AGAF002-3_30047">
+        <From>
+          <StopPointRef>6490IM1967</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM109</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAF002_001_30047</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT240S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAF002-3_30048">
+        <From>
+          <StopPointRef>6490IM109</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM203</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAF002_001_30048</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT600S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAF002-3_30049">
+        <From>
+          <StopPointRef>6490IM203</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM703</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAF002_001_30049</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT420S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAF002-3_30050">
+        <From>
+          <StopPointRef>6490IM703</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM434</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAF002_001_30050</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT240S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAF002-3_30051">
+        <From>
+          <StopPointRef>6490IM434</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM1970</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAF002_001_30051</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_AGAF002-4">
+      <JourneyPatternTimingLink id="JPS_AGAF002-4_30053">
+        <From>
+          <StopPointRef>6490IM1969</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM203</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAF002_002_30053</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAF002-4_30054">
+        <From>
+          <StopPointRef>6490IM203</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM704</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAF002_002_30054</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT240S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAF002-4_30055">
+        <From>
+          <StopPointRef>6490IM704</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM434</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAF002_002_30055</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT420S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAF002-4_30056">
+        <From>
+          <StopPointRef>6490IM434</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM105</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAF002_002_30056</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT540S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAF002-4_30057">
+        <From>
+          <StopPointRef>6490IM105</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM1968</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAF002_002_30057</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="WSH">
+      <NationalOperatorCode>WSHT</NationalOperatorCode>
+      <OperatorCode>WSH</OperatorCode>
+      <OperatorShortName>Wishart</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>AGAF002</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>F2</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2013-07-08</StartDate>
+        <EndDate>2099-12-31</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>WSH</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Aberlemno Primary School - Nether Turin</Description>
+      <StandardService>
+        <Origin>Aberlemno Primary School</Origin>
+        <Destination>Nether Turin</Destination>
+        <JourneyPattern id="JPS_AGAF002-3">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_AGAF002-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_AGAF002-4">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_AGAF002-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>WSH</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>161</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>12308</VehicleJourneyCode>
+      <ServiceRef>AGAF002</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGAF002-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>Sch</NoteCode>
+        <NoteText>Operates on Angus schooldays only</NoteText>
+      </Note>
+      <DepartureTime>08:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>WSH</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>161</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>12309</VehicleJourneyCode>
+      <ServiceRef>AGAF002</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGAF002-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>Sch</NoteCode>
+        <NoteText>Operates on Angus schooldays only</NoteText>
+      </Note>
+      <DepartureTime>15:30:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

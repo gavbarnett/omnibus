@@ -1,0 +1,2132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:02:00-00:00" ModificationDateTime="2019-10-07T13:02:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRPTBO100.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60904147</StopPointRef>
+      <CommonName>Riverside Transport Museum</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60904146</StopPointRef>
+      <CommonName>Partick Interchange</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6090234</StopPointRef>
+      <CommonName>Church Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6090232</StopPointRef>
+      <CommonName>Bunhouse Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6090231</StopPointRef>
+      <CommonName>Blantyre Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6090227</StopPointRef>
+      <CommonName>Haugh Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6090225</StopPointRef>
+      <CommonName>Derby Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6090223</StopPointRef>
+      <CommonName>Berkeley Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60903914</StopPointRef>
+      <CommonName>Tunnel Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6090208</StopPointRef>
+      <CommonName>Conference Centre</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>609038</StopPointRef>
+      <CommonName>Marriott Hotel</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>609043</StopPointRef>
+      <CommonName>James Watt Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>609045</StopPointRef>
+      <CommonName>Hielenman's Umbrella</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>609033</StopPointRef>
+      <CommonName>Buchanan Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>609073</StopPointRef>
+      <CommonName>Queen St</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>609075</StopPointRef>
+      <CommonName>North Court</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>609031</StopPointRef>
+      <CommonName>Central Station</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>609044</StopPointRef>
+      <CommonName>Radisson Hotel</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>609042</StopPointRef>
+      <CommonName>James Watt Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>609039</StopPointRef>
+      <CommonName>Marriott Hotel</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6090216</StopPointRef>
+      <CommonName>Hydepark Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6090214</StopPointRef>
+      <CommonName>Police Station</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6090224</StopPointRef>
+      <CommonName>Berkeley Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6090226</StopPointRef>
+      <CommonName>Haugh Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6090229</StopPointRef>
+      <CommonName>Kelvingrove Art Galleries</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6090233</StopPointRef>
+      <CommonName>Bunhouse Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6090235</StopPointRef>
+      <CommonName>Church Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60904145</StopPointRef>
+      <CommonName>Hayburn Street</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="PTBO100_003">
+      <RouteLink id="PTBO100_003_229129">
+        <From>
+          <StopPointRef>60904147</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60904146</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO100_003_229130">
+        <From>
+          <StopPointRef>60904146</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6090234</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO100_003_229131">
+        <From>
+          <StopPointRef>6090234</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6090232</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO100_003_229132">
+        <From>
+          <StopPointRef>6090232</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6090231</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO100_003_229133">
+        <From>
+          <StopPointRef>6090231</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6090227</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO100_003_229134">
+        <From>
+          <StopPointRef>6090227</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6090225</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO100_003_229135">
+        <From>
+          <StopPointRef>6090225</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6090223</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO100_003_229136">
+        <From>
+          <StopPointRef>6090223</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60903914</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO100_003_229137">
+        <From>
+          <StopPointRef>60903914</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6090208</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO100_003_229138">
+        <From>
+          <StopPointRef>6090208</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>609038</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO100_003_229139">
+        <From>
+          <StopPointRef>609038</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>609043</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO100_003_229140">
+        <From>
+          <StopPointRef>609043</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>609045</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO100_003_229141">
+        <From>
+          <StopPointRef>609045</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>609033</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO100_003_229142">
+        <From>
+          <StopPointRef>609033</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>609073</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="PTBO100_004">
+      <RouteLink id="PTBO100_004_229144">
+        <From>
+          <StopPointRef>60904147</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>609038</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO100_004_229145">
+        <From>
+          <StopPointRef>609038</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>609043</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO100_004_229146">
+        <From>
+          <StopPointRef>609043</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>609045</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO100_004_229147">
+        <From>
+          <StopPointRef>609045</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>609033</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO100_004_229148">
+        <From>
+          <StopPointRef>609033</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>609073</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="PTBO100_001">
+      <RouteLink id="PTBO100_001_229150">
+        <From>
+          <StopPointRef>609073</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>609075</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO100_001_229151">
+        <From>
+          <StopPointRef>609075</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>609031</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO100_001_229152">
+        <From>
+          <StopPointRef>609031</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>609044</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO100_001_229153">
+        <From>
+          <StopPointRef>609044</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>609042</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO100_001_229154">
+        <From>
+          <StopPointRef>609042</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>609039</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO100_001_229155">
+        <From>
+          <StopPointRef>609039</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6090216</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO100_001_229156">
+        <From>
+          <StopPointRef>6090216</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60903914</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO100_001_229157">
+        <From>
+          <StopPointRef>60903914</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6090208</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO100_001_229158">
+        <From>
+          <StopPointRef>6090208</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6090214</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO100_001_229159">
+        <From>
+          <StopPointRef>6090214</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6090224</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO100_001_229160">
+        <From>
+          <StopPointRef>6090224</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6090226</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO100_001_229161">
+        <From>
+          <StopPointRef>6090226</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6090229</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO100_001_229162">
+        <From>
+          <StopPointRef>6090229</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6090233</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO100_001_229163">
+        <From>
+          <StopPointRef>6090233</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6090235</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO100_001_229164">
+        <From>
+          <StopPointRef>6090235</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60904145</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO100_001_229165">
+        <From>
+          <StopPointRef>60904145</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60904147</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="PTBO100_002">
+      <RouteLink id="PTBO100_002_229167">
+        <From>
+          <StopPointRef>609073</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>609075</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO100_002_229168">
+        <From>
+          <StopPointRef>609075</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>609031</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO100_002_229169">
+        <From>
+          <StopPointRef>609031</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>609044</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO100_002_229170">
+        <From>
+          <StopPointRef>609044</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>609042</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO100_002_229171">
+        <From>
+          <StopPointRef>609042</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>609039</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO100_002_229172">
+        <From>
+          <StopPointRef>609039</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6090216</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO100_002_229173">
+        <From>
+          <StopPointRef>6090216</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60904147</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="PTBO100_003">
+      <Description>Riverside Museum - Glasgow
+</Description>
+      <RouteSectionRef>PTBO100_003</RouteSectionRef>
+    </Route>
+    <Route id="PTBO100_004">
+      <Description>Riverside Museum - Glasgow
+</Description>
+      <RouteSectionRef>PTBO100_004</RouteSectionRef>
+    </Route>
+    <Route id="PTBO100_001">
+      <Description>Glasgow - Riverside Museum
+</Description>
+      <RouteSectionRef>PTBO100_001</RouteSectionRef>
+    </Route>
+    <Route id="PTBO100_002">
+      <Description>Glasgow - Riverside Museum
+</Description>
+      <RouteSectionRef>PTBO100_002</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_PTBO100-5">
+      <JourneyPatternTimingLink id="JPS_PTBO100-5_229129">
+        <From>
+          <StopPointRef>60904147</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60904146</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_003_229129</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT139S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-5_229130">
+        <From>
+          <StopPointRef>60904146</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090234</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_003_229130</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT156S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-5_229131">
+        <From>
+          <StopPointRef>6090234</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090232</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_003_229131</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT71S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-5_229132">
+        <From>
+          <StopPointRef>6090232</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090231</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_003_229132</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT54S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-5_229133">
+        <From>
+          <StopPointRef>6090231</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090227</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_003_229133</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT96S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-5_229134">
+        <From>
+          <StopPointRef>6090227</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090225</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_003_229134</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT36S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-5_229135">
+        <From>
+          <StopPointRef>6090225</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090223</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_003_229135</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT86S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-5_229136">
+        <From>
+          <StopPointRef>6090223</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60903914</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_003_229136</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT186S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-5_229137">
+        <From>
+          <StopPointRef>60903914</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090208</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_003_229137</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT76S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-5_229138">
+        <From>
+          <StopPointRef>6090208</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>609038</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_003_229138</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-5_229139">
+        <From>
+          <StopPointRef>609038</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>609043</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_003_229139</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT101S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-5_229140">
+        <From>
+          <StopPointRef>609043</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>609045</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_003_229140</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT79S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-5_229141">
+        <From>
+          <StopPointRef>609045</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>609033</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_003_229141</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT133S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-5_229142">
+        <From>
+          <StopPointRef>609033</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>609073</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_003_229142</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT227S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_PTBO100-6">
+      <JourneyPatternTimingLink id="JPS_PTBO100-6_229144">
+        <From>
+          <StopPointRef>60904147</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>609038</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_004_229144</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-6_229145">
+        <From>
+          <StopPointRef>609038</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>609043</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_004_229145</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT101S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-6_229146">
+        <From>
+          <StopPointRef>609043</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>609045</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_004_229146</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT79S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-6_229147">
+        <From>
+          <StopPointRef>609045</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>609033</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_004_229147</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT133S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-6_229148">
+        <From>
+          <StopPointRef>609033</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>609073</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_004_229148</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT227S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_PTBO100-7">
+      <JourneyPatternTimingLink id="JPS_PTBO100-7_229150">
+        <From>
+          <StopPointRef>609073</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>609075</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_001_229150</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT54S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-7_229151">
+        <From>
+          <StopPointRef>609075</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>609031</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_001_229151</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT126S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-7_229152">
+        <From>
+          <StopPointRef>609031</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>609044</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_001_229152</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT103S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-7_229153">
+        <From>
+          <StopPointRef>609044</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>609042</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_001_229153</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT74S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-7_229154">
+        <From>
+          <StopPointRef>609042</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>609039</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_001_229154</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT123S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-7_229155">
+        <From>
+          <StopPointRef>609039</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090216</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_001_229155</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT95S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-7_229156">
+        <From>
+          <StopPointRef>6090216</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60903914</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_001_229156</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT140S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-7_229157">
+        <From>
+          <StopPointRef>60903914</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090208</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_001_229157</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT65S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-7_229158">
+        <From>
+          <StopPointRef>6090208</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090214</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_001_229158</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT164S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-7_229159">
+        <From>
+          <StopPointRef>6090214</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090224</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_001_229159</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT58S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-7_229160">
+        <From>
+          <StopPointRef>6090224</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090226</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_001_229160</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT107S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-7_229161">
+        <From>
+          <StopPointRef>6090226</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090229</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_001_229161</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT91S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-7_229162">
+        <From>
+          <StopPointRef>6090229</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090233</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_001_229162</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT71S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-7_229163">
+        <From>
+          <StopPointRef>6090233</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090235</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_001_229163</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT46S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-7_229164">
+        <From>
+          <StopPointRef>6090235</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60904145</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_001_229164</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT168S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-7_229165">
+        <From>
+          <StopPointRef>60904145</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60904147</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_001_229165</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT135S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_PTBO100-8">
+      <JourneyPatternTimingLink id="JPS_PTBO100-8_229150">
+        <From>
+          <StopPointRef>609073</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>609075</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_001_229150</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT54S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-8_229151">
+        <From>
+          <StopPointRef>609075</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>609031</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_001_229151</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT126S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-8_229152">
+        <From>
+          <StopPointRef>609031</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>609044</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_001_229152</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT124S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-8_229153">
+        <From>
+          <StopPointRef>609044</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>609042</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_001_229153</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT89S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-8_229154">
+        <From>
+          <StopPointRef>609042</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>609039</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_001_229154</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT147S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-8_229155">
+        <From>
+          <StopPointRef>609039</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090216</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_001_229155</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT76S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-8_229156">
+        <From>
+          <StopPointRef>6090216</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60903914</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_001_229156</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT112S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-8_229157">
+        <From>
+          <StopPointRef>60903914</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090208</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_001_229157</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT52S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-8_229158">
+        <From>
+          <StopPointRef>6090208</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090214</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_001_229158</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT164S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-8_229159">
+        <From>
+          <StopPointRef>6090214</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090224</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_001_229159</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT58S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-8_229160">
+        <From>
+          <StopPointRef>6090224</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090226</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_001_229160</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT107S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-8_229161">
+        <From>
+          <StopPointRef>6090226</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090229</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_001_229161</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT91S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-8_229162">
+        <From>
+          <StopPointRef>6090229</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090233</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_001_229162</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT71S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-8_229163">
+        <From>
+          <StopPointRef>6090233</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090235</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_001_229163</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT46S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-8_229164">
+        <From>
+          <StopPointRef>6090235</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60904145</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_001_229164</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT168S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-8_229165">
+        <From>
+          <StopPointRef>60904145</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60904147</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_001_229165</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT135S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_PTBO100-9">
+      <JourneyPatternTimingLink id="JPS_PTBO100-9_229167">
+        <From>
+          <StopPointRef>609073</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>609075</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_002_229167</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT54S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-9_229168">
+        <From>
+          <StopPointRef>609075</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>609031</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_002_229168</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT126S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-9_229169">
+        <From>
+          <StopPointRef>609031</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>609044</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_002_229169</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT103S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-9_229170">
+        <From>
+          <StopPointRef>609044</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>609042</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_002_229170</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT74S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-9_229171">
+        <From>
+          <StopPointRef>609042</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>609039</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_002_229171</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT123S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-9_229172">
+        <From>
+          <StopPointRef>609039</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090216</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_002_229172</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT41S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO100-9_229173">
+        <From>
+          <StopPointRef>6090216</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60904147</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO100_002_229173</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT199S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="GLH">
+      <NationalOperatorCode>GLHD</NationalOperatorCode>
+      <OperatorCode>GLH</OperatorCode>
+      <OperatorShortName>Garelochhead Minibuses +</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PTBO100</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>100</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2019-02-10</StartDate>
+        <EndDate>2099-01-01</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>GLH</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Glasgow - Riverside Museum</Description>
+      <StandardService>
+        <Origin>Glasgow</Origin>
+        <Destination>Riverside Museum</Destination>
+        <JourneyPattern id="JPS_PTBO100-5">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_PTBO100-5</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_PTBO100-6">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_PTBO100-6</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_PTBO100-7">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_PTBO100-7</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_PTBO100-8">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_PTBO100-8</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_PTBO100-9">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_PTBO100-9</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>GLH</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>70612</VehicleJourneyCode>
+      <ServiceRef>PTBO100</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO100-5</JourneyPatternRef>
+      <DepartureTime>12:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>GLH</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>70613</VehicleJourneyCode>
+      <ServiceRef>PTBO100</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO100-5</JourneyPatternRef>
+      <DepartureTime>13:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>GLH</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>70614</VehicleJourneyCode>
+      <ServiceRef>PTBO100</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO100-5</JourneyPatternRef>
+      <DepartureTime>14:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>GLH</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>70615</VehicleJourneyCode>
+      <ServiceRef>PTBO100</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO100-5</JourneyPatternRef>
+      <DepartureTime>15:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>GLH</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>70616</VehicleJourneyCode>
+      <ServiceRef>PTBO100</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO100-5</JourneyPatternRef>
+      <DepartureTime>16:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>GLH</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>70617</VehicleJourneyCode>
+      <ServiceRef>PTBO100</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO100-6</JourneyPatternRef>
+      <DepartureTime>11:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>GLH</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>70618</VehicleJourneyCode>
+      <ServiceRef>PTBO100</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO100-6</JourneyPatternRef>
+      <DepartureTime>11:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>GLH</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>70619</VehicleJourneyCode>
+      <ServiceRef>PTBO100</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO100-6</JourneyPatternRef>
+      <DepartureTime>17:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>GLH</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>70620</VehicleJourneyCode>
+      <ServiceRef>PTBO100</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO100-5</JourneyPatternRef>
+      <DepartureTime>11:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>GLH</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>70621</VehicleJourneyCode>
+      <ServiceRef>PTBO100</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO100-5</JourneyPatternRef>
+      <DepartureTime>12:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>GLH</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>70622</VehicleJourneyCode>
+      <ServiceRef>PTBO100</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO100-5</JourneyPatternRef>
+      <DepartureTime>13:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>GLH</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>70623</VehicleJourneyCode>
+      <ServiceRef>PTBO100</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO100-5</JourneyPatternRef>
+      <DepartureTime>14:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>GLH</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>70624</VehicleJourneyCode>
+      <ServiceRef>PTBO100</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO100-5</JourneyPatternRef>
+      <DepartureTime>15:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>GLH</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>70625</VehicleJourneyCode>
+      <ServiceRef>PTBO100</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO100-5</JourneyPatternRef>
+      <DepartureTime>16:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>GLH</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>70626</VehicleJourneyCode>
+      <ServiceRef>PTBO100</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO100-6</JourneyPatternRef>
+      <DepartureTime>10:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>GLH</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>70627</VehicleJourneyCode>
+      <ServiceRef>PTBO100</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO100-6</JourneyPatternRef>
+      <DepartureTime>10:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>GLH</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>70628</VehicleJourneyCode>
+      <ServiceRef>PTBO100</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO100-6</JourneyPatternRef>
+      <DepartureTime>17:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>GLH</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>70629</VehicleJourneyCode>
+      <ServiceRef>PTBO100</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO100-7</JourneyPatternRef>
+      <DepartureTime>10:29:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>GLH</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>70630</VehicleJourneyCode>
+      <ServiceRef>PTBO100</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO100-7</JourneyPatternRef>
+      <DepartureTime>11:14:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>GLH</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>70631</VehicleJourneyCode>
+      <ServiceRef>PTBO100</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO100-8</JourneyPatternRef>
+      <DepartureTime>11:59:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>GLH</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>70632</VehicleJourneyCode>
+      <ServiceRef>PTBO100</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO100-8</JourneyPatternRef>
+      <DepartureTime>12:59:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>GLH</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>70633</VehicleJourneyCode>
+      <ServiceRef>PTBO100</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO100-8</JourneyPatternRef>
+      <DepartureTime>13:59:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>GLH</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>70634</VehicleJourneyCode>
+      <ServiceRef>PTBO100</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO100-8</JourneyPatternRef>
+      <DepartureTime>14:59:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>GLH</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>70635</VehicleJourneyCode>
+      <ServiceRef>PTBO100</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO100-9</JourneyPatternRef>
+      <DepartureTime>15:59:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>GLH</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>70636</VehicleJourneyCode>
+      <ServiceRef>PTBO100</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO100-9</JourneyPatternRef>
+      <DepartureTime>16:44:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>GLH</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>70637</VehicleJourneyCode>
+      <ServiceRef>PTBO100</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO100-7</JourneyPatternRef>
+      <DepartureTime>09:29:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>GLH</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>70638</VehicleJourneyCode>
+      <ServiceRef>PTBO100</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO100-7</JourneyPatternRef>
+      <DepartureTime>10:14:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>GLH</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>70639</VehicleJourneyCode>
+      <ServiceRef>PTBO100</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO100-7</JourneyPatternRef>
+      <DepartureTime>10:59:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>GLH</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>70640</VehicleJourneyCode>
+      <ServiceRef>PTBO100</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO100-8</JourneyPatternRef>
+      <DepartureTime>11:59:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>GLH</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>70641</VehicleJourneyCode>
+      <ServiceRef>PTBO100</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO100-8</JourneyPatternRef>
+      <DepartureTime>12:59:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>GLH</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>70642</VehicleJourneyCode>
+      <ServiceRef>PTBO100</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO100-8</JourneyPatternRef>
+      <DepartureTime>13:59:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>GLH</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>70643</VehicleJourneyCode>
+      <ServiceRef>PTBO100</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO100-8</JourneyPatternRef>
+      <DepartureTime>14:59:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

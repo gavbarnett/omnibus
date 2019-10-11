@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:16:00-00:00" ModificationDateTime="2019-10-07T13:16:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRHIAO501A.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <ServicedOrganisations>
+    <ServicedOrganisation>
+      <OrganisationCode>1453</OrganisationCode>
+      <Name>
+QE0 : Cif-500_501_502_503-SHI-20190724_20190726_08
+</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2019-07-26</StartDate>
+          <EndDate>2019-08-19</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-09-15</StartDate>
+          <EndDate>2019-09-17</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-10-13</StartDate>
+          <EndDate>2019-10-26</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-12-22</StartDate>
+          <EndDate>2020-01-04</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-02-16</StartDate>
+          <EndDate>2020-02-19</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-03-29</StartDate>
+          <EndDate>2020-04-13</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-07-03</StartDate>
+          <EndDate>2020-07-25</EndDate>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+  </ServicedOrganisations>
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>67001053</StopPointRef>
+      <CommonName>Primary School</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6700712400</StopPointRef>
+      <CommonName>Cnoc na Faire Hotel</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>67001086</StopPointRef>
+      <CommonName>Moss of Keppoch</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6700712400A</StopPointRef>
+      <CommonName>Cnoc na Faire Hotel</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>670013007</StopPointRef>
+      <CommonName>Post Office</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6700971A</StopPointRef>
+      <CommonName>Clanranald Place</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6700713488</StopPointRef>
+      <CommonName>Road End</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>67001069</StopPointRef>
+      <CommonName>Station</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>67008052A</StopPointRef>
+      <CommonName>Hotel</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>670086052</StopPointRef>
+      <CommonName>Hotel</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>67001068</StopPointRef>
+      <CommonName>Station</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6700713488A</StopPointRef>
+      <CommonName>Road End</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6700971</StopPointRef>
+      <CommonName>Clanranald Place</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>670013007A</StopPointRef>
+      <CommonName>Post Office</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="HIAO501A002">
+      <RouteLink id="HIAO501A002_329792">
+        <From>
+          <StopPointRef>67001053</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6700712400</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="HIAO501A002_329793">
+        <From>
+          <StopPointRef>6700712400</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>67001086</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="HIAO501A002_329794">
+        <From>
+          <StopPointRef>67001086</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6700712400A</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="HIAO501A002_329795">
+        <From>
+          <StopPointRef>6700712400A</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>67001053</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="HIAO501A002_329796">
+        <From>
+          <StopPointRef>67001053</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>670013007</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="HIAO501A003">
+      <RouteLink id="HIAO501A003_329798">
+        <From>
+          <StopPointRef>67001053</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6700712400</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="HIAO501A003_329799">
+        <From>
+          <StopPointRef>6700712400</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>67001086</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="HIAO501A003_329800">
+        <From>
+          <StopPointRef>67001086</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6700712400A</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="HIAO501A003_329801">
+        <From>
+          <StopPointRef>6700712400A</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>67001053</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="HIAO501A003_329802">
+        <From>
+          <StopPointRef>67001053</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>670013007</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="HIAO501A003_329803">
+        <From>
+          <StopPointRef>670013007</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6700971A</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="HIAO501A003_329804">
+        <From>
+          <StopPointRef>6700971A</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6700713488</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="HIAO501A003_329805">
+        <From>
+          <StopPointRef>6700713488</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>67001069</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="HIAO501A003_329806">
+        <From>
+          <StopPointRef>67001069</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>67008052A</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="HIAO501A001">
+      <RouteLink id="HIAO501A001_329808">
+        <From>
+          <StopPointRef>670086052</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>67001068</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="HIAO501A001_329809">
+        <From>
+          <StopPointRef>67001068</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6700713488A</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="HIAO501A001_329810">
+        <From>
+          <StopPointRef>6700713488A</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6700971</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="HIAO501A001_329811">
+        <From>
+          <StopPointRef>6700971</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>670013007A</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="HIAO501A001_329812">
+        <From>
+          <StopPointRef>670013007A</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>67001053</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="HIAO501A001_329813">
+        <From>
+          <StopPointRef>67001053</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6700712400</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="HIAO501A001_329814">
+        <From>
+          <StopPointRef>6700712400</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>67001086</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="HIAO501A001_329815">
+        <From>
+          <StopPointRef>67001086</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6700712400A</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="HIAO501A001_329816">
+        <From>
+          <StopPointRef>6700712400A</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>670013007</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="HIAO501A002">
+      <Description>Arisaig - Lochailort
+</Description>
+      <RouteSectionRef>HIAO501A002</RouteSectionRef>
+    </Route>
+    <Route id="HIAO501A003">
+      <Description>Arisaig - Lochailort
+</Description>
+      <RouteSectionRef>HIAO501A003</RouteSectionRef>
+    </Route>
+    <Route id="HIAO501A001">
+      <Description>Lochailort - Arisaig
+</Description>
+      <RouteSectionRef>HIAO501A001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_HIAO501A-4">
+      <JourneyPatternTimingLink id="JPS_HIAO501A-4_329792">
+        <From>
+          <StopPointRef>67001053</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6700712400</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>HIAO501A002_329792</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_HIAO501A-4_329793">
+        <From>
+          <StopPointRef>6700712400</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>67001086</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>HIAO501A002_329793</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_HIAO501A-4_329794">
+        <From>
+          <StopPointRef>67001086</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6700712400A</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>HIAO501A002_329794</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_HIAO501A-4_329795">
+        <From>
+          <StopPointRef>6700712400A</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>67001053</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>HIAO501A002_329795</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_HIAO501A-4_329796">
+        <From>
+          <StopPointRef>67001053</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>670013007</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>HIAO501A002_329796</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_HIAO501A-5">
+      <JourneyPatternTimingLink id="JPS_HIAO501A-5_329798">
+        <From>
+          <StopPointRef>67001053</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6700712400</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>HIAO501A003_329798</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_HIAO501A-5_329799">
+        <From>
+          <StopPointRef>6700712400</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>67001086</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>HIAO501A003_329799</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_HIAO501A-5_329800">
+        <From>
+          <StopPointRef>67001086</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6700712400A</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>HIAO501A003_329800</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_HIAO501A-5_329801">
+        <From>
+          <StopPointRef>6700712400A</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>67001053</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>HIAO501A003_329801</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_HIAO501A-5_329802">
+        <From>
+          <StopPointRef>67001053</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>670013007</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>HIAO501A003_329802</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_HIAO501A-5_329803">
+        <From>
+          <StopPointRef>670013007</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6700971A</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>HIAO501A003_329803</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_HIAO501A-5_329804">
+        <From>
+          <StopPointRef>6700971A</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6700713488</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>HIAO501A003_329804</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_HIAO501A-5_329805">
+        <From>
+          <StopPointRef>6700713488</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>67001069</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>HIAO501A003_329805</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT360S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_HIAO501A-5_329806">
+        <From>
+          <StopPointRef>67001069</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>67008052A</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>HIAO501A003_329806</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT720S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_HIAO501A-6">
+      <JourneyPatternTimingLink id="JPS_HIAO501A-6_329808">
+        <From>
+          <StopPointRef>670086052</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>67001068</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>HIAO501A001_329808</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_HIAO501A-6_329809">
+        <From>
+          <StopPointRef>67001068</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6700713488A</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>HIAO501A001_329809</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT240S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_HIAO501A-6_329810">
+        <From>
+          <StopPointRef>6700713488A</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6700971</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>HIAO501A001_329810</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_HIAO501A-6_329811">
+        <From>
+          <StopPointRef>6700971</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>670013007A</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>HIAO501A001_329811</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_HIAO501A-6_329812">
+        <From>
+          <StopPointRef>670013007A</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>67001053</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>HIAO501A001_329812</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_HIAO501A-6_329813">
+        <From>
+          <StopPointRef>67001053</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6700712400</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>HIAO501A001_329813</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT240S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_HIAO501A-6_329814">
+        <From>
+          <StopPointRef>6700712400</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>67001086</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>HIAO501A001_329814</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_HIAO501A-6_329815">
+        <From>
+          <StopPointRef>67001086</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6700712400A</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>HIAO501A001_329815</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_HIAO501A-6_329816">
+        <From>
+          <StopPointRef>6700712400A</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>670013007</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>HIAO501A001_329816</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="SHI">
+      <NationalOperatorCode>SHIL</NationalOperatorCode>
+      <OperatorCode>SHI</OperatorCode>
+      <OperatorShortName>Shiel Buses</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>HIAO501A</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>501A</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2019-07-24</StartDate>
+        <EndDate>2020-07-26</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>SHI</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Lochailort - Arisaig</Description>
+      <StandardService>
+        <Origin>Lochailort</Origin>
+        <Destination>Arisaig</Destination>
+        <JourneyPattern id="JPS_HIAO501A-4">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_HIAO501A-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_HIAO501A-5">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_HIAO501A-5</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_HIAO501A-6">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_HIAO501A-6</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>SHI</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>1453</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-05-04</StartDate>
+              <EndDate>2020-05-04</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-06-01</StartDate>
+              <EndDate>2020-06-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>105727</VehicleJourneyCode>
+      <ServiceRef>HIAO501A</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_HIAO501A-4</JourneyPatternRef>
+      <DepartureTime>14:35:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHI</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>1453</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-05-04</StartDate>
+              <EndDate>2020-05-04</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-06-01</StartDate>
+              <EndDate>2020-06-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>105728</VehicleJourneyCode>
+      <ServiceRef>HIAO501A</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_HIAO501A-5</JourneyPatternRef>
+      <DepartureTime>15:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHI</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>1453</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-05-04</StartDate>
+              <EndDate>2020-05-04</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-06-01</StartDate>
+              <EndDate>2020-06-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>105729</VehicleJourneyCode>
+      <ServiceRef>HIAO501A</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_HIAO501A-6</JourneyPatternRef>
+      <DepartureTime>08:30:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

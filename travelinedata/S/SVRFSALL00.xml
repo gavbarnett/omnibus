@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:21:00-00:00" ModificationDateTime="2019-10-07T13:21:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRFSALL00.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300LCS</StopPointRef>
+      <CommonName>Lochleven Castle Ferry Landing</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300KRS</StopPointRef>
+      <CommonName>Kinross Ferry Landing</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="FSALL00_002">
+      <RouteLink id="FSALL00_002_260393">
+        <From>
+          <StopPointRef>9300LCS</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300KRS</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSALL00_001">
+      <RouteLink id="FSALL00_001_260395">
+        <From>
+          <StopPointRef>9300KRS</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300LCS</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="FSALL00_002">
+      <Description>Lochleven Castle - Kinross
+</Description>
+      <RouteSectionRef>FSALL00_002</RouteSectionRef>
+    </Route>
+    <Route id="FSALL00_001">
+      <Description>Kinross - Lochleven Castle
+</Description>
+      <RouteSectionRef>FSALL00_001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_FSALL00-3">
+      <JourneyPatternTimingLink id="JPS_FSALL00-3_260393">
+        <From>
+          <StopPointRef>9300LCS</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300KRS</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSALL00_002_260393</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSALL00-4">
+      <JourneyPatternTimingLink id="JPS_FSALL00-4_260395">
+        <From>
+          <StopPointRef>9300KRS</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300LCS</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSALL00_001_260395</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="HIS">
+      <NationalOperatorCode>HIST</NationalOperatorCode>
+      <OperatorCode>HIS</OperatorCode>
+      <OperatorShortName>Historic Scotland</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>FSALL00</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>LL</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2020-04-01</StartDate>
+        <EndDate>2020-09-30</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>HIS</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>ferry</Mode>
+      <Description>Kinross - Lochleven Castle</Description>
+      <StandardService>
+        <Origin>Kinross</Origin>
+        <Destination>Lochleven Castle</Destination>
+        <JourneyPattern id="JPS_FSALL00-3">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSALL00-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSALL00-4">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSALL00-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>HIS</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82647</VehicleJourneyCode>
+      <ServiceRef>FSALL00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALL00-3</JourneyPatternRef>
+      <DepartureTime>10:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HIS</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82648</VehicleJourneyCode>
+      <ServiceRef>FSALL00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALL00-3</JourneyPatternRef>
+      <DepartureTime>10:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HIS</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82649</VehicleJourneyCode>
+      <ServiceRef>FSALL00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALL00-3</JourneyPatternRef>
+      <DepartureTime>11:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HIS</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82650</VehicleJourneyCode>
+      <ServiceRef>FSALL00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALL00-3</JourneyPatternRef>
+      <DepartureTime>11:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HIS</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82651</VehicleJourneyCode>
+      <ServiceRef>FSALL00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALL00-3</JourneyPatternRef>
+      <DepartureTime>12:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HIS</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82652</VehicleJourneyCode>
+      <ServiceRef>FSALL00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALL00-3</JourneyPatternRef>
+      <DepartureTime>12:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HIS</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82653</VehicleJourneyCode>
+      <ServiceRef>FSALL00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALL00-3</JourneyPatternRef>
+      <DepartureTime>13:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HIS</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82654</VehicleJourneyCode>
+      <ServiceRef>FSALL00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALL00-3</JourneyPatternRef>
+      <DepartureTime>13:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HIS</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82655</VehicleJourneyCode>
+      <ServiceRef>FSALL00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALL00-3</JourneyPatternRef>
+      <DepartureTime>14:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HIS</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82656</VehicleJourneyCode>
+      <ServiceRef>FSALL00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALL00-3</JourneyPatternRef>
+      <DepartureTime>14:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HIS</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82657</VehicleJourneyCode>
+      <ServiceRef>FSALL00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALL00-3</JourneyPatternRef>
+      <DepartureTime>15:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HIS</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82658</VehicleJourneyCode>
+      <ServiceRef>FSALL00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALL00-3</JourneyPatternRef>
+      <DepartureTime>15:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HIS</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82659</VehicleJourneyCode>
+      <ServiceRef>FSALL00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALL00-3</JourneyPatternRef>
+      <DepartureTime>16:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HIS</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82660</VehicleJourneyCode>
+      <ServiceRef>FSALL00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALL00-3</JourneyPatternRef>
+      <DepartureTime>16:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HIS</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82661</VehicleJourneyCode>
+      <ServiceRef>FSALL00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALL00-3</JourneyPatternRef>
+      <DepartureTime>17:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HIS</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82662</VehicleJourneyCode>
+      <ServiceRef>FSALL00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALL00-3</JourneyPatternRef>
+      <DepartureTime>17:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HIS</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82663</VehicleJourneyCode>
+      <ServiceRef>FSALL00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALL00-4</JourneyPatternRef>
+      <DepartureTime>09:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HIS</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82664</VehicleJourneyCode>
+      <ServiceRef>FSALL00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALL00-4</JourneyPatternRef>
+      <DepartureTime>10:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HIS</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82665</VehicleJourneyCode>
+      <ServiceRef>FSALL00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALL00-4</JourneyPatternRef>
+      <DepartureTime>10:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HIS</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82666</VehicleJourneyCode>
+      <ServiceRef>FSALL00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALL00-4</JourneyPatternRef>
+      <DepartureTime>11:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HIS</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82667</VehicleJourneyCode>
+      <ServiceRef>FSALL00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALL00-4</JourneyPatternRef>
+      <DepartureTime>11:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HIS</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82668</VehicleJourneyCode>
+      <ServiceRef>FSALL00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALL00-4</JourneyPatternRef>
+      <DepartureTime>12:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HIS</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82669</VehicleJourneyCode>
+      <ServiceRef>FSALL00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALL00-4</JourneyPatternRef>
+      <DepartureTime>12:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HIS</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82670</VehicleJourneyCode>
+      <ServiceRef>FSALL00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALL00-4</JourneyPatternRef>
+      <DepartureTime>13:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HIS</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82671</VehicleJourneyCode>
+      <ServiceRef>FSALL00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALL00-4</JourneyPatternRef>
+      <DepartureTime>13:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HIS</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82672</VehicleJourneyCode>
+      <ServiceRef>FSALL00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALL00-4</JourneyPatternRef>
+      <DepartureTime>14:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HIS</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82673</VehicleJourneyCode>
+      <ServiceRef>FSALL00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALL00-4</JourneyPatternRef>
+      <DepartureTime>14:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HIS</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82674</VehicleJourneyCode>
+      <ServiceRef>FSALL00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALL00-4</JourneyPatternRef>
+      <DepartureTime>15:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HIS</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82675</VehicleJourneyCode>
+      <ServiceRef>FSALL00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALL00-4</JourneyPatternRef>
+      <DepartureTime>15:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HIS</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82676</VehicleJourneyCode>
+      <ServiceRef>FSALL00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALL00-4</JourneyPatternRef>
+      <DepartureTime>16:15:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

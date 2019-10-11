@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T12:48:00-00:00" ModificationDateTime="2019-10-07T12:48:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRFWAO031A.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60902500</StopPointRef>
+      <CommonName>Carfin Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60902498</StopPointRef>
+      <CommonName>Bankhall Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60902496</StopPointRef>
+      <CommonName>Boyd Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60903530</StopPointRef>
+      <CommonName>Nutberry Court</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60902495</StopPointRef>
+      <CommonName>Florida Square</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60902493</StopPointRef>
+      <CommonName>Florida Crescent</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60902490</StopPointRef>
+      <CommonName>Somerville Drive</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60904206</StopPointRef>
+      <CommonName>Cathkinview Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60902484</StopPointRef>
+      <CommonName>Carmunnock Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60902475</StopPointRef>
+      <CommonName>Bowling Green</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60902472</StopPointRef>
+      <CommonName>Broadwood Drive</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60902471</StopPointRef>
+      <CommonName>Romney Avenue</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60902342</StopPointRef>
+      <CommonName>Church of Christ the King</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60902343</StopPointRef>
+      <CommonName>Fetlar Drive</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60902345</StopPointRef>
+      <CommonName>Seil Drive</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60902347</StopPointRef>
+      <CommonName>Croftfoot Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60902349</StopPointRef>
+      <CommonName>Glenacre Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60902353</StopPointRef>
+      <CommonName>St Margaret Mary's RC Church</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60902354</StopPointRef>
+      <CommonName>Lainshaw Drive</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60902356</StopPointRef>
+      <CommonName>Holmbyre Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60902359</StopPointRef>
+      <CommonName>Carmunnock By-Pass</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60902368</StopPointRef>
+      <CommonName>Ardencraig Crescent</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60902370</StopPointRef>
+      <CommonName>Cressland Drive</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60902373</StopPointRef>
+      <CommonName>Birgidale Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60902375</StopPointRef>
+      <CommonName>Dunagoil Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60902377</StopPointRef>
+      <CommonName>Castlemilk Drive</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60902380</StopPointRef>
+      <CommonName>Mitchell Hill Road</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="FWAO031A001">
+      <RouteLink id="FWAO031A001_365976">
+        <From>
+          <StopPointRef>60902500</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60902498</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FWAO031A001_365977">
+        <From>
+          <StopPointRef>60902498</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60902496</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FWAO031A001_365978">
+        <From>
+          <StopPointRef>60902496</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60903530</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FWAO031A001_365979">
+        <From>
+          <StopPointRef>60903530</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60902495</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FWAO031A001_365980">
+        <From>
+          <StopPointRef>60902495</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60902493</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FWAO031A001_365981">
+        <From>
+          <StopPointRef>60902493</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60902490</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FWAO031A001_365982">
+        <From>
+          <StopPointRef>60902490</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60904206</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FWAO031A001_365983">
+        <From>
+          <StopPointRef>60904206</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60902484</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FWAO031A001_365984">
+        <From>
+          <StopPointRef>60902484</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60902475</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FWAO031A001_365985">
+        <From>
+          <StopPointRef>60902475</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60902472</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FWAO031A001_365986">
+        <From>
+          <StopPointRef>60902472</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60902471</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FWAO031A001_365987">
+        <From>
+          <StopPointRef>60902471</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60902342</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FWAO031A001_365988">
+        <From>
+          <StopPointRef>60902342</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60902343</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FWAO031A001_365989">
+        <From>
+          <StopPointRef>60902343</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60902345</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FWAO031A001_365990">
+        <From>
+          <StopPointRef>60902345</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60902347</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FWAO031A001_365991">
+        <From>
+          <StopPointRef>60902347</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60902349</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FWAO031A001_365992">
+        <From>
+          <StopPointRef>60902349</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60902353</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FWAO031A001_365993">
+        <From>
+          <StopPointRef>60902353</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60902354</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FWAO031A001_365994">
+        <From>
+          <StopPointRef>60902354</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60902356</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FWAO031A001_365995">
+        <From>
+          <StopPointRef>60902356</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60902359</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FWAO031A001_365996">
+        <From>
+          <StopPointRef>60902359</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60902368</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FWAO031A001_365997">
+        <From>
+          <StopPointRef>60902368</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60902370</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FWAO031A001_365998">
+        <From>
+          <StopPointRef>60902370</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60902373</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FWAO031A001_365999">
+        <From>
+          <StopPointRef>60902373</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60902375</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FWAO031A001_366000">
+        <From>
+          <StopPointRef>60902375</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60902377</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FWAO031A001_366001">
+        <From>
+          <StopPointRef>60902377</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60902380</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="FWAO031A001">
+      <Description>Govanhill - Castlemilk
+</Description>
+      <RouteSectionRef>FWAO031A001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_FWAO031A-2">
+      <JourneyPatternTimingLink id="JPS_FWAO031A-2_365976">
+        <From>
+          <StopPointRef>60902500</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60902498</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO031A001_365976</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FWAO031A-2_365977">
+        <From>
+          <StopPointRef>60902498</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60902496</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO031A001_365977</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FWAO031A-2_365978">
+        <From>
+          <StopPointRef>60902496</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60903530</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO031A001_365978</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FWAO031A-2_365979">
+        <From>
+          <StopPointRef>60903530</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60902495</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO031A001_365979</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FWAO031A-2_365980">
+        <From>
+          <StopPointRef>60902495</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60902493</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO031A001_365980</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FWAO031A-2_365981">
+        <From>
+          <StopPointRef>60902493</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60902490</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO031A001_365981</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FWAO031A-2_365982">
+        <From>
+          <StopPointRef>60902490</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60904206</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO031A001_365982</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FWAO031A-2_365983">
+        <From>
+          <StopPointRef>60904206</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60902484</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO031A001_365983</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FWAO031A-2_365984">
+        <From>
+          <StopPointRef>60902484</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60902475</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO031A001_365984</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FWAO031A-2_365985">
+        <From>
+          <StopPointRef>60902475</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60902472</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO031A001_365985</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FWAO031A-2_365986">
+        <From>
+          <StopPointRef>60902472</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60902471</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO031A001_365986</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FWAO031A-2_365987">
+        <From>
+          <StopPointRef>60902471</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60902342</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO031A001_365987</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FWAO031A-2_365988">
+        <From>
+          <StopPointRef>60902342</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60902343</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO031A001_365988</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FWAO031A-2_365989">
+        <From>
+          <StopPointRef>60902343</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60902345</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO031A001_365989</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FWAO031A-2_365990">
+        <From>
+          <StopPointRef>60902345</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60902347</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO031A001_365990</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FWAO031A-2_365991">
+        <From>
+          <StopPointRef>60902347</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60902349</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO031A001_365991</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FWAO031A-2_365992">
+        <From>
+          <StopPointRef>60902349</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60902353</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO031A001_365992</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FWAO031A-2_365993">
+        <From>
+          <StopPointRef>60902353</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60902354</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO031A001_365993</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FWAO031A-2_365994">
+        <From>
+          <StopPointRef>60902354</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60902356</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO031A001_365994</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FWAO031A-2_365995">
+        <From>
+          <StopPointRef>60902356</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60902359</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO031A001_365995</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FWAO031A-2_365996">
+        <From>
+          <StopPointRef>60902359</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60902368</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO031A001_365996</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FWAO031A-2_365997">
+        <From>
+          <StopPointRef>60902368</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60902370</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO031A001_365997</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FWAO031A-2_365998">
+        <From>
+          <StopPointRef>60902370</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60902373</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO031A001_365998</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FWAO031A-2_365999">
+        <From>
+          <StopPointRef>60902373</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60902375</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO031A001_365999</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FWAO031A-2_366000">
+        <From>
+          <StopPointRef>60902375</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60902377</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO031A001_366000</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FWAO031A-2_366001">
+        <From>
+          <StopPointRef>60902377</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60902380</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO031A001_366001</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="FGL">
+      <NationalOperatorCode>FGLA</NationalOperatorCode>
+      <OperatorCode>FGL</OperatorCode>
+      <OperatorShortName>First Glasgow</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>FWAO031A</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>31A</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2015-04-19</StartDate>
+        <EndDate>2050-01-01</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>FGL</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Govanhill - Castlemilk</Description>
+      <StandardService>
+        <Origin>Govanhill</Origin>
+        <Destination>Castlemilk</Destination>
+        <JourneyPattern id="JPS_FWAO031A-2">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FWAO031A-2</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>FGL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>119539</VehicleJourneyCode>
+      <ServiceRef>FWAO031A</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FWAO031A-2</JourneyPatternRef>
+      <DepartureTime>04:35:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>FGL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>119540</VehicleJourneyCode>
+      <ServiceRef>FWAO031A</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FWAO031A-2</JourneyPatternRef>
+      <DepartureTime>05:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>FGL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>119541</VehicleJourneyCode>
+      <ServiceRef>FWAO031A</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FWAO031A-2</JourneyPatternRef>
+      <DepartureTime>05:36:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

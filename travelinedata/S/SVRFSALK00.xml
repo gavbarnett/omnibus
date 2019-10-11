@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:21:00-00:00" ModificationDateTime="2019-10-07T13:21:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRFSALK00.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300STL</StopPointRef>
+      <CommonName>Stronachlachar Pier</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300TRO</StopPointRef>
+      <CommonName>Trossachs Pier</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="FSALK00_002">
+      <RouteLink id="FSALK00_002_260389">
+        <From>
+          <StopPointRef>9300STL</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300TRO</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSALK00_001">
+      <RouteLink id="FSALK00_001_260391">
+        <From>
+          <StopPointRef>9300TRO</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300STL</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="FSALK00_002">
+      <Description>Stronachlachar - Trossachs Pier
+</Description>
+      <RouteSectionRef>FSALK00_002</RouteSectionRef>
+    </Route>
+    <Route id="FSALK00_001">
+      <Description>Trossachs Pier - Stronachlachar
+</Description>
+      <RouteSectionRef>FSALK00_001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_FSALK00-3">
+      <JourneyPatternTimingLink id="JPS_FSALK00-3_260389">
+        <From>
+          <StopPointRef>9300STL</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300TRO</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSALK00_002_260389</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT3600S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSALK00-4">
+      <JourneyPatternTimingLink id="JPS_FSALK00-4_260389">
+        <From>
+          <StopPointRef>9300STL</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300TRO</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSALK00_002_260389</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT3300S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSALK00-5">
+      <JourneyPatternTimingLink id="JPS_FSALK00-5_260391">
+        <From>
+          <StopPointRef>9300TRO</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300STL</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSALK00_001_260391</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT3000S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSALK00-6">
+      <JourneyPatternTimingLink id="JPS_FSALK00-6_260391">
+        <From>
+          <StopPointRef>9300TRO</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300STL</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSALK00_001_260391</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2700S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="SWS">
+      <NationalOperatorCode>SWSS</NationalOperatorCode>
+      <OperatorCode>SWS</OperatorCode>
+      <OperatorShortName>The Steam Ship Sir Walte</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>FSALK00</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>LK</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2019-03-23</StartDate>
+        <EndDate>2019-11-03</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>SWS</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>ferry</Mode>
+      <Description>Trossachs Pier - Stronachlachar</Description>
+      <StandardService>
+        <Origin>Trossachs Pier</Origin>
+        <Destination>Stronachlachar</Destination>
+        <JourneyPattern id="JPS_FSALK00-3">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSALK00-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSALK00-4">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSALK00-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSALK00-5">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSALK00-5</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSALK00-6">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSALK00-6</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>SWS</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82643</VehicleJourneyCode>
+      <ServiceRef>FSALK00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALK00-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>REC</NoteCode>
+        <NoteText>Reservations recommended, contact operator.</NoteText>
+      </Note>
+      <DepartureTime>11:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SWS</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82644</VehicleJourneyCode>
+      <ServiceRef>FSALK00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALK00-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>REC</NoteCode>
+        <NoteText>Reservations recommended, contact operator.</NoteText>
+      </Note>
+      <DepartureTime>14:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SWS</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82645</VehicleJourneyCode>
+      <ServiceRef>FSALK00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALK00-5</JourneyPatternRef>
+      <Note>
+        <NoteCode>REC</NoteCode>
+        <NoteText>Reservations recommended, contact operator.</NoteText>
+      </Note>
+      <DepartureTime>10:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SWS</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82646</VehicleJourneyCode>
+      <ServiceRef>FSALK00</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALK00-6</JourneyPatternRef>
+      <Note>
+        <NoteCode>REC</NoteCode>
+        <NoteText>Reservations recommended, contact operator.</NoteText>
+      </Note>
+      <DepartureTime>13:30:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

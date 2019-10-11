@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:03:00-00:00" ModificationDateTime="2019-10-07T13:03:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRAGAO114.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM1344</StopPointRef>
+      <CommonName>Restenneth Fields Park</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM106</StopPointRef>
+      <CommonName>Callander Cottages</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM1780</StopPointRef>
+      <CommonName>Sir James Duncan Gardens</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM794</StopPointRef>
+      <CommonName>Queen Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM331</StopPointRef>
+      <CommonName>St John's Church</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM241</StopPointRef>
+      <CommonName>Royal Bank of Scotland</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM795</StopPointRef>
+      <CommonName>Queen Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM1778</StopPointRef>
+      <CommonName>Sir James Duncan Gardens</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="AGAO114_002">
+      <RouteLink id="AGAO114_002_44411">
+        <From>
+          <StopPointRef>6490IM1344</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM106</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAO114_002_44412">
+        <From>
+          <StopPointRef>6490IM106</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM1780</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAO114_002_44413">
+        <From>
+          <StopPointRef>6490IM1780</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM794</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAO114_002_44414">
+        <From>
+          <StopPointRef>6490IM794</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM331</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="AGAO114_003">
+      <RouteLink id="AGAO114_003_44416">
+        <From>
+          <StopPointRef>6490IM106</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM1780</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAO114_003_44417">
+        <From>
+          <StopPointRef>6490IM1780</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM794</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAO114_003_44418">
+        <From>
+          <StopPointRef>6490IM794</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM331</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="AGAO114_004">
+      <RouteLink id="AGAO114_004_44420">
+        <From>
+          <StopPointRef>6490IM1344</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM106</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAO114_004_44421">
+        <From>
+          <StopPointRef>6490IM106</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM1780</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAO114_004_44422">
+        <From>
+          <StopPointRef>6490IM1780</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM794</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAO114_004_44423">
+        <From>
+          <StopPointRef>6490IM794</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM331</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="AGAO114_001">
+      <RouteLink id="AGAO114_001_44425">
+        <From>
+          <StopPointRef>6490IM241</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM795</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAO114_001_44426">
+        <From>
+          <StopPointRef>6490IM795</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM1778</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAO114_001_44427">
+        <From>
+          <StopPointRef>6490IM1778</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM1344</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAO114_001_44428">
+        <From>
+          <StopPointRef>6490IM1344</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM106</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="AGAO114_002">
+      <Description>Gowanbank - Forfar
+</Description>
+      <RouteSectionRef>AGAO114_002</RouteSectionRef>
+    </Route>
+    <Route id="AGAO114_003">
+      <Description>Gowanbank - Forfar
+</Description>
+      <RouteSectionRef>AGAO114_003</RouteSectionRef>
+    </Route>
+    <Route id="AGAO114_004">
+      <Description>Gowanbank - Forfar
+</Description>
+      <RouteSectionRef>AGAO114_004</RouteSectionRef>
+    </Route>
+    <Route id="AGAO114_001">
+      <Description>Forfar - Gowanbank
+</Description>
+      <RouteSectionRef>AGAO114_001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_AGAO114-5">
+      <JourneyPatternTimingLink id="JPS_AGAO114-5_44411">
+        <From>
+          <StopPointRef>6490IM1344</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM106</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAO114_002_44411</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAO114-5_44412">
+        <From>
+          <StopPointRef>6490IM106</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM1780</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAO114_002_44412</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAO114-5_44413">
+        <From>
+          <StopPointRef>6490IM1780</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM794</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAO114_002_44413</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAO114-5_44414">
+        <From>
+          <StopPointRef>6490IM794</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM331</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAO114_002_44414</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_AGAO114-6">
+      <JourneyPatternTimingLink id="JPS_AGAO114-6_44411">
+        <From>
+          <StopPointRef>6490IM1344</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM106</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAO114_002_44411</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAO114-6_44412">
+        <From>
+          <StopPointRef>6490IM106</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM1780</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAO114_002_44412</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAO114-6_44413">
+        <From>
+          <StopPointRef>6490IM1780</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM794</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAO114_002_44413</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAO114-6_44414">
+        <From>
+          <StopPointRef>6490IM794</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM331</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAO114_002_44414</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_AGAO114-7">
+      <JourneyPatternTimingLink id="JPS_AGAO114-7_44416">
+        <From>
+          <StopPointRef>6490IM106</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM1780</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAO114_003_44416</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAO114-7_44417">
+        <From>
+          <StopPointRef>6490IM1780</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM794</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAO114_003_44417</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAO114-7_44418">
+        <From>
+          <StopPointRef>6490IM794</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM331</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAO114_003_44418</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_AGAO114-8">
+      <JourneyPatternTimingLink id="JPS_AGAO114-8_44420">
+        <From>
+          <StopPointRef>6490IM1344</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM106</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAO114_004_44420</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAO114-8_44421">
+        <From>
+          <StopPointRef>6490IM106</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM1780</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAO114_004_44421</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAO114-8_44422">
+        <From>
+          <StopPointRef>6490IM1780</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM794</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAO114_004_44422</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAO114-8_44423">
+        <From>
+          <StopPointRef>6490IM794</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM331</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAO114_004_44423</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_AGAO114-9">
+      <JourneyPatternTimingLink id="JPS_AGAO114-9_44420">
+        <From>
+          <StopPointRef>6490IM1344</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM106</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAO114_004_44420</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAO114-9_44421">
+        <From>
+          <StopPointRef>6490IM106</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM1780</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAO114_004_44421</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAO114-9_44422">
+        <From>
+          <StopPointRef>6490IM1780</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM794</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAO114_004_44422</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAO114-9_44423">
+        <From>
+          <StopPointRef>6490IM794</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM331</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAO114_004_44423</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_AGAO114-10">
+      <JourneyPatternTimingLink id="JPS_AGAO114-10_44425">
+        <From>
+          <StopPointRef>6490IM241</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM795</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAO114_001_44425</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAO114-10_44426">
+        <From>
+          <StopPointRef>6490IM795</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM1778</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAO114_001_44426</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAO114-10_44427">
+        <From>
+          <StopPointRef>6490IM1778</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM1344</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAO114_001_44427</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAO114-10_44428">
+        <From>
+          <StopPointRef>6490IM1344</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM106</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAO114_001_44428</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_AGAO114-11">
+      <JourneyPatternTimingLink id="JPS_AGAO114-11_44425">
+        <From>
+          <StopPointRef>6490IM241</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM795</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAO114_001_44425</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAO114-11_44426">
+        <From>
+          <StopPointRef>6490IM795</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM1778</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAO114_001_44426</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAO114-11_44427">
+        <From>
+          <StopPointRef>6490IM1778</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM1344</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAO114_001_44427</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAO114-11_44428">
+        <From>
+          <StopPointRef>6490IM1344</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM106</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAO114_001_44428</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_AGAO114-12">
+      <JourneyPatternTimingLink id="JPS_AGAO114-12_44425">
+        <From>
+          <StopPointRef>6490IM241</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM795</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAO114_001_44425</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAO114-12_44426">
+        <From>
+          <StopPointRef>6490IM795</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM1778</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAO114_001_44426</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAO114-12_44427">
+        <From>
+          <StopPointRef>6490IM1778</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM1344</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAO114_001_44427</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAO114-12_44428">
+        <From>
+          <StopPointRef>6490IM1344</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM106</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAO114_001_44428</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="JPE">
+      <NationalOperatorCode>JPEM</NationalOperatorCode>
+      <OperatorCode>JPE</OperatorCode>
+      <OperatorShortName>J P Minicoaches</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>AGAO114</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>114</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2019-07-01</StartDate>
+        <EndDate>2049-12-31</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>JPE</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Forfar - Gowanbank</Description>
+      <StandardService>
+        <Origin>Forfar</Origin>
+        <Destination>Gowanbank</Destination>
+        <JourneyPattern id="JPS_AGAO114-5">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_AGAO114-5</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_AGAO114-6">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_AGAO114-6</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_AGAO114-7">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_AGAO114-7</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_AGAO114-8">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_AGAO114-8</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_AGAO114-9">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_AGAO114-9</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_AGAO114-10">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_AGAO114-10</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_AGAO114-11">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_AGAO114-11</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_AGAO114-12">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_AGAO114-12</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>JPE</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>13463</VehicleJourneyCode>
+      <ServiceRef>AGAO114</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGAO114-5</JourneyPatternRef>
+      <DepartureTime>08:26:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>JPE</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>13464</VehicleJourneyCode>
+      <ServiceRef>AGAO114</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGAO114-6</JourneyPatternRef>
+      <DepartureTime>17:16:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>JPE</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>13465</VehicleJourneyCode>
+      <ServiceRef>AGAO114</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGAO114-7</JourneyPatternRef>
+      <DepartureTime>12:08:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>JPE</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>13466</VehicleJourneyCode>
+      <ServiceRef>AGAO114</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGAO114-8</JourneyPatternRef>
+      <DepartureTime>09:51:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>JPE</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>13467</VehicleJourneyCode>
+      <ServiceRef>AGAO114</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGAO114-9</JourneyPatternRef>
+      <DepartureTime>12:07:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>JPE</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>13468</VehicleJourneyCode>
+      <ServiceRef>AGAO114</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGAO114-9</JourneyPatternRef>
+      <DepartureTime>17:02:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>JPE</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>13469</VehicleJourneyCode>
+      <ServiceRef>AGAO114</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGAO114-10</JourneyPatternRef>
+      <DepartureTime>08:22:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>JPE</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>13470</VehicleJourneyCode>
+      <ServiceRef>AGAO114</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGAO114-10</JourneyPatternRef>
+      <DepartureTime>12:01:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>JPE</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>13471</VehicleJourneyCode>
+      <ServiceRef>AGAO114</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGAO114-11</JourneyPatternRef>
+      <DepartureTime>17:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>JPE</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>13472</VehicleJourneyCode>
+      <ServiceRef>AGAO114</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGAO114-10</JourneyPatternRef>
+      <DepartureTime>09:47:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>JPE</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>13473</VehicleJourneyCode>
+      <ServiceRef>AGAO114</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGAO114-12</JourneyPatternRef>
+      <DepartureTime>12:01:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>JPE</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>13474</VehicleJourneyCode>
+      <ServiceRef>AGAO114</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGAO114-12</JourneyPatternRef>
+      <DepartureTime>16:56:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

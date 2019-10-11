@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:20:00-00:00" ModificationDateTime="2019-10-07T13:20:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRFSACM20.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300OBA</StopPointRef>
+      <CommonName>Oban Ferry Terminal</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300CBA</StopPointRef>
+      <CommonName>Castlebay Barra Ferry Terminal</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300COL</StopPointRef>
+      <CommonName>Coll Ferry Terminal</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300TRE</StopPointRef>
+      <CommonName>Tiree Ferry Terminal</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="FSACM20_003">
+      <RouteLink id="FSACM20_003_260288">
+        <From>
+          <StopPointRef>9300OBA</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300CBA</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSACM20_004">
+      <RouteLink id="FSACM20_004_260290">
+        <From>
+          <StopPointRef>9300CBA</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300OBA</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSACM20_005">
+      <RouteLink id="FSACM20_005_260292">
+        <From>
+          <StopPointRef>9300OBA</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300COL</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSACM20_005_260293">
+        <From>
+          <StopPointRef>9300COL</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300TRE</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSACM20_005_260294">
+        <From>
+          <StopPointRef>9300TRE</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300CBA</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSACM20_006">
+      <RouteLink id="FSACM20_006_260296">
+        <From>
+          <StopPointRef>9300CBA</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300TRE</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSACM20_006_260297">
+        <From>
+          <StopPointRef>9300TRE</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300COL</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSACM20_006_260298">
+        <From>
+          <StopPointRef>9300COL</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300OBA</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="FSACM20_003">
+      <Description>Oban - Barra
+</Description>
+      <RouteSectionRef>FSACM20_003</RouteSectionRef>
+    </Route>
+    <Route id="FSACM20_004">
+      <Description>Oban - Barra
+</Description>
+      <RouteSectionRef>FSACM20_004</RouteSectionRef>
+    </Route>
+    <Route id="FSACM20_005">
+      <Description>Oban - Barra
+</Description>
+      <RouteSectionRef>FSACM20_005</RouteSectionRef>
+    </Route>
+    <Route id="FSACM20_006">
+      <Description>Oban - Barra
+</Description>
+      <RouteSectionRef>FSACM20_006</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_FSACM20-5">
+      <JourneyPatternTimingLink id="JPS_FSACM20-5_260288">
+        <From>
+          <StopPointRef>9300OBA</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300CBA</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM20_003_260288</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT17100S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSACM20-6">
+      <JourneyPatternTimingLink id="JPS_FSACM20-6_260290">
+        <From>
+          <StopPointRef>9300CBA</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300OBA</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM20_004_260290</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT17100S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSACM20-7">
+      <JourneyPatternTimingLink id="JPS_FSACM20-7_260292">
+        <From>
+          <StopPointRef>9300OBA</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300COL</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM20_005_260292</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT9600S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSACM20-7_260293">
+        <From>
+          <WaitTime>PT900S</WaitTime>
+          <StopPointRef>9300COL</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300TRE</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM20_005_260293</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT3300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSACM20-7_260294">
+        <From>
+          <WaitTime>PT1500S</WaitTime>
+          <StopPointRef>9300TRE</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300CBA</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM20_005_260294</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT9900S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSACM20-8">
+      <JourneyPatternTimingLink id="JPS_FSACM20-8_260296">
+        <From>
+          <StopPointRef>9300CBA</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300TRE</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM20_006_260296</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT9900S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSACM20-8_260297">
+        <From>
+          <WaitTime>PT1500S</WaitTime>
+          <StopPointRef>9300TRE</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300COL</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM20_006_260297</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT3300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSACM20-8_260298">
+        <From>
+          <WaitTime>PT900S</WaitTime>
+          <StopPointRef>9300COL</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300OBA</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM20_006_260298</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT9600S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="CAL">
+      <NationalOperatorCode>CALM</NationalOperatorCode>
+      <OperatorCode>CAL</OperatorCode>
+      <OperatorShortName>Caledonian MacBrayne</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>FSACM20</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>CM20</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2019-03-29</StartDate>
+        <EndDate>2049-12-31</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>CAL</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>ferry</Mode>
+      <Description>Oban - Barra</Description>
+      <StandardService>
+        <Origin>Oban</Origin>
+        <Destination>Barra</Destination>
+        <JourneyPattern id="JPS_FSACM20-5">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSACM20-5</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSACM20-6">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSACM20-6</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSACM20-7">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSACM20-7</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSACM20-8">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSACM20-8</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>CAL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Friday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82335</VehicleJourneyCode>
+      <ServiceRef>FSACM20</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSACM20-5</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>13:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CAL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Friday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82336</VehicleJourneyCode>
+      <ServiceRef>FSACM20</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSACM20-6</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>07:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CAL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Wednesday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82337</VehicleJourneyCode>
+      <ServiceRef>FSACM20</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSACM20-7</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>07:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CAL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Wednesday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82338</VehicleJourneyCode>
+      <ServiceRef>FSACM20</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSACM20-8</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>14:30:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:19:00-00:00" ModificationDateTime="2019-10-07T13:19:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRAGAA015.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <ServicedOrganisations>
+    <ServicedOrganisation>
+      <OrganisationCode>160</OrganisationCode>
+      <Name>
+QE0 : BUS.CIF
+</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2019-10-05</StartDate>
+          <EndDate>2019-10-20</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-12-04</StartDate>
+          <EndDate>2019-12-08</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-12-21</StartDate>
+          <EndDate>2020-01-05</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-02-13</StartDate>
+          <EndDate>2020-02-17</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-04-04</StartDate>
+          <EndDate>2020-04-19</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-05-02</StartDate>
+          <EndDate>2020-05-04</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-05-23</StartDate>
+          <EndDate>2020-05-25</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-06-27</StartDate>
+          <EndDate>2049-12-31</EndDate>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+  </ServicedOrganisations>
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>640016865</StopPointRef>
+      <CommonName>Keyline</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM1080</StopPointRef>
+      <CommonName>Farmhouse Road End</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM242</StopPointRef>
+      <CommonName>Braeside Cottages</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM207</StopPointRef>
+      <CommonName>Hawthorn Grove</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM9148</StopPointRef>
+      <CommonName>South Kingennie Road End</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM9150</StopPointRef>
+      <CommonName>Smiddy</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM1312</StopPointRef>
+      <CommonName>Murroes School</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM371</StopPointRef>
+      <CommonName>Braeside Cottages</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM1432</StopPointRef>
+      <CommonName>Farmhouse Road End</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>640016863</StopPointRef>
+      <CommonName>Keyline</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="AGAA015_001">
+      <RouteLink id="AGAA015_001_29366">
+        <From>
+          <StopPointRef>640016865</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM1080</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAA015_001_29367">
+        <From>
+          <StopPointRef>6490IM1080</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM242</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAA015_001_29368">
+        <From>
+          <StopPointRef>6490IM242</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM207</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAA015_001_29369">
+        <From>
+          <StopPointRef>6490IM207</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM9148</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAA015_001_29370">
+        <From>
+          <StopPointRef>6490IM9148</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM9150</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAA015_001_29371">
+        <From>
+          <StopPointRef>6490IM9150</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM1312</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="AGAA015_002">
+      <RouteLink id="AGAA015_002_29373">
+        <From>
+          <StopPointRef>6490IM1312</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM371</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAA015_002_29374">
+        <From>
+          <StopPointRef>6490IM371</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM1432</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAA015_002_29375">
+        <From>
+          <StopPointRef>6490IM1432</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM242</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAA015_002_29376">
+        <From>
+          <StopPointRef>6490IM242</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM207</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAA015_002_29377">
+        <From>
+          <StopPointRef>6490IM207</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>640016863</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="AGAA015_001">
+      <Description>Fishers Depot and Ballumbie Castle - Murroes School
+</Description>
+      <RouteSectionRef>AGAA015_001</RouteSectionRef>
+    </Route>
+    <Route id="AGAA015_002">
+      <Description>Murroes School - Ballumbie Castle and Fishers Depot
+</Description>
+      <RouteSectionRef>AGAA015_002</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_AGAA015-3">
+      <JourneyPatternTimingLink id="JPS_AGAA015-3_29366">
+        <From>
+          <StopPointRef>640016865</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM1080</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAA015_001_29366</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT540S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAA015-3_29367">
+        <From>
+          <StopPointRef>6490IM1080</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM242</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAA015_001_29367</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAA015-3_29368">
+        <From>
+          <StopPointRef>6490IM242</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM207</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAA015_001_29368</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT360S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAA015-3_29369">
+        <From>
+          <StopPointRef>6490IM207</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM9148</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAA015_001_29369</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAA015-3_29370">
+        <From>
+          <StopPointRef>6490IM9148</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM9150</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAA015_001_29370</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAA015-3_29371">
+        <From>
+          <StopPointRef>6490IM9150</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM1312</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAA015_001_29371</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_AGAA015-4">
+      <JourneyPatternTimingLink id="JPS_AGAA015-4_29373">
+        <From>
+          <StopPointRef>6490IM1312</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM371</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAA015_002_29373</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT240S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAA015-4_29374">
+        <From>
+          <StopPointRef>6490IM371</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM1432</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAA015_002_29374</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAA015-4_29375">
+        <From>
+          <StopPointRef>6490IM1432</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM242</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAA015_002_29375</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAA015-4_29376">
+        <From>
+          <StopPointRef>6490IM242</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM207</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAA015_002_29376</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT240S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAA015-4_29377">
+        <From>
+          <StopPointRef>6490IM207</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>640016863</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAA015_002_29377</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT540S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="FSH">
+      <NationalOperatorCode>FSHT</NationalOperatorCode>
+      <OperatorCode>FSH</OperatorCode>
+      <OperatorShortName>Fishers Tours</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>AGAA015</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>A15</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2015-08-26</StartDate>
+        <EndDate>2049-12-31</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>FSH</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Murroes School - Ballumbie Castle and Fishers Depot</Description>
+      <StandardService>
+        <Origin>Murroes School</Origin>
+        <Destination>Ballumbie Castle and Fishers Depot</Destination>
+        <JourneyPattern id="JPS_AGAA015-3">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_AGAA015-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_AGAA015-4">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_AGAA015-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>FSH</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>160</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>12272</VehicleJourneyCode>
+      <ServiceRef>AGAA015</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGAA015-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>Sch</NoteCode>
+        <NoteText>Operates on Angus schooldays only</NoteText>
+      </Note>
+      <DepartureTime>08:28:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>FSH</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>160</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>12273</VehicleJourneyCode>
+      <ServiceRef>AGAA015</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGAA015-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>Sch</NoteCode>
+        <NoteText>Operates on Angus schooldays only</NoteText>
+      </Note>
+      <DepartureTime>15:30:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

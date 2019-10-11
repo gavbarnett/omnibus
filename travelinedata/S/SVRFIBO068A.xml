@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T12:59:00-00:00" ModificationDateTime="2019-10-07T12:59:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRFIBO068A.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500N0152</StopPointRef>
+      <CommonName>Crossgate</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500N9956</StopPointRef>
+      <CommonName>Castlehill</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500N0134</StopPointRef>
+      <CommonName>Back Lebanon</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500N9118</StopPointRef>
+      <CommonName>Upper Dalgairn</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500N9566</StopPointRef>
+      <CommonName>Upper Dalgairn</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500N9119</StopPointRef>
+      <CommonName>Upper Dalgairn</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500N0608</StopPointRef>
+      <CommonName>Adamson Hospital</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500N9844</StopPointRef>
+      <CommonName>Ambulance Depot</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500N9843</StopPointRef>
+      <CommonName>Kinloss Drive</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500N9841</StopPointRef>
+      <CommonName>Kirklands Park</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500N0136</StopPointRef>
+      <CommonName>Balgarvie Crescent</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500N0145</StopPointRef>
+      <CommonName>West Port</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500N0147</StopPointRef>
+      <CommonName>Provost Wynd</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500N0151</StopPointRef>
+      <CommonName>Crossgate</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="FIBO068A001">
+      <RouteLink id="FIBO068A001_138619">
+        <From>
+          <StopPointRef>6500N0152</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500N9956</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIBO068A001_138620">
+        <From>
+          <StopPointRef>6500N9956</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500N0134</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIBO068A001_138621">
+        <From>
+          <StopPointRef>6500N0134</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500N9118</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIBO068A001_138622">
+        <From>
+          <StopPointRef>6500N9118</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500N9566</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIBO068A001_138623">
+        <From>
+          <StopPointRef>6500N9566</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500N9119</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIBO068A001_138624">
+        <From>
+          <StopPointRef>6500N9119</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500N0608</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIBO068A001_138625">
+        <From>
+          <StopPointRef>6500N0608</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500N9844</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIBO068A001_138626">
+        <From>
+          <StopPointRef>6500N9844</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500N9843</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIBO068A001_138627">
+        <From>
+          <StopPointRef>6500N9843</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500N9841</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIBO068A001_138628">
+        <From>
+          <StopPointRef>6500N9841</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500N0136</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIBO068A001_138629">
+        <From>
+          <StopPointRef>6500N0136</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500N0145</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIBO068A001_138630">
+        <From>
+          <StopPointRef>6500N0145</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500N0147</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIBO068A001_138631">
+        <From>
+          <StopPointRef>6500N0147</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500N0151</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="FIBO068A001">
+      <Description>Town service - Cupar
+</Description>
+      <RouteSectionRef>FIBO068A001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_FIBO068A-2">
+      <JourneyPatternTimingLink id="JPS_FIBO068A-2_138619">
+        <From>
+          <StopPointRef>6500N0152</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500N9956</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIBO068A001_138619</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIBO068A-2_138620">
+        <From>
+          <StopPointRef>6500N9956</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500N0134</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIBO068A001_138620</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIBO068A-2_138621">
+        <From>
+          <StopPointRef>6500N0134</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500N9118</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIBO068A001_138621</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIBO068A-2_138622">
+        <From>
+          <StopPointRef>6500N9118</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500N9566</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FIBO068A001_138622</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIBO068A-2_138623">
+        <From>
+          <StopPointRef>6500N9566</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500N9119</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIBO068A001_138623</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIBO068A-2_138624">
+        <From>
+          <StopPointRef>6500N9119</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500N0608</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FIBO068A001_138624</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIBO068A-2_138625">
+        <From>
+          <StopPointRef>6500N0608</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500N9844</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIBO068A001_138625</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIBO068A-2_138626">
+        <From>
+          <StopPointRef>6500N9844</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500N9843</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIBO068A001_138626</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIBO068A-2_138627">
+        <From>
+          <StopPointRef>6500N9843</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500N9841</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FIBO068A001_138627</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIBO068A-2_138628">
+        <From>
+          <StopPointRef>6500N9841</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500N0136</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIBO068A001_138628</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIBO068A-2_138629">
+        <From>
+          <StopPointRef>6500N0136</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500N0145</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIBO068A001_138629</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIBO068A-2_138630">
+        <From>
+          <StopPointRef>6500N0145</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500N0147</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FIBO068A001_138630</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIBO068A-2_138631">
+        <From>
+          <StopPointRef>6500N0147</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500N0151</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FIBO068A001_138631</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="MOF">
+      <NationalOperatorCode>MOFF</NationalOperatorCode>
+      <OperatorCode>MOF</OperatorCode>
+      <OperatorShortName>Moffat + Williamson</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>FIBO068A</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>68A</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2018-08-13</StartDate>
+        <EndDate>2028-08-13</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>MOF</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Town service - Cupar</Description>
+      <StandardService>
+        <Origin>Town service</Origin>
+        <Destination>Cupar</Destination>
+        <JourneyPattern id="JPS_FIBO068A-2">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FIBO068A-2</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>MOF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>33611</VehicleJourneyCode>
+      <ServiceRef>FIBO068A</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FIBO068A-2</JourneyPatternRef>
+      <DepartureTime>09:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MOF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>33612</VehicleJourneyCode>
+      <ServiceRef>FIBO068A</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FIBO068A-2</JourneyPatternRef>
+      <DepartureTime>10:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MOF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>33613</VehicleJourneyCode>
+      <ServiceRef>FIBO068A</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FIBO068A-2</JourneyPatternRef>
+      <DepartureTime>11:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MOF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>33614</VehicleJourneyCode>
+      <ServiceRef>FIBO068A</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FIBO068A-2</JourneyPatternRef>
+      <DepartureTime>12:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MOF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>33615</VehicleJourneyCode>
+      <ServiceRef>FIBO068A</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FIBO068A-2</JourneyPatternRef>
+      <DepartureTime>13:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MOF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>33616</VehicleJourneyCode>
+      <ServiceRef>FIBO068A</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FIBO068A-2</JourneyPatternRef>
+      <DepartureTime>14:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MOF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>33617</VehicleJourneyCode>
+      <ServiceRef>FIBO068A</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FIBO068A-2</JourneyPatternRef>
+      <DepartureTime>15:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MOF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>33618</VehicleJourneyCode>
+      <ServiceRef>FIBO068A</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FIBO068A-2</JourneyPatternRef>
+      <DepartureTime>16:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MOF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>33619</VehicleJourneyCode>
+      <ServiceRef>FIBO068A</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FIBO068A-2</JourneyPatternRef>
+      <DepartureTime>17:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MOF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>33620</VehicleJourneyCode>
+      <ServiceRef>FIBO068A</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FIBO068A-2</JourneyPatternRef>
+      <DepartureTime>09:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MOF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>33621</VehicleJourneyCode>
+      <ServiceRef>FIBO068A</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FIBO068A-2</JourneyPatternRef>
+      <DepartureTime>10:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MOF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>33622</VehicleJourneyCode>
+      <ServiceRef>FIBO068A</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FIBO068A-2</JourneyPatternRef>
+      <DepartureTime>11:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MOF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>33623</VehicleJourneyCode>
+      <ServiceRef>FIBO068A</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FIBO068A-2</JourneyPatternRef>
+      <DepartureTime>12:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MOF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>33624</VehicleJourneyCode>
+      <ServiceRef>FIBO068A</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FIBO068A-2</JourneyPatternRef>
+      <DepartureTime>13:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MOF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>33625</VehicleJourneyCode>
+      <ServiceRef>FIBO068A</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FIBO068A-2</JourneyPatternRef>
+      <DepartureTime>14:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MOF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>33626</VehicleJourneyCode>
+      <ServiceRef>FIBO068A</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FIBO068A-2</JourneyPatternRef>
+      <DepartureTime>15:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MOF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>33627</VehicleJourneyCode>
+      <ServiceRef>FIBO068A</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FIBO068A-2</JourneyPatternRef>
+      <DepartureTime>16:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MOF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>33628</VehicleJourneyCode>
+      <ServiceRef>FIBO068A</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FIBO068A-2</JourneyPatternRef>
+      <DepartureTime>17:05:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:20:00-00:00" ModificationDateTime="2019-10-07T13:20:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRFIABE07.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <ServicedOrganisations>
+    <ServicedOrganisation>
+      <OrganisationCode>371</OrganisationCode>
+      <Name>
+QE0 : Cif-FBE5-SIF-20190218_20190925_214553.cif
+</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2019-09-25</StartDate>
+          <EndDate>2021-01-03</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2021-01-05</StartDate>
+          <EndDate>2022-01-03</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2022-01-05</StartDate>
+          <EndDate>2023-01-02</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2023-01-04</StartDate>
+          <EndDate>2027-01-03</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2027-01-05</StartDate>
+          <EndDate>2028-01-03</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2028-01-05</StartDate>
+          <EndDate>2029-02-17</EndDate>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+  </ServicedOrganisations>
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500D0129</StopPointRef>
+      <CommonName>Hillview Crescent</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500D0127</StopPointRef>
+      <CommonName>Main Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500D0125</StopPointRef>
+      <CommonName>Netherbeath Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500D0715</StopPointRef>
+      <CommonName>Concrete Works</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500D0122</StopPointRef>
+      <CommonName>Swinton's Place</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500D0080</StopPointRef>
+      <CommonName>Gateside Industrial Estate</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500D0077</StopPointRef>
+      <CommonName>Old Perth Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500D9781</StopPointRef>
+      <CommonName>Beath High School</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500D0078</StopPointRef>
+      <CommonName>Old Perth Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500D0079</StopPointRef>
+      <CommonName>Gateside Industrial Estate</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500D0121</StopPointRef>
+      <CommonName>Swinton's Place</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500D0123</StopPointRef>
+      <CommonName>Concrete Works</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500D0124</StopPointRef>
+      <CommonName>Netherbeath Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500D0126</StopPointRef>
+      <CommonName>Main Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500D0128</StopPointRef>
+      <CommonName>Manse Road</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="FIABE07_002">
+      <RouteLink id="FIABE07_002_92928">
+        <From>
+          <StopPointRef>6500D0129</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500D0127</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIABE07_002_92929">
+        <From>
+          <StopPointRef>6500D0127</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500D0125</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIABE07_002_92930">
+        <From>
+          <StopPointRef>6500D0125</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500D0715</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIABE07_002_92931">
+        <From>
+          <StopPointRef>6500D0715</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500D0122</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIABE07_002_92932">
+        <From>
+          <StopPointRef>6500D0122</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500D0080</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIABE07_002_92933">
+        <From>
+          <StopPointRef>6500D0080</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500D0077</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIABE07_002_92934">
+        <From>
+          <StopPointRef>6500D0077</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500D9781</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FIABE07_001">
+      <RouteLink id="FIABE07_001_92936">
+        <From>
+          <StopPointRef>6500D9781</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500D0078</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIABE07_001_92937">
+        <From>
+          <StopPointRef>6500D0078</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500D0079</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIABE07_001_92938">
+        <From>
+          <StopPointRef>6500D0079</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500D0121</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIABE07_001_92939">
+        <From>
+          <StopPointRef>6500D0121</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500D0123</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIABE07_001_92940">
+        <From>
+          <StopPointRef>6500D0123</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500D0124</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIABE07_001_92941">
+        <From>
+          <StopPointRef>6500D0124</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500D0126</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIABE07_001_92942">
+        <From>
+          <StopPointRef>6500D0126</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500D0128</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="FIABE07_002">
+      <Description>Crossgates - Beath High School
+</Description>
+      <RouteSectionRef>FIABE07_002</RouteSectionRef>
+    </Route>
+    <Route id="FIABE07_001">
+      <Description>Beath High School - Crossgates
+</Description>
+      <RouteSectionRef>FIABE07_001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_FIABE07-3">
+      <JourneyPatternTimingLink id="JPS_FIABE07-3_92928">
+        <From>
+          <StopPointRef>6500D0129</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D0127</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIABE07_002_92928</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIABE07-3_92929">
+        <From>
+          <StopPointRef>6500D0127</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D0125</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIABE07_002_92929</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIABE07-3_92930">
+        <From>
+          <StopPointRef>6500D0125</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D0715</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIABE07_002_92930</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIABE07-3_92931">
+        <From>
+          <StopPointRef>6500D0715</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D0122</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FIABE07_002_92931</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIABE07-3_92932">
+        <From>
+          <StopPointRef>6500D0122</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D0080</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIABE07_002_92932</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIABE07-3_92933">
+        <From>
+          <StopPointRef>6500D0080</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D0077</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIABE07_002_92933</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIABE07-3_92934">
+        <From>
+          <StopPointRef>6500D0077</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D9781</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FIABE07_002_92934</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FIABE07-4">
+      <JourneyPatternTimingLink id="JPS_FIABE07-4_92936">
+        <From>
+          <StopPointRef>6500D9781</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D0078</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIABE07_001_92936</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIABE07-4_92937">
+        <From>
+          <StopPointRef>6500D0078</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D0079</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIABE07_001_92937</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIABE07-4_92938">
+        <From>
+          <StopPointRef>6500D0079</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D0121</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FIABE07_001_92938</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT240S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIABE07-4_92939">
+        <From>
+          <StopPointRef>6500D0121</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D0123</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIABE07_001_92939</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIABE07-4_92940">
+        <From>
+          <StopPointRef>6500D0123</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D0124</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIABE07_001_92940</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIABE07-4_92941">
+        <From>
+          <StopPointRef>6500D0124</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D0126</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIABE07_001_92941</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIABE07-4_92942">
+        <From>
+          <StopPointRef>6500D0126</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D0128</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FIABE07_001_92942</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="SIF">
+      <NationalOperatorCode>SCFI</NationalOperatorCode>
+      <OperatorCode>SIF</OperatorCode>
+      <OperatorShortName>Stagecoach East Scotland</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>FIABE07</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>BE7</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2019-02-18</StartDate>
+        <EndDate>2029-02-18</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>SIF</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Beath High School - Crossgates</Description>
+      <StandardService>
+        <Origin>Beath High School</Origin>
+        <Destination>Crossgates</Destination>
+        <JourneyPattern id="JPS_FIABE07-3">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FIABE07-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FIABE07-4">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FIABE07-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>SIF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>371</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>23364</VehicleJourneyCode>
+      <ServiceRef>FIABE07</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FIABE07-3</JourneyPatternRef>
+      <DepartureTime>08:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SIF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>371</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>23365</VehicleJourneyCode>
+      <ServiceRef>FIABE07</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FIABE07-4</JourneyPatternRef>
+      <DepartureTime>15:30:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

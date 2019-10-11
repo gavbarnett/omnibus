@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:21:00-00:00" ModificationDateTime="2019-10-07T13:21:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRFSALL05.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300IPB</StopPointRef>
+      <CommonName>Inchcailloch Port Bawn Pier</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300LUS</StopPointRef>
+      <CommonName>Luss Pier</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="FSALL05_002">
+      <RouteLink id="FSALL05_002_260413">
+        <From>
+          <StopPointRef>9300IPB</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300LUS</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSALL05_001">
+      <RouteLink id="FSALL05_001_260415">
+        <From>
+          <StopPointRef>9300LUS</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300IPB</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="FSALL05_002">
+      <Description>Inchcailloch - Luss
+</Description>
+      <RouteSectionRef>FSALL05_002</RouteSectionRef>
+    </Route>
+    <Route id="FSALL05_001">
+      <Description>Luss - Inchcailloch
+</Description>
+      <RouteSectionRef>FSALL05_001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_FSALL05-3">
+      <JourneyPatternTimingLink id="JPS_FSALL05-3_260413">
+        <From>
+          <StopPointRef>9300IPB</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300LUS</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSALL05_002_260413</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT2700S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSALL05-4">
+      <JourneyPatternTimingLink id="JPS_FSALL05-4_260415">
+        <From>
+          <StopPointRef>9300LUS</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300IPB</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSALL05_001_260415</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2700S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="CLL">
+      <NationalOperatorCode>NCLL</NationalOperatorCode>
+      <OperatorCode>CLL</OperatorCode>
+      <OperatorShortName>Cruise Loch Lomond</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>FSALL05</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>LL5</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2019-03-30</StartDate>
+        <EndDate>2019-11-03</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>CLL</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>ferry</Mode>
+      <Description>Luss - Inchcailloch</Description>
+      <StandardService>
+        <Origin>Luss</Origin>
+        <Destination>Inchcailloch</Destination>
+        <JourneyPattern id="JPS_FSALL05-3">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSALL05-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSALL05-4">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSALL05-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>CLL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82689</VehicleJourneyCode>
+      <ServiceRef>FSALL05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALL05-3</JourneyPatternRef>
+      <DepartureTime>10:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82690</VehicleJourneyCode>
+      <ServiceRef>FSALL05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALL05-3</JourneyPatternRef>
+      <DepartureTime>12:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82691</VehicleJourneyCode>
+      <ServiceRef>FSALL05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALL05-3</JourneyPatternRef>
+      <DepartureTime>14:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82692</VehicleJourneyCode>
+      <ServiceRef>FSALL05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALL05-3</JourneyPatternRef>
+      <DepartureTime>15:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82693</VehicleJourneyCode>
+      <ServiceRef>FSALL05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALL05-4</JourneyPatternRef>
+      <DepartureTime>10:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82694</VehicleJourneyCode>
+      <ServiceRef>FSALL05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALL05-4</JourneyPatternRef>
+      <DepartureTime>11:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82695</VehicleJourneyCode>
+      <ServiceRef>FSALL05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALL05-4</JourneyPatternRef>
+      <DepartureTime>13:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82696</VehicleJourneyCode>
+      <ServiceRef>FSALL05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALL05-4</JourneyPatternRef>
+      <DepartureTime>14:45:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

@@ -1,0 +1,1014 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:21:00-00:00" ModificationDateTime="2019-10-07T13:21:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRFSAKIL0.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300KGN</StopPointRef>
+      <CommonName>Kilcreggan Ferry Terminal</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300GUR</StopPointRef>
+      <CommonName>Gourock Ferry Terminal</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="FSAKIL0_002">
+      <RouteLink id="FSAKIL0_002_260381">
+        <From>
+          <StopPointRef>9300KGN</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300GUR</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSAKIL0_001">
+      <RouteLink id="FSAKIL0_001_260383">
+        <From>
+          <StopPointRef>9300GUR</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300KGN</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="FSAKIL0_002">
+      <Description>Kilcreggan - Gourock
+</Description>
+      <RouteSectionRef>FSAKIL0_002</RouteSectionRef>
+    </Route>
+    <Route id="FSAKIL0_001">
+      <Description>Gourock - Kilcreggan
+</Description>
+      <RouteSectionRef>FSAKIL0_001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_FSAKIL0-3">
+      <JourneyPatternTimingLink id="JPS_FSAKIL0-3_260381">
+        <From>
+          <StopPointRef>9300KGN</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300GUR</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAKIL0_002_260381</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT780S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSAKIL0-4">
+      <JourneyPatternTimingLink id="JPS_FSAKIL0-4_260381">
+        <From>
+          <StopPointRef>9300KGN</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300GUR</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAKIL0_002_260381</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT720S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSAKIL0-5">
+      <JourneyPatternTimingLink id="JPS_FSAKIL0-5_260381">
+        <From>
+          <StopPointRef>9300KGN</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300GUR</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAKIL0_002_260381</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT840S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSAKIL0-6">
+      <JourneyPatternTimingLink id="JPS_FSAKIL0-6_260383">
+        <From>
+          <StopPointRef>9300GUR</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300KGN</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAKIL0_001_260383</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT780S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="CLM">
+      <NationalOperatorCode>CLYD</NationalOperatorCode>
+      <OperatorCode>CLM</OperatorCode>
+      <OperatorShortName>Clyde Marine</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>FSAKIL0</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>KIL</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2015-03-16</StartDate>
+        <EndDate>2049-12-31</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>CLM</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>ferry</Mode>
+      <Description>Gourock - Kilcreggan</Description>
+      <StandardService>
+        <Origin>Gourock</Origin>
+        <Destination>Kilcreggan</Destination>
+        <JourneyPattern id="JPS_FSAKIL0-3">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSAKIL0-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSAKIL0-4">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSAKIL0-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSAKIL0-5">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSAKIL0-5</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSAKIL0-6">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSAKIL0-6</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82560</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-3</JourneyPatternRef>
+      <DepartureTime>07:04:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82561</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-3</JourneyPatternRef>
+      <DepartureTime>07:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82562</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-3</JourneyPatternRef>
+      <DepartureTime>08:43:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82563</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-3</JourneyPatternRef>
+      <DepartureTime>09:53:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82564</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-3</JourneyPatternRef>
+      <DepartureTime>10:53:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82565</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-3</JourneyPatternRef>
+      <DepartureTime>11:39:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82566</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-3</JourneyPatternRef>
+      <DepartureTime>13:19:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82567</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-3</JourneyPatternRef>
+      <DepartureTime>14:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82568</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-3</JourneyPatternRef>
+      <DepartureTime>14:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82569</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-3</JourneyPatternRef>
+      <DepartureTime>15:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82570</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-3</JourneyPatternRef>
+      <DepartureTime>17:02:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82571</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-3</JourneyPatternRef>
+      <DepartureTime>17:48:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82572</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-3</JourneyPatternRef>
+      <DepartureTime>18:36:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82573</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-3</JourneyPatternRef>
+      <DepartureTime>08:27:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82574</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-4</JourneyPatternRef>
+      <DepartureTime>09:14:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82575</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-3</JourneyPatternRef>
+      <DepartureTime>09:59:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82576</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-3</JourneyPatternRef>
+      <DepartureTime>10:53:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82577</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-3</JourneyPatternRef>
+      <DepartureTime>11:39:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82578</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-5</JourneyPatternRef>
+      <DepartureTime>13:19:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82579</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-3</JourneyPatternRef>
+      <DepartureTime>14:06:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82580</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-3</JourneyPatternRef>
+      <DepartureTime>14:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82581</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-3</JourneyPatternRef>
+      <DepartureTime>15:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82582</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-3</JourneyPatternRef>
+      <DepartureTime>17:02:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82583</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-3</JourneyPatternRef>
+      <DepartureTime>17:48:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82584</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-3</JourneyPatternRef>
+      <DepartureTime>18:36:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82585</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-6</JourneyPatternRef>
+      <DepartureTime>06:41:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82586</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-6</JourneyPatternRef>
+      <DepartureTime>07:27:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82587</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-6</JourneyPatternRef>
+      <DepartureTime>08:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82588</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-6</JourneyPatternRef>
+      <DepartureTime>09:16:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82589</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-6</JourneyPatternRef>
+      <DepartureTime>10:16:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82590</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-6</JourneyPatternRef>
+      <DepartureTime>11:16:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82591</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-6</JourneyPatternRef>
+      <DepartureTime>12:56:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82592</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-6</JourneyPatternRef>
+      <DepartureTime>13:42:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82593</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-6</JourneyPatternRef>
+      <DepartureTime>14:28:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82594</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-6</JourneyPatternRef>
+      <DepartureTime>15:18:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82595</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-6</JourneyPatternRef>
+      <DepartureTime>16:18:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82596</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-6</JourneyPatternRef>
+      <DepartureTime>17:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82597</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-6</JourneyPatternRef>
+      <DepartureTime>18:13:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82598</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-6</JourneyPatternRef>
+      <DepartureTime>08:04:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82599</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-6</JourneyPatternRef>
+      <DepartureTime>08:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82600</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-6</JourneyPatternRef>
+      <DepartureTime>09:36:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82601</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-6</JourneyPatternRef>
+      <DepartureTime>10:22:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82602</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-6</JourneyPatternRef>
+      <DepartureTime>11:16:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82603</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-6</JourneyPatternRef>
+      <DepartureTime>12:56:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82604</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-6</JourneyPatternRef>
+      <DepartureTime>13:43:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82605</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-6</JourneyPatternRef>
+      <DepartureTime>14:29:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82606</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-6</JourneyPatternRef>
+      <DepartureTime>15:18:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82607</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-6</JourneyPatternRef>
+      <DepartureTime>16:18:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82608</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-6</JourneyPatternRef>
+      <DepartureTime>17:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82609</VehicleJourneyCode>
+      <ServiceRef>FSAKIL0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAKIL0-6</JourneyPatternRef>
+      <DepartureTime>18:13:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

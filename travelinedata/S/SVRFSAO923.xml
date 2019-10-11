@@ -1,0 +1,1169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:19:00-00:00" ModificationDateTime="2019-10-07T13:19:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRFSAO923.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000088507</StopPointRef>
+      <CommonName>Port Rodie</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60903765</StopPointRef>
+      <CommonName>Buchanan Bus Station</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000088599</StopPointRef>
+      <CommonName>Stena Terminal</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6190681</StopPointRef>
+      <CommonName>Bus Station</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6200600752</StopPointRef>
+      <CommonName>Bus Station</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6190768</StopPointRef>
+      <CommonName>Heads of Ayr Farm Park</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000088504</StopPointRef>
+      <CommonName>Port Rodie</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6190711</StopPointRef>
+      <CommonName>Heads of Ayr Farm Park</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="FSAO923_022">
+      <RouteLink id="FSAO923_022_266952">
+        <From>
+          <StopPointRef>680000088507</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60903765</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSAO923_023">
+      <RouteLink id="FSAO923_023_266954">
+        <From>
+          <StopPointRef>680000088507</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000088599</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO923_023_266955">
+        <From>
+          <StopPointRef>680000088599</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6190681</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO923_023_266956">
+        <From>
+          <StopPointRef>6190681</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60903765</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO923_023_266957">
+        <From>
+          <StopPointRef>60903765</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200600752</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSAO923_024">
+      <RouteLink id="FSAO923_024_266959">
+        <From>
+          <StopPointRef>680000088507</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000088599</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO923_024_266960">
+        <From>
+          <StopPointRef>680000088599</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6190768</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO923_024_266961">
+        <From>
+          <StopPointRef>6190768</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6190681</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO923_024_266962">
+        <From>
+          <StopPointRef>6190681</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60903765</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO923_024_266963">
+        <From>
+          <StopPointRef>60903765</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200600752</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSAO923_018">
+      <RouteLink id="FSAO923_018_266969">
+        <From>
+          <StopPointRef>60903765</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6190681</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO923_018_266970">
+        <From>
+          <StopPointRef>6190681</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000088599</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO923_018_266971">
+        <From>
+          <StopPointRef>680000088599</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000088504</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSAO923_019">
+      <RouteLink id="FSAO923_019_266973">
+        <From>
+          <StopPointRef>6200600752</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60903765</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO923_019_266974">
+        <From>
+          <StopPointRef>60903765</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6190681</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO923_019_266975">
+        <From>
+          <StopPointRef>6190681</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6190711</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO923_019_266976">
+        <From>
+          <StopPointRef>6190711</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000088599</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO923_019_266977">
+        <From>
+          <StopPointRef>680000088599</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000088504</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSAO923_020">
+      <RouteLink id="FSAO923_020_266979">
+        <From>
+          <StopPointRef>6200600752</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60903765</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO923_020_266980">
+        <From>
+          <StopPointRef>60903765</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6190681</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO923_020_266981">
+        <From>
+          <StopPointRef>6190681</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000088599</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO923_020_266982">
+        <From>
+          <StopPointRef>680000088599</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000088504</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSAO923_021">
+      <RouteLink id="FSAO923_021_266984">
+        <From>
+          <StopPointRef>60903765</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6190681</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO923_021_266985">
+        <From>
+          <StopPointRef>6190681</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000088504</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSAO923_025">
+      <RouteLink id="FSAO923_025_266965">
+        <From>
+          <StopPointRef>680000088507</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000088599</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO923_025_266966">
+        <From>
+          <StopPointRef>680000088599</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6190681</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAO923_025_266967">
+        <From>
+          <StopPointRef>6190681</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60903765</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="FSAO923_022">
+      <Description>Stranraer - Edinburgh
+</Description>
+      <RouteSectionRef>FSAO923_022</RouteSectionRef>
+    </Route>
+    <Route id="FSAO923_023">
+      <Description>Stranraer - Edinburgh
+</Description>
+      <RouteSectionRef>FSAO923_023</RouteSectionRef>
+    </Route>
+    <Route id="FSAO923_024">
+      <Description>Stranraer - Edinburgh
+</Description>
+      <RouteSectionRef>FSAO923_024</RouteSectionRef>
+    </Route>
+    <Route id="FSAO923_018">
+      <Description>Edinburgh - Stranraer
+</Description>
+      <RouteSectionRef>FSAO923_018</RouteSectionRef>
+    </Route>
+    <Route id="FSAO923_019">
+      <Description>Edinburgh - Stranraer
+</Description>
+      <RouteSectionRef>FSAO923_019</RouteSectionRef>
+    </Route>
+    <Route id="FSAO923_020">
+      <Description>Edinburgh - Stranraer
+</Description>
+      <RouteSectionRef>FSAO923_020</RouteSectionRef>
+    </Route>
+    <Route id="FSAO923_021">
+      <Description>Edinburgh - Stranraer
+</Description>
+      <RouteSectionRef>FSAO923_021</RouteSectionRef>
+    </Route>
+    <Route id="FSAO923_025">
+      <Description>Stranraer - Edinburgh
+</Description>
+      <RouteSectionRef>FSAO923_025</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_FSAO923-9">
+      <JourneyPatternTimingLink id="JPS_FSAO923-9_266952">
+        <From>
+          <StopPointRef>680000088507</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60903765</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO923_022_266952</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT9000S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSAO923-10">
+      <JourneyPatternTimingLink id="JPS_FSAO923-10_266954">
+        <From>
+          <StopPointRef>680000088507</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000088599</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO923_023_266954</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1800S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO923-10_266955">
+        <From>
+          <StopPointRef>680000088599</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6190681</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO923_023_266955</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT4500S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO923-10_266956">
+        <From>
+          <StopPointRef>6190681</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60903765</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO923_023_266956</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT3300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO923-10_266957">
+        <From>
+          <WaitTime>PT600S</WaitTime>
+          <StopPointRef>60903765</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200600752</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO923_023_266957</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT4200S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSAO923-11">
+      <JourneyPatternTimingLink id="JPS_FSAO923-11_266959">
+        <From>
+          <StopPointRef>680000088507</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000088599</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO923_024_266959</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1500S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO923-11_266960">
+        <From>
+          <StopPointRef>680000088599</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6190768</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO923_024_266960</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT4500S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO923-11_266961">
+        <From>
+          <StopPointRef>6190768</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6190681</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO923_024_266961</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT600S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO923-11_266962">
+        <From>
+          <StopPointRef>6190681</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60903765</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO923_024_266962</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT3300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO923-11_266963">
+        <From>
+          <WaitTime>PT600S</WaitTime>
+          <StopPointRef>60903765</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200600752</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO923_024_266963</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT4800S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSAO923-12">
+      <JourneyPatternTimingLink id="JPS_FSAO923-12_266969">
+        <From>
+          <StopPointRef>60903765</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6190681</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO923_018_266969</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT3300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO923-12_266970">
+        <From>
+          <StopPointRef>6190681</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000088599</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO923_018_266970</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT4500S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO923-12_266971">
+        <From>
+          <StopPointRef>680000088599</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000088504</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO923_018_266971</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1500S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSAO923-13">
+      <JourneyPatternTimingLink id="JPS_FSAO923-13_266973">
+        <From>
+          <StopPointRef>6200600752</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60903765</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO923_019_266973</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT4200S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO923-13_266974">
+        <From>
+          <StopPointRef>60903765</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6190681</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO923_019_266974</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT3300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO923-13_266975">
+        <From>
+          <StopPointRef>6190681</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6190711</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO923_019_266975</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT600S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO923-13_266976">
+        <From>
+          <StopPointRef>6190711</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000088599</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO923_019_266976</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT4500S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO923-13_266977">
+        <From>
+          <StopPointRef>680000088599</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000088504</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO923_019_266977</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1500S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSAO923-14">
+      <JourneyPatternTimingLink id="JPS_FSAO923-14_266979">
+        <From>
+          <StopPointRef>6200600752</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60903765</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO923_020_266979</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT4200S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO923-14_266980">
+        <From>
+          <WaitTime>PT600S</WaitTime>
+          <StopPointRef>60903765</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6190681</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO923_020_266980</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT3300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO923-14_266981">
+        <From>
+          <StopPointRef>6190681</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000088599</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO923_020_266981</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT4500S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO923-14_266982">
+        <From>
+          <StopPointRef>680000088599</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000088504</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO923_020_266982</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1500S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSAO923-15">
+      <JourneyPatternTimingLink id="JPS_FSAO923-15_266984">
+        <From>
+          <StopPointRef>60903765</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6190681</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO923_021_266984</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT3300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO923-15_266985">
+        <From>
+          <StopPointRef>6190681</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000088504</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO923_021_266985</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT5100S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSAO923-16">
+      <JourneyPatternTimingLink id="JPS_FSAO923-16_266965">
+        <From>
+          <StopPointRef>680000088507</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000088599</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO923_025_266965</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1500S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO923-16_266966">
+        <From>
+          <StopPointRef>680000088599</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6190681</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO923_025_266966</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT4500S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAO923-16_266967">
+        <From>
+          <StopPointRef>6190681</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60903765</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAO923_025_266967</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT3000S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="SCUL">
+      <NationalOperatorCode>SCUL</NationalOperatorCode>
+      <OperatorCode>SCUL</OperatorCode>
+      <OperatorShortName>Scottish Citylink + Ulst</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>FSAO923</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>923</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2019-09-30</StartDate>
+        <EndDate>2049-12-31</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>SCUL</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>coach</Mode>
+      <Description>Edinburgh - Stranraer</Description>
+      <StandardService>
+        <Origin>Edinburgh</Origin>
+        <Destination>Stranraer</Destination>
+        <JourneyPattern id="JPS_FSAO923-9">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSAO923-9</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSAO923-10">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSAO923-10</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSAO923-11">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSAO923-11</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSAO923-12">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSAO923-12</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSAO923-13">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSAO923-13</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSAO923-14">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSAO923-14</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSAO923-15">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSAO923-15</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSAO923-16">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSAO923-16</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>SCUL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83914</VehicleJourneyCode>
+      <ServiceRef>FSAO923</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAO923-9</JourneyPatternRef>
+      <DepartureTime>05:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCUL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83915</VehicleJourneyCode>
+      <ServiceRef>FSAO923</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAO923-10</JourneyPatternRef>
+      <DepartureTime>09:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCUL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83916</VehicleJourneyCode>
+      <ServiceRef>FSAO923</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAO923-11</JourneyPatternRef>
+      <DepartureTime>13:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCUL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83926</VehicleJourneyCode>
+      <ServiceRef>FSAO923</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAO923-12</JourneyPatternRef>
+      <DepartureTime>08:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCUL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83927</VehicleJourneyCode>
+      <ServiceRef>FSAO923</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAO923-13</JourneyPatternRef>
+      <DepartureTime>11:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCUL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83928</VehicleJourneyCode>
+      <ServiceRef>FSAO923</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAO923-14</JourneyPatternRef>
+      <DepartureTime>15:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCUL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83929</VehicleJourneyCode>
+      <ServiceRef>FSAO923</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAO923-15</JourneyPatternRef>
+      <DepartureTime>21:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCUL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83930</VehicleJourneyCode>
+      <ServiceRef>FSAO923</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAO923-12</JourneyPatternRef>
+      <DepartureTime>08:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCUL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83931</VehicleJourneyCode>
+      <ServiceRef>FSAO923</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAO923-13</JourneyPatternRef>
+      <DepartureTime>11:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCUL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83932</VehicleJourneyCode>
+      <ServiceRef>FSAO923</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAO923-14</JourneyPatternRef>
+      <DepartureTime>15:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCUL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83933</VehicleJourneyCode>
+      <ServiceRef>FSAO923</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAO923-15</JourneyPatternRef>
+      <DepartureTime>21:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCUL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83934</VehicleJourneyCode>
+      <ServiceRef>FSAO923</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAO923-12</JourneyPatternRef>
+      <DepartureTime>08:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCUL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83935</VehicleJourneyCode>
+      <ServiceRef>FSAO923</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAO923-13</JourneyPatternRef>
+      <DepartureTime>11:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCUL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83936</VehicleJourneyCode>
+      <ServiceRef>FSAO923</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAO923-14</JourneyPatternRef>
+      <DepartureTime>15:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCUL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83937</VehicleJourneyCode>
+      <ServiceRef>FSAO923</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAO923-15</JourneyPatternRef>
+      <DepartureTime>21:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCUL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83917</VehicleJourneyCode>
+      <ServiceRef>FSAO923</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAO923-16</JourneyPatternRef>
+      <DepartureTime>17:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCUL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83918</VehicleJourneyCode>
+      <ServiceRef>FSAO923</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAO923-9</JourneyPatternRef>
+      <DepartureTime>05:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCUL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83919</VehicleJourneyCode>
+      <ServiceRef>FSAO923</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAO923-10</JourneyPatternRef>
+      <DepartureTime>09:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCUL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83920</VehicleJourneyCode>
+      <ServiceRef>FSAO923</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAO923-11</JourneyPatternRef>
+      <DepartureTime>13:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCUL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83921</VehicleJourneyCode>
+      <ServiceRef>FSAO923</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAO923-16</JourneyPatternRef>
+      <DepartureTime>17:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCUL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83922</VehicleJourneyCode>
+      <ServiceRef>FSAO923</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAO923-9</JourneyPatternRef>
+      <DepartureTime>05:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCUL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83923</VehicleJourneyCode>
+      <ServiceRef>FSAO923</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAO923-10</JourneyPatternRef>
+      <DepartureTime>09:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCUL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83924</VehicleJourneyCode>
+      <ServiceRef>FSAO923</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAO923-11</JourneyPatternRef>
+      <DepartureTime>13:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCUL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83925</VehicleJourneyCode>
+      <ServiceRef>FSAO923</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAO923-16</JourneyPatternRef>
+      <DepartureTime>17:50:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

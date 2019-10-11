@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:25:00-00:00" ModificationDateTime="2019-10-07T13:25:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRFIAWS01.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <ServicedOrganisations>
+    <ServicedOrganisation>
+      <OrganisationCode>747</OrganisationCode>
+      <Name>
+QE0 : Cif-WS1-Festival Travel-20130812_20190925_20
+</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2019-10-06</StartDate>
+          <EndDate>2019-10-21</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-12-22</StartDate>
+          <EndDate>2020-01-06</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-02-12</StartDate>
+          <EndDate>2020-02-15</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-04-05</StartDate>
+          <EndDate>2020-04-18</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-05-31</StartDate>
+          <EndDate>2020-06-02</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-07-03</StartDate>
+          <EndDate>2020-08-18</EndDate>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+  </ServicedOrganisations>
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500K9666</StopPointRef>
+      <CommonName>West Primary School</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500K1572</StopPointRef>
+      <CommonName>Ramsay Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500K1573</StopPointRef>
+      <CommonName>Mill Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500K0345</StopPointRef>
+      <CommonName>Seafield Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500K0346</StopPointRef>
+      <CommonName>Peebles Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500K1460</StopPointRef>
+      <CommonName>Kinghorn Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500K9296</StopPointRef>
+      <CommonName>Sandwell Crescent</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500K9295</StopPointRef>
+      <CommonName>East Vows Walk</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500K0343</StopPointRef>
+      <CommonName>Peebles Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500K0344</StopPointRef>
+      <CommonName>Seafield Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500K0339</StopPointRef>
+      <CommonName>Pratt Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500K0337</StopPointRef>
+      <CommonName>St Mark's Orthodox Church</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500K0334</StopPointRef>
+      <CommonName>Buchanan Court</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500K0333</StopPointRef>
+      <CommonName>Gas Wynd</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="FIAWS01_002">
+      <RouteLink id="FIAWS01_002_129002">
+        <From>
+          <StopPointRef>6500K9666</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500K1572</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIAWS01_002_129003">
+        <From>
+          <StopPointRef>6500K1572</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500K1573</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIAWS01_002_129004">
+        <From>
+          <StopPointRef>6500K1573</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500K0345</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIAWS01_002_129005">
+        <From>
+          <StopPointRef>6500K0345</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500K0346</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIAWS01_002_129006">
+        <From>
+          <StopPointRef>6500K0346</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500K1460</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIAWS01_002_129007">
+        <From>
+          <StopPointRef>6500K1460</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500K9296</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIAWS01_002_129008">
+        <From>
+          <StopPointRef>6500K9296</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500K9295</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FIAWS01_001">
+      <RouteLink id="FIAWS01_001_129010">
+        <From>
+          <StopPointRef>6500K9296</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500K9295</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIAWS01_001_129011">
+        <From>
+          <StopPointRef>6500K9295</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500K0343</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIAWS01_001_129012">
+        <From>
+          <StopPointRef>6500K0343</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500K0344</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIAWS01_001_129013">
+        <From>
+          <StopPointRef>6500K0344</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500K0339</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIAWS01_001_129014">
+        <From>
+          <StopPointRef>6500K0339</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500K0337</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIAWS01_001_129015">
+        <From>
+          <StopPointRef>6500K0337</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500K0334</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIAWS01_001_129016">
+        <From>
+          <StopPointRef>6500K0334</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500K0333</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIAWS01_001_129017">
+        <From>
+          <StopPointRef>6500K0333</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500K9666</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="FIAWS01_002">
+      <Description>Kirkcaldy West PS - East Vows Walk
+</Description>
+      <RouteSectionRef>FIAWS01_002</RouteSectionRef>
+    </Route>
+    <Route id="FIAWS01_001">
+      <Description>West Vows Walk - Kirkcaldy West PS
+</Description>
+      <RouteSectionRef>FIAWS01_001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_FIAWS01-3">
+      <JourneyPatternTimingLink id="JPS_FIAWS01-3_129002">
+        <From>
+          <StopPointRef>6500K9666</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500K1572</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIAWS01_002_129002</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIAWS01-3_129003">
+        <From>
+          <StopPointRef>6500K1572</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500K1573</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIAWS01_002_129003</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIAWS01-3_129004">
+        <From>
+          <StopPointRef>6500K1573</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500K0345</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIAWS01_002_129004</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIAWS01-3_129005">
+        <From>
+          <StopPointRef>6500K0345</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500K0346</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIAWS01_002_129005</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIAWS01-3_129006">
+        <From>
+          <StopPointRef>6500K0346</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500K1460</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIAWS01_002_129006</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIAWS01-3_129007">
+        <From>
+          <StopPointRef>6500K1460</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500K9296</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FIAWS01_002_129007</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIAWS01-3_129008">
+        <From>
+          <StopPointRef>6500K9296</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500K9295</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FIAWS01_002_129008</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FIAWS01-4">
+      <JourneyPatternTimingLink id="JPS_FIAWS01-4_129010">
+        <From>
+          <StopPointRef>6500K9296</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500K9295</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FIAWS01_001_129010</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIAWS01-4_129011">
+        <From>
+          <StopPointRef>6500K9295</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500K0343</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIAWS01_001_129011</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIAWS01-4_129012">
+        <From>
+          <StopPointRef>6500K0343</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500K0344</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIAWS01_001_129012</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIAWS01-4_129013">
+        <From>
+          <StopPointRef>6500K0344</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500K0339</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIAWS01_001_129013</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIAWS01-4_129014">
+        <From>
+          <StopPointRef>6500K0339</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500K0337</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FIAWS01_001_129014</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIAWS01-4_129015">
+        <From>
+          <StopPointRef>6500K0337</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500K0334</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIAWS01_001_129015</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIAWS01-4_129016">
+        <From>
+          <StopPointRef>6500K0334</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500K0333</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIAWS01_001_129016</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIAWS01-4_129017">
+        <From>
+          <StopPointRef>6500K0333</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500K9666</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FIAWS01_001_129017</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="FST">
+      <NationalOperatorCode>NFST</NationalOperatorCode>
+      <OperatorCode>FST</OperatorCode>
+      <OperatorShortName>Festival Travel</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>FIAWS01</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>WS1</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2013-08-12</StartDate>
+        <EndDate>2020-09-25</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>FST</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>West Vows Walk - Kirkcaldy West PS</Description>
+      <StandardService>
+        <Origin>West Vows Walk</Origin>
+        <Destination>Kirkcaldy West PS</Destination>
+        <JourneyPattern id="JPS_FIAWS01-3">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FIAWS01-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FIAWS01-4">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FIAWS01-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>FST</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>747</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-11-15</StartDate>
+              <EndDate>2019-11-15</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-04</StartDate>
+              <EndDate>2020-05-04</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>30779</VehicleJourneyCode>
+      <ServiceRef>FIAWS01</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FIAWS01-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>SCH-2</NoteCode>
+        <NoteText>Operates on Fife schooldays only</NoteText>
+      </Note>
+      <DepartureTime>15:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>FST</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>747</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-11-15</StartDate>
+              <EndDate>2019-11-15</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-04</StartDate>
+              <EndDate>2020-05-04</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>30780</VehicleJourneyCode>
+      <ServiceRef>FIAWS01</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FIAWS01-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>SCH-2</NoteCode>
+        <NoteText>Operates on Fife schooldays only</NoteText>
+      </Note>
+      <DepartureTime>08:40:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

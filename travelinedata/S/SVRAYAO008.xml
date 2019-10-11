@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T12:02:00-00:00" ModificationDateTime="2019-10-07T12:02:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRAYAO008.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <ServicedOrganisations>
+    <ServicedOrganisation>
+      <OrganisationCode>937</OrganisationCode>
+      <Name>
+QE0 : Cif-SER8-WCM-20160924_20190509_162831.cif
+</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2019-06-30</StartDate>
+          <EndDate>2019-08-14</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-10-06</StartDate>
+          <EndDate>2019-10-19</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-12-22</StartDate>
+          <EndDate>2020-01-04</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-02-09</StartDate>
+          <EndDate>2020-02-15</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-04-05</StartDate>
+          <EndDate>2020-04-18</EndDate>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+  </ServicedOrganisations>
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60709269</StopPointRef>
+      <CommonName>Station Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60709274</StopPointRef>
+      <CommonName>North Pier Car Park</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60709455</StopPointRef>
+      <CommonName>Corran Halls Car Park</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60707862</StopPointRef>
+      <CommonName>Pennyfuir Cemetery</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60709247</StopPointRef>
+      <CommonName>Road End</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60709336</StopPointRef>
+      <CommonName>Bridge Junction</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60709626</StopPointRef>
+      <CommonName>Black Crofts</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60707619</StopPointRef>
+      <CommonName>Ardchattan Church</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="AYAO008_002">
+      <RouteLink id="AYAO008_002_286527">
+        <From>
+          <StopPointRef>60709269</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60709274</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AYAO008_002_286528">
+        <From>
+          <StopPointRef>60709274</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60709455</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AYAO008_002_286529">
+        <From>
+          <StopPointRef>60709455</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60707862</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AYAO008_002_286530">
+        <From>
+          <StopPointRef>60707862</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60709247</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AYAO008_002_286531">
+        <From>
+          <StopPointRef>60709247</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60709336</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AYAO008_002_286532">
+        <From>
+          <StopPointRef>60709336</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60709626</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AYAO008_002_286533">
+        <From>
+          <StopPointRef>60709626</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60707619</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="AYAO008_002">
+      <Description>Oban - Achnaba
+</Description>
+      <RouteSectionRef>AYAO008_002</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_AYAO008-2">
+      <JourneyPatternTimingLink id="JPS_AYAO008-2_286527">
+        <From>
+          <StopPointRef>60709269</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60709274</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AYAO008_002_286527</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AYAO008-2_286528">
+        <From>
+          <StopPointRef>60709274</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60709455</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AYAO008_002_286528</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AYAO008-2_286529">
+        <From>
+          <StopPointRef>60709455</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60707862</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AYAO008_002_286529</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AYAO008-2_286530">
+        <From>
+          <StopPointRef>60707862</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60709247</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AYAO008_002_286530</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT240S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AYAO008-2_286531">
+        <From>
+          <StopPointRef>60709247</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60709336</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AYAO008_002_286531</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AYAO008-2_286532">
+        <From>
+          <StopPointRef>60709336</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60709626</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AYAO008_002_286532</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT240S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AYAO008-2_286533">
+        <From>
+          <StopPointRef>60709626</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60707619</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AYAO008_002_286533</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT360S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="WCM">
+      <NationalOperatorCode>WCMO</NationalOperatorCode>
+      <OperatorCode>WCM</OperatorCode>
+      <OperatorShortName>West Coast Motors</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>AYAO008</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>8</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2016-09-24</StartDate>
+        <EndDate>2020-05-09</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>WCM</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Oban - Achnaba</Description>
+      <StandardService>
+        <Origin>Oban</Origin>
+        <Destination>Achnaba</Destination>
+        <JourneyPattern id="JPS_AYAO008-2">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_AYAO008-2</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>WCM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>937</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-11-25</StartDate>
+              <EndDate>2019-11-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-04</StartDate>
+              <EndDate>2020-05-04</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>97783</VehicleJourneyCode>
+      <ServiceRef>AYAO008</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAO008-2</JourneyPatternRef>
+      <Note>
+        <NoteCode>Sch-7</NoteCode>
+        <NoteText>School Days Only</NoteText>
+      </Note>
+      <DepartureTime>07:44:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

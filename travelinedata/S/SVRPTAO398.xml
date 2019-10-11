@@ -1,0 +1,3675 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:14:00-00:00" ModificationDateTime="2019-10-07T13:14:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRPTAO398.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6090194</StopPointRef>
+      <CommonName>Central Station Forecourt</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>609086</StopPointRef>
+      <CommonName>Dundas Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6090118</StopPointRef>
+      <CommonName>Buchanan Bus Station</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="PTAO398_003">
+      <RouteLink id="PTAO398_003_217805">
+        <From>
+          <StopPointRef>6090194</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>609086</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO398_003_217806">
+        <From>
+          <StopPointRef>609086</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6090118</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO398_003_217807">
+        <From>
+          <StopPointRef>6090118</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6090194</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="PTAO398_003">
+      <Description>Glasgow - Inter Station service
+</Description>
+      <RouteSectionRef>PTAO398_003</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_PTAO398-2">
+      <JourneyPatternTimingLink id="JPS_PTAO398-2_217805">
+        <From>
+          <StopPointRef>6090194</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>609086</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO398_003_217805</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT240S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO398-2_217806">
+        <From>
+          <StopPointRef>609086</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090118</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO398_003_217806</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO398-2_217807">
+        <From>
+          <StopPointRef>6090118</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090194</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO398_003_217807</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT600S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_PTAO398-3">
+      <JourneyPatternTimingLink id="JPS_PTAO398-3_217805">
+        <From>
+          <StopPointRef>6090194</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>609086</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO398_003_217805</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT360S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO398-3_217806">
+        <From>
+          <StopPointRef>609086</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090118</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO398_003_217806</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO398-3_217807">
+        <From>
+          <StopPointRef>6090118</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090194</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO398_003_217807</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT600S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_PTAO398-4">
+      <JourneyPatternTimingLink id="JPS_PTAO398-4_217805">
+        <From>
+          <StopPointRef>6090194</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>609086</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO398_003_217805</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT240S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO398-4_217806">
+        <From>
+          <StopPointRef>609086</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090118</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO398_003_217806</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO398-4_217807">
+        <From>
+          <StopPointRef>6090118</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090194</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO398_003_217807</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT540S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="CTB">
+      <NationalOperatorCode>GCTB</NationalOperatorCode>
+      <OperatorCode>CTB</OperatorCode>
+      <OperatorShortName>Glasgow Citybus</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PTAO398</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>398</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2016-04-01</StartDate>
+        <EndDate>2099-01-01</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>CTB</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Glasgow - Inter Station service</Description>
+      <StandardService>
+        <Origin>Glasgow</Origin>
+        <Destination>Inter Station service</Destination>
+        <JourneyPattern id="JPS_PTAO398-2">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_PTAO398-2</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_PTAO398-3">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_PTAO398-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_PTAO398-4">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_PTAO398-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65517</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>08:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65518</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>08:12:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65519</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>08:24:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65520</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>08:36:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65521</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>08:48:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65522</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>09:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65523</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>09:12:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65524</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>09:24:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65525</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>09:36:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65526</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>09:48:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65527</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>10:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65528</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-3</JourneyPatternRef>
+      <DepartureTime>10:12:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65529</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>10:24:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65530</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>10:36:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65531</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>10:48:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65532</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>11:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65533</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>11:12:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65534</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>11:24:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65535</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>11:36:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65536</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>11:48:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65537</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>12:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65538</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>12:12:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65539</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>12:24:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65540</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>12:36:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65541</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>12:48:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65542</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>13:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65543</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>13:12:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65544</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>13:24:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65545</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>13:36:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65546</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>13:48:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65547</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>14:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65548</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>14:12:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65549</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>14:24:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65550</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>14:36:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65551</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>14:48:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65552</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>15:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65553</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>15:12:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65554</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>15:24:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65555</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>15:36:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65556</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>15:48:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65557</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>16:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65558</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>16:12:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65559</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>16:24:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65560</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>16:36:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65561</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>16:48:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65562</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>17:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65563</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>17:12:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65564</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>17:24:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65565</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>17:36:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65566</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>17:48:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65567</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>18:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65568</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>18:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65569</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>18:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65570</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>19:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65571</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>19:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65572</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>19:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65573</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>20:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65574</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>09:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65575</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>09:12:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65576</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>09:24:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65577</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>09:36:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65578</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>09:48:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65579</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>10:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65580</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>10:12:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65581</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>10:24:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65582</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>10:36:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65583</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>10:48:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65584</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>11:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65585</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>11:12:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65586</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>11:24:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65587</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>11:36:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65588</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>11:48:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65589</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>12:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65590</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>12:12:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65591</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>12:24:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65592</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>12:36:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65593</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>12:48:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65594</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>13:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65595</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>13:12:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65596</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>13:24:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65597</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>13:36:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65598</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>13:48:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65599</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>14:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65600</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>14:12:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65601</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>14:24:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65602</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>14:36:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65603</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>14:48:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65604</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>15:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65605</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>15:12:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65606</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>15:24:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65607</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>15:36:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65608</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>15:48:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65609</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>16:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65610</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>16:12:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65611</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>16:24:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65612</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>16:36:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65613</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>16:48:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65614</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>17:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65615</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>17:12:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65616</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>17:24:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65617</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>17:36:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65618</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>17:48:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65619</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>18:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65620</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>18:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65621</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>18:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65622</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>19:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65623</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>19:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65624</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>19:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>65625</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-2</JourneyPatternRef>
+      <DepartureTime>20:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfOperation>
+            <DateRange>
+              <StartDate>2019-12-26</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+          </DaysOfOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65626</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-4</JourneyPatternRef>
+      <DepartureTime>12:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfOperation>
+            <DateRange>
+              <StartDate>2019-12-26</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+          </DaysOfOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65627</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-4</JourneyPatternRef>
+      <DepartureTime>12:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfOperation>
+            <DateRange>
+              <StartDate>2019-12-26</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+          </DaysOfOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65628</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-4</JourneyPatternRef>
+      <DepartureTime>12:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfOperation>
+            <DateRange>
+              <StartDate>2019-12-26</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+          </DaysOfOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65629</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-4</JourneyPatternRef>
+      <DepartureTime>13:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfOperation>
+            <DateRange>
+              <StartDate>2019-12-26</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+          </DaysOfOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65630</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-4</JourneyPatternRef>
+      <DepartureTime>13:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfOperation>
+            <DateRange>
+              <StartDate>2019-12-26</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+          </DaysOfOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65631</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-4</JourneyPatternRef>
+      <DepartureTime>13:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfOperation>
+            <DateRange>
+              <StartDate>2019-12-26</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+          </DaysOfOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65632</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-4</JourneyPatternRef>
+      <DepartureTime>14:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfOperation>
+            <DateRange>
+              <StartDate>2019-12-26</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+          </DaysOfOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65633</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-4</JourneyPatternRef>
+      <DepartureTime>14:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfOperation>
+            <DateRange>
+              <StartDate>2019-12-26</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+          </DaysOfOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65634</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-4</JourneyPatternRef>
+      <DepartureTime>14:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfOperation>
+            <DateRange>
+              <StartDate>2019-12-26</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+          </DaysOfOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65635</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-4</JourneyPatternRef>
+      <DepartureTime>15:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfOperation>
+            <DateRange>
+              <StartDate>2019-12-26</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+          </DaysOfOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65636</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-4</JourneyPatternRef>
+      <DepartureTime>15:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfOperation>
+            <DateRange>
+              <StartDate>2019-12-26</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+          </DaysOfOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65637</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-4</JourneyPatternRef>
+      <DepartureTime>15:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfOperation>
+            <DateRange>
+              <StartDate>2019-12-26</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+          </DaysOfOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65638</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-4</JourneyPatternRef>
+      <DepartureTime>16:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfOperation>
+            <DateRange>
+              <StartDate>2019-12-26</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+          </DaysOfOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65639</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-4</JourneyPatternRef>
+      <DepartureTime>16:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfOperation>
+            <DateRange>
+              <StartDate>2019-12-26</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+          </DaysOfOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65640</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-4</JourneyPatternRef>
+      <DepartureTime>16:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfOperation>
+            <DateRange>
+              <StartDate>2019-12-26</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+          </DaysOfOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65641</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-4</JourneyPatternRef>
+      <DepartureTime>17:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfOperation>
+            <DateRange>
+              <StartDate>2019-12-26</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+          </DaysOfOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65642</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-4</JourneyPatternRef>
+      <DepartureTime>17:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfOperation>
+            <DateRange>
+              <StartDate>2019-12-26</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+          </DaysOfOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65643</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-4</JourneyPatternRef>
+      <DepartureTime>17:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfOperation>
+            <DateRange>
+              <StartDate>2019-12-26</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+          </DaysOfOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65644</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-4</JourneyPatternRef>
+      <DepartureTime>18:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfOperation>
+            <DateRange>
+              <StartDate>2019-12-26</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+          </DaysOfOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65645</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-4</JourneyPatternRef>
+      <DepartureTime>18:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfOperation>
+            <DateRange>
+              <StartDate>2019-12-26</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+          </DaysOfOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65646</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-4</JourneyPatternRef>
+      <DepartureTime>18:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfOperation>
+            <DateRange>
+              <StartDate>2019-12-26</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+          </DaysOfOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65647</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-4</JourneyPatternRef>
+      <DepartureTime>19:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfOperation>
+            <DateRange>
+              <StartDate>2019-12-26</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+          </DaysOfOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65648</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-4</JourneyPatternRef>
+      <DepartureTime>19:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfOperation>
+            <DateRange>
+              <StartDate>2019-12-26</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+          </DaysOfOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65649</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-4</JourneyPatternRef>
+      <DepartureTime>19:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CTB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfOperation>
+            <DateRange>
+              <StartDate>2019-12-26</StartDate>
+              <EndDate>2019-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-30</StartDate>
+              <EndDate>2019-12-30</EndDate>
+            </DateRange>
+          </DaysOfOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65650</VehicleJourneyCode>
+      <ServiceRef>PTAO398</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO398-4</JourneyPatternRef>
+      <DepartureTime>20:00:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

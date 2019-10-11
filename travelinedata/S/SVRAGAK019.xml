@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:21:00-00:00" ModificationDateTime="2019-10-07T13:21:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRAGAK019.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <ServicedOrganisations>
+    <ServicedOrganisation>
+      <OrganisationCode>160</OrganisationCode>
+      <Name>
+QE0 : BUS.CIF
+</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2019-10-05</StartDate>
+          <EndDate>2019-10-20</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-12-04</StartDate>
+          <EndDate>2019-12-08</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-12-21</StartDate>
+          <EndDate>2020-01-05</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-02-13</StartDate>
+          <EndDate>2020-02-17</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-04-04</StartDate>
+          <EndDate>2020-04-19</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-05-02</StartDate>
+          <EndDate>2020-05-04</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-05-23</StartDate>
+          <EndDate>2020-05-25</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-06-27</StartDate>
+          <EndDate>2049-12-31</EndDate>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+  </ServicedOrganisations>
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM901</StopPointRef>
+      <CommonName>Webster's High School</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM1702</StopPointRef>
+      <CommonName>Primary School</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM376</StopPointRef>
+      <CommonName>Cossacks House Road End</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM1840</StopPointRef>
+      <CommonName>Netherton</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM909</StopPointRef>
+      <CommonName>Derachie Road End</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM1823</StopPointRef>
+      <CommonName>Goynd</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM1834</StopPointRef>
+      <CommonName>Roadmans Cottage</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM1321</StopPointRef>
+      <CommonName>Woodlands Avenue</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM1319</StopPointRef>
+      <CommonName>East Balgillo Farm</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM1318</StopPointRef>
+      <CommonName>East Balgillo Farm</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM1833</StopPointRef>
+      <CommonName>Roadmans Cottage</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM885</StopPointRef>
+      <CommonName>Derachie Road End</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM081</StopPointRef>
+      <CommonName>Village Hall</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM1839</StopPointRef>
+      <CommonName>Netherton</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM375</StopPointRef>
+      <CommonName>Cossacks House Road End</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM58</StopPointRef>
+      <CommonName>Primary School</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="AGAK019_002">
+      <RouteLink id="AGAK019_002_30500">
+        <From>
+          <StopPointRef>6490IM901</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM1702</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAK019_002_30501">
+        <From>
+          <StopPointRef>6490IM1702</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM376</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAK019_002_30502">
+        <From>
+          <StopPointRef>6490IM376</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM1840</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAK019_002_30503">
+        <From>
+          <StopPointRef>6490IM1840</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM909</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAK019_002_30504">
+        <From>
+          <StopPointRef>6490IM909</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM1823</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAK019_002_30505">
+        <From>
+          <StopPointRef>6490IM1823</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM1834</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAK019_002_30506">
+        <From>
+          <StopPointRef>6490IM1834</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM1321</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAK019_002_30507">
+        <From>
+          <StopPointRef>6490IM1321</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM1319</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="AGAK019_001">
+      <RouteLink id="AGAK019_001_30509">
+        <From>
+          <StopPointRef>6490IM1318</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM1321</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAK019_001_30510">
+        <From>
+          <StopPointRef>6490IM1321</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM1833</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAK019_001_30511">
+        <From>
+          <StopPointRef>6490IM1833</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM1823</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAK019_001_30512">
+        <From>
+          <StopPointRef>6490IM1823</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM885</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAK019_001_30513">
+        <From>
+          <StopPointRef>6490IM885</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM081</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAK019_001_30514">
+        <From>
+          <StopPointRef>6490IM081</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM1839</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAK019_001_30515">
+        <From>
+          <StopPointRef>6490IM1839</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM375</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAK019_001_30516">
+        <From>
+          <StopPointRef>6490IM375</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM58</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAK019_001_30517">
+        <From>
+          <StopPointRef>6490IM58</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM901</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="AGAK019_002">
+      <Description>Webster's High School - Tannadice
+</Description>
+      <RouteSectionRef>AGAK019_002</RouteSectionRef>
+    </Route>
+    <Route id="AGAK019_001">
+      <Description>Tannadice - Webster's High School
+</Description>
+      <RouteSectionRef>AGAK019_001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_AGAK019-3">
+      <JourneyPatternTimingLink id="JPS_AGAK019-3_30500">
+        <From>
+          <StopPointRef>6490IM901</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM1702</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAK019_002_30500</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT660S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAK019-3_30501">
+        <From>
+          <StopPointRef>6490IM1702</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM376</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAK019_002_30501</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAK019-3_30502">
+        <From>
+          <StopPointRef>6490IM376</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM1840</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAK019_002_30502</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAK019-3_30503">
+        <From>
+          <StopPointRef>6490IM1840</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM909</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAK019_002_30503</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT360S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAK019-3_30504">
+        <From>
+          <StopPointRef>6490IM909</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM1823</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAK019_002_30504</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT360S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAK019-3_30505">
+        <From>
+          <StopPointRef>6490IM1823</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM1834</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAK019_002_30505</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAK019-3_30506">
+        <From>
+          <StopPointRef>6490IM1834</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM1321</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAK019_002_30506</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAK019-3_30507">
+        <From>
+          <StopPointRef>6490IM1321</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM1319</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAK019_002_30507</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT360S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_AGAK019-4">
+      <JourneyPatternTimingLink id="JPS_AGAK019-4_30509">
+        <From>
+          <StopPointRef>6490IM1318</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM1321</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAK019_001_30509</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT360S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAK019-4_30510">
+        <From>
+          <StopPointRef>6490IM1321</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM1833</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAK019_001_30510</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAK019-4_30511">
+        <From>
+          <StopPointRef>6490IM1833</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM1823</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAK019_001_30511</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT420S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAK019-4_30512">
+        <From>
+          <StopPointRef>6490IM1823</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM885</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAK019_001_30512</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT360S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAK019-4_30513">
+        <From>
+          <StopPointRef>6490IM885</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM081</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAK019_001_30513</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT240S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAK019-4_30514">
+        <From>
+          <StopPointRef>6490IM081</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM1839</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAK019_001_30514</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAK019-4_30515">
+        <From>
+          <StopPointRef>6490IM1839</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM375</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAK019_001_30515</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAK019-4_30516">
+        <From>
+          <StopPointRef>6490IM375</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM58</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAK019_001_30516</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAK019-4_30517">
+        <From>
+          <StopPointRef>6490IM58</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM901</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAK019_001_30517</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT660S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="STY">
+      <NationalOperatorCode>SSTY</NationalOperatorCode>
+      <OperatorCode>STY</OperatorCode>
+      <OperatorShortName>Stagecoach East Scotland</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>AGAK019</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>K19</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2018-01-08</StartDate>
+        <EndDate>2049-12-31</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>STY</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Tannadice - Webster's High School</Description>
+      <StandardService>
+        <Origin>Tannadice</Origin>
+        <Destination>Webster's High School</Destination>
+        <JourneyPattern id="JPS_AGAK019-3">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_AGAK019-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_AGAK019-4">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_AGAK019-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>STY</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>160</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>12340</VehicleJourneyCode>
+      <ServiceRef>AGAK019</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGAK019-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>Sch</NoteCode>
+        <NoteText>Operates on Angus schooldays only</NoteText>
+      </Note>
+      <DepartureTime>13:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>STY</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>160</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>12341</VehicleJourneyCode>
+      <ServiceRef>AGAK019</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGAK019-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>Sch</NoteCode>
+        <NoteText>Operates on Angus schooldays only</NoteText>
+      </Note>
+      <DepartureTime>16:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>STY</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>160</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>12342</VehicleJourneyCode>
+      <ServiceRef>AGAK019</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGAK019-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>Sch</NoteCode>
+        <NoteText>Operates on Angus schooldays only</NoteText>
+      </Note>
+      <DepartureTime>08:02:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

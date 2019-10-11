@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:28:00-00:00" ModificationDateTime="2019-10-07T13:28:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRFSAX099.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60903718</StopPointRef>
+      <CommonName>Buchanan Bus Station</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6190723</StopPointRef>
+      <CommonName>Prestwick Airport</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="FSAX099_002">
+      <RouteLink id="FSAX099_002_279397">
+        <From>
+          <StopPointRef>60903718</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6190723</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSAX099_001">
+      <RouteLink id="FSAX099_001_279399">
+        <From>
+          <StopPointRef>6190723</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60903718</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="FSAX099_002">
+      <Description>Glasgow - Prestwick Airport
+</Description>
+      <RouteSectionRef>FSAX099_002</RouteSectionRef>
+    </Route>
+    <Route id="FSAX099_001">
+      <Description>Prestwick Airport - Glasgow
+</Description>
+      <RouteSectionRef>FSAX099_001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_FSAX099-3">
+      <JourneyPatternTimingLink id="JPS_FSAX099-3_279397">
+        <From>
+          <StopPointRef>60903718</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6190723</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAX099_002_279397</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT2700S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSAX099-4">
+      <JourneyPatternTimingLink id="JPS_FSAX099-4_279399">
+        <From>
+          <StopPointRef>6190723</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60903718</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAX099_001_279399</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2700S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="DOD">
+      <NationalOperatorCode>DODT</NationalOperatorCode>
+      <OperatorCode>DOD</OperatorCode>
+      <OperatorShortName>Dodds of Troon</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>FSAX099</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>X99</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2019-04-01</StartDate>
+        <EndDate>2019-10-31</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>DOD</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Prestwick Airport - Glasgow</Description>
+      <StandardService>
+        <Origin>Prestwick Airport</Origin>
+        <Destination>Glasgow</Destination>
+        <JourneyPattern id="JPS_FSAX099-3">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSAX099-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSAX099-4">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSAX099-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>DOD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>87566</VehicleJourneyCode>
+      <ServiceRef>FSAX099</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAX099-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>BK</NoteCode>
+        <NoteText>Advance booking recommended contact operator</NoteText>
+      </Note>
+      <DepartureTime>03:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>DOD</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>87567</VehicleJourneyCode>
+      <ServiceRef>FSAX099</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAX099-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>DEL</NoteCode>
+        <NoteText>Can be delayed up to 45 mins for late flights contact operator</NoteText>
+      </Note>
+      <Note>
+        <NoteCode>BK</NoteCode>
+        <NoteText>Advance booking recommended contact operator</NoteText>
+      </Note>
+      <DepartureTime>00:30:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

@@ -1,0 +1,1563 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:21:00-00:00" ModificationDateTime="2019-10-07T13:21:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRAYAJUR0.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300FEO</StopPointRef>
+      <CommonName>Feolin Jura Ferry Terminal</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300PAK</StopPointRef>
+      <CommonName>Port Askaig Islay Ferry Terminal</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="AYAJUR0_002">
+      <RouteLink id="AYAJUR0_002_286050">
+        <From>
+          <StopPointRef>9300FEO</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300PAK</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="AYAJUR0_001">
+      <RouteLink id="AYAJUR0_001_286052">
+        <From>
+          <StopPointRef>9300PAK</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300FEO</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="AYAJUR0_002">
+      <Description>Feolin - Port Askaig
+</Description>
+      <RouteSectionRef>AYAJUR0_002</RouteSectionRef>
+    </Route>
+    <Route id="AYAJUR0_001">
+      <Description>Port Askaig - Feolin
+</Description>
+      <RouteSectionRef>AYAJUR0_001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_AYAJUR0-3">
+      <JourneyPatternTimingLink id="JPS_AYAJUR0-3_286050">
+        <From>
+          <StopPointRef>9300FEO</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300PAK</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AYAJUR0_002_286050</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_AYAJUR0-4">
+      <JourneyPatternTimingLink id="JPS_AYAJUR0-4_286052">
+        <From>
+          <StopPointRef>9300PAK</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300FEO</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AYAJUR0_001_286052</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="ABF">
+      <NationalOperatorCode>ABCF</NationalOperatorCode>
+      <OperatorCode>ABF</OperatorCode>
+      <OperatorShortName>Argyll + Bute Council Fe</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>AYAJUR0</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>JUR</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2019-03-29</StartDate>
+        <EndDate>2019-10-20</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>ABF</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>ferry</Mode>
+      <Description>Port Askaig - Feolin</Description>
+      <StandardService>
+        <Origin>Port Askaig</Origin>
+        <Destination>Feolin</Destination>
+        <JourneyPattern id="JPS_AYAJUR0-3">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_AYAJUR0-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_AYAJUR0-4">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_AYAJUR0-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97466</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>JURC</NoteCode>
+        <NoteText>Calmac Connection (Port Askaig Dep Only) To be booked by noon 2 days in</NoteText>
+      </Note>
+      <DepartureTime>06:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97467</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-3</JourneyPatternRef>
+      <DepartureTime>07:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97468</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-3</JourneyPatternRef>
+      <DepartureTime>08:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97469</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-3</JourneyPatternRef>
+      <DepartureTime>08:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97470</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-3</JourneyPatternRef>
+      <DepartureTime>09:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97471</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-3</JourneyPatternRef>
+      <DepartureTime>10:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97472</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-3</JourneyPatternRef>
+      <DepartureTime>10:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97473</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-3</JourneyPatternRef>
+      <DepartureTime>11:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97474</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-3</JourneyPatternRef>
+      <DepartureTime>12:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97475</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-3</JourneyPatternRef>
+      <DepartureTime>13:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97476</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-3</JourneyPatternRef>
+      <DepartureTime>14:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97477</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-3</JourneyPatternRef>
+      <DepartureTime>15:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97478</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-3</JourneyPatternRef>
+      <DepartureTime>16:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97479</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-3</JourneyPatternRef>
+      <DepartureTime>16:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97480</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-3</JourneyPatternRef>
+      <DepartureTime>17:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97481</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-3</JourneyPatternRef>
+      <DepartureTime>18:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97482</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-3</JourneyPatternRef>
+      <DepartureTime>21:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97483</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>JURB</NoteCode>
+        <NoteText>To be booked by noon three days in advance</NoteText>
+      </Note>
+      <DepartureTime>23:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <HolidaysOnly />
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97508</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-4</JourneyPatternRef>
+      <DepartureTime>23:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97509</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-4</JourneyPatternRef>
+      <DepartureTime>07:35:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97510</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-4</JourneyPatternRef>
+      <DepartureTime>07:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97511</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-4</JourneyPatternRef>
+      <DepartureTime>08:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97512</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-4</JourneyPatternRef>
+      <DepartureTime>09:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97513</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-4</JourneyPatternRef>
+      <DepartureTime>10:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97514</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-4</JourneyPatternRef>
+      <DepartureTime>11:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97515</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-4</JourneyPatternRef>
+      <DepartureTime>12:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97516</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-4</JourneyPatternRef>
+      <DepartureTime>13:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97517</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-4</JourneyPatternRef>
+      <DepartureTime>14:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97518</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-4</JourneyPatternRef>
+      <DepartureTime>15:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97519</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-4</JourneyPatternRef>
+      <DepartureTime>16:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97520</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-4</JourneyPatternRef>
+      <DepartureTime>16:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97521</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-4</JourneyPatternRef>
+      <DepartureTime>17:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97522</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-4</JourneyPatternRef>
+      <DepartureTime>18:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97523</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-4</JourneyPatternRef>
+      <DepartureTime>21:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97524</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>JURB</NoteCode>
+        <NoteText>To be booked by Noon three days in advance</NoteText>
+      </Note>
+      <DepartureTime>23:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97525</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>JURC</NoteCode>
+        <NoteText>Calmac Connection (Port Askaig Dep Only) To be booked by noon 2 days in</NoteText>
+      </Note>
+      <DepartureTime>06:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97526</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-4</JourneyPatternRef>
+      <DepartureTime>07:35:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97527</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-4</JourneyPatternRef>
+      <DepartureTime>07:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97528</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-4</JourneyPatternRef>
+      <DepartureTime>08:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97529</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-4</JourneyPatternRef>
+      <DepartureTime>09:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97530</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-4</JourneyPatternRef>
+      <DepartureTime>10:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97531</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-4</JourneyPatternRef>
+      <DepartureTime>11:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97532</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-4</JourneyPatternRef>
+      <DepartureTime>12:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97533</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-4</JourneyPatternRef>
+      <DepartureTime>13:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97534</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-4</JourneyPatternRef>
+      <DepartureTime>14:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97535</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-4</JourneyPatternRef>
+      <DepartureTime>15:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97536</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-4</JourneyPatternRef>
+      <DepartureTime>16:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97537</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-4</JourneyPatternRef>
+      <DepartureTime>16:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97538</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-4</JourneyPatternRef>
+      <DepartureTime>17:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97539</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-4</JourneyPatternRef>
+      <DepartureTime>18:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97540</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-4</JourneyPatternRef>
+      <DepartureTime>21:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97541</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>JURB</NoteCode>
+        <NoteText>To be booked by noon three days in advance</NoteText>
+      </Note>
+      <DepartureTime>23:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97542</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-4</JourneyPatternRef>
+      <DepartureTime>08:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97543</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-4</JourneyPatternRef>
+      <DepartureTime>10:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97544</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-4</JourneyPatternRef>
+      <DepartureTime>12:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97545</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-4</JourneyPatternRef>
+      <DepartureTime>14:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97546</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-4</JourneyPatternRef>
+      <DepartureTime>15:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97547</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-4</JourneyPatternRef>
+      <DepartureTime>16:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97548</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-4</JourneyPatternRef>
+      <DepartureTime>18:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97549</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>JURC</NoteCode>
+        <NoteText>Calmac connection (Port Askaig Dep only) To be booked by Noon 2 days in</NoteText>
+      </Note>
+      <DepartureTime>06:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Wednesday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97550</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-4</JourneyPatternRef>
+      <DepartureTime>20:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97484</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>JURC</NoteCode>
+        <NoteText>Calmac Connection (Port Askaig Dep Only) To be booked by noon 2 days in</NoteText>
+      </Note>
+      <DepartureTime>06:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97485</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-3</JourneyPatternRef>
+      <DepartureTime>07:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97486</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-3</JourneyPatternRef>
+      <DepartureTime>08:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97487</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-3</JourneyPatternRef>
+      <DepartureTime>08:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97488</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-3</JourneyPatternRef>
+      <DepartureTime>09:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97489</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-3</JourneyPatternRef>
+      <DepartureTime>10:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97490</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-3</JourneyPatternRef>
+      <DepartureTime>11:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97491</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-3</JourneyPatternRef>
+      <DepartureTime>12:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97492</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-3</JourneyPatternRef>
+      <DepartureTime>13:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97493</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-3</JourneyPatternRef>
+      <DepartureTime>14:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97494</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-3</JourneyPatternRef>
+      <DepartureTime>15:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97495</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-3</JourneyPatternRef>
+      <DepartureTime>16:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97496</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-3</JourneyPatternRef>
+      <DepartureTime>16:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97497</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-3</JourneyPatternRef>
+      <DepartureTime>17:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97498</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-3</JourneyPatternRef>
+      <DepartureTime>18:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97499</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-3</JourneyPatternRef>
+      <DepartureTime>21:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97500</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>JURB</NoteCode>
+        <NoteText>To be booked by noon three days in advance</NoteText>
+      </Note>
+      <DepartureTime>23:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97501</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-3</JourneyPatternRef>
+      <DepartureTime>08:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97502</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-3</JourneyPatternRef>
+      <DepartureTime>10:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97503</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-3</JourneyPatternRef>
+      <DepartureTime>14:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97504</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-3</JourneyPatternRef>
+      <DepartureTime>15:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97505</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-3</JourneyPatternRef>
+      <DepartureTime>16:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97506</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-3</JourneyPatternRef>
+      <DepartureTime>18:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Wednesday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97507</VehicleJourneyCode>
+      <ServiceRef>AYAJUR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAJUR0-3</JourneyPatternRef>
+      <DepartureTime>20:40:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T11:59:00-00:00" ModificationDateTime="2019-10-07T11:59:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRPTAO317B.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61501205</StopPointRef>
+      <CommonName>Bus Station</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61501202</StopPointRef>
+      <CommonName>High Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61501194</StopPointRef>
+      <CommonName>Wellgate</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61501187</StopPointRef>
+      <CommonName>St Patricks Lane</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61501185</StopPointRef>
+      <CommonName>Whitehill Crescent</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61501919</StopPointRef>
+      <CommonName>Kirkfield Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61501181</StopPointRef>
+      <CommonName>Kirkfieldbank Parish Church</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61501179</StopPointRef>
+      <CommonName>Kirkfieldbank Pr School</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61501178</StopPointRef>
+      <CommonName>Riverside Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61501176</StopPointRef>
+      <CommonName>Riverside Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61501174</StopPointRef>
+      <CommonName>Leshmahagow Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61501171</StopPointRef>
+      <CommonName>Lanark Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61501170</StopPointRef>
+      <CommonName>Braidwood Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61501167</StopPointRef>
+      <CommonName>Smugglers Brig Road</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="PTAO317B002">
+      <RouteLink id="PTAO317B002_216229">
+        <From>
+          <StopPointRef>61501205</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61501202</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO317B002_216230">
+        <From>
+          <StopPointRef>61501202</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61501194</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO317B002_216231">
+        <From>
+          <StopPointRef>61501194</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61501187</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO317B002_216232">
+        <From>
+          <StopPointRef>61501187</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61501185</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO317B002_216233">
+        <From>
+          <StopPointRef>61501185</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61501919</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO317B002_216234">
+        <From>
+          <StopPointRef>61501919</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61501181</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO317B002_216235">
+        <From>
+          <StopPointRef>61501181</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61501179</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO317B002_216236">
+        <From>
+          <StopPointRef>61501179</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61501178</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO317B002_216237">
+        <From>
+          <StopPointRef>61501178</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61501176</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO317B002_216238">
+        <From>
+          <StopPointRef>61501176</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61501174</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO317B002_216239">
+        <From>
+          <StopPointRef>61501174</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61501171</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO317B002_216240">
+        <From>
+          <StopPointRef>61501171</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61501170</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO317B002_216241">
+        <From>
+          <StopPointRef>61501170</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61501167</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="PTAO317B002">
+      <Description>Lanark - Crossford
+</Description>
+      <RouteSectionRef>PTAO317B002</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_PTAO317B-2">
+      <JourneyPatternTimingLink id="JPS_PTAO317B-2_216229">
+        <From>
+          <StopPointRef>61501205</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61501202</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO317B002_216229</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT16S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO317B-2_216230">
+        <From>
+          <StopPointRef>61501202</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61501194</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO317B002_216230</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT37S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO317B-2_216231">
+        <From>
+          <StopPointRef>61501194</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61501187</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO317B002_216231</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT46S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO317B-2_216232">
+        <From>
+          <StopPointRef>61501187</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61501185</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO317B002_216232</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT27S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO317B-2_216233">
+        <From>
+          <StopPointRef>61501185</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61501919</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO317B002_216233</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT118S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO317B-2_216234">
+        <From>
+          <StopPointRef>61501919</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61501181</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO317B002_216234</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT22S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO317B-2_216235">
+        <From>
+          <StopPointRef>61501181</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61501179</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO317B002_216235</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT34S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO317B-2_216236">
+        <From>
+          <StopPointRef>61501179</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61501178</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO317B002_216236</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT22S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO317B-2_216237">
+        <From>
+          <StopPointRef>61501178</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61501176</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO317B002_216237</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT35S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO317B-2_216238">
+        <From>
+          <StopPointRef>61501176</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61501174</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO317B002_216238</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT23S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO317B-2_216239">
+        <From>
+          <StopPointRef>61501174</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61501171</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO317B002_216239</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO317B-2_216240">
+        <From>
+          <StopPointRef>61501171</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61501170</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO317B002_216240</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT141S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO317B-2_216241">
+        <From>
+          <StopPointRef>61501170</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61501167</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO317B002_216241</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT19S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="STU">
+      <NationalOperatorCode>STUR</NationalOperatorCode>
+      <OperatorCode>STU</OperatorCode>
+      <OperatorShortName>Stuarts Coaches</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PTAO317B</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>317B</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2014-07-13</StartDate>
+        <EndDate>2099-01-01</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>STU</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Lanark - Crossford</Description>
+      <StandardService>
+        <Origin>Lanark</Origin>
+        <Destination>Crossford</Destination>
+        <JourneyPattern id="JPS_PTAO317B-2">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_PTAO317B-2</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>STU</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>65168</VehicleJourneyCode>
+      <ServiceRef>PTAO317B</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO317B-2</JourneyPatternRef>
+      <DepartureTime>18:15:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

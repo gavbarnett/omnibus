@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:19:00-00:00" ModificationDateTime="2019-10-07T13:19:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRHIAO951.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6700712307</StopPointRef>
+      <CommonName>Post Office</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6700712309</StopPointRef>
+      <CommonName>Hotel</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6700713436</StopPointRef>
+      <CommonName>Ardnamurchan High School</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="HIAO951_002">
+      <RouteLink id="HIAO951_002_333517">
+        <From>
+          <StopPointRef>6700712307</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6700712309</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="HIAO951_002_333518">
+        <From>
+          <StopPointRef>6700712309</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6700713436</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="HIAO951_001">
+      <RouteLink id="HIAO951_001_333520">
+        <From>
+          <StopPointRef>6700713436</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6700712309</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="HIAO951_001_333521">
+        <From>
+          <StopPointRef>6700712309</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6700712307</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="HIAO951_002">
+      <Description>Acharacle - Strontian
+</Description>
+      <RouteSectionRef>HIAO951_002</RouteSectionRef>
+    </Route>
+    <Route id="HIAO951_001">
+      <Description>Strontian - Acharacle
+</Description>
+      <RouteSectionRef>HIAO951_001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_HIAO951-3">
+      <JourneyPatternTimingLink id="JPS_HIAO951-3_333517">
+        <From>
+          <StopPointRef>6700712307</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6700712309</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>HIAO951_002_333517</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT600S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_HIAO951-3_333518">
+        <From>
+          <StopPointRef>6700712309</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6700713436</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>HIAO951_002_333518</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1200S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_HIAO951-4">
+      <JourneyPatternTimingLink id="JPS_HIAO951-4_333520">
+        <From>
+          <StopPointRef>6700713436</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6700712309</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>HIAO951_001_333520</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1200S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_HIAO951-4_333521">
+        <From>
+          <StopPointRef>6700712309</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6700712307</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>HIAO951_001_333521</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT600S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="SHI">
+      <NationalOperatorCode>SHIL</NationalOperatorCode>
+      <OperatorCode>SHI</OperatorCode>
+      <OperatorShortName>Shiel Buses</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>HIAO951</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>951</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2004-03-16</StartDate>
+        <EndDate>2020-07-26</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>SHI</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Strontian - Acharacle</Description>
+      <StandardService>
+        <Origin>Strontian</Origin>
+        <Destination>Acharacle</Destination>
+        <JourneyPattern id="JPS_HIAO951-3">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_HIAO951-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_HIAO951-4">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_HIAO951-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>SHI</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>105954</VehicleJourneyCode>
+      <ServiceRef>HIAO951</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_HIAO951-3</JourneyPatternRef>
+      <DepartureTime>18:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHI</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>105955</VehicleJourneyCode>
+      <ServiceRef>HIAO951</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_HIAO951-3</JourneyPatternRef>
+      <DepartureTime>18:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHI</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>105956</VehicleJourneyCode>
+      <ServiceRef>HIAO951</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_HIAO951-4</JourneyPatternRef>
+      <DepartureTime>20:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHI</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>105957</VehicleJourneyCode>
+      <ServiceRef>HIAO951</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_HIAO951-4</JourneyPatternRef>
+      <DepartureTime>21:00:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

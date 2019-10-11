@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:23:00-00:00" ModificationDateTime="2019-10-07T13:23:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRFSANL02.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300LHM</StopPointRef>
+      <CommonName>Lerwick Shetland Holmsgarth Ferry Terminal</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300KWH</StopPointRef>
+      <CommonName>Kirkwall Orkney Hatston Ferry Terminal</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300ABA</StopPointRef>
+      <CommonName>Aberdeen Ferry Terminal</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="FSANL02_004">
+      <RouteLink id="FSANL02_004_260836">
+        <From>
+          <StopPointRef>9300LHM</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300KWH</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSANL02_004_260837">
+        <From>
+          <StopPointRef>9300KWH</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300ABA</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSANL02_003">
+      <RouteLink id="FSANL02_003_260839">
+        <From>
+          <StopPointRef>9300LHM</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300ABA</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSANL02_001">
+      <RouteLink id="FSANL02_001_260841">
+        <From>
+          <StopPointRef>9300ABA</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300LHM</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSANL02_002">
+      <RouteLink id="FSANL02_002_260843">
+        <From>
+          <StopPointRef>9300ABA</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300KWH</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSANL02_002_260844">
+        <From>
+          <StopPointRef>9300KWH</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300LHM</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="FSANL02_004">
+      <Description>Lerwick + Kirkwall - Aberdeen
+</Description>
+      <RouteSectionRef>FSANL02_004</RouteSectionRef>
+    </Route>
+    <Route id="FSANL02_003">
+      <Description>Lerwick + Kirkwall - Aberdeen
+</Description>
+      <RouteSectionRef>FSANL02_003</RouteSectionRef>
+    </Route>
+    <Route id="FSANL02_001">
+      <Description>Aberdeen - Kirkwall + Lerwick
+</Description>
+      <RouteSectionRef>FSANL02_001</RouteSectionRef>
+    </Route>
+    <Route id="FSANL02_002">
+      <Description>Aberdeen - Kirkwall + Lerwick
+</Description>
+      <RouteSectionRef>FSANL02_002</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_FSANL02-5">
+      <JourneyPatternTimingLink id="JPS_FSANL02-5_260836">
+        <From>
+          <StopPointRef>9300LHM</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300KWH</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSANL02_004_260836</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT21600S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSANL02-5_260837">
+        <From>
+          <WaitTime>PT900S</WaitTime>
+          <StopPointRef>9300KWH</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300ABA</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSANL02_004_260837</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT27900S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSANL02-6">
+      <JourneyPatternTimingLink id="JPS_FSANL02-6_260839">
+        <From>
+          <StopPointRef>9300LHM</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300ABA</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSANL02_003_260839</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT45000S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSANL02-7">
+      <JourneyPatternTimingLink id="JPS_FSANL02-7_260841">
+        <From>
+          <StopPointRef>9300ABA</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300LHM</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSANL02_001_260841</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT46800S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSANL02-8">
+      <JourneyPatternTimingLink id="JPS_FSANL02-8_260843">
+        <From>
+          <StopPointRef>9300ABA</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300KWH</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSANL02_002_260843</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT23400S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSANL02-8_260844">
+        <From>
+          <WaitTime>PT900S</WaitTime>
+          <StopPointRef>9300KWH</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300LHM</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSANL02_002_260844</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT29700S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="NLK">
+      <NationalOperatorCode>NLKF</NationalOperatorCode>
+      <OperatorCode>NLK</OperatorCode>
+      <OperatorShortName>Northlink Ferries</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>FSANL02</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>NL2</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2014-01-06</StartDate>
+        <EndDate>2049-12-31</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>NLK</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>ferry</Mode>
+      <Description>Aberdeen - Kirkwall + Lerwick</Description>
+      <StandardService>
+        <Origin>Aberdeen</Origin>
+        <Destination>Kirkwall + Lerwick</Destination>
+        <JourneyPattern id="JPS_FSANL02-5">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSANL02-5</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSANL02-6">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSANL02-6</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSANL02-7">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSANL02-7</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSANL02-8">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSANL02-8</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>NLK</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83040</VehicleJourneyCode>
+      <ServiceRef>FSANL02</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSANL02-5</JourneyPatternRef>
+      <Note>
+        <NoteCode>DCI</NoteCode>
+        <NoteText>Departure time shown is actually check in time</NoteText>
+      </Note>
+      <DepartureTime>17:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>NLK</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83043</VehicleJourneyCode>
+      <ServiceRef>FSANL02</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSANL02-6</JourneyPatternRef>
+      <Note>
+        <NoteCode>DCI</NoteCode>
+        <NoteText>Departure time shown is actually check in time</NoteText>
+      </Note>
+      <DepartureTime>18:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>NLK</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83044</VehicleJourneyCode>
+      <ServiceRef>FSANL02</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSANL02-6</JourneyPatternRef>
+      <Note>
+        <NoteCode>DCI</NoteCode>
+        <NoteText>Departure time shown is actually check in time</NoteText>
+      </Note>
+      <DepartureTime>18:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>NLK</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83045</VehicleJourneyCode>
+      <ServiceRef>FSANL02</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSANL02-6</JourneyPatternRef>
+      <Note>
+        <NoteCode>DCI</NoteCode>
+        <NoteText>Departure time shown is actually check in time</NoteText>
+      </Note>
+      <DepartureTime>18:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>NLK</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83046</VehicleJourneyCode>
+      <ServiceRef>FSANL02</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSANL02-6</JourneyPatternRef>
+      <Note>
+        <NoteCode>DCI</NoteCode>
+        <NoteText>Departure time shown is actually check in time</NoteText>
+      </Note>
+      <DepartureTime>18:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>NLK</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Wednesday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83047</VehicleJourneyCode>
+      <ServiceRef>FSANL02</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSANL02-5</JourneyPatternRef>
+      <Note>
+        <NoteCode>DCI</NoteCode>
+        <NoteText>Departure time shown is actually check in time</NoteText>
+      </Note>
+      <DepartureTime>17:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>NLK</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83048</VehicleJourneyCode>
+      <ServiceRef>FSANL02</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSANL02-7</JourneyPatternRef>
+      <Note>
+        <NoteCode>DCI</NoteCode>
+        <NoteText>Departure time shown is actually check in time</NoteText>
+      </Note>
+      <DepartureTime>18:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>NLK</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83049</VehicleJourneyCode>
+      <ServiceRef>FSANL02</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSANL02-7</JourneyPatternRef>
+      <Note>
+        <NoteCode>DCI</NoteCode>
+        <NoteText>Departure time shown is actually check in time</NoteText>
+      </Note>
+      <DepartureTime>18:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>NLK</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83050</VehicleJourneyCode>
+      <ServiceRef>FSANL02</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSANL02-8</JourneyPatternRef>
+      <Note>
+        <NoteCode>DCI</NoteCode>
+        <NoteText>Departure time shown is actually check in time</NoteText>
+      </Note>
+      <DepartureTime>16:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>NLK</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83051</VehicleJourneyCode>
+      <ServiceRef>FSANL02</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSANL02-8</JourneyPatternRef>
+      <Note>
+        <NoteCode>DCI</NoteCode>
+        <NoteText>Departure time shown is actually check in time</NoteText>
+      </Note>
+      <DepartureTime>16:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>NLK</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83054</VehicleJourneyCode>
+      <ServiceRef>FSANL02</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSANL02-8</JourneyPatternRef>
+      <Note>
+        <NoteCode>DCI</NoteCode>
+        <NoteText>Departure time shown is actually check in time</NoteText>
+      </Note>
+      <DepartureTime>16:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>NLK</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Wednesday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>83055</VehicleJourneyCode>
+      <ServiceRef>FSANL02</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSANL02-7</JourneyPatternRef>
+      <Note>
+        <NoteCode>DCI</NoteCode>
+        <NoteText>Departure time shown is actually check in time</NoteText>
+      </Note>
+      <DepartureTime>18:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>NLK</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2014-01-06</StartDate>
+              <EndDate>2019-03-28</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-11-01</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>83041</VehicleJourneyCode>
+      <ServiceRef>FSANL02</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSANL02-5</JourneyPatternRef>
+      <Note>
+        <NoteCode>DCI</NoteCode>
+        <NoteText>Departure time shown is actually check in time</NoteText>
+      </Note>
+      <DepartureTime>17:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>NLK</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2014-01-06</StartDate>
+              <EndDate>2019-03-28</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-11-01</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>83052</VehicleJourneyCode>
+      <ServiceRef>FSANL02</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSANL02-8</JourneyPatternRef>
+      <Note>
+        <NoteCode>DCI</NoteCode>
+        <NoteText>Departure time shown is actually check in time</NoteText>
+      </Note>
+      <DepartureTime>16:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>NLK</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2014-01-06</StartDate>
+              <EndDate>2019-10-31</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-03-29</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>83042</VehicleJourneyCode>
+      <ServiceRef>FSANL02</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSANL02-6</JourneyPatternRef>
+      <Note>
+        <NoteCode>DCI</NoteCode>
+        <NoteText>Departure time shown is actually check in time</NoteText>
+      </Note>
+      <DepartureTime>18:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>NLK</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2014-01-06</StartDate>
+              <EndDate>2019-10-31</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-03-29</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>83053</VehicleJourneyCode>
+      <ServiceRef>FSANL02</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSANL02-7</JourneyPatternRef>
+      <Note>
+        <NoteCode>DCI</NoteCode>
+        <NoteText>Departure time shown is actually check in time</NoteText>
+      </Note>
+      <DepartureTime>18:30:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

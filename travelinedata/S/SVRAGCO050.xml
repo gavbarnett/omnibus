@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T12:55:00-00:00" ModificationDateTime="2019-10-07T12:55:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRAGCO050.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM479</StopPointRef>
+      <CommonName>Red Lion</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM1342</StopPointRef>
+      <CommonName>Wallace Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM1177</StopPointRef>
+      <CommonName>Ladyloan School</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM1732</StopPointRef>
+      <CommonName>Bus Station</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM1343</StopPointRef>
+      <CommonName>Signal Tower</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM1099</StopPointRef>
+      <CommonName>Red Lion Caravan Park</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="AGCO050_002">
+      <RouteLink id="AGCO050_002_48859">
+        <From>
+          <StopPointRef>6490IM479</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM1342</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGCO050_002_48860">
+        <From>
+          <StopPointRef>6490IM1342</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM1177</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGCO050_002_48861">
+        <From>
+          <StopPointRef>6490IM1177</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM1732</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="AGCO050_001">
+      <RouteLink id="AGCO050_001_48863">
+        <From>
+          <StopPointRef>6490IM1732</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM1343</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGCO050_001_48864">
+        <From>
+          <StopPointRef>6490IM1343</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM1099</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGCO050_001_48865">
+        <From>
+          <StopPointRef>6490IM1099</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM479</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="AGCO050_002">
+      <Description>Red Lion Caravan Park - Arbroath
+</Description>
+      <RouteSectionRef>AGCO050_002</RouteSectionRef>
+    </Route>
+    <Route id="AGCO050_001">
+      <Description>Arbroath - Red Lion Caravan Park
+</Description>
+      <RouteSectionRef>AGCO050_001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_AGCO050-3">
+      <JourneyPatternTimingLink id="JPS_AGCO050-3_48859">
+        <From>
+          <StopPointRef>6490IM479</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM1342</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGCO050_002_48859</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGCO050-3_48860">
+        <From>
+          <StopPointRef>6490IM1342</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM1177</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AGCO050_002_48860</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGCO050-3_48861">
+        <From>
+          <StopPointRef>6490IM1177</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM1732</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGCO050_002_48861</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_AGCO050-4">
+      <JourneyPatternTimingLink id="JPS_AGCO050-4_48863">
+        <From>
+          <StopPointRef>6490IM1732</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM1343</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGCO050_001_48863</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGCO050-4_48864">
+        <From>
+          <StopPointRef>6490IM1343</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM1099</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AGCO050_001_48864</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGCO050-4_48865">
+        <From>
+          <StopPointRef>6490IM1099</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM479</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGCO050_001_48865</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="JPE">
+      <NationalOperatorCode>JPEM</NationalOperatorCode>
+      <OperatorCode>JPE</OperatorCode>
+      <OperatorShortName>J P Minicoaches</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>AGCO050</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>50</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2014-06-02</StartDate>
+        <EndDate>2099-12-31</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>JPE</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Arbroath - Red Lion Caravan Park</Description>
+      <StandardService>
+        <Origin>Arbroath</Origin>
+        <Destination>Red Lion Caravan Park</Destination>
+        <JourneyPattern id="JPS_AGCO050-3">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_AGCO050-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_AGCO050-4">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_AGCO050-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>JPE</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>13934</VehicleJourneyCode>
+      <ServiceRef>AGCO050</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGCO050-3</JourneyPatternRef>
+      <DepartureTime>10:26:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>JPE</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>13935</VehicleJourneyCode>
+      <ServiceRef>AGCO050</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGCO050-3</JourneyPatternRef>
+      <DepartureTime>11:26:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>JPE</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>13936</VehicleJourneyCode>
+      <ServiceRef>AGCO050</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGCO050-3</JourneyPatternRef>
+      <DepartureTime>13:51:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>JPE</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>13937</VehicleJourneyCode>
+      <ServiceRef>AGCO050</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGCO050-3</JourneyPatternRef>
+      <DepartureTime>14:51:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>JPE</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>13938</VehicleJourneyCode>
+      <ServiceRef>AGCO050</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGCO050-3</JourneyPatternRef>
+      <DepartureTime>16:21:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>JPE</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>13939</VehicleJourneyCode>
+      <ServiceRef>AGCO050</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGCO050-3</JourneyPatternRef>
+      <DepartureTime>17:06:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>JPE</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>13940</VehicleJourneyCode>
+      <ServiceRef>AGCO050</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGCO050-3</JourneyPatternRef>
+      <DepartureTime>10:26:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>JPE</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>13941</VehicleJourneyCode>
+      <ServiceRef>AGCO050</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGCO050-3</JourneyPatternRef>
+      <DepartureTime>11:26:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>JPE</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>13942</VehicleJourneyCode>
+      <ServiceRef>AGCO050</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGCO050-3</JourneyPatternRef>
+      <DepartureTime>13:51:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>JPE</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>13943</VehicleJourneyCode>
+      <ServiceRef>AGCO050</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGCO050-3</JourneyPatternRef>
+      <DepartureTime>14:51:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>JPE</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>13944</VehicleJourneyCode>
+      <ServiceRef>AGCO050</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGCO050-3</JourneyPatternRef>
+      <DepartureTime>16:21:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>JPE</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>13945</VehicleJourneyCode>
+      <ServiceRef>AGCO050</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGCO050-3</JourneyPatternRef>
+      <DepartureTime>17:06:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>JPE</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>13946</VehicleJourneyCode>
+      <ServiceRef>AGCO050</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGCO050-4</JourneyPatternRef>
+      <DepartureTime>10:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>JPE</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>13947</VehicleJourneyCode>
+      <ServiceRef>AGCO050</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGCO050-4</JourneyPatternRef>
+      <DepartureTime>11:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>JPE</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>13948</VehicleJourneyCode>
+      <ServiceRef>AGCO050</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGCO050-4</JourneyPatternRef>
+      <DepartureTime>13:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>JPE</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>13949</VehicleJourneyCode>
+      <ServiceRef>AGCO050</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGCO050-4</JourneyPatternRef>
+      <DepartureTime>14:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>JPE</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>13950</VehicleJourneyCode>
+      <ServiceRef>AGCO050</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGCO050-4</JourneyPatternRef>
+      <DepartureTime>16:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>JPE</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>13951</VehicleJourneyCode>
+      <ServiceRef>AGCO050</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGCO050-4</JourneyPatternRef>
+      <DepartureTime>17:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>JPE</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>13952</VehicleJourneyCode>
+      <ServiceRef>AGCO050</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGCO050-4</JourneyPatternRef>
+      <DepartureTime>10:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>JPE</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>13953</VehicleJourneyCode>
+      <ServiceRef>AGCO050</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGCO050-4</JourneyPatternRef>
+      <DepartureTime>11:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>JPE</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>13954</VehicleJourneyCode>
+      <ServiceRef>AGCO050</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGCO050-4</JourneyPatternRef>
+      <DepartureTime>13:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>JPE</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>13955</VehicleJourneyCode>
+      <ServiceRef>AGCO050</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGCO050-4</JourneyPatternRef>
+      <DepartureTime>14:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>JPE</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>13956</VehicleJourneyCode>
+      <ServiceRef>AGCO050</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGCO050-4</JourneyPatternRef>
+      <DepartureTime>16:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>JPE</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>13957</VehicleJourneyCode>
+      <ServiceRef>AGCO050</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGCO050-4</JourneyPatternRef>
+      <DepartureTime>17:00:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

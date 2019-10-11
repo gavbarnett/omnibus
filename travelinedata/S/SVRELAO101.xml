@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:02:00-00:00" ModificationDateTime="2019-10-07T13:02:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRELAO101.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>627009010021</StopPointRef>
+      <CommonName>Market Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>627009040290</StopPointRef>
+      <CommonName>Maitlandfield House</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>627032883</StopPointRef>
+      <CommonName>Briery Bank west</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>627032885</StopPointRef>
+      <CommonName>Briery Bank east</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>627009040270</StopPointRef>
+      <CommonName>Monkmains</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>627032452</StopPointRef>
+      <CommonName>Seggarsdean Crescent</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>627032448</StopPointRef>
+      <CommonName>Seggarsdean Park</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>627009020170</StopPointRef>
+      <CommonName>Lynn Lea Avenue</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>627009050330</StopPointRef>
+      <CommonName>Tynebank</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>627009010280</StopPointRef>
+      <CommonName>St Martin's Court</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>627009020120</StopPointRef>
+      <CommonName>Victoria Bridge</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>627009020020</StopPointRef>
+      <CommonName>High Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>627009020070</StopPointRef>
+      <CommonName>Police Station</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>627009020090</StopPointRef>
+      <CommonName>Angle Park</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>627009020160</StopPointRef>
+      <CommonName>Caponflat Crescent</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>627009030140</StopPointRef>
+      <CommonName>Roodlands Hospital</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>627009020150</StopPointRef>
+      <CommonName>Alderston Place</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>627009010180</StopPointRef>
+      <CommonName>Garleton Drive</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>627033057</StopPointRef>
+      <CommonName>Hawthornbank Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>627033059</StopPointRef>
+      <CommonName>Baird Terrace</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>627033061</StopPointRef>
+      <CommonName>Hopetoun Drive</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>627009010200</StopPointRef>
+      <CommonName>Corn Exchange</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="ELAO101_001">
+      <RouteLink id="ELAO101_001_85990">
+        <From>
+          <StopPointRef>627009010021</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>627009040290</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ELAO101_001_85991">
+        <From>
+          <StopPointRef>627009040290</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>627032883</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ELAO101_001_85992">
+        <From>
+          <StopPointRef>627032883</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>627032885</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ELAO101_001_85993">
+        <From>
+          <StopPointRef>627032885</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>627009040270</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ELAO101_001_85994">
+        <From>
+          <StopPointRef>627009040270</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>627032452</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ELAO101_001_85995">
+        <From>
+          <StopPointRef>627032452</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>627032448</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ELAO101_001_85996">
+        <From>
+          <StopPointRef>627032448</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>627009020170</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ELAO101_001_85997">
+        <From>
+          <StopPointRef>627009020170</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>627009050330</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ELAO101_001_85998">
+        <From>
+          <StopPointRef>627009050330</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>627009010280</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ELAO101_001_85999">
+        <From>
+          <StopPointRef>627009010280</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>627009020120</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ELAO101_001_86000">
+        <From>
+          <StopPointRef>627009020120</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>627009020020</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="ELAO101_004">
+      <RouteLink id="ELAO101_004_86002">
+        <From>
+          <StopPointRef>627009020020</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>627009020070</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ELAO101_004_86003">
+        <From>
+          <StopPointRef>627009020070</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>627009020090</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ELAO101_004_86004">
+        <From>
+          <StopPointRef>627009020090</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>627009020160</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ELAO101_004_86005">
+        <From>
+          <StopPointRef>627009020160</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>627009030140</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ELAO101_004_86006">
+        <From>
+          <StopPointRef>627009030140</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>627009020150</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ELAO101_004_86007">
+        <From>
+          <StopPointRef>627009020150</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>627009010180</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ELAO101_004_86008">
+        <From>
+          <StopPointRef>627009010180</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>627033057</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ELAO101_004_86009">
+        <From>
+          <StopPointRef>627033057</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>627033059</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ELAO101_004_86010">
+        <From>
+          <StopPointRef>627033059</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>627033061</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ELAO101_004_86011">
+        <From>
+          <StopPointRef>627033061</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>627009010200</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ELAO101_004_86012">
+        <From>
+          <StopPointRef>627009010200</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>627009010021</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="ELAO101_001">
+      <Description>local service - Haddington
+</Description>
+      <RouteSectionRef>ELAO101_001</RouteSectionRef>
+    </Route>
+    <Route id="ELAO101_004">
+      <Description>local service - Haddington
+</Description>
+      <RouteSectionRef>ELAO101_004</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_ELAO101-3">
+      <JourneyPatternTimingLink id="JPS_ELAO101-3_85990">
+        <From>
+          <StopPointRef>627009010021</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>627009040290</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ELAO101_001_85990</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ELAO101-3_85991">
+        <From>
+          <StopPointRef>627009040290</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>627032883</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ELAO101_001_85991</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ELAO101-3_85992">
+        <From>
+          <StopPointRef>627032883</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>627032885</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>ELAO101_001_85992</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ELAO101-3_85993">
+        <From>
+          <StopPointRef>627032885</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>627009040270</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ELAO101_001_85993</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ELAO101-3_85994">
+        <From>
+          <StopPointRef>627009040270</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>627032452</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ELAO101_001_85994</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ELAO101-3_85995">
+        <From>
+          <StopPointRef>627032452</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>627032448</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>ELAO101_001_85995</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ELAO101-3_85996">
+        <From>
+          <StopPointRef>627032448</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>627009020170</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>ELAO101_001_85996</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ELAO101-3_85997">
+        <From>
+          <StopPointRef>627009020170</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>627009050330</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ELAO101_001_85997</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ELAO101-3_85998">
+        <From>
+          <StopPointRef>627009050330</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>627009010280</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ELAO101_001_85998</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ELAO101-3_85999">
+        <From>
+          <StopPointRef>627009010280</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>627009020120</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>ELAO101_001_85999</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ELAO101-3_86000">
+        <From>
+          <StopPointRef>627009020120</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>627009020020</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>ELAO101_001_86000</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_ELAO101-4">
+      <JourneyPatternTimingLink id="JPS_ELAO101-4_86002">
+        <From>
+          <StopPointRef>627009020020</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>627009020070</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ELAO101_004_86002</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ELAO101-4_86003">
+        <From>
+          <StopPointRef>627009020070</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>627009020090</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ELAO101_004_86003</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ELAO101-4_86004">
+        <From>
+          <StopPointRef>627009020090</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>627009020160</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ELAO101_004_86004</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ELAO101-4_86005">
+        <From>
+          <StopPointRef>627009020160</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>627009030140</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>ELAO101_004_86005</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ELAO101-4_86006">
+        <From>
+          <WaitTime>PT660S</WaitTime>
+          <StopPointRef>627009030140</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>627009020150</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ELAO101_004_86006</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ELAO101-4_86007">
+        <From>
+          <StopPointRef>627009020150</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>627009010180</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ELAO101_004_86007</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ELAO101-4_86008">
+        <From>
+          <StopPointRef>627009010180</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>627033057</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>ELAO101_004_86008</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ELAO101-4_86009">
+        <From>
+          <StopPointRef>627033057</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>627033059</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ELAO101_004_86009</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ELAO101-4_86010">
+        <From>
+          <StopPointRef>627033059</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>627033061</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ELAO101_004_86010</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ELAO101-4_86011">
+        <From>
+          <StopPointRef>627033061</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>627009010200</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ELAO101_004_86011</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ELAO101-4_86012">
+        <From>
+          <StopPointRef>627009010200</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>627009010021</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>ELAO101_004_86012</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_ELAO101-5">
+      <JourneyPatternTimingLink id="JPS_ELAO101-5_86002">
+        <From>
+          <StopPointRef>627009020020</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>627009020070</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ELAO101_004_86002</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ELAO101-5_86003">
+        <From>
+          <StopPointRef>627009020070</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>627009020090</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ELAO101_004_86003</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ELAO101-5_86004">
+        <From>
+          <StopPointRef>627009020090</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>627009020160</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ELAO101_004_86004</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ELAO101-5_86005">
+        <From>
+          <StopPointRef>627009020160</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>627009030140</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>ELAO101_004_86005</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ELAO101-5_86006">
+        <From>
+          <WaitTime>PT2460S</WaitTime>
+          <StopPointRef>627009030140</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>627009020150</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ELAO101_004_86006</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ELAO101-5_86007">
+        <From>
+          <StopPointRef>627009020150</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>627009010180</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ELAO101_004_86007</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ELAO101-5_86008">
+        <From>
+          <StopPointRef>627009010180</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>627033057</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>ELAO101_004_86008</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ELAO101-5_86009">
+        <From>
+          <StopPointRef>627033057</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>627033059</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ELAO101_004_86009</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ELAO101-5_86010">
+        <From>
+          <StopPointRef>627033059</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>627033061</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ELAO101_004_86010</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ELAO101-5_86011">
+        <From>
+          <StopPointRef>627033061</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>627009010200</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ELAO101_004_86011</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ELAO101-5_86012">
+        <From>
+          <StopPointRef>627009010200</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>627009010021</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>ELAO101_004_86012</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="DPC">
+      <NationalOperatorCode>DPCE</NationalOperatorCode>
+      <OperatorCode>DPC</OperatorCode>
+      <OperatorShortName>Prentice Coaches</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>ELAO101</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>101</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2019-01-28</StartDate>
+        <EndDate>2049-12-31</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>DPC</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>local service - Haddington</Description>
+      <StandardService>
+        <Origin>local service</Origin>
+        <Destination>Haddington</Destination>
+        <JourneyPattern id="JPS_ELAO101-3">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_ELAO101-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_ELAO101-4">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_ELAO101-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_ELAO101-5">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_ELAO101-5</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>DPC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>22054</VehicleJourneyCode>
+      <ServiceRef>ELAO101</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ELAO101-3</JourneyPatternRef>
+      <DepartureTime>09:08:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>DPC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>22055</VehicleJourneyCode>
+      <ServiceRef>ELAO101</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ELAO101-3</JourneyPatternRef>
+      <DepartureTime>09:43:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>DPC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>22056</VehicleJourneyCode>
+      <ServiceRef>ELAO101</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ELAO101-3</JourneyPatternRef>
+      <DepartureTime>10:43:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>DPC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>22057</VehicleJourneyCode>
+      <ServiceRef>ELAO101</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ELAO101-3</JourneyPatternRef>
+      <DepartureTime>11:43:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>DPC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>22058</VehicleJourneyCode>
+      <ServiceRef>ELAO101</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ELAO101-3</JourneyPatternRef>
+      <DepartureTime>12:43:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>DPC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>22059</VehicleJourneyCode>
+      <ServiceRef>ELAO101</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ELAO101-3</JourneyPatternRef>
+      <DepartureTime>13:43:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>DPC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>22060</VehicleJourneyCode>
+      <ServiceRef>ELAO101</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ELAO101-3</JourneyPatternRef>
+      <DepartureTime>14:43:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>DPC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>22061</VehicleJourneyCode>
+      <ServiceRef>ELAO101</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ELAO101-4</JourneyPatternRef>
+      <DepartureTime>09:21:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>DPC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>22062</VehicleJourneyCode>
+      <ServiceRef>ELAO101</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ELAO101-5</JourneyPatternRef>
+      <DepartureTime>11:55:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

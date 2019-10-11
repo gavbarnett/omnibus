@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:13:00-00:00" ModificationDateTime="2019-10-07T13:13:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRAYAO320.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <ServicedOrganisations>
+    <ServicedOrganisation>
+      <OrganisationCode>962</OrganisationCode>
+      <Name>
+QE0 : Cif-320-GLH-20130107_20190509_161551.cif
+</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2019-05-24</StartDate>
+          <EndDate>2019-05-27</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-06-30</StartDate>
+          <EndDate>2019-08-14</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-10-06</StartDate>
+          <EndDate>2019-10-19</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-12-22</StartDate>
+          <EndDate>2020-01-04</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-02-09</StartDate>
+          <EndDate>2020-02-15</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-04-05</StartDate>
+          <EndDate>2020-04-18</EndDate>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+  </ServicedOrganisations>
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60709617</StopPointRef>
+      <CommonName>Hotel car park</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60709641</StopPointRef>
+      <CommonName>Hotel</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60707616</StopPointRef>
+      <CommonName>Ballyhennan Crescent</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60707731</StopPointRef>
+      <CommonName>MacFarlane Drive</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60707612</StopPointRef>
+      <CommonName>Pit Stop Diner</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60707530</StopPointRef>
+      <CommonName>Braeside Stores</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60709644</StopPointRef>
+      <CommonName>Forestry Houses</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60709530</StopPointRef>
+      <CommonName>Braeside Stores</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60709612</StopPointRef>
+      <CommonName>Pit Stop Diner</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60709731</StopPointRef>
+      <CommonName>MacFarlane Drive</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60709616</StopPointRef>
+      <CommonName>Ballyhennan Crescent</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60709636</StopPointRef>
+      <CommonName>Hotel</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60709642</StopPointRef>
+      <CommonName>Hotel car park</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="AYAO320_002">
+      <RouteLink id="AYAO320_002_287842">
+        <From>
+          <StopPointRef>60709617</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60709641</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AYAO320_002_287843">
+        <From>
+          <StopPointRef>60709641</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60707616</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AYAO320_002_287844">
+        <From>
+          <StopPointRef>60707616</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60707731</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AYAO320_002_287845">
+        <From>
+          <StopPointRef>60707731</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60707612</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AYAO320_002_287846">
+        <From>
+          <StopPointRef>60707612</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60707530</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AYAO320_002_287847">
+        <From>
+          <StopPointRef>60707530</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60709644</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="AYAO320_001">
+      <RouteLink id="AYAO320_001_287849">
+        <From>
+          <StopPointRef>60709644</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60709530</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AYAO320_001_287850">
+        <From>
+          <StopPointRef>60709530</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60709612</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AYAO320_001_287851">
+        <From>
+          <StopPointRef>60709612</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60709731</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AYAO320_001_287852">
+        <From>
+          <StopPointRef>60709731</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60709616</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AYAO320_001_287853">
+        <From>
+          <StopPointRef>60709616</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60709636</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AYAO320_001_287854">
+        <From>
+          <StopPointRef>60709636</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60709642</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="AYAO320_002">
+      <Description>Tarbet - Succoth
+</Description>
+      <RouteSectionRef>AYAO320_002</RouteSectionRef>
+    </Route>
+    <Route id="AYAO320_001">
+      <Description>Succoth - Tarbet
+</Description>
+      <RouteSectionRef>AYAO320_001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_AYAO320-3">
+      <JourneyPatternTimingLink id="JPS_AYAO320-3_287842">
+        <From>
+          <StopPointRef>60709617</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60709641</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AYAO320_002_287842</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AYAO320-3_287843">
+        <From>
+          <StopPointRef>60709641</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60707616</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AYAO320_002_287843</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AYAO320-3_287844">
+        <From>
+          <StopPointRef>60707616</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60707731</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AYAO320_002_287844</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT360S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AYAO320-3_287845">
+        <From>
+          <StopPointRef>60707731</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60707612</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AYAO320_002_287845</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AYAO320-3_287846">
+        <From>
+          <StopPointRef>60707612</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60707530</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AYAO320_002_287846</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AYAO320-3_287847">
+        <From>
+          <StopPointRef>60707530</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60709644</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AYAO320_002_287847</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_AYAO320-4">
+      <JourneyPatternTimingLink id="JPS_AYAO320-4_287849">
+        <From>
+          <StopPointRef>60709644</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60709530</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AYAO320_001_287849</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT240S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AYAO320-4_287850">
+        <From>
+          <StopPointRef>60709530</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60709612</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AYAO320_001_287850</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AYAO320-4_287851">
+        <From>
+          <StopPointRef>60709612</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60709731</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AYAO320_001_287851</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AYAO320-4_287852">
+        <From>
+          <StopPointRef>60709731</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60709616</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AYAO320_001_287852</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AYAO320-4_287853">
+        <From>
+          <StopPointRef>60709616</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60709636</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AYAO320_001_287853</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AYAO320-4_287854">
+        <From>
+          <StopPointRef>60709636</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60709642</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AYAO320_001_287854</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="GLH">
+      <NationalOperatorCode>GLHD</NationalOperatorCode>
+      <OperatorCode>GLH</OperatorCode>
+      <OperatorShortName>Garelochhead Minibuses +</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>AYAO320</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>320</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2013-01-07</StartDate>
+        <EndDate>2020-05-09</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>GLH</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Succoth - Tarbet</Description>
+      <StandardService>
+        <Origin>Succoth</Origin>
+        <Destination>Tarbet</Destination>
+        <JourneyPattern id="JPS_AYAO320-3">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_AYAO320-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_AYAO320-4">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_AYAO320-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>GLH</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>962</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>98067</VehicleJourneyCode>
+      <ServiceRef>AYAO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAO320-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>Sch-7</NoteCode>
+        <NoteText>School Days Only</NoteText>
+      </Note>
+      <DepartureTime>15:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>GLH</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>962</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>98068</VehicleJourneyCode>
+      <ServiceRef>AYAO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYAO320-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>Sch-7</NoteCode>
+        <NoteText>School Days Only</NoteText>
+      </Note>
+      <DepartureTime>08:30:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

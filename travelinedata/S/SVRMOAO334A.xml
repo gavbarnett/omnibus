@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T11:46:00-00:00" ModificationDateTime="2019-10-07T11:46:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRMOAO334A.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>638061622</StopPointRef>
+      <CommonName>Mid Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>638051611</StopPointRef>
+      <CommonName>Innes Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>638055251</StopPointRef>
+      <CommonName>Jockies Loan</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>638063197</StopPointRef>
+      <CommonName>Burnie Strype Croft</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>638055461</StopPointRef>
+      <CommonName>Bells Brae</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>638051591</StopPointRef>
+      <CommonName>Elsher Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>638051601</StopPointRef>
+      <CommonName>Innes Court</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>638053461</StopPointRef>
+      <CommonName>Templand Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>638051602</StopPointRef>
+      <CommonName>Innes Court</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>638051592</StopPointRef>
+      <CommonName>Elsher Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>638051581</StopPointRef>
+      <CommonName>Park View</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>638051571</StopPointRef>
+      <CommonName>Woodlands Drive</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>638053052</StopPointRef>
+      <CommonName>The Terrace</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>638050581</StopPointRef>
+      <CommonName>Sherriffston Cottages</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>638050592</StopPointRef>
+      <CommonName>Barmuckity Farm Road End</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>638050601</StopPointRef>
+      <CommonName>Reiket Lane</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>638053222</StopPointRef>
+      <CommonName>Pinefield Bus Depot</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>638050022</StopPointRef>
+      <CommonName>Cathedral Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>638053481</StopPointRef>
+      <CommonName>Library</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>638053547</StopPointRef>
+      <CommonName>Bus Station</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="MOAO334A001">
+      <RouteLink id="MOAO334A001_399961">
+        <From>
+          <StopPointRef>638061622</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>638051611</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="MOAO334A001_399962">
+        <From>
+          <StopPointRef>638051611</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>638055251</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="MOAO334A001_399963">
+        <From>
+          <StopPointRef>638055251</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>638063197</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="MOAO334A001_399964">
+        <From>
+          <StopPointRef>638063197</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>638055461</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="MOAO334A001_399965">
+        <From>
+          <StopPointRef>638055461</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>638051591</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="MOAO334A001_399966">
+        <From>
+          <StopPointRef>638051591</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>638051601</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="MOAO334A001_399967">
+        <From>
+          <StopPointRef>638051601</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>638053461</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="MOAO334A001_399968">
+        <From>
+          <StopPointRef>638053461</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>638051602</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="MOAO334A001_399969">
+        <From>
+          <StopPointRef>638051602</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>638051592</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="MOAO334A001_399970">
+        <From>
+          <StopPointRef>638051592</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>638051581</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="MOAO334A001_399971">
+        <From>
+          <StopPointRef>638051581</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>638051571</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="MOAO334A001_399972">
+        <From>
+          <StopPointRef>638051571</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>638053052</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="MOAO334A001_399973">
+        <From>
+          <StopPointRef>638053052</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>638050581</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="MOAO334A001_399974">
+        <From>
+          <StopPointRef>638050581</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>638050592</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="MOAO334A001_399975">
+        <From>
+          <StopPointRef>638050592</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>638050601</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="MOAO334A001_399976">
+        <From>
+          <StopPointRef>638050601</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>638053222</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="MOAO334A001_399977">
+        <From>
+          <StopPointRef>638053222</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>638050022</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="MOAO334A001_399978">
+        <From>
+          <StopPointRef>638050022</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>638053481</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="MOAO334A001_399979">
+        <From>
+          <StopPointRef>638053481</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>638053547</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="MOAO334A001">
+      <Description>Kingston on Spey - Elgin
+</Description>
+      <RouteSectionRef>MOAO334A001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_MOAO334A-2">
+      <JourneyPatternTimingLink id="JPS_MOAO334A-2_399961">
+        <From>
+          <StopPointRef>638061622</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>638051611</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>MOAO334A001_399961</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT36360S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_MOAO334A-2_399962">
+        <From>
+          <StopPointRef>638051611</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>638055251</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>MOAO334A001_399962</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_MOAO334A-2_399963">
+        <From>
+          <StopPointRef>638055251</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>638063197</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>MOAO334A001_399963</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_MOAO334A-2_399964">
+        <From>
+          <StopPointRef>638063197</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>638055461</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>MOAO334A001_399964</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT420S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_MOAO334A-2_399965">
+        <From>
+          <StopPointRef>638055461</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>638051591</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>MOAO334A001_399965</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_MOAO334A-2_399966">
+        <From>
+          <StopPointRef>638051591</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>638051601</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>MOAO334A001_399966</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_MOAO334A-2_399967">
+        <From>
+          <StopPointRef>638051601</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>638053461</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>MOAO334A001_399967</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_MOAO334A-2_399968">
+        <From>
+          <StopPointRef>638053461</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>638051602</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>MOAO334A001_399968</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_MOAO334A-2_399969">
+        <From>
+          <StopPointRef>638051602</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>638051592</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>MOAO334A001_399969</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_MOAO334A-2_399970">
+        <From>
+          <StopPointRef>638051592</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>638051581</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>MOAO334A001_399970</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_MOAO334A-2_399971">
+        <From>
+          <StopPointRef>638051581</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>638051571</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>MOAO334A001_399971</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_MOAO334A-2_399972">
+        <From>
+          <StopPointRef>638051571</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>638053052</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>MOAO334A001_399972</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_MOAO334A-2_399973">
+        <From>
+          <StopPointRef>638053052</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>638050581</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>MOAO334A001_399973</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_MOAO334A-2_399974">
+        <From>
+          <StopPointRef>638050581</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>638050592</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>MOAO334A001_399974</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_MOAO334A-2_399975">
+        <From>
+          <StopPointRef>638050592</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>638050601</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>MOAO334A001_399975</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_MOAO334A-2_399976">
+        <From>
+          <StopPointRef>638050601</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>638053222</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>MOAO334A001_399976</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_MOAO334A-2_399977">
+        <From>
+          <StopPointRef>638053222</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>638050022</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>MOAO334A001_399977</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_MOAO334A-2_399978">
+        <From>
+          <StopPointRef>638050022</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>638053481</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>MOAO334A001_399978</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_MOAO334A-2_399979">
+        <From>
+          <StopPointRef>638053481</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>638053547</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>MOAO334A001_399979</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="MCO">
+      <NationalOperatorCode>MCOL</NationalOperatorCode>
+      <OperatorCode>MCO</OperatorCode>
+      <OperatorShortName>Moray Council</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>MOAO334A</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>334A</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2018-01-08</StartDate>
+        <EndDate>2028-01-08</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>MCO</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Kingston on Spey - Elgin</Description>
+      <StandardService>
+        <Origin>Kingston on Spey</Origin>
+        <Destination>Elgin</Destination>
+        <JourneyPattern id="JPS_MOAO334A-2">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_MOAO334A-2</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>MCO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-08-10</StartDate>
+              <EndDate>2019-08-11</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-08-17</StartDate>
+              <EndDate>2019-08-18</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-08-24</StartDate>
+              <EndDate>2019-08-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-08-31</StartDate>
+              <EndDate>2019-09-01</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-09-07</StartDate>
+              <EndDate>2019-09-08</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-09-14</StartDate>
+              <EndDate>2019-09-15</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-09-21</StartDate>
+              <EndDate>2019-09-22</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-09-28</StartDate>
+              <EndDate>2019-09-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-10-05</StartDate>
+              <EndDate>2019-10-06</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-10-12</StartDate>
+              <EndDate>2019-10-13</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-10-19</StartDate>
+              <EndDate>2019-10-20</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-10-26</StartDate>
+              <EndDate>2019-10-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-11-02</StartDate>
+              <EndDate>2019-11-03</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-11-09</StartDate>
+              <EndDate>2019-11-10</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-11-16</StartDate>
+              <EndDate>2019-11-17</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-11-23</StartDate>
+              <EndDate>2019-11-24</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-11-30</StartDate>
+              <EndDate>2019-12-01</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-07</StartDate>
+              <EndDate>2019-12-08</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-14</StartDate>
+              <EndDate>2019-12-15</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-21</StartDate>
+              <EndDate>2019-12-22</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-28</StartDate>
+              <EndDate>2019-12-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-04</StartDate>
+              <EndDate>2020-01-05</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-11</StartDate>
+              <EndDate>2020-01-12</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-18</StartDate>
+              <EndDate>2020-01-19</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-25</StartDate>
+              <EndDate>2020-01-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-02-01</StartDate>
+              <EndDate>2020-02-02</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-02-08</StartDate>
+              <EndDate>2020-02-09</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-02-15</StartDate>
+              <EndDate>2020-02-16</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-02-22</StartDate>
+              <EndDate>2020-02-23</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-02-29</StartDate>
+              <EndDate>2020-03-01</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-03-07</StartDate>
+              <EndDate>2020-03-08</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-03-14</StartDate>
+              <EndDate>2020-03-15</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-03-21</StartDate>
+              <EndDate>2020-03-22</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-03-28</StartDate>
+              <EndDate>2020-03-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-04</StartDate>
+              <EndDate>2020-04-05</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-11</StartDate>
+              <EndDate>2020-04-12</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-18</StartDate>
+              <EndDate>2020-04-19</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-25</StartDate>
+              <EndDate>2020-04-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-02</StartDate>
+              <EndDate>2020-05-03</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-09</StartDate>
+              <EndDate>2020-05-10</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-16</StartDate>
+              <EndDate>2020-05-17</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-23</StartDate>
+              <EndDate>2020-05-24</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-30</StartDate>
+              <EndDate>2020-05-31</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-06-06</StartDate>
+              <EndDate>2020-06-07</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-06-13</StartDate>
+              <EndDate>2020-06-14</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-06-20</StartDate>
+              <EndDate>2028-01-08</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>139770</VehicleJourneyCode>
+      <ServiceRef>MOAO334A</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_MOAO334A-2</JourneyPatternRef>
+      <DepartureTime>08:39:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

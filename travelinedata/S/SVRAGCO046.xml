@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T12:18:00-00:00" ModificationDateTime="2019-10-07T12:18:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRAGCO046.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM205</StopPointRef>
+      <CommonName>Provost Chapel Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM686</StopPointRef>
+      <CommonName>Aikman Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM869</StopPointRef>
+      <CommonName>St. Vigean's Gardens</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM1096</StopPointRef>
+      <CommonName>Cairnie Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM1500</StopPointRef>
+      <CommonName>Tesco</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM677</StopPointRef>
+      <CommonName>Morrison's Main Entrance</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM1732</StopPointRef>
+      <CommonName>Bus Station</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM1501</StopPointRef>
+      <CommonName>Tesco</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM657</StopPointRef>
+      <CommonName>Cairnie Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM868</StopPointRef>
+      <CommonName>St. Vigean's Gardens</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM537</StopPointRef>
+      <CommonName>Aikman Road</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="AGCO046_002">
+      <RouteLink id="AGCO046_002_48845">
+        <From>
+          <StopPointRef>6490IM205</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM686</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGCO046_002_48846">
+        <From>
+          <StopPointRef>6490IM686</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM869</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGCO046_002_48847">
+        <From>
+          <StopPointRef>6490IM869</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM1096</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGCO046_002_48848">
+        <From>
+          <StopPointRef>6490IM1096</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM1500</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGCO046_002_48849">
+        <From>
+          <StopPointRef>6490IM1500</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM677</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGCO046_002_48850">
+        <From>
+          <StopPointRef>6490IM677</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM1732</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="AGCO046_001">
+      <RouteLink id="AGCO046_001_48852">
+        <From>
+          <StopPointRef>6490IM1732</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM677</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGCO046_001_48853">
+        <From>
+          <StopPointRef>6490IM677</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM1501</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGCO046_001_48854">
+        <From>
+          <StopPointRef>6490IM1501</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM657</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGCO046_001_48855">
+        <From>
+          <StopPointRef>6490IM657</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM868</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGCO046_001_48856">
+        <From>
+          <StopPointRef>6490IM868</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM537</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGCO046_001_48857">
+        <From>
+          <StopPointRef>6490IM537</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM205</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="AGCO046_002">
+      <Description>Aikman Road - Arbroath
+</Description>
+      <RouteSectionRef>AGCO046_002</RouteSectionRef>
+    </Route>
+    <Route id="AGCO046_001">
+      <Description>Arbroath - Aikman Road
+</Description>
+      <RouteSectionRef>AGCO046_001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_AGCO046-3">
+      <JourneyPatternTimingLink id="JPS_AGCO046-3_48845">
+        <From>
+          <StopPointRef>6490IM205</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM686</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AGCO046_002_48845</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGCO046-3_48846">
+        <From>
+          <StopPointRef>6490IM686</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM869</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AGCO046_002_48846</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGCO046-3_48847">
+        <From>
+          <StopPointRef>6490IM869</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM1096</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AGCO046_002_48847</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGCO046-3_48848">
+        <From>
+          <StopPointRef>6490IM1096</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM1500</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGCO046_002_48848</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGCO046-3_48849">
+        <From>
+          <StopPointRef>6490IM1500</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM677</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGCO046_002_48849</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGCO046-3_48850">
+        <From>
+          <StopPointRef>6490IM677</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM1732</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGCO046_002_48850</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_AGCO046-4">
+      <JourneyPatternTimingLink id="JPS_AGCO046-4_48852">
+        <From>
+          <StopPointRef>6490IM1732</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM677</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGCO046_001_48852</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGCO046-4_48853">
+        <From>
+          <StopPointRef>6490IM677</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM1501</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGCO046_001_48853</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGCO046-4_48854">
+        <From>
+          <StopPointRef>6490IM1501</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM657</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AGCO046_001_48854</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGCO046-4_48855">
+        <From>
+          <StopPointRef>6490IM657</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM868</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AGCO046_001_48855</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGCO046-4_48856">
+        <From>
+          <StopPointRef>6490IM868</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM537</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AGCO046_001_48856</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGCO046-4_48857">
+        <From>
+          <StopPointRef>6490IM537</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM205</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGCO046_001_48857</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="JPE">
+      <NationalOperatorCode>JPEM</NationalOperatorCode>
+      <OperatorCode>JPE</OperatorCode>
+      <OperatorShortName>J P Minicoaches</OperatorShortName>
+    </Operator>
+    <Operator id="STY">
+      <NationalOperatorCode>SSTY</NationalOperatorCode>
+      <OperatorCode>STY</OperatorCode>
+      <OperatorShortName>Stagecoach East Scotland</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>AGCO046</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>46</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2018-05-28</StartDate>
+        <EndDate>2049-12-31</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>JPE</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Arbroath - Aikman Road</Description>
+      <StandardService>
+        <Origin>Arbroath</Origin>
+        <Destination>Aikman Road</Destination>
+        <JourneyPattern id="JPS_AGCO046-3">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_AGCO046-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_AGCO046-4">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_AGCO046-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>JPE</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>13926</VehicleJourneyCode>
+      <ServiceRef>AGCO046</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGCO046-3</JourneyPatternRef>
+      <DepartureTime>10:11:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>JPE</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>13927</VehicleJourneyCode>
+      <ServiceRef>AGCO046</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGCO046-3</JourneyPatternRef>
+      <DepartureTime>14:11:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>JPE</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>13928</VehicleJourneyCode>
+      <ServiceRef>AGCO046</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGCO046-3</JourneyPatternRef>
+      <DepartureTime>10:11:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>JPE</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>13929</VehicleJourneyCode>
+      <ServiceRef>AGCO046</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGCO046-3</JourneyPatternRef>
+      <DepartureTime>14:11:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>JPE</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>13930</VehicleJourneyCode>
+      <ServiceRef>AGCO046</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGCO046-4</JourneyPatternRef>
+      <DepartureTime>10:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>JPE</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>13931</VehicleJourneyCode>
+      <ServiceRef>AGCO046</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGCO046-4</JourneyPatternRef>
+      <DepartureTime>14:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>JPE</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>13932</VehicleJourneyCode>
+      <ServiceRef>AGCO046</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGCO046-4</JourneyPatternRef>
+      <DepartureTime>10:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>JPE</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>13933</VehicleJourneyCode>
+      <ServiceRef>AGCO046</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGCO046-4</JourneyPatternRef>
+      <DepartureTime>14:05:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

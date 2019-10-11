@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:21:00-00:00" ModificationDateTime="2019-10-07T13:21:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRFIBGR04.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <ServicedOrganisations>
+    <ServicedOrganisation>
+      <OrganisationCode>784</OrganisationCode>
+      <Name>
+QE0 : Cif-GR1-MW-20190107_20190925_222846.cif
+</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2019-09-25</StartDate>
+          <EndDate>2021-01-03</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2021-01-05</StartDate>
+          <EndDate>2021-12-25</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2022-01-09</StartDate>
+          <EndDate>2022-12-24</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2023-01-08</StartDate>
+          <EndDate>2023-12-23</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2024-01-07</StartDate>
+          <EndDate>2027-01-03</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2027-01-05</StartDate>
+          <EndDate>2027-12-04</EndDate>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+  </ServicedOrganisations>
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500K9604</StopPointRef>
+      <CommonName>Glenrothes High School</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500K0706</StopPointRef>
+      <CommonName>Willow Crescent</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500K0708</StopPointRef>
+      <CommonName>Jubilee Grove</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500K1519</StopPointRef>
+      <CommonName>Riverside Park</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500K0666</StopPointRef>
+      <CommonName>Lodge Rise</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500K0659</StopPointRef>
+      <CommonName>Fire Station</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="FIBGR04_001">
+      <RouteLink id="FIBGR04_001_133167">
+        <From>
+          <StopPointRef>6500K9604</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500K0706</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIBGR04_001_133168">
+        <From>
+          <StopPointRef>6500K0706</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500K0708</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIBGR04_001_133169">
+        <From>
+          <StopPointRef>6500K0708</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500K1519</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIBGR04_001_133170">
+        <From>
+          <StopPointRef>6500K1519</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500K0666</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIBGR04_001_133171">
+        <From>
+          <StopPointRef>6500K0666</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500K0659</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="FIBGR04_001">
+      <Description>Glenrothes High School - Cadham
+</Description>
+      <RouteSectionRef>FIBGR04_001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_FIBGR04-2">
+      <JourneyPatternTimingLink id="JPS_FIBGR04-2_133167">
+        <From>
+          <StopPointRef>6500K9604</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500K0706</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIBGR04_001_133167</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIBGR04-2_133168">
+        <From>
+          <StopPointRef>6500K0706</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500K0708</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIBGR04_001_133168</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIBGR04-2_133169">
+        <From>
+          <StopPointRef>6500K0708</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500K1519</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIBGR04_001_133169</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIBGR04-2_133170">
+        <From>
+          <StopPointRef>6500K1519</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500K0666</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIBGR04_001_133170</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIBGR04-2_133171">
+        <From>
+          <StopPointRef>6500K0666</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500K0659</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FIBGR04_001_133171</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="MOF">
+      <NationalOperatorCode>MOFF</NationalOperatorCode>
+      <OperatorCode>MOF</OperatorCode>
+      <OperatorShortName>Moffat + Williamson</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>FIBGR04</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>GR4</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2019-01-07</StartDate>
+        <EndDate>2027-12-05</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>MOF</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Glenrothes High School - Cadham</Description>
+      <StandardService>
+        <Origin>Glenrothes High School</Origin>
+        <Destination>Cadham</Destination>
+        <JourneyPattern id="JPS_FIBGR04-2">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FIBGR04-2</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>MOF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>784</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>32564</VehicleJourneyCode>
+      <ServiceRef>FIBGR04</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FIBGR04-2</JourneyPatternRef>
+      <DepartureTime>14:45:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

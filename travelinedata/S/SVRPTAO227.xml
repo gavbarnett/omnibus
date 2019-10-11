@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:07:00-00:00" ModificationDateTime="2019-10-07T13:07:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRPTAO227.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>615080</StopPointRef>
+      <CommonName>Abbotsford Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>615079</StopPointRef>
+      <CommonName>Backmuir Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>615078</StopPointRef>
+      <CommonName>Atholl Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>615082</StopPointRef>
+      <CommonName>Drysburgh Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6150424</StopPointRef>
+      <CommonName>Melrose Terrace</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61501677</StopPointRef>
+      <CommonName>Burnbank Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>615058</StopPointRef>
+      <CommonName>Fullwood Park Industrial Estate</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>615056</StopPointRef>
+      <CommonName>West Stewart Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6150395</StopPointRef>
+      <CommonName>Hamilton West Station</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>615054</StopPointRef>
+      <CommonName>Almada Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6150103</StopPointRef>
+      <CommonName>Auchingramont Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>615050</StopPointRef>
+      <CommonName>Park Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61501662</StopPointRef>
+      <CommonName>Bus Station</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>615051</StopPointRef>
+      <CommonName>Park Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>615052</StopPointRef>
+      <CommonName>Auchingramont Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>615053</StopPointRef>
+      <CommonName>Wellhall Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>615055</StopPointRef>
+      <CommonName>Wellhall Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>615057</StopPointRef>
+      <CommonName>West Stewart Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>615059</StopPointRef>
+      <CommonName>Fullwood Park Industrial Estate</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>615077</StopPointRef>
+      <CommonName>Dryden Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6150423</StopPointRef>
+      <CommonName>Melrose Terrace</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>615083</StopPointRef>
+      <CommonName>Margaret Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>615081</StopPointRef>
+      <CommonName>Victoria Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6150419</StopPointRef>
+      <CommonName>Backmuir Road</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="PTAO227_002">
+      <RouteLink id="PTAO227_002_212578">
+        <From>
+          <StopPointRef>615080</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>615079</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO227_002_212579">
+        <From>
+          <StopPointRef>615079</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>615078</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO227_002_212580">
+        <From>
+          <StopPointRef>615078</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>615082</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO227_002_212581">
+        <From>
+          <StopPointRef>615082</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6150424</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO227_002_212582">
+        <From>
+          <StopPointRef>6150424</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61501677</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO227_002_212583">
+        <From>
+          <StopPointRef>61501677</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>615058</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO227_002_212584">
+        <From>
+          <StopPointRef>615058</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>615056</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO227_002_212585">
+        <From>
+          <StopPointRef>615056</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6150395</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO227_002_212586">
+        <From>
+          <StopPointRef>6150395</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>615054</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO227_002_212587">
+        <From>
+          <StopPointRef>615054</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6150103</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO227_002_212588">
+        <From>
+          <StopPointRef>6150103</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>615050</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO227_002_212589">
+        <From>
+          <StopPointRef>615050</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61501662</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="PTAO227_001">
+      <RouteLink id="PTAO227_001_212591">
+        <From>
+          <StopPointRef>61501662</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>615051</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO227_001_212592">
+        <From>
+          <StopPointRef>615051</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>615052</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO227_001_212593">
+        <From>
+          <StopPointRef>615052</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>615053</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO227_001_212594">
+        <From>
+          <StopPointRef>615053</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>615055</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO227_001_212595">
+        <From>
+          <StopPointRef>615055</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>615057</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO227_001_212596">
+        <From>
+          <StopPointRef>615057</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>615059</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO227_001_212597">
+        <From>
+          <StopPointRef>615059</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>615077</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO227_001_212598">
+        <From>
+          <StopPointRef>615077</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6150423</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO227_001_212599">
+        <From>
+          <StopPointRef>6150423</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>615083</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO227_001_212600">
+        <From>
+          <StopPointRef>615083</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>615081</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO227_001_212601">
+        <From>
+          <StopPointRef>615081</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6150419</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO227_001_212602">
+        <From>
+          <StopPointRef>6150419</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>615080</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="PTAO227_002">
+      <Description>MCN Whitehill - Hamilton
+</Description>
+      <RouteSectionRef>PTAO227_002</RouteSectionRef>
+    </Route>
+    <Route id="PTAO227_001">
+      <Description>MCN Hamilton - Whitehill
+</Description>
+      <RouteSectionRef>PTAO227_001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_PTAO227-3">
+      <JourneyPatternTimingLink id="JPS_PTAO227-3_212578">
+        <From>
+          <StopPointRef>615080</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>615079</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO227_002_212578</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT49S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO227-3_212579">
+        <From>
+          <StopPointRef>615079</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>615078</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO227_002_212579</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT91S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO227-3_212580">
+        <From>
+          <StopPointRef>615078</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>615082</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO227_002_212580</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT68S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO227-3_212581">
+        <From>
+          <StopPointRef>615082</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6150424</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO227_002_212581</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT41S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO227-3_212582">
+        <From>
+          <StopPointRef>6150424</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61501677</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO227_002_212582</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT115S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO227-3_212583">
+        <From>
+          <StopPointRef>61501677</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>615058</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO227_002_212583</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT100S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO227-3_212584">
+        <From>
+          <StopPointRef>615058</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>615056</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO227_002_212584</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT50S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO227-3_212585">
+        <From>
+          <StopPointRef>615056</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6150395</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO227_002_212585</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT86S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO227-3_212586">
+        <From>
+          <StopPointRef>6150395</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>615054</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO227_002_212586</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT28S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO227-3_212587">
+        <From>
+          <StopPointRef>615054</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6150103</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO227_002_212587</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT72S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO227-3_212588">
+        <From>
+          <StopPointRef>6150103</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>615050</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO227_002_212588</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT46S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO227-3_212589">
+        <From>
+          <StopPointRef>615050</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61501662</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO227_002_212589</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT34S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_PTAO227-4">
+      <JourneyPatternTimingLink id="JPS_PTAO227-4_212591">
+        <From>
+          <StopPointRef>61501662</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>615051</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO227_001_212591</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT55S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO227-4_212592">
+        <From>
+          <StopPointRef>615051</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>615052</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO227_001_212592</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT86S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO227-4_212593">
+        <From>
+          <StopPointRef>615052</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>615053</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO227_001_212593</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT48S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO227-4_212594">
+        <From>
+          <StopPointRef>615053</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>615055</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO227_001_212594</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT51S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO227-4_212595">
+        <From>
+          <StopPointRef>615055</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>615057</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO227_001_212595</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT57S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO227-4_212596">
+        <From>
+          <StopPointRef>615057</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>615059</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO227_001_212596</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT49S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO227-4_212597">
+        <From>
+          <StopPointRef>615059</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>615077</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO227_001_212597</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT71S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO227-4_212598">
+        <From>
+          <StopPointRef>615077</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6150423</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO227_001_212598</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT87S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO227-4_212599">
+        <From>
+          <StopPointRef>6150423</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>615083</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO227_001_212599</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT20S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO227-4_212600">
+        <From>
+          <StopPointRef>615083</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>615081</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO227_001_212600</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT46S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO227-4_212601">
+        <From>
+          <StopPointRef>615081</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6150419</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO227_001_212601</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT54S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO227-4_212602">
+        <From>
+          <StopPointRef>6150419</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>615080</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO227_001_212602</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT36S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="MCN">
+      <NationalOperatorCode>MCNN</NationalOperatorCode>
+      <OperatorCode>MCN</OperatorCode>
+      <OperatorShortName>McNairn Coaches</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PTAO227</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>227</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2017-07-16</StartDate>
+        <EndDate>2099-01-01</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>MCN</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>MCN Hamilton - Whitehill</Description>
+      <StandardService>
+        <Origin>MCN Hamilton</Origin>
+        <Destination>Whitehill</Destination>
+        <JourneyPattern id="JPS_PTAO227-3">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_PTAO227-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_PTAO227-4">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_PTAO227-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>MCN</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>64262</VehicleJourneyCode>
+      <ServiceRef>PTAO227</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO227-3</JourneyPatternRef>
+      <DepartureTime>09:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MCN</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>64263</VehicleJourneyCode>
+      <ServiceRef>PTAO227</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO227-3</JourneyPatternRef>
+      <DepartureTime>10:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MCN</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>64264</VehicleJourneyCode>
+      <ServiceRef>PTAO227</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO227-3</JourneyPatternRef>
+      <DepartureTime>11:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MCN</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>64265</VehicleJourneyCode>
+      <ServiceRef>PTAO227</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO227-3</JourneyPatternRef>
+      <DepartureTime>12:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MCN</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>64266</VehicleJourneyCode>
+      <ServiceRef>PTAO227</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO227-3</JourneyPatternRef>
+      <DepartureTime>13:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MCN</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>64267</VehicleJourneyCode>
+      <ServiceRef>PTAO227</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO227-3</JourneyPatternRef>
+      <DepartureTime>14:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MCN</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>64268</VehicleJourneyCode>
+      <ServiceRef>PTAO227</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO227-3</JourneyPatternRef>
+      <DepartureTime>15:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MCN</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>64269</VehicleJourneyCode>
+      <ServiceRef>PTAO227</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO227-3</JourneyPatternRef>
+      <DepartureTime>16:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MCN</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>64270</VehicleJourneyCode>
+      <ServiceRef>PTAO227</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO227-3</JourneyPatternRef>
+      <DepartureTime>17:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MCN</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>64271</VehicleJourneyCode>
+      <ServiceRef>PTAO227</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO227-4</JourneyPatternRef>
+      <DepartureTime>08:53:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MCN</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>64272</VehicleJourneyCode>
+      <ServiceRef>PTAO227</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO227-4</JourneyPatternRef>
+      <DepartureTime>09:53:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MCN</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>64273</VehicleJourneyCode>
+      <ServiceRef>PTAO227</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO227-4</JourneyPatternRef>
+      <DepartureTime>10:53:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MCN</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>64274</VehicleJourneyCode>
+      <ServiceRef>PTAO227</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO227-4</JourneyPatternRef>
+      <DepartureTime>11:53:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MCN</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>64275</VehicleJourneyCode>
+      <ServiceRef>PTAO227</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO227-4</JourneyPatternRef>
+      <DepartureTime>12:53:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MCN</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>64276</VehicleJourneyCode>
+      <ServiceRef>PTAO227</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO227-4</JourneyPatternRef>
+      <DepartureTime>13:53:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MCN</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>64277</VehicleJourneyCode>
+      <ServiceRef>PTAO227</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO227-4</JourneyPatternRef>
+      <DepartureTime>14:53:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MCN</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>64278</VehicleJourneyCode>
+      <ServiceRef>PTAO227</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO227-4</JourneyPatternRef>
+      <DepartureTime>15:53:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MCN</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>64279</VehicleJourneyCode>
+      <ServiceRef>PTAO227</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO227-4</JourneyPatternRef>
+      <DepartureTime>16:53:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

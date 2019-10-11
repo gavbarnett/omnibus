@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T12:00:00-00:00" ModificationDateTime="2019-10-07T12:00:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRPTAO210X.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61501870</StopPointRef>
+      <CommonName>Stravenhouse Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61501125</StopPointRef>
+      <CommonName>Manse Court</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61501960</StopPointRef>
+      <CommonName>Braefoot Court</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61501595</StopPointRef>
+      <CommonName>Station Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61501123</StopPointRef>
+      <CommonName>Shawfield Crescent</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61501121</StopPointRef>
+      <CommonName>Brackenhill Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61501119</StopPointRef>
+      <CommonName>Buchanan Drive</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61501117</StopPointRef>
+      <CommonName>Muirhead Drive</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61501115</StopPointRef>
+      <CommonName>Waterlands Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61501568</StopPointRef>
+      <CommonName>Wildman Bridge</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61501516</StopPointRef>
+      <CommonName>A73</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61601676</StopPointRef>
+      <CommonName>Wishaw General Hospital</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="PTAO210X002">
+      <RouteLink id="PTAO210X002_211798">
+        <From>
+          <StopPointRef>61501870</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61501125</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO210X002_211799">
+        <From>
+          <StopPointRef>61501125</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61501960</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO210X002_211800">
+        <From>
+          <StopPointRef>61501960</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61501595</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO210X002_211801">
+        <From>
+          <StopPointRef>61501595</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61501123</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO210X002_211802">
+        <From>
+          <StopPointRef>61501123</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61501121</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO210X002_211803">
+        <From>
+          <StopPointRef>61501121</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61501119</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO210X002_211804">
+        <From>
+          <StopPointRef>61501119</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61501117</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO210X002_211805">
+        <From>
+          <StopPointRef>61501117</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61501115</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO210X002_211806">
+        <From>
+          <StopPointRef>61501115</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61501568</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO210X002_211807">
+        <From>
+          <StopPointRef>61501568</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61501516</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAO210X002_211808">
+        <From>
+          <StopPointRef>61501516</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61601676</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="PTAO210X002">
+      <Description>Lawhill - Wishaw General Hospital
+</Description>
+      <RouteSectionRef>PTAO210X002</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_PTAO210X-2">
+      <JourneyPatternTimingLink id="JPS_PTAO210X-2_211798">
+        <From>
+          <StopPointRef>61501870</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61501125</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO210X002_211798</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT34S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO210X-2_211799">
+        <From>
+          <StopPointRef>61501125</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61501960</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO210X002_211799</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT31S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO210X-2_211800">
+        <From>
+          <StopPointRef>61501960</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61501595</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO210X002_211800</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT46S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO210X-2_211801">
+        <From>
+          <StopPointRef>61501595</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61501123</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO210X002_211801</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT9S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO210X-2_211802">
+        <From>
+          <StopPointRef>61501123</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61501121</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO210X002_211802</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT33S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO210X-2_211803">
+        <From>
+          <StopPointRef>61501121</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61501119</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO210X002_211803</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT26S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO210X-2_211804">
+        <From>
+          <StopPointRef>61501119</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61501117</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO210X002_211804</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT16S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO210X-2_211805">
+        <From>
+          <StopPointRef>61501117</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61501115</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO210X002_211805</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT59S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO210X-2_211806">
+        <From>
+          <StopPointRef>61501115</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61501568</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO210X002_211806</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT36S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO210X-2_211807">
+        <From>
+          <StopPointRef>61501568</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61501516</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO210X002_211807</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT20S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAO210X-2_211808">
+        <From>
+          <StopPointRef>61501516</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61601676</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAO210X002_211808</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT590S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="MCG">
+      <NationalOperatorCode>MCGL</NationalOperatorCode>
+      <OperatorCode>MCG</OperatorCode>
+      <OperatorShortName>McGills Bus Service</OperatorShortName>
+    </Operator>
+    <Operator id="FGL">
+      <NationalOperatorCode>FGLA</NationalOperatorCode>
+      <OperatorCode>FGL</OperatorCode>
+      <OperatorShortName>First Glasgow</OperatorShortName>
+    </Operator>
+    <Operator id="STU">
+      <NationalOperatorCode>STUR</NationalOperatorCode>
+      <OperatorCode>STU</OperatorCode>
+      <OperatorShortName>Stuarts Coaches</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PTAO210X</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>210X</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2017-07-16</StartDate>
+        <EndDate>2099-01-01</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>MCG</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Lawhill - Wishaw General Hospital</Description>
+      <StandardService>
+        <Origin>Lawhill</Origin>
+        <Destination>Wishaw General Hospital</Destination>
+        <JourneyPattern id="JPS_PTAO210X-2">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_PTAO210X-2</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>MCG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2017-07-16</StartDate>
+              <EndDate>2019-05-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-03</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>64186</VehicleJourneyCode>
+      <ServiceRef>PTAO210X</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAO210X-2</JourneyPatternRef>
+      <DepartureTime>06:33:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

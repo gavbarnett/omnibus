@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:19:00-00:00" ModificationDateTime="2019-10-07T13:19:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRAGAA011.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <ServicedOrganisations>
+    <ServicedOrganisation>
+      <OrganisationCode>160</OrganisationCode>
+      <Name>
+QE0 : BUS.CIF
+</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2019-10-05</StartDate>
+          <EndDate>2019-10-20</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-12-04</StartDate>
+          <EndDate>2019-12-08</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-12-21</StartDate>
+          <EndDate>2020-01-05</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-02-13</StartDate>
+          <EndDate>2020-02-17</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-04-04</StartDate>
+          <EndDate>2020-04-19</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-05-02</StartDate>
+          <EndDate>2020-05-04</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-05-23</StartDate>
+          <EndDate>2020-05-25</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-06-27</StartDate>
+          <EndDate>2049-12-31</EndDate>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+  </ServicedOrganisations>
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM627</StopPointRef>
+      <CommonName>Primary School</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM644</StopPointRef>
+      <CommonName>Farm Entrance</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM702</StopPointRef>
+      <CommonName>Rosehill Farm</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM624</StopPointRef>
+      <CommonName>Boghead Cottages</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM1687</StopPointRef>
+      <CommonName>West Boghead Road End</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM1688</StopPointRef>
+      <CommonName>Seafield Farm Road End</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM1901</StopPointRef>
+      <CommonName>Kinaldie Holdings</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM1690</StopPointRef>
+      <CommonName>Windyhills Road End</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM623</StopPointRef>
+      <CommonName>Mains of Auchmithie</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM001</StopPointRef>
+      <CommonName>Village Hall</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM541</StopPointRef>
+      <CommonName>Mains of Auchmithie</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM328</StopPointRef>
+      <CommonName>Seaton Caravan Park Road End</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM355</StopPointRef>
+      <CommonName>Marywell Gardens</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM3306</StopPointRef>
+      <CommonName>Parkhill Cottages</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM1932</StopPointRef>
+      <CommonName>West Newton Farm</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM626</StopPointRef>
+      <CommonName>Cauldcots Road End</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM9997</StopPointRef>
+      <CommonName>Bryanton Farm</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM9998</StopPointRef>
+      <CommonName>Kirkbank Layby</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6490IM1691</StopPointRef>
+      <CommonName>Windyhills Road End</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="AGAA011_002">
+      <RouteLink id="AGAA011_002_29338">
+        <From>
+          <StopPointRef>6490IM627</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM644</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAA011_002_29339">
+        <From>
+          <StopPointRef>6490IM644</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM702</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAA011_002_29340">
+        <From>
+          <StopPointRef>6490IM702</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM624</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAA011_002_29341">
+        <From>
+          <StopPointRef>6490IM624</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM1687</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAA011_002_29342">
+        <From>
+          <StopPointRef>6490IM1687</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM1688</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAA011_002_29343">
+        <From>
+          <StopPointRef>6490IM1688</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM1901</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAA011_002_29344">
+        <From>
+          <StopPointRef>6490IM1901</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM1690</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAA011_002_29345">
+        <From>
+          <StopPointRef>6490IM1690</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM623</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAA011_002_29346">
+        <From>
+          <StopPointRef>6490IM623</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM001</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAA011_002_29347">
+        <From>
+          <StopPointRef>6490IM001</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM541</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAA011_002_29348">
+        <From>
+          <StopPointRef>6490IM541</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM328</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAA011_002_29349">
+        <From>
+          <StopPointRef>6490IM328</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM355</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAA011_002_29350">
+        <From>
+          <StopPointRef>6490IM355</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM3306</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAA011_002_29351">
+        <From>
+          <StopPointRef>6490IM3306</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM1932</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAA011_002_29352">
+        <From>
+          <StopPointRef>6490IM1932</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM626</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAA011_002_29353">
+        <From>
+          <StopPointRef>6490IM626</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM9997</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="AGAA011_001">
+      <RouteLink id="AGAA011_001_29355">
+        <From>
+          <StopPointRef>6490IM9998</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM001</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAA011_001_29356">
+        <From>
+          <StopPointRef>6490IM001</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM541</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAA011_001_29357">
+        <From>
+          <StopPointRef>6490IM541</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM1691</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAA011_001_29358">
+        <From>
+          <StopPointRef>6490IM1691</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM328</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAA011_001_29359">
+        <From>
+          <StopPointRef>6490IM328</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM355</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAA011_001_29360">
+        <From>
+          <StopPointRef>6490IM355</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM3306</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAA011_001_29361">
+        <From>
+          <StopPointRef>6490IM3306</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM1932</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAA011_001_29362">
+        <From>
+          <StopPointRef>6490IM1932</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM626</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAA011_001_29363">
+        <From>
+          <StopPointRef>6490IM626</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM9997</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AGAA011_001_29364">
+        <From>
+          <StopPointRef>6490IM9997</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6490IM627</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="AGAA011_002">
+      <Description>Inverkeilor School - Auchmithie and Bryanton
+</Description>
+      <RouteSectionRef>AGAA011_002</RouteSectionRef>
+    </Route>
+    <Route id="AGAA011_001">
+      <Description>Auchmithie - Inverkeilor School
+</Description>
+      <RouteSectionRef>AGAA011_001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_AGAA011-3">
+      <JourneyPatternTimingLink id="JPS_AGAA011-3_29338">
+        <From>
+          <StopPointRef>6490IM627</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM644</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAA011_002_29338</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAA011-3_29339">
+        <From>
+          <StopPointRef>6490IM644</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM702</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAA011_002_29339</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAA011-3_29340">
+        <From>
+          <StopPointRef>6490IM702</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM624</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAA011_002_29340</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAA011-3_29341">
+        <From>
+          <StopPointRef>6490IM624</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM1687</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAA011_002_29341</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAA011-3_29342">
+        <From>
+          <StopPointRef>6490IM1687</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM1688</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAA011_002_29342</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAA011-3_29343">
+        <From>
+          <StopPointRef>6490IM1688</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM1901</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAA011_002_29343</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAA011-3_29344">
+        <From>
+          <StopPointRef>6490IM1901</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM1690</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAA011_002_29344</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAA011-3_29345">
+        <From>
+          <StopPointRef>6490IM1690</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM623</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAA011_002_29345</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAA011-3_29346">
+        <From>
+          <StopPointRef>6490IM623</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM001</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAA011_002_29346</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAA011-3_29347">
+        <From>
+          <StopPointRef>6490IM001</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM541</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAA011_002_29347</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAA011-3_29348">
+        <From>
+          <StopPointRef>6490IM541</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM328</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAA011_002_29348</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAA011-3_29349">
+        <From>
+          <StopPointRef>6490IM328</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM355</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAA011_002_29349</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAA011-3_29350">
+        <From>
+          <StopPointRef>6490IM355</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM3306</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAA011_002_29350</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAA011-3_29351">
+        <From>
+          <StopPointRef>6490IM3306</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM1932</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAA011_002_29351</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAA011-3_29352">
+        <From>
+          <StopPointRef>6490IM1932</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM626</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAA011_002_29352</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAA011-3_29353">
+        <From>
+          <StopPointRef>6490IM626</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM9997</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAA011_002_29353</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_AGAA011-4">
+      <JourneyPatternTimingLink id="JPS_AGAA011-4_29355">
+        <From>
+          <StopPointRef>6490IM9998</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM001</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAA011_001_29355</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAA011-4_29356">
+        <From>
+          <StopPointRef>6490IM001</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM541</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAA011_001_29356</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAA011-4_29357">
+        <From>
+          <StopPointRef>6490IM541</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM1691</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAA011_001_29357</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAA011-4_29358">
+        <From>
+          <StopPointRef>6490IM1691</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM328</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAA011_001_29358</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAA011-4_29359">
+        <From>
+          <StopPointRef>6490IM328</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM355</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAA011_001_29359</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAA011-4_29360">
+        <From>
+          <StopPointRef>6490IM355</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM3306</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAA011_001_29360</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAA011-4_29361">
+        <From>
+          <StopPointRef>6490IM3306</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM1932</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAA011_001_29361</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAA011-4_29362">
+        <From>
+          <StopPointRef>6490IM1932</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM626</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAA011_001_29362</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAA011-4_29363">
+        <From>
+          <StopPointRef>6490IM626</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM9997</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAA011_001_29363</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AGAA011-4_29364">
+        <From>
+          <StopPointRef>6490IM9997</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6490IM627</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AGAA011_001_29364</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="STY">
+      <NationalOperatorCode>SSTY</NationalOperatorCode>
+      <OperatorCode>STY</OperatorCode>
+      <OperatorShortName>Stagecoach East Scotland</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>AGAA011</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>A11</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2018-08-27</StartDate>
+        <EndDate>2049-12-31</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>STY</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Auchmithie - Inverkeilor School</Description>
+      <StandardService>
+        <Origin>Auchmithie</Origin>
+        <Destination>Inverkeilor School</Destination>
+        <JourneyPattern id="JPS_AGAA011-3">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_AGAA011-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_AGAA011-4">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_AGAA011-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>STY</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>160</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>12270</VehicleJourneyCode>
+      <ServiceRef>AGAA011</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGAA011-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>Sch</NoteCode>
+        <NoteText>Operates on Angus schooldays only</NoteText>
+      </Note>
+      <DepartureTime>15:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>STY</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>160</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>12271</VehicleJourneyCode>
+      <ServiceRef>AGAA011</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AGAA011-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>Sch</NoteCode>
+        <NoteText>Operates on Angus schooldays only</NoteText>
+      </Note>
+      <DepartureTime>08:30:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

@@ -1,0 +1,4069 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:21:00-00:00" ModificationDateTime="2019-10-07T13:21:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRFSAM090.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6200600750</StopPointRef>
+      <CommonName>Bus Station</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6200244745</StopPointRef>
+      <CommonName>Queensferry Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6200246330</StopPointRef>
+      <CommonName>Barnton Junction</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500D1701</StopPointRef>
+      <CommonName>Park &amp; Ride</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>64804323</StopPointRef>
+      <CommonName>Park and Ride</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>64802054</StopPointRef>
+      <CommonName>Park and Ride</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>64801263</StopPointRef>
+      <CommonName>Leisure Pool</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>64801052</StopPointRef>
+      <CommonName>Bus Station</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>64802179</StopPointRef>
+      <CommonName>Aldour</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>64801304</StopPointRef>
+      <CommonName>Fishers Hotel</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6700713303</StopPointRef>
+      <CommonName>Cairngorm Hotel</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>670085865E</StopPointRef>
+      <CommonName>Bus Station</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>670085474A</StopPointRef>
+      <CommonName>Road End</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>64801285</StopPointRef>
+      <CommonName>Birnam Hotel</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>64801262</StopPointRef>
+      <CommonName>Leisure Pool</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500D1704</StopPointRef>
+      <CommonName>Park &amp; Ride</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6200203570</StopPointRef>
+      <CommonName>Barnton Junction</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6200205203</StopPointRef>
+      <CommonName>Queensferry Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6700713317</StopPointRef>
+      <CommonName>Station</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>670085474</StopPointRef>
+      <CommonName>Road End</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>64801301</StopPointRef>
+      <CommonName>Fishers Hotel</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>64801402</StopPointRef>
+      <CommonName>Aldour</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>64801286</StopPointRef>
+      <CommonName>Birnam Hotel</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="FSAM090_047">
+      <RouteLink id="FSAM090_047_260673">
+        <From>
+          <StopPointRef>6200600750</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200244745</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_047_260674">
+        <From>
+          <StopPointRef>6200244745</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200246330</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_047_260675">
+        <From>
+          <StopPointRef>6200246330</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500D1701</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_047_260676">
+        <From>
+          <StopPointRef>6500D1701</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64804323</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_047_260677">
+        <From>
+          <StopPointRef>64804323</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64802054</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_047_260678">
+        <From>
+          <StopPointRef>64802054</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64801263</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_047_260679">
+        <From>
+          <StopPointRef>64801263</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64801052</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSAM090_012">
+      <RouteLink id="FSAM090_012_260681">
+        <From>
+          <StopPointRef>6200600750</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200244745</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_012_260682">
+        <From>
+          <StopPointRef>6200244745</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200246330</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_012_260683">
+        <From>
+          <StopPointRef>6200246330</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500D1701</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_012_260684">
+        <From>
+          <StopPointRef>6500D1701</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64804323</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_012_260685">
+        <From>
+          <StopPointRef>64804323</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64802054</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_012_260686">
+        <From>
+          <StopPointRef>64802054</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64802179</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_012_260687">
+        <From>
+          <StopPointRef>64802179</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64801304</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_012_260688">
+        <From>
+          <StopPointRef>64801304</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6700713303</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_012_260689">
+        <From>
+          <StopPointRef>6700713303</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>670085865E</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSAM090_042">
+      <RouteLink id="FSAM090_042_260691">
+        <From>
+          <StopPointRef>6200600750</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200244745</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_042_260692">
+        <From>
+          <StopPointRef>6200244745</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200246330</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_042_260693">
+        <From>
+          <StopPointRef>6200246330</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500D1701</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_042_260694">
+        <From>
+          <StopPointRef>6500D1701</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64804323</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_042_260695">
+        <From>
+          <StopPointRef>64804323</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64802054</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_042_260696">
+        <From>
+          <StopPointRef>64802054</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64802179</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_042_260697">
+        <From>
+          <StopPointRef>64802179</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64801304</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_042_260698">
+        <From>
+          <StopPointRef>64801304</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>670085474A</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_042_260699">
+        <From>
+          <StopPointRef>670085474A</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6700713303</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_042_260700">
+        <From>
+          <StopPointRef>6700713303</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>670085865E</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSAM090_048">
+      <RouteLink id="FSAM090_048_260702">
+        <From>
+          <StopPointRef>6200600750</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200244745</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_048_260703">
+        <From>
+          <StopPointRef>6200244745</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200246330</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_048_260704">
+        <From>
+          <StopPointRef>6200246330</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500D1701</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_048_260705">
+        <From>
+          <StopPointRef>6500D1701</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64804323</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_048_260706">
+        <From>
+          <StopPointRef>64804323</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64802054</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_048_260707">
+        <From>
+          <StopPointRef>64802054</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64801285</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_048_260708">
+        <From>
+          <StopPointRef>64801285</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64802179</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_048_260709">
+        <From>
+          <StopPointRef>64802179</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64801304</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_048_260710">
+        <From>
+          <StopPointRef>64801304</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>670085474A</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_048_260711">
+        <From>
+          <StopPointRef>670085474A</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6700713303</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_048_260712">
+        <From>
+          <StopPointRef>6700713303</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>670085865E</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSAM090_008">
+      <RouteLink id="FSAM090_008_260714">
+        <From>
+          <StopPointRef>6200600750</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200244745</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_008_260715">
+        <From>
+          <StopPointRef>6200244745</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200246330</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_008_260716">
+        <From>
+          <StopPointRef>6200246330</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500D1701</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_008_260717">
+        <From>
+          <StopPointRef>6500D1701</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64804323</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_008_260718">
+        <From>
+          <StopPointRef>64804323</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64802054</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_008_260719">
+        <From>
+          <StopPointRef>64802054</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6700713303</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_008_260720">
+        <From>
+          <StopPointRef>6700713303</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>670085865E</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSAM090_049">
+      <RouteLink id="FSAM090_049_260621">
+        <From>
+          <StopPointRef>64801052</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64801262</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_049_260622">
+        <From>
+          <StopPointRef>64801262</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64802054</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_049_260623">
+        <From>
+          <StopPointRef>64802054</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64804323</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_049_260624">
+        <From>
+          <StopPointRef>64804323</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500D1704</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_049_260625">
+        <From>
+          <StopPointRef>6500D1704</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200203570</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_049_260626">
+        <From>
+          <StopPointRef>6200203570</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200205203</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_049_260627">
+        <From>
+          <StopPointRef>6200205203</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200600750</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSAM090_050">
+      <RouteLink id="FSAM090_050_260629">
+        <From>
+          <StopPointRef>670085865E</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6700713317</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_050_260630">
+        <From>
+          <StopPointRef>6700713317</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>670085474</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_050_260631">
+        <From>
+          <StopPointRef>670085474</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64801301</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_050_260632">
+        <From>
+          <StopPointRef>64801301</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64801402</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_050_260633">
+        <From>
+          <StopPointRef>64801402</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64801286</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_050_260634">
+        <From>
+          <StopPointRef>64801286</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64802054</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_050_260635">
+        <From>
+          <StopPointRef>64802054</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64804323</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_050_260636">
+        <From>
+          <StopPointRef>64804323</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500D1704</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_050_260637">
+        <From>
+          <StopPointRef>6500D1704</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200203570</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_050_260638">
+        <From>
+          <StopPointRef>6200203570</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200205203</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_050_260639">
+        <From>
+          <StopPointRef>6200205203</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200600750</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSAM090_044">
+      <RouteLink id="FSAM090_044_260641">
+        <From>
+          <StopPointRef>670085865E</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6700713317</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_044_260642">
+        <From>
+          <StopPointRef>6700713317</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>670085474</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_044_260643">
+        <From>
+          <StopPointRef>670085474</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64801301</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_044_260644">
+        <From>
+          <StopPointRef>64801301</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64801402</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_044_260645">
+        <From>
+          <StopPointRef>64801402</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64802054</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_044_260646">
+        <From>
+          <StopPointRef>64802054</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64804323</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_044_260647">
+        <From>
+          <StopPointRef>64804323</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500D1704</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_044_260648">
+        <From>
+          <StopPointRef>6500D1704</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200203570</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_044_260649">
+        <From>
+          <StopPointRef>6200203570</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200205203</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_044_260650">
+        <From>
+          <StopPointRef>6200205203</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200600750</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSAM090_051">
+      <RouteLink id="FSAM090_051_260652">
+        <From>
+          <StopPointRef>670085865E</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6700713317</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_051_260653">
+        <From>
+          <StopPointRef>6700713317</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>670085474</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_051_260654">
+        <From>
+          <StopPointRef>670085474</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64801301</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_051_260655">
+        <From>
+          <StopPointRef>64801301</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64801402</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_051_260656">
+        <From>
+          <StopPointRef>64801402</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64802054</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_051_260657">
+        <From>
+          <StopPointRef>64802054</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64801263</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_051_260658">
+        <From>
+          <StopPointRef>64801263</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64801052</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_051_260659">
+        <From>
+          <StopPointRef>64801052</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64804323</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_051_260660">
+        <From>
+          <StopPointRef>64804323</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500D1704</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_051_260661">
+        <From>
+          <StopPointRef>6500D1704</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200203570</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_051_260662">
+        <From>
+          <StopPointRef>6200203570</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200205203</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_051_260663">
+        <From>
+          <StopPointRef>6200205203</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200600750</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSAM090_009">
+      <RouteLink id="FSAM090_009_260665">
+        <From>
+          <StopPointRef>670085865E</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6700713317</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_009_260666">
+        <From>
+          <StopPointRef>6700713317</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64802054</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_009_260667">
+        <From>
+          <StopPointRef>64802054</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64804323</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_009_260668">
+        <From>
+          <StopPointRef>64804323</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500D1704</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_009_260669">
+        <From>
+          <StopPointRef>6500D1704</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200203570</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_009_260670">
+        <From>
+          <StopPointRef>6200203570</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200205203</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSAM090_009_260671">
+        <From>
+          <StopPointRef>6200205203</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200600750</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="FSAM090_047">
+      <Description>Edinburgh - Inverness
+</Description>
+      <RouteSectionRef>FSAM090_047</RouteSectionRef>
+    </Route>
+    <Route id="FSAM090_012">
+      <Description>Edinburgh - Inverness
+</Description>
+      <RouteSectionRef>FSAM090_012</RouteSectionRef>
+    </Route>
+    <Route id="FSAM090_042">
+      <Description>Edinburgh - Inverness
+</Description>
+      <RouteSectionRef>FSAM090_042</RouteSectionRef>
+    </Route>
+    <Route id="FSAM090_048">
+      <Description>Edinburgh - Inverness
+</Description>
+      <RouteSectionRef>FSAM090_048</RouteSectionRef>
+    </Route>
+    <Route id="FSAM090_008">
+      <Description>Edinburgh - Inverness
+</Description>
+      <RouteSectionRef>FSAM090_008</RouteSectionRef>
+    </Route>
+    <Route id="FSAM090_049">
+      <Description>Inverness - Edinburgh
+</Description>
+      <RouteSectionRef>FSAM090_049</RouteSectionRef>
+    </Route>
+    <Route id="FSAM090_050">
+      <Description>Inverness - Edinburgh
+</Description>
+      <RouteSectionRef>FSAM090_050</RouteSectionRef>
+    </Route>
+    <Route id="FSAM090_044">
+      <Description>Inverness - Edinburgh
+</Description>
+      <RouteSectionRef>FSAM090_044</RouteSectionRef>
+    </Route>
+    <Route id="FSAM090_051">
+      <Description>Inverness - Edinburgh
+</Description>
+      <RouteSectionRef>FSAM090_051</RouteSectionRef>
+    </Route>
+    <Route id="FSAM090_009">
+      <Description>Inverness - Edinburgh
+</Description>
+      <RouteSectionRef>FSAM090_009</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_FSAM090-11">
+      <JourneyPatternTimingLink id="JPS_FSAM090-11_260673">
+        <From>
+          <StopPointRef>6200600750</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200244745</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_047_260673</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT480S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-11_260674">
+        <From>
+          <StopPointRef>6200244745</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200246330</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_047_260674</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT600S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-11_260675">
+        <From>
+          <StopPointRef>6200246330</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D1701</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_047_260675</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1200S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-11_260676">
+        <From>
+          <WaitTime>PT300S</WaitTime>
+          <StopPointRef>6500D1701</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64804323</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_047_260676</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT840S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-11_260677">
+        <From>
+          <StopPointRef>64804323</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64802054</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_047_260677</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1500S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-11_260678">
+        <From>
+          <WaitTime>PT360S</WaitTime>
+          <StopPointRef>64802054</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64801263</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_047_260678</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-11_260679">
+        <From>
+          <StopPointRef>64801263</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64801052</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_047_260679</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSAM090-12">
+      <JourneyPatternTimingLink id="JPS_FSAM090-12_260673">
+        <From>
+          <StopPointRef>6200600750</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200244745</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_047_260673</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT480S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-12_260674">
+        <From>
+          <StopPointRef>6200244745</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200246330</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_047_260674</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT600S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-12_260675">
+        <From>
+          <StopPointRef>6200246330</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D1701</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_047_260675</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1200S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-12_260676">
+        <From>
+          <WaitTime>PT300S</WaitTime>
+          <StopPointRef>6500D1701</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64804323</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_047_260676</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT840S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-12_260677">
+        <From>
+          <StopPointRef>64804323</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64802054</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_047_260677</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1440S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-12_260678">
+        <From>
+          <WaitTime>PT420S</WaitTime>
+          <StopPointRef>64802054</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64801263</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_047_260678</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-12_260679">
+        <From>
+          <StopPointRef>64801263</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64801052</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_047_260679</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSAM090-13">
+      <JourneyPatternTimingLink id="JPS_FSAM090-13_260681">
+        <From>
+          <StopPointRef>6200600750</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200244745</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_012_260681</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT480S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-13_260682">
+        <From>
+          <StopPointRef>6200244745</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200246330</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_012_260682</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT600S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-13_260683">
+        <From>
+          <StopPointRef>6200246330</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D1701</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_012_260683</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1200S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-13_260684">
+        <From>
+          <WaitTime>PT300S</WaitTime>
+          <StopPointRef>6500D1701</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64804323</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_012_260684</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT840S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-13_260685">
+        <From>
+          <StopPointRef>64804323</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64802054</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_012_260685</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1500S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-13_260686">
+        <From>
+          <WaitTime>PT480S</WaitTime>
+          <StopPointRef>64802054</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64802179</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_012_260686</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2100S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-13_260687">
+        <From>
+          <StopPointRef>64802179</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64801304</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_012_260687</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-13_260688">
+        <From>
+          <StopPointRef>64801304</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6700713303</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_012_260688</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT4380S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-13_260689">
+        <From>
+          <StopPointRef>6700713303</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>670085865E</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_012_260689</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2700S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSAM090-14">
+      <JourneyPatternTimingLink id="JPS_FSAM090-14_260691">
+        <From>
+          <StopPointRef>6200600750</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200244745</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_042_260691</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT480S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-14_260692">
+        <From>
+          <StopPointRef>6200244745</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200246330</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_042_260692</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT600S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-14_260693">
+        <From>
+          <StopPointRef>6200246330</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D1701</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_042_260693</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1200S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-14_260694">
+        <From>
+          <WaitTime>PT300S</WaitTime>
+          <StopPointRef>6500D1701</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64804323</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_042_260694</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT840S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-14_260695">
+        <From>
+          <StopPointRef>64804323</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64802054</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_042_260695</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1500S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-14_260696">
+        <From>
+          <WaitTime>PT480S</WaitTime>
+          <StopPointRef>64802054</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64802179</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_042_260696</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2100S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-14_260697">
+        <From>
+          <StopPointRef>64802179</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64801304</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_042_260697</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-14_260698">
+        <From>
+          <StopPointRef>64801304</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>670085474A</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_042_260698</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2280S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-14_260699">
+        <From>
+          <StopPointRef>670085474A</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6700713303</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_042_260699</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2100S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-14_260700">
+        <From>
+          <StopPointRef>6700713303</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>670085865E</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_042_260700</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2700S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSAM090-15">
+      <JourneyPatternTimingLink id="JPS_FSAM090-15_260673">
+        <From>
+          <StopPointRef>6200600750</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200244745</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_047_260673</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT720S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-15_260674">
+        <From>
+          <StopPointRef>6200244745</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200246330</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_047_260674</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT900S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-15_260675">
+        <From>
+          <StopPointRef>6200246330</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D1701</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_047_260675</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1380S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-15_260676">
+        <From>
+          <StopPointRef>6500D1701</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64804323</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_047_260676</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT840S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-15_260677">
+        <From>
+          <StopPointRef>64804323</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64802054</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_047_260677</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1500S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-15_260678">
+        <From>
+          <WaitTime>PT240S</WaitTime>
+          <StopPointRef>64802054</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64801263</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_047_260678</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-15_260679">
+        <From>
+          <StopPointRef>64801263</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64801052</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_047_260679</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSAM090-16">
+      <JourneyPatternTimingLink id="JPS_FSAM090-16_260702">
+        <From>
+          <StopPointRef>6200600750</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200244745</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_048_260702</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT600S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-16_260703">
+        <From>
+          <StopPointRef>6200244745</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200246330</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_048_260703</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT600S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-16_260704">
+        <From>
+          <StopPointRef>6200246330</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D1701</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_048_260704</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1200S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-16_260705">
+        <From>
+          <WaitTime>PT300S</WaitTime>
+          <StopPointRef>6500D1701</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64804323</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_048_260705</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT840S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-16_260706">
+        <From>
+          <StopPointRef>64804323</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64802054</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_048_260706</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1500S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-16_260707">
+        <From>
+          <WaitTime>PT660S</WaitTime>
+          <StopPointRef>64802054</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64801285</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_048_260707</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1500S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-16_260708">
+        <From>
+          <StopPointRef>64801285</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64802179</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_048_260708</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1200S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-16_260709">
+        <From>
+          <StopPointRef>64802179</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64801304</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_048_260709</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-16_260710">
+        <From>
+          <StopPointRef>64801304</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>670085474A</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_048_260710</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2280S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-16_260711">
+        <From>
+          <StopPointRef>670085474A</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6700713303</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_048_260711</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2100S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-16_260712">
+        <From>
+          <StopPointRef>6700713303</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>670085865E</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_048_260712</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2700S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSAM090-17">
+      <JourneyPatternTimingLink id="JPS_FSAM090-17_260714">
+        <From>
+          <StopPointRef>6200600750</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200244745</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_008_260714</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT480S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-17_260715">
+        <From>
+          <StopPointRef>6200244745</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200246330</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_008_260715</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT600S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-17_260716">
+        <From>
+          <StopPointRef>6200246330</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D1701</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_008_260716</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1200S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-17_260717">
+        <From>
+          <WaitTime>PT300S</WaitTime>
+          <StopPointRef>6500D1701</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64804323</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_008_260717</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT840S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-17_260718">
+        <From>
+          <StopPointRef>64804323</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64802054</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_008_260718</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1440S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-17_260719">
+        <From>
+          <WaitTime>PT540S</WaitTime>
+          <StopPointRef>64802054</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6700713303</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_008_260719</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT6000S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-17_260720">
+        <From>
+          <StopPointRef>6700713303</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>670085865E</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_008_260720</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2700S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSAM090-18">
+      <JourneyPatternTimingLink id="JPS_FSAM090-18_260673">
+        <From>
+          <StopPointRef>6200600750</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200244745</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_047_260673</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-18_260674">
+        <From>
+          <StopPointRef>6200244745</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200246330</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_047_260674</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT480S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-18_260675">
+        <From>
+          <StopPointRef>6200246330</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D1701</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_047_260675</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1140S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-18_260676">
+        <From>
+          <StopPointRef>6500D1701</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64804323</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_047_260676</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT840S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-18_260677">
+        <From>
+          <StopPointRef>64804323</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64802054</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_047_260677</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1500S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-18_260678">
+        <From>
+          <StopPointRef>64802054</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64801263</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_047_260678</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-18_260679">
+        <From>
+          <StopPointRef>64801263</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64801052</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_047_260679</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSAM090-19">
+      <JourneyPatternTimingLink id="JPS_FSAM090-19_260621">
+        <From>
+          <StopPointRef>64801052</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64801262</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_049_260621</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-19_260622">
+        <From>
+          <StopPointRef>64801262</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64802054</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_049_260622</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-19_260623">
+        <From>
+          <WaitTime>PT180S</WaitTime>
+          <StopPointRef>64802054</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64804323</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_049_260623</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1500S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-19_260624">
+        <From>
+          <StopPointRef>64804323</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D1704</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_049_260624</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT840S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-19_260625">
+        <From>
+          <StopPointRef>6500D1704</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200203570</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_049_260625</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1320S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-19_260626">
+        <From>
+          <StopPointRef>6200203570</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200205203</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_049_260626</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT720S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-19_260627">
+        <From>
+          <StopPointRef>6200205203</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200600750</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_049_260627</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT720S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSAM090-20">
+      <JourneyPatternTimingLink id="JPS_FSAM090-20_260621">
+        <From>
+          <StopPointRef>64801052</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64801262</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_049_260621</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-20_260622">
+        <From>
+          <StopPointRef>64801262</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64802054</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_049_260622</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-20_260623">
+        <From>
+          <WaitTime>PT180S</WaitTime>
+          <StopPointRef>64802054</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64804323</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_049_260623</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1500S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-20_260624">
+        <From>
+          <StopPointRef>64804323</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D1704</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_049_260624</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT840S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-20_260625">
+        <From>
+          <StopPointRef>6500D1704</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200203570</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_049_260625</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1200S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-20_260626">
+        <From>
+          <StopPointRef>6200203570</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200205203</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_049_260626</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT600S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-20_260627">
+        <From>
+          <StopPointRef>6200205203</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200600750</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_049_260627</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT480S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSAM090-21">
+      <JourneyPatternTimingLink id="JPS_FSAM090-21_260621">
+        <From>
+          <StopPointRef>64801052</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64801262</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_049_260621</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-21_260622">
+        <From>
+          <StopPointRef>64801262</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64802054</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_049_260622</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-21_260623">
+        <From>
+          <StopPointRef>64802054</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64804323</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_049_260623</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1500S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-21_260624">
+        <From>
+          <StopPointRef>64804323</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D1704</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_049_260624</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT840S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-21_260625">
+        <From>
+          <StopPointRef>6500D1704</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200203570</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_049_260625</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1320S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-21_260626">
+        <From>
+          <StopPointRef>6200203570</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200205203</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_049_260626</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1380S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-21_260627">
+        <From>
+          <StopPointRef>6200205203</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200600750</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_049_260627</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT720S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSAM090-22">
+      <JourneyPatternTimingLink id="JPS_FSAM090-22_260629">
+        <From>
+          <StopPointRef>670085865E</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6700713317</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_050_260629</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT2700S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-22_260630">
+        <From>
+          <StopPointRef>6700713317</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>670085474</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_050_260630</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT2100S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-22_260631">
+        <From>
+          <StopPointRef>670085474</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64801301</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_050_260631</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT2280S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-22_260632">
+        <From>
+          <StopPointRef>64801301</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64801402</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_050_260632</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-22_260633">
+        <From>
+          <StopPointRef>64801402</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64801286</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_050_260633</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1200S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-22_260634">
+        <From>
+          <StopPointRef>64801286</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64802054</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_050_260634</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1500S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-22_260635">
+        <From>
+          <WaitTime>PT300S</WaitTime>
+          <StopPointRef>64802054</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64804323</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_050_260635</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1500S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-22_260636">
+        <From>
+          <StopPointRef>64804323</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D1704</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_050_260636</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT840S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-22_260637">
+        <From>
+          <StopPointRef>6500D1704</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200203570</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_050_260637</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1200S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-22_260638">
+        <From>
+          <StopPointRef>6200203570</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200205203</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_050_260638</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT600S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-22_260639">
+        <From>
+          <StopPointRef>6200205203</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200600750</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_050_260639</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT480S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSAM090-23">
+      <JourneyPatternTimingLink id="JPS_FSAM090-23_260621">
+        <From>
+          <StopPointRef>64801052</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64801262</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_049_260621</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-23_260622">
+        <From>
+          <StopPointRef>64801262</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64802054</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_049_260622</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-23_260623">
+        <From>
+          <WaitTime>PT480S</WaitTime>
+          <StopPointRef>64802054</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64804323</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_049_260623</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1500S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-23_260624">
+        <From>
+          <StopPointRef>64804323</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D1704</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_049_260624</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT840S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-23_260625">
+        <From>
+          <WaitTime>PT180S</WaitTime>
+          <StopPointRef>6500D1704</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200203570</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_049_260625</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1200S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-23_260626">
+        <From>
+          <StopPointRef>6200203570</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200205203</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_049_260626</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT600S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-23_260627">
+        <From>
+          <StopPointRef>6200205203</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200600750</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_049_260627</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT480S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSAM090-24">
+      <JourneyPatternTimingLink id="JPS_FSAM090-24_260621">
+        <From>
+          <StopPointRef>64801052</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64801262</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_049_260621</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-24_260622">
+        <From>
+          <StopPointRef>64801262</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64802054</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_049_260622</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-24_260623">
+        <From>
+          <WaitTime>PT480S</WaitTime>
+          <StopPointRef>64802054</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64804323</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_049_260623</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1500S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-24_260624">
+        <From>
+          <StopPointRef>64804323</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D1704</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_049_260624</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT840S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-24_260625">
+        <From>
+          <WaitTime>PT180S</WaitTime>
+          <StopPointRef>6500D1704</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200203570</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_049_260625</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1200S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-24_260626">
+        <From>
+          <StopPointRef>6200203570</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200205203</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_049_260626</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT720S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-24_260627">
+        <From>
+          <StopPointRef>6200205203</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200600750</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_049_260627</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT540S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSAM090-25">
+      <JourneyPatternTimingLink id="JPS_FSAM090-25_260641">
+        <From>
+          <StopPointRef>670085865E</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6700713317</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_044_260641</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT2700S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-25_260642">
+        <From>
+          <StopPointRef>6700713317</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>670085474</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_044_260642</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT2100S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-25_260643">
+        <From>
+          <StopPointRef>670085474</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64801301</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_044_260643</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT2280S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-25_260644">
+        <From>
+          <StopPointRef>64801301</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64801402</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_044_260644</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-25_260645">
+        <From>
+          <StopPointRef>64801402</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64802054</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_044_260645</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT2100S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-25_260646">
+        <From>
+          <WaitTime>PT600S</WaitTime>
+          <StopPointRef>64802054</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64804323</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_044_260646</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1500S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-25_260647">
+        <From>
+          <StopPointRef>64804323</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D1704</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_044_260647</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT840S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-25_260648">
+        <From>
+          <WaitTime>PT180S</WaitTime>
+          <StopPointRef>6500D1704</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200203570</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_044_260648</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1200S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-25_260649">
+        <From>
+          <StopPointRef>6200203570</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200205203</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_044_260649</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT600S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-25_260650">
+        <From>
+          <StopPointRef>6200205203</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200600750</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_044_260650</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT480S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSAM090-26">
+      <JourneyPatternTimingLink id="JPS_FSAM090-26_260652">
+        <From>
+          <StopPointRef>670085865E</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6700713317</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_051_260652</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT2700S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-26_260653">
+        <From>
+          <StopPointRef>6700713317</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>670085474</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_051_260653</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT2100S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-26_260654">
+        <From>
+          <StopPointRef>670085474</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64801301</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_051_260654</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT2280S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-26_260655">
+        <From>
+          <StopPointRef>64801301</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64801402</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_051_260655</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-26_260656">
+        <From>
+          <StopPointRef>64801402</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64802054</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_051_260656</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT2100S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-26_260657">
+        <From>
+          <WaitTime>PT600S</WaitTime>
+          <StopPointRef>64802054</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64801263</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_051_260657</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-26_260658">
+        <From>
+          <StopPointRef>64801263</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64801052</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_051_260658</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-26_260659">
+        <From>
+          <StopPointRef>64801052</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64804323</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_051_260659</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1680S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-26_260660">
+        <From>
+          <StopPointRef>64804323</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D1704</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_051_260660</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT840S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-26_260661">
+        <From>
+          <WaitTime>PT180S</WaitTime>
+          <StopPointRef>6500D1704</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200203570</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_051_260661</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1200S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-26_260662">
+        <From>
+          <StopPointRef>6200203570</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200205203</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_051_260662</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT480S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-26_260663">
+        <From>
+          <StopPointRef>6200205203</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200600750</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_051_260663</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSAM090-27">
+      <JourneyPatternTimingLink id="JPS_FSAM090-27_260665">
+        <From>
+          <StopPointRef>670085865E</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6700713317</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_009_260665</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT2400S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-27_260666">
+        <From>
+          <StopPointRef>6700713317</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64802054</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_009_260666</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT6000S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-27_260667">
+        <From>
+          <WaitTime>PT600S</WaitTime>
+          <StopPointRef>64802054</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64804323</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_009_260667</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1500S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-27_260668">
+        <From>
+          <StopPointRef>64804323</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D1704</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_009_260668</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT840S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-27_260669">
+        <From>
+          <StopPointRef>6500D1704</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200203570</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_009_260669</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1140S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-27_260670">
+        <From>
+          <StopPointRef>6200203570</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200205203</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_009_260670</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT480S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSAM090-27_260671">
+        <From>
+          <StopPointRef>6200205203</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200600750</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSAM090_009_260671</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="SCMG">
+      <NationalOperatorCode>SCMG</NationalOperatorCode>
+      <OperatorCode>SCMG</OperatorCode>
+      <OperatorShortName>Scottish Citylink + Mega</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>FSAM090</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>M90</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2019-09-30</StartDate>
+        <EndDate>2049-12-31</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>SCMG</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>coach</Mode>
+      <Description>Edinburgh - Inverness</Description>
+      <StandardService>
+        <Origin>Edinburgh</Origin>
+        <Destination>Inverness</Destination>
+        <JourneyPattern id="JPS_FSAM090-11">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSAM090-11</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSAM090-12">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSAM090-12</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSAM090-13">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSAM090-13</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSAM090-14">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSAM090-14</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSAM090-15">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSAM090-15</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSAM090-16">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSAM090-16</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSAM090-17">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSAM090-17</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSAM090-18">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSAM090-18</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSAM090-19">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSAM090-19</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSAM090-20">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSAM090-20</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSAM090-21">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSAM090-21</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSAM090-22">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSAM090-22</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSAM090-23">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSAM090-23</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSAM090-24">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSAM090-24</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSAM090-25">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSAM090-25</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSAM090-26">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSAM090-26</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSAM090-27">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSAM090-27</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82936</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-11</JourneyPatternRef>
+      <DepartureTime>10:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82937</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-11</JourneyPatternRef>
+      <DepartureTime>12:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82938</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-11</JourneyPatternRef>
+      <DepartureTime>14:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82939</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-12</JourneyPatternRef>
+      <DepartureTime>18:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82940</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-13</JourneyPatternRef>
+      <DepartureTime>11:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82941</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-14</JourneyPatternRef>
+      <DepartureTime>13:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82942</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-15</JourneyPatternRef>
+      <DepartureTime>16:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82943</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-16</JourneyPatternRef>
+      <DepartureTime>17:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82944</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-17</JourneyPatternRef>
+      <DepartureTime>19:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82945</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-18</JourneyPatternRef>
+      <DepartureTime>22:35:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82946</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-18</JourneyPatternRef>
+      <DepartureTime>23:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82947</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-11</JourneyPatternRef>
+      <DepartureTime>10:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82948</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-11</JourneyPatternRef>
+      <DepartureTime>12:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82949</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-11</JourneyPatternRef>
+      <DepartureTime>14:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82950</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-12</JourneyPatternRef>
+      <DepartureTime>18:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82951</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-13</JourneyPatternRef>
+      <DepartureTime>11:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82952</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-14</JourneyPatternRef>
+      <DepartureTime>13:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82953</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-15</JourneyPatternRef>
+      <DepartureTime>16:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82902</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-19</JourneyPatternRef>
+      <DepartureTime>06:35:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82903</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-20</JourneyPatternRef>
+      <DepartureTime>08:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82904</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-21</JourneyPatternRef>
+      <DepartureTime>07:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82905</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-22</JourneyPatternRef>
+      <DepartureTime>06:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82906</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-23</JourneyPatternRef>
+      <DepartureTime>09:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82907</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-23</JourneyPatternRef>
+      <DepartureTime>10:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82908</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-23</JourneyPatternRef>
+      <DepartureTime>12:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82909</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-24</JourneyPatternRef>
+      <DepartureTime>14:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82910</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-24</JourneyPatternRef>
+      <DepartureTime>16:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82911</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-25</JourneyPatternRef>
+      <DepartureTime>11:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82912</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-26</JourneyPatternRef>
+      <DepartureTime>17:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82913</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-27</JourneyPatternRef>
+      <DepartureTime>19:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82914</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-21</JourneyPatternRef>
+      <DepartureTime>07:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82915</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-20</JourneyPatternRef>
+      <DepartureTime>08:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82954</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-16</JourneyPatternRef>
+      <DepartureTime>17:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82955</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-17</JourneyPatternRef>
+      <DepartureTime>19:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82956</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-18</JourneyPatternRef>
+      <DepartureTime>22:35:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82957</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-18</JourneyPatternRef>
+      <DepartureTime>23:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82958</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-11</JourneyPatternRef>
+      <DepartureTime>10:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82959</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-11</JourneyPatternRef>
+      <DepartureTime>12:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82960</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-11</JourneyPatternRef>
+      <DepartureTime>14:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82961</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-12</JourneyPatternRef>
+      <DepartureTime>18:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82962</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-13</JourneyPatternRef>
+      <DepartureTime>11:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82963</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-14</JourneyPatternRef>
+      <DepartureTime>13:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82964</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-15</JourneyPatternRef>
+      <DepartureTime>16:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82965</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-16</JourneyPatternRef>
+      <DepartureTime>17:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82966</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-17</JourneyPatternRef>
+      <DepartureTime>19:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82967</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-18</JourneyPatternRef>
+      <DepartureTime>22:35:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82968</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-18</JourneyPatternRef>
+      <DepartureTime>23:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82916</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-22</JourneyPatternRef>
+      <DepartureTime>06:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82917</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-23</JourneyPatternRef>
+      <DepartureTime>09:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82918</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-23</JourneyPatternRef>
+      <DepartureTime>10:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82919</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-23</JourneyPatternRef>
+      <DepartureTime>12:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82920</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-24</JourneyPatternRef>
+      <DepartureTime>14:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82921</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-24</JourneyPatternRef>
+      <DepartureTime>16:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82922</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-25</JourneyPatternRef>
+      <DepartureTime>11:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82923</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-26</JourneyPatternRef>
+      <DepartureTime>17:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82924</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-27</JourneyPatternRef>
+      <DepartureTime>19:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82925</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-21</JourneyPatternRef>
+      <DepartureTime>07:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82926</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-20</JourneyPatternRef>
+      <DepartureTime>08:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82927</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-22</JourneyPatternRef>
+      <DepartureTime>06:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82928</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-23</JourneyPatternRef>
+      <DepartureTime>09:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82929</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-23</JourneyPatternRef>
+      <DepartureTime>10:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82930</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-23</JourneyPatternRef>
+      <DepartureTime>12:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82931</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-24</JourneyPatternRef>
+      <DepartureTime>14:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82932</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-24</JourneyPatternRef>
+      <DepartureTime>16:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82933</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-25</JourneyPatternRef>
+      <DepartureTime>11:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82934</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-26</JourneyPatternRef>
+      <DepartureTime>17:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCMG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82935</VehicleJourneyCode>
+      <ServiceRef>FSAM090</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSAM090-27</JourneyPatternRef>
+      <DepartureTime>19:25:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T12:58:00-00:00" ModificationDateTime="2019-10-07T12:58:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRLBBO061.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6200243590</StopPointRef>
+      <CommonName>Thistle Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6200204850</StopPointRef>
+      <CommonName>Perth Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6200206280</StopPointRef>
+      <CommonName>Thistle Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6200206092</StopPointRef>
+      <CommonName>Canning Street</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="LBBO061_002">
+      <RouteLink id="LBBO061_002_169439">
+        <From>
+          <StopPointRef>6200243590</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200204850</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="LBBO061_002_169440">
+        <From>
+          <StopPointRef>6200204850</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200206280</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="LBBO061_003">
+      <RouteLink id="LBBO061_003_169442">
+        <From>
+          <StopPointRef>6200243590</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200204850</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="LBBO061_003_169443">
+        <From>
+          <StopPointRef>6200204850</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200206280</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="LBBO061_003_169444">
+        <From>
+          <StopPointRef>6200206280</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200206092</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="LBBO061_001">
+      <RouteLink id="LBBO061_001_169446">
+        <From>
+          <StopPointRef>6200206092</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200243590</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="LBBO061_001_169447">
+        <From>
+          <StopPointRef>6200243590</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200204850</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="LBBO061_001_169448">
+        <From>
+          <StopPointRef>6200204850</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200206280</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="LBBO061_001_169449">
+        <From>
+          <StopPointRef>6200206280</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200206092</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="LBBO061_004">
+      <RouteLink id="LBBO061_004_169451">
+        <From>
+          <StopPointRef>6200206092</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200243590</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="LBBO061_004_169452">
+        <From>
+          <StopPointRef>6200243590</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200204850</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="LBBO061_004_169453">
+        <From>
+          <StopPointRef>6200204850</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200206280</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="LBBO061_002">
+      <Description>Standard Life - Henderson Row circular
+</Description>
+      <RouteSectionRef>LBBO061_002</RouteSectionRef>
+    </Route>
+    <Route id="LBBO061_003">
+      <Description>Standard Life - Henderson Row circular
+</Description>
+      <RouteSectionRef>LBBO061_003</RouteSectionRef>
+    </Route>
+    <Route id="LBBO061_001">
+      <Description>Standard Life - Henderson Row circular
+</Description>
+      <RouteSectionRef>LBBO061_001</RouteSectionRef>
+    </Route>
+    <Route id="LBBO061_004">
+      <Description>Standard Life - Henderson Row circular
+</Description>
+      <RouteSectionRef>LBBO061_004</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_LBBO061-5">
+      <JourneyPatternTimingLink id="JPS_LBBO061-5_169439">
+        <From>
+          <StopPointRef>6200243590</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200204850</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>LBBO061_002_169439</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT420S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_LBBO061-5_169440">
+        <From>
+          <StopPointRef>6200204850</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200206280</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>LBBO061_002_169440</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT240S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_LBBO061-6">
+      <JourneyPatternTimingLink id="JPS_LBBO061-6_169442">
+        <From>
+          <StopPointRef>6200243590</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200204850</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>LBBO061_003_169442</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT420S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_LBBO061-6_169443">
+        <From>
+          <StopPointRef>6200204850</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200206280</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>LBBO061_003_169443</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT240S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_LBBO061-6_169444">
+        <From>
+          <StopPointRef>6200206280</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200206092</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>LBBO061_003_169444</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT540S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_LBBO061-7">
+      <JourneyPatternTimingLink id="JPS_LBBO061-7_169446">
+        <From>
+          <StopPointRef>6200206092</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200243590</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>LBBO061_001_169446</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT480S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_LBBO061-7_169447">
+        <From>
+          <StopPointRef>6200243590</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200204850</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>LBBO061_001_169447</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT420S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_LBBO061-7_169448">
+        <From>
+          <StopPointRef>6200204850</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200206280</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>LBBO061_001_169448</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_LBBO061-7_169449">
+        <From>
+          <StopPointRef>6200206280</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200206092</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>LBBO061_001_169449</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT420S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_LBBO061-8">
+      <JourneyPatternTimingLink id="JPS_LBBO061-8_169451">
+        <From>
+          <StopPointRef>6200206092</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200243590</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>LBBO061_004_169451</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT480S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_LBBO061-8_169452">
+        <From>
+          <StopPointRef>6200243590</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200204850</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>LBBO061_004_169452</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT420S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_LBBO061-8_169453">
+        <From>
+          <StopPointRef>6200204850</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200206280</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>LBBO061_004_169453</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="LOB">
+      <NationalOperatorCode>LOTH</NationalOperatorCode>
+      <OperatorCode>LOB</OperatorCode>
+      <OperatorShortName>Lothian Buses</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>LBBO061</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>61</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2019-07-22</StartDate>
+        <EndDate>2049-12-31</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>LOB</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Standard Life - Henderson Row circular</Description>
+      <StandardService>
+        <Origin>Standard Life</Origin>
+        <Destination>Henderson Row circular</Destination>
+        <JourneyPattern id="JPS_LBBO061-5">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_LBBO061-5</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_LBBO061-6">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_LBBO061-6</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_LBBO061-7">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_LBBO061-7</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_LBBO061-8">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_LBBO061-8</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>LOB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53190</VehicleJourneyCode>
+      <ServiceRef>LBBO061</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_LBBO061-5</JourneyPatternRef>
+      <DepartureTime>07:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>LOB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53191</VehicleJourneyCode>
+      <ServiceRef>LBBO061</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_LBBO061-6</JourneyPatternRef>
+      <DepartureTime>08:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>LOB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53192</VehicleJourneyCode>
+      <ServiceRef>LBBO061</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_LBBO061-7</JourneyPatternRef>
+      <DepartureTime>08:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>LOB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53193</VehicleJourneyCode>
+      <ServiceRef>LBBO061</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_LBBO061-7</JourneyPatternRef>
+      <DepartureTime>09:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>LOB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53194</VehicleJourneyCode>
+      <ServiceRef>LBBO061</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_LBBO061-7</JourneyPatternRef>
+      <DepartureTime>09:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>LOB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53195</VehicleJourneyCode>
+      <ServiceRef>LBBO061</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_LBBO061-7</JourneyPatternRef>
+      <DepartureTime>10:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>LOB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53196</VehicleJourneyCode>
+      <ServiceRef>LBBO061</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_LBBO061-7</JourneyPatternRef>
+      <DepartureTime>10:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>LOB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53197</VehicleJourneyCode>
+      <ServiceRef>LBBO061</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_LBBO061-7</JourneyPatternRef>
+      <DepartureTime>11:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>LOB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53198</VehicleJourneyCode>
+      <ServiceRef>LBBO061</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_LBBO061-7</JourneyPatternRef>
+      <DepartureTime>11:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>LOB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53199</VehicleJourneyCode>
+      <ServiceRef>LBBO061</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_LBBO061-7</JourneyPatternRef>
+      <DepartureTime>12:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>LOB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53200</VehicleJourneyCode>
+      <ServiceRef>LBBO061</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_LBBO061-7</JourneyPatternRef>
+      <DepartureTime>12:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>LOB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53201</VehicleJourneyCode>
+      <ServiceRef>LBBO061</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_LBBO061-7</JourneyPatternRef>
+      <DepartureTime>13:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>LOB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53202</VehicleJourneyCode>
+      <ServiceRef>LBBO061</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_LBBO061-7</JourneyPatternRef>
+      <DepartureTime>13:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>LOB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53203</VehicleJourneyCode>
+      <ServiceRef>LBBO061</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_LBBO061-7</JourneyPatternRef>
+      <DepartureTime>14:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>LOB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53204</VehicleJourneyCode>
+      <ServiceRef>LBBO061</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_LBBO061-7</JourneyPatternRef>
+      <DepartureTime>14:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>LOB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53205</VehicleJourneyCode>
+      <ServiceRef>LBBO061</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_LBBO061-7</JourneyPatternRef>
+      <DepartureTime>15:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>LOB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53206</VehicleJourneyCode>
+      <ServiceRef>LBBO061</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_LBBO061-7</JourneyPatternRef>
+      <DepartureTime>15:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>LOB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53207</VehicleJourneyCode>
+      <ServiceRef>LBBO061</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_LBBO061-7</JourneyPatternRef>
+      <DepartureTime>16:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>LOB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53208</VehicleJourneyCode>
+      <ServiceRef>LBBO061</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_LBBO061-7</JourneyPatternRef>
+      <DepartureTime>16:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>LOB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53209</VehicleJourneyCode>
+      <ServiceRef>LBBO061</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_LBBO061-7</JourneyPatternRef>
+      <DepartureTime>17:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>LOB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53210</VehicleJourneyCode>
+      <ServiceRef>LBBO061</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_LBBO061-8</JourneyPatternRef>
+      <DepartureTime>17:30:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

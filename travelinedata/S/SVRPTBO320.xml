@@ -1,0 +1,5418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:13:00-00:00" ModificationDateTime="2019-10-07T13:13:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRPTBO320.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6170503</StopPointRef>
+      <CommonName>Cardiff Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61701269</StopPointRef>
+      <CommonName>Churchill Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6170500</StopPointRef>
+      <CommonName>College Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6170831</StopPointRef>
+      <CommonName>Mount Stuart Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6170830</StopPointRef>
+      <CommonName>Woodlands Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6170496</StopPointRef>
+      <CommonName>Marine Parade</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6170835</StopPointRef>
+      <CommonName>Marine Parade</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6170834</StopPointRef>
+      <CommonName>Red Craigs</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6170828</StopPointRef>
+      <CommonName>The Hawk's Nest</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61701171</StopPointRef>
+      <CommonName>Museum</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6170494</StopPointRef>
+      <CommonName>Ferry Terminus</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61701172</StopPointRef>
+      <CommonName>Museum</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6170495</StopPointRef>
+      <CommonName>The Hawk's Nest</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6170658</StopPointRef>
+      <CommonName>Red Craigs</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6170659</StopPointRef>
+      <CommonName>Marine Parade</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6170829</StopPointRef>
+      <CommonName>Marine Parade</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6170498</StopPointRef>
+      <CommonName>Woodlands Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6170499</StopPointRef>
+      <CommonName>Mount Stuart Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6170939</StopPointRef>
+      <CommonName>College Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61701270</StopPointRef>
+      <CommonName>Churchill Street</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="PTBO320_005">
+      <RouteLink id="PTBO320_005_231244">
+        <From>
+          <StopPointRef>6170503</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61701269</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_005_231245">
+        <From>
+          <StopPointRef>61701269</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170500</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_005_231246">
+        <From>
+          <StopPointRef>6170500</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170831</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_005_231247">
+        <From>
+          <StopPointRef>6170831</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170830</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_005_231248">
+        <From>
+          <StopPointRef>6170830</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170496</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_005_231249">
+        <From>
+          <StopPointRef>6170496</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170835</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_005_231250">
+        <From>
+          <StopPointRef>6170835</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170834</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_005_231251">
+        <From>
+          <StopPointRef>6170834</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170828</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_005_231252">
+        <From>
+          <StopPointRef>6170828</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61701171</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_005_231253">
+        <From>
+          <StopPointRef>61701171</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170494</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="PTBO320_006">
+      <RouteLink id="PTBO320_006_231211">
+        <From>
+          <StopPointRef>6170494</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61701172</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_006_231212">
+        <From>
+          <StopPointRef>61701172</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170495</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_006_231213">
+        <From>
+          <StopPointRef>6170495</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170658</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_006_231214">
+        <From>
+          <StopPointRef>6170658</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170659</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_006_231215">
+        <From>
+          <StopPointRef>6170659</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170829</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_006_231216">
+        <From>
+          <StopPointRef>6170829</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170498</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_006_231217">
+        <From>
+          <StopPointRef>6170498</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170499</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_006_231218">
+        <From>
+          <StopPointRef>6170499</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170939</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_006_231219">
+        <From>
+          <StopPointRef>6170939</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61701270</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_006_231220">
+        <From>
+          <StopPointRef>61701270</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170503</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="PTBO320_012">
+      <RouteLink id="PTBO320_012_231222">
+        <From>
+          <StopPointRef>6170494</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61701172</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_012_231223">
+        <From>
+          <StopPointRef>61701172</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170495</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_012_231224">
+        <From>
+          <StopPointRef>6170495</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170658</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_012_231225">
+        <From>
+          <StopPointRef>6170658</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170659</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_012_231226">
+        <From>
+          <StopPointRef>6170659</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170829</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_012_231227">
+        <From>
+          <StopPointRef>6170829</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170498</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_012_231228">
+        <From>
+          <StopPointRef>6170498</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170499</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_012_231229">
+        <From>
+          <StopPointRef>6170499</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170939</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_012_231230">
+        <From>
+          <StopPointRef>6170939</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61701270</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_012_231231">
+        <From>
+          <StopPointRef>61701270</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170503</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="PTBO320_011">
+      <RouteLink id="PTBO320_011_231255">
+        <From>
+          <StopPointRef>6170503</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61701269</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_011_231256">
+        <From>
+          <StopPointRef>61701269</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170500</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_011_231257">
+        <From>
+          <StopPointRef>6170500</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170831</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_011_231258">
+        <From>
+          <StopPointRef>6170831</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170830</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_011_231259">
+        <From>
+          <StopPointRef>6170830</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170496</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_011_231260">
+        <From>
+          <StopPointRef>6170496</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170835</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_011_231261">
+        <From>
+          <StopPointRef>6170835</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170834</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_011_231262">
+        <From>
+          <StopPointRef>6170834</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170828</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_011_231263">
+        <From>
+          <StopPointRef>6170828</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61701171</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_011_231264">
+        <From>
+          <StopPointRef>61701171</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170494</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="PTBO320_016">
+      <RouteLink id="PTBO320_016_231233">
+        <From>
+          <StopPointRef>6170494</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61701172</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_016_231234">
+        <From>
+          <StopPointRef>61701172</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170495</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_016_231235">
+        <From>
+          <StopPointRef>6170495</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170658</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_016_231236">
+        <From>
+          <StopPointRef>6170658</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170659</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_016_231237">
+        <From>
+          <StopPointRef>6170659</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170829</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_016_231238">
+        <From>
+          <StopPointRef>6170829</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170498</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_016_231239">
+        <From>
+          <StopPointRef>6170498</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170499</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_016_231240">
+        <From>
+          <StopPointRef>6170499</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170939</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_016_231241">
+        <From>
+          <StopPointRef>6170939</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61701270</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_016_231242">
+        <From>
+          <StopPointRef>61701270</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170503</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="PTBO320_015">
+      <RouteLink id="PTBO320_015_231266">
+        <From>
+          <StopPointRef>6170503</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61701269</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_015_231267">
+        <From>
+          <StopPointRef>61701269</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170500</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_015_231268">
+        <From>
+          <StopPointRef>6170500</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170831</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_015_231269">
+        <From>
+          <StopPointRef>6170831</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170830</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_015_231270">
+        <From>
+          <StopPointRef>6170830</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170496</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_015_231271">
+        <From>
+          <StopPointRef>6170496</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170835</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_015_231272">
+        <From>
+          <StopPointRef>6170835</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170834</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_015_231273">
+        <From>
+          <StopPointRef>6170834</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170828</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_015_231274">
+        <From>
+          <StopPointRef>6170828</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61701171</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO320_015_231275">
+        <From>
+          <StopPointRef>61701171</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6170494</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="PTBO320_005">
+      <Description>Millport - Cumbrae Slip
+</Description>
+      <RouteSectionRef>PTBO320_005</RouteSectionRef>
+    </Route>
+    <Route id="PTBO320_006">
+      <Description>Cumbrae Slip - Millport
+</Description>
+      <RouteSectionRef>PTBO320_006</RouteSectionRef>
+    </Route>
+    <Route id="PTBO320_012">
+      <Description>Cumbrae Slip - Millport
+</Description>
+      <RouteSectionRef>PTBO320_012</RouteSectionRef>
+    </Route>
+    <Route id="PTBO320_011">
+      <Description>Millport - Cumbrae Slip
+</Description>
+      <RouteSectionRef>PTBO320_011</RouteSectionRef>
+    </Route>
+    <Route id="PTBO320_016">
+      <Description>Cumbrae Slip - Millport
+</Description>
+      <RouteSectionRef>PTBO320_016</RouteSectionRef>
+    </Route>
+    <Route id="PTBO320_015">
+      <Description>Millport - Cumbrae Slip
+</Description>
+      <RouteSectionRef>PTBO320_015</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_PTBO320-7">
+      <JourneyPatternTimingLink id="JPS_PTBO320-7_231244">
+        <From>
+          <StopPointRef>6170503</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61701269</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_005_231244</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT19S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-7_231245">
+        <From>
+          <StopPointRef>61701269</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170500</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_005_231245</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT24S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-7_231246">
+        <From>
+          <StopPointRef>6170500</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170831</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_005_231246</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT29S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-7_231247">
+        <From>
+          <StopPointRef>6170831</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170830</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_005_231247</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT23S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-7_231248">
+        <From>
+          <StopPointRef>6170830</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170496</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_005_231248</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT20S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-7_231249">
+        <From>
+          <StopPointRef>6170496</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170835</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_005_231249</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT27S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-7_231250">
+        <From>
+          <StopPointRef>6170835</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170834</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_005_231250</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT34S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-7_231251">
+        <From>
+          <StopPointRef>6170834</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170828</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_005_231251</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT13S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-7_231252">
+        <From>
+          <StopPointRef>6170828</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61701171</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_005_231252</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT27S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-7_231253">
+        <From>
+          <StopPointRef>61701171</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170494</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_005_231253</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT384S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_PTBO320-8">
+      <JourneyPatternTimingLink id="JPS_PTBO320-8_231211">
+        <From>
+          <StopPointRef>6170494</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61701172</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_006_231211</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT384S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-8_231212">
+        <From>
+          <StopPointRef>61701172</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170495</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_006_231212</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT27S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-8_231213">
+        <From>
+          <StopPointRef>6170495</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170658</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_006_231213</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT13S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-8_231214">
+        <From>
+          <StopPointRef>6170658</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170659</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_006_231214</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT35S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-8_231215">
+        <From>
+          <StopPointRef>6170659</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170829</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_006_231215</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT26S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-8_231216">
+        <From>
+          <StopPointRef>6170829</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170498</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_006_231216</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT19S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-8_231217">
+        <From>
+          <StopPointRef>6170498</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170499</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_006_231217</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT24S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-8_231218">
+        <From>
+          <StopPointRef>6170499</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170939</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_006_231218</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT28S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-8_231219">
+        <From>
+          <StopPointRef>6170939</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61701270</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_006_231219</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT25S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-8_231220">
+        <From>
+          <StopPointRef>61701270</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170503</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_006_231220</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT19S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_PTBO320-9">
+      <JourneyPatternTimingLink id="JPS_PTBO320-9_231222">
+        <From>
+          <StopPointRef>6170494</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61701172</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_012_231222</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT384S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-9_231223">
+        <From>
+          <StopPointRef>61701172</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170495</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_012_231223</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT27S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-9_231224">
+        <From>
+          <StopPointRef>6170495</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170658</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_012_231224</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT13S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-9_231225">
+        <From>
+          <StopPointRef>6170658</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170659</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_012_231225</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT35S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-9_231226">
+        <From>
+          <StopPointRef>6170659</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170829</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_012_231226</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT26S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-9_231227">
+        <From>
+          <StopPointRef>6170829</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170498</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_012_231227</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT19S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-9_231228">
+        <From>
+          <StopPointRef>6170498</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170499</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_012_231228</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT24S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-9_231229">
+        <From>
+          <StopPointRef>6170499</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170939</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_012_231229</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT28S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-9_231230">
+        <From>
+          <StopPointRef>6170939</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61701270</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_012_231230</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT25S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-9_231231">
+        <From>
+          <StopPointRef>61701270</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170503</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_012_231231</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT19S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_PTBO320-10">
+      <JourneyPatternTimingLink id="JPS_PTBO320-10_231255">
+        <From>
+          <StopPointRef>6170503</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61701269</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_011_231255</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT19S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-10_231256">
+        <From>
+          <StopPointRef>61701269</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170500</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_011_231256</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT24S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-10_231257">
+        <From>
+          <StopPointRef>6170500</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170831</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_011_231257</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT29S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-10_231258">
+        <From>
+          <StopPointRef>6170831</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170830</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_011_231258</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT23S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-10_231259">
+        <From>
+          <StopPointRef>6170830</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170496</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_011_231259</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT20S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-10_231260">
+        <From>
+          <StopPointRef>6170496</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170835</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_011_231260</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT27S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-10_231261">
+        <From>
+          <StopPointRef>6170835</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170834</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_011_231261</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT34S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-10_231262">
+        <From>
+          <StopPointRef>6170834</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170828</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_011_231262</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT13S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-10_231263">
+        <From>
+          <StopPointRef>6170828</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61701171</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_011_231263</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT27S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-10_231264">
+        <From>
+          <StopPointRef>61701171</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170494</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_011_231264</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT384S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_PTBO320-11">
+      <JourneyPatternTimingLink id="JPS_PTBO320-11_231233">
+        <From>
+          <StopPointRef>6170494</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61701172</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_016_231233</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT384S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-11_231234">
+        <From>
+          <StopPointRef>61701172</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170495</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_016_231234</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT27S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-11_231235">
+        <From>
+          <StopPointRef>6170495</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170658</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_016_231235</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT13S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-11_231236">
+        <From>
+          <StopPointRef>6170658</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170659</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_016_231236</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT35S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-11_231237">
+        <From>
+          <StopPointRef>6170659</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170829</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_016_231237</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT26S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-11_231238">
+        <From>
+          <StopPointRef>6170829</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170498</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_016_231238</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT19S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-11_231239">
+        <From>
+          <StopPointRef>6170498</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170499</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_016_231239</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT24S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-11_231240">
+        <From>
+          <StopPointRef>6170499</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170939</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_016_231240</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT28S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-11_231241">
+        <From>
+          <StopPointRef>6170939</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61701270</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_016_231241</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT25S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-11_231242">
+        <From>
+          <StopPointRef>61701270</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170503</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_016_231242</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT19S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_PTBO320-12">
+      <JourneyPatternTimingLink id="JPS_PTBO320-12_231266">
+        <From>
+          <StopPointRef>6170503</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61701269</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_015_231266</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT19S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-12_231267">
+        <From>
+          <StopPointRef>61701269</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170500</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_015_231267</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT24S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-12_231268">
+        <From>
+          <StopPointRef>6170500</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170831</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_015_231268</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT29S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-12_231269">
+        <From>
+          <StopPointRef>6170831</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170830</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_015_231269</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT23S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-12_231270">
+        <From>
+          <StopPointRef>6170830</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170496</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_015_231270</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT20S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-12_231271">
+        <From>
+          <StopPointRef>6170496</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170835</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_015_231271</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT27S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-12_231272">
+        <From>
+          <StopPointRef>6170835</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170834</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_015_231272</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT34S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-12_231273">
+        <From>
+          <StopPointRef>6170834</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170828</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_015_231273</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT13S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-12_231274">
+        <From>
+          <StopPointRef>6170828</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61701171</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_015_231274</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT27S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO320-12_231275">
+        <From>
+          <StopPointRef>61701171</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6170494</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO320_015_231275</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT384S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="MPO">
+      <NationalOperatorCode>MPOM</NationalOperatorCode>
+      <OperatorCode>MPO</OperatorCode>
+      <OperatorShortName>Millport Motors</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PTBO320</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>320</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2019-03-29</StartDate>
+        <EndDate>2019-10-23</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>MPO</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Millport - Cumbrae Slip</Description>
+      <StandardService>
+        <Origin>Millport</Origin>
+        <Destination>Cumbrae Slip</Destination>
+        <JourneyPattern id="JPS_PTBO320-7">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_PTBO320-7</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_PTBO320-8">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_PTBO320-8</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_PTBO320-9">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_PTBO320-9</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_PTBO320-10">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_PTBO320-10</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_PTBO320-11">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_PTBO320-11</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_PTBO320-12">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_PTBO320-12</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-20</StartDate>
+              <EndDate>2019-10-23</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71197</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-7</JourneyPatternRef>
+      <DepartureTime>22:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-20</StartDate>
+              <EndDate>2019-10-23</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71117</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-8</JourneyPatternRef>
+      <DepartureTime>22:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71118</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-9</JourneyPatternRef>
+      <DepartureTime>20:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71119</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-9</JourneyPatternRef>
+      <DepartureTime>06:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71120</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-9</JourneyPatternRef>
+      <DepartureTime>07:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71121</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-9</JourneyPatternRef>
+      <DepartureTime>07:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71122</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-9</JourneyPatternRef>
+      <DepartureTime>08:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71123</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-9</JourneyPatternRef>
+      <DepartureTime>09:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71124</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-9</JourneyPatternRef>
+      <DepartureTime>09:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71125</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-9</JourneyPatternRef>
+      <DepartureTime>10:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71126</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-9</JourneyPatternRef>
+      <DepartureTime>10:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71127</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-9</JourneyPatternRef>
+      <DepartureTime>11:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71128</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-9</JourneyPatternRef>
+      <DepartureTime>11:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71129</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-9</JourneyPatternRef>
+      <DepartureTime>12:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71130</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-9</JourneyPatternRef>
+      <DepartureTime>12:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71131</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-9</JourneyPatternRef>
+      <DepartureTime>13:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71132</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-9</JourneyPatternRef>
+      <DepartureTime>13:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71133</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-9</JourneyPatternRef>
+      <DepartureTime>14:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71134</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-9</JourneyPatternRef>
+      <DepartureTime>14:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71135</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-9</JourneyPatternRef>
+      <DepartureTime>15:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71136</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-9</JourneyPatternRef>
+      <DepartureTime>15:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71137</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-9</JourneyPatternRef>
+      <DepartureTime>16:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71138</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-9</JourneyPatternRef>
+      <DepartureTime>16:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71139</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-9</JourneyPatternRef>
+      <DepartureTime>17:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71140</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-9</JourneyPatternRef>
+      <DepartureTime>17:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71141</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-9</JourneyPatternRef>
+      <DepartureTime>18:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71142</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-9</JourneyPatternRef>
+      <DepartureTime>18:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71143</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-9</JourneyPatternRef>
+      <DepartureTime>19:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71144</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-9</JourneyPatternRef>
+      <DepartureTime>19:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71145</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-9</JourneyPatternRef>
+      <DepartureTime>20:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71198</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-10</JourneyPatternRef>
+      <DepartureTime>20:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71199</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-10</JourneyPatternRef>
+      <DepartureTime>06:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71200</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-10</JourneyPatternRef>
+      <DepartureTime>07:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71201</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-10</JourneyPatternRef>
+      <DepartureTime>07:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71202</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-10</JourneyPatternRef>
+      <DepartureTime>08:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71203</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-10</JourneyPatternRef>
+      <DepartureTime>09:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71204</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-10</JourneyPatternRef>
+      <DepartureTime>09:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71205</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-10</JourneyPatternRef>
+      <DepartureTime>10:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71206</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-10</JourneyPatternRef>
+      <DepartureTime>10:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71207</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-10</JourneyPatternRef>
+      <DepartureTime>11:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71208</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-10</JourneyPatternRef>
+      <DepartureTime>11:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71209</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-10</JourneyPatternRef>
+      <DepartureTime>12:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71210</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-10</JourneyPatternRef>
+      <DepartureTime>12:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71211</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-10</JourneyPatternRef>
+      <DepartureTime>13:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71212</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-10</JourneyPatternRef>
+      <DepartureTime>13:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71213</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-10</JourneyPatternRef>
+      <DepartureTime>14:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71214</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-10</JourneyPatternRef>
+      <DepartureTime>14:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71215</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-10</JourneyPatternRef>
+      <DepartureTime>15:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71216</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-10</JourneyPatternRef>
+      <DepartureTime>15:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71217</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-10</JourneyPatternRef>
+      <DepartureTime>16:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71218</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-10</JourneyPatternRef>
+      <DepartureTime>16:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71219</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-10</JourneyPatternRef>
+      <DepartureTime>17:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71220</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-10</JourneyPatternRef>
+      <DepartureTime>17:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71221</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-10</JourneyPatternRef>
+      <DepartureTime>18:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71222</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-10</JourneyPatternRef>
+      <DepartureTime>18:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71223</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-10</JourneyPatternRef>
+      <DepartureTime>19:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71224</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-10</JourneyPatternRef>
+      <DepartureTime>19:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-17</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71225</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-10</JourneyPatternRef>
+      <DepartureTime>20:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71146</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>06:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71147</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>07:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71148</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>07:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71149</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>08:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71150</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>09:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71151</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>09:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71152</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>10:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71153</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>10:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71154</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>11:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71155</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>11:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71156</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>12:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71157</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>12:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71158</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>13:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71159</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>13:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71160</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>14:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71161</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>14:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71162</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>15:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71163</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>15:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71164</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>16:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71165</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>16:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71166</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>17:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71167</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>17:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71168</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>18:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71169</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>18:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71170</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>19:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71171</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>19:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71172</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>20:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71173</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>08:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71174</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>09:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71175</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>09:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71176</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>10:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71177</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>10:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71178</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>11:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71179</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>11:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71180</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>12:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71181</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>12:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71182</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>13:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71183</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>13:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71184</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>14:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71185</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>14:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71186</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>15:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71187</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>15:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71188</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>16:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71189</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>16:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71190</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>17:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71191</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>17:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71192</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>18:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71193</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>18:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71194</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>19:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71195</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>19:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71196</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-11</JourneyPatternRef>
+      <DepartureTime>20:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71226</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>06:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71227</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>07:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71228</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>07:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71229</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>08:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71230</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>09:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71231</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>09:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71232</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>10:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71233</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>10:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71234</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>11:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71235</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>11:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71236</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>12:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71237</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>12:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71238</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>13:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71239</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>13:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71240</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>14:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71241</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>14:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71242</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>15:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71243</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>15:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71244</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>16:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71245</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>16:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71246</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>17:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71247</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>17:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71248</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>18:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71249</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>18:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71250</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>19:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71251</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>19:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71252</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>20:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71253</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>08:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71254</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>09:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71255</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>09:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71256</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>10:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71257</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>10:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71258</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>11:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71259</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>11:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71260</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>12:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71261</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>12:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71262</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>13:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71263</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>13:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71264</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>14:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71265</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>14:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71266</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>15:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71267</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>15:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71268</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>16:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71269</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>16:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71270</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>17:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71271</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>17:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71272</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>18:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71273</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>18:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71274</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>19:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71275</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>19:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MPO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-03-29</StartDate>
+              <EndDate>2019-08-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71276</VehicleJourneyCode>
+      <ServiceRef>PTBO320</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO320-12</JourneyPatternRef>
+      <DepartureTime>20:10:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:03:00-00:00" ModificationDateTime="2019-10-07T13:03:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRDMAO113.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <ServicedOrganisations>
+    <ServicedOrganisation>
+      <OrganisationCode>286</OrganisationCode>
+      <Name>
+QE0 : BUS.CIF
+</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2019-06-29</StartDate>
+          <EndDate>2019-08-20</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-10-12</StartDate>
+          <EndDate>2019-10-27</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-12-21</StartDate>
+          <EndDate>2020-01-06</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-02-15</StartDate>
+          <EndDate>2020-02-23</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-04-04</StartDate>
+          <EndDate>2020-04-19</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-05-02</StartDate>
+          <EndDate>2020-05-04</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-07-03</StartDate>
+          <EndDate>2049-12-31</EndDate>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+  </ServicedOrganisations>
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000184333</StopPointRef>
+      <CommonName>Primary School</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000157505</StopPointRef>
+      <CommonName>Bridge Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000157504</StopPointRef>
+      <CommonName>Bridge Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000157506</StopPointRef>
+      <CommonName>Bridge Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000194111</StopPointRef>
+      <CommonName>Corrielaw</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000195111</StopPointRef>
+      <CommonName>Little Whitriggs</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000196222</StopPointRef>
+      <CommonName>Village</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000197333</StopPointRef>
+      <CommonName>Paddockhole Rd End</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000184444</StopPointRef>
+      <CommonName>Primary School</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000157501</StopPointRef>
+      <CommonName>Crown Inn</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="DMAO113_002">
+      <RouteLink id="DMAO113_002_68499">
+        <From>
+          <StopPointRef>680000184333</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000157505</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMAO113_002_68500">
+        <From>
+          <StopPointRef>680000157505</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000157504</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="DMAO113_004">
+      <RouteLink id="DMAO113_004_68505">
+        <From>
+          <StopPointRef>680000157506</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000194111</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMAO113_004_68506">
+        <From>
+          <StopPointRef>680000194111</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000195111</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMAO113_004_68507">
+        <From>
+          <StopPointRef>680000195111</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000196222</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMAO113_004_68508">
+        <From>
+          <StopPointRef>680000196222</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000197333</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMAO113_004_68509">
+        <From>
+          <StopPointRef>680000197333</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000184444</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="DMAO113_003">
+      <RouteLink id="DMAO113_003_68502">
+        <From>
+          <StopPointRef>680000184333</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000157505</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMAO113_003_68503">
+        <From>
+          <StopPointRef>680000157505</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000157501</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="DMAO113_002">
+      <Description>Bankshill - Lockerbie
+</Description>
+      <RouteSectionRef>DMAO113_002</RouteSectionRef>
+    </Route>
+    <Route id="DMAO113_004">
+      <Description>Lockerbie - Bankshill
+</Description>
+      <RouteSectionRef>DMAO113_004</RouteSectionRef>
+    </Route>
+    <Route id="DMAO113_003">
+      <Description>Bankshill - Lockerbie
+</Description>
+      <RouteSectionRef>DMAO113_003</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_DMAO113-4">
+      <JourneyPatternTimingLink id="JPS_DMAO113-4_68499">
+        <From>
+          <StopPointRef>680000184333</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000157505</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>DMAO113_002_68499</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT540S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMAO113-4_68500">
+        <From>
+          <StopPointRef>680000157505</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000157504</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMAO113_002_68500</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_DMAO113-5">
+      <JourneyPatternTimingLink id="JPS_DMAO113-5_68505">
+        <From>
+          <StopPointRef>680000157506</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000194111</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>DMAO113_004_68505</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMAO113-5_68506">
+        <From>
+          <StopPointRef>680000194111</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000195111</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMAO113_004_68506</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMAO113-5_68507">
+        <From>
+          <StopPointRef>680000195111</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000196222</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>DMAO113_004_68507</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT360S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMAO113-5_68508">
+        <From>
+          <StopPointRef>680000196222</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000197333</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMAO113_004_68508</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT660S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMAO113-5_68509">
+        <From>
+          <StopPointRef>680000197333</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000184444</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMAO113_004_68509</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT480S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_DMAO113-6">
+      <JourneyPatternTimingLink id="JPS_DMAO113-6_68505">
+        <From>
+          <StopPointRef>680000157506</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000194111</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>DMAO113_004_68505</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT420S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMAO113-6_68506">
+        <From>
+          <StopPointRef>680000194111</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000195111</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMAO113_004_68506</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT360S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMAO113-6_68507">
+        <From>
+          <StopPointRef>680000195111</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000196222</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>DMAO113_004_68507</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT360S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMAO113-6_68508">
+        <From>
+          <StopPointRef>680000196222</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000197333</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMAO113_004_68508</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT660S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMAO113-6_68509">
+        <From>
+          <StopPointRef>680000197333</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000184444</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMAO113_004_68509</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT480S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_DMAO113-7">
+      <JourneyPatternTimingLink id="JPS_DMAO113-7_68502">
+        <From>
+          <StopPointRef>680000184333</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000157505</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>DMAO113_003_68502</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT600S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMAO113-7_68503">
+        <From>
+          <StopPointRef>680000157505</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000157501</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMAO113_003_68503</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="HNM">
+      <NationalOperatorCode>HNMI</NationalOperatorCode>
+      <OperatorCode>HNM</OperatorCode>
+      <OperatorShortName>Houstons Minicoaches</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>DMAO113</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>113</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2015-04-06</StartDate>
+        <EndDate>2049-12-31</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>HNM</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Lockerbie - Bankshill</Description>
+      <StandardService>
+        <Origin>Lockerbie</Origin>
+        <Destination>Bankshill</Destination>
+        <JourneyPattern id="JPS_DMAO113-4">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_DMAO113-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_DMAO113-5">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_DMAO113-5</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_DMAO113-6">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_DMAO113-6</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_DMAO113-7">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_DMAO113-7</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>HNM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>286</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>16671</VehicleJourneyCode>
+      <ServiceRef>DMAO113</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DMAO113-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>Sch</NoteCode>
+        <NoteText>School days only</NoteText>
+      </Note>
+      <DepartureTime>08:35:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HNM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>286</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>16673</VehicleJourneyCode>
+      <ServiceRef>DMAO113</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DMAO113-5</JourneyPatternRef>
+      <Note>
+        <NoteCode>Sch</NoteCode>
+        <NoteText>School days only</NoteText>
+      </Note>
+      <DepartureTime>08:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HNM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>286</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>16674</VehicleJourneyCode>
+      <ServiceRef>DMAO113</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DMAO113-6</JourneyPatternRef>
+      <Note>
+        <NoteCode>Sch</NoteCode>
+        <NoteText>School days only</NoteText>
+      </Note>
+      <DepartureTime>15:37:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HNM</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>286</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>16672</VehicleJourneyCode>
+      <ServiceRef>DMAO113</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DMAO113-7</JourneyPatternRef>
+      <Note>
+        <NoteCode>Sch</NoteCode>
+        <NoteText>School days only</NoteText>
+      </Note>
+      <DepartureTime>16:15:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:21:00-00:00" ModificationDateTime="2019-10-07T13:21:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRFSALWR0.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9400ZZLWGLE</StopPointRef>
+      <CommonName>Glengonnar (Leadhills and Wanlockhead Railway)</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9400ZZLWLEA</StopPointRef>
+      <CommonName>Leadhills (Leadhills and Wanlockhead Railway)</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="FSALWR0_002">
+      <RouteLink id="FSALWR0_002_260421">
+        <From>
+          <StopPointRef>9400ZZLWGLE</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9400ZZLWLEA</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSALWR0_001">
+      <RouteLink id="FSALWR0_001_260423">
+        <From>
+          <StopPointRef>9400ZZLWLEA</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9400ZZLWGLE</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="FSALWR0_002">
+      <Description>Glengonnar - Leadhills
+</Description>
+      <RouteSectionRef>FSALWR0_002</RouteSectionRef>
+    </Route>
+    <Route id="FSALWR0_001">
+      <Description>Leadhills - Glengonnar
+</Description>
+      <RouteSectionRef>FSALWR0_001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_FSALWR0-3">
+      <JourneyPatternTimingLink id="JPS_FSALWR0-3_260421">
+        <From>
+          <StopPointRef>9400ZZLWGLE</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9400ZZLWLEA</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSALWR0_002_260421</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT600S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSALWR0-4">
+      <JourneyPatternTimingLink id="JPS_FSALWR0-4_260423">
+        <From>
+          <StopPointRef>9400ZZLWLEA</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9400ZZLWGLE</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSALWR0_001_260423</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT600S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="LWR">
+      <NationalOperatorCode>LWRS</NationalOperatorCode>
+      <OperatorCode>LWR</OperatorCode>
+      <OperatorShortName>Leadhills and Wanlockhea</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>FSALWR0</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>LWR</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2020-04-11</StartDate>
+        <EndDate>2020-09-27</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>LWR</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>tram</Mode>
+      <Description>Leadhills - Glengonnar</Description>
+      <StandardService>
+        <Origin>Leadhills</Origin>
+        <Destination>Glengonnar</Destination>
+        <JourneyPattern id="JPS_FSALWR0-3">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSALWR0-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSALWR0-4">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSALWR0-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>LWR</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82731</VehicleJourneyCode>
+      <ServiceRef>FSALWR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALWR0-3</JourneyPatternRef>
+      <DepartureTime>11:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>LWR</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82732</VehicleJourneyCode>
+      <ServiceRef>FSALWR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALWR0-3</JourneyPatternRef>
+      <DepartureTime>12:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>LWR</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82733</VehicleJourneyCode>
+      <ServiceRef>FSALWR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALWR0-3</JourneyPatternRef>
+      <DepartureTime>13:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>LWR</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82734</VehicleJourneyCode>
+      <ServiceRef>FSALWR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALWR0-3</JourneyPatternRef>
+      <DepartureTime>14:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>LWR</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82735</VehicleJourneyCode>
+      <ServiceRef>FSALWR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALWR0-3</JourneyPatternRef>
+      <DepartureTime>14:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>LWR</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82736</VehicleJourneyCode>
+      <ServiceRef>FSALWR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALWR0-3</JourneyPatternRef>
+      <DepartureTime>15:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>LWR</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82737</VehicleJourneyCode>
+      <ServiceRef>FSALWR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALWR0-3</JourneyPatternRef>
+      <DepartureTime>16:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>LWR</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82738</VehicleJourneyCode>
+      <ServiceRef>FSALWR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALWR0-3</JourneyPatternRef>
+      <DepartureTime>16:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>LWR</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82739</VehicleJourneyCode>
+      <ServiceRef>FSALWR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALWR0-4</JourneyPatternRef>
+      <DepartureTime>11:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>LWR</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82740</VehicleJourneyCode>
+      <ServiceRef>FSALWR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALWR0-4</JourneyPatternRef>
+      <DepartureTime>12:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>LWR</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82741</VehicleJourneyCode>
+      <ServiceRef>FSALWR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALWR0-4</JourneyPatternRef>
+      <DepartureTime>13:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>LWR</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82742</VehicleJourneyCode>
+      <ServiceRef>FSALWR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALWR0-4</JourneyPatternRef>
+      <DepartureTime>13:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>LWR</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82743</VehicleJourneyCode>
+      <ServiceRef>FSALWR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALWR0-4</JourneyPatternRef>
+      <DepartureTime>14:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>LWR</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82744</VehicleJourneyCode>
+      <ServiceRef>FSALWR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALWR0-4</JourneyPatternRef>
+      <DepartureTime>15:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>LWR</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82745</VehicleJourneyCode>
+      <ServiceRef>FSALWR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALWR0-4</JourneyPatternRef>
+      <DepartureTime>15:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>LWR</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82746</VehicleJourneyCode>
+      <ServiceRef>FSALWR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALWR0-4</JourneyPatternRef>
+      <DepartureTime>16:20:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

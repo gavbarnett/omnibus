@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:14:00-00:00" ModificationDateTime="2019-10-07T13:14:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRDMBO388.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000244111</StopPointRef>
+      <CommonName>Terminus</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000155503</StopPointRef>
+      <CommonName>Stance 3</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000816222</StopPointRef>
+      <CommonName>The Academy</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="DMBO388_004">
+      <RouteLink id="DMBO388_004_73370">
+        <From>
+          <StopPointRef>680000244111</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000155503</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="DMBO388_005">
+      <RouteLink id="DMBO388_005_73372">
+        <From>
+          <StopPointRef>680000155503</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000816222</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMBO388_005_73373">
+        <From>
+          <StopPointRef>680000816222</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000244111</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="DMBO388_004">
+      <Description>Back of the Hill - Annan
+</Description>
+      <RouteSectionRef>DMBO388_004</RouteSectionRef>
+    </Route>
+    <Route id="DMBO388_005">
+      <Description>Annan - Back of the Hill
+</Description>
+      <RouteSectionRef>DMBO388_005</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_DMBO388-3">
+      <JourneyPatternTimingLink id="JPS_DMBO388-3_73370">
+        <From>
+          <StopPointRef>680000244111</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000155503</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMBO388_004_73370</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_DMBO388-4">
+      <JourneyPatternTimingLink id="JPS_DMBO388-4_73370">
+        <From>
+          <StopPointRef>680000244111</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000155503</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMBO388_004_73370</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT480S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_DMBO388-5">
+      <JourneyPatternTimingLink id="JPS_DMBO388-5_73372">
+        <From>
+          <StopPointRef>680000155503</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000816222</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>DMBO388_005_73372</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMBO388-5_73373">
+        <From>
+          <StopPointRef>680000816222</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000244111</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMBO388_005_73373</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT240S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="TEL">
+      <NationalOperatorCode>TELF</NationalOperatorCode>
+      <OperatorCode>TEL</OperatorCode>
+      <OperatorShortName>Telfords Coaches</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>DMBO388</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>388</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2015-08-20</StartDate>
+        <EndDate>2049-12-31</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>TEL</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Annan - Back of the Hill</Description>
+      <StandardService>
+        <Origin>Annan</Origin>
+        <Destination>Back of the Hill</Destination>
+        <JourneyPattern id="JPS_DMBO388-3">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_DMBO388-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_DMBO388-4">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_DMBO388-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_DMBO388-5">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_DMBO388-5</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>TEL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>17673</VehicleJourneyCode>
+      <ServiceRef>DMBO388</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DMBO388-3</JourneyPatternRef>
+      <DepartureTime>10:47:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TEL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>17674</VehicleJourneyCode>
+      <ServiceRef>DMBO388</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DMBO388-4</JourneyPatternRef>
+      <DepartureTime>12:12:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TEL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>17675</VehicleJourneyCode>
+      <ServiceRef>DMBO388</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DMBO388-5</JourneyPatternRef>
+      <DepartureTime>10:42:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TEL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>17676</VehicleJourneyCode>
+      <ServiceRef>DMBO388</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DMBO388-5</JourneyPatternRef>
+      <DepartureTime>12:10:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

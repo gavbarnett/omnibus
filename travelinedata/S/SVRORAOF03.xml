@@ -1,0 +1,1206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:23:00-00:00" ModificationDateTime="2019-10-07T13:23:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRORAOF03.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300ROU</StopPointRef>
+      <CommonName>Rousay Orkney Ferry Terminal</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300EGI</StopPointRef>
+      <CommonName>Egilsay Orkney Ferry Terminal</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300WYR</StopPointRef>
+      <CommonName>Wyre Orkney Ferry Terminal</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300TWL</StopPointRef>
+      <CommonName>Tingwall Orkney Ferry Terminal</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="ORAOF03_001">
+      <RouteLink id="ORAOF03_001_172909">
+        <From>
+          <StopPointRef>9300ROU</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300EGI</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ORAOF03_001_172910">
+        <From>
+          <StopPointRef>9300EGI</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300WYR</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ORAOF03_001_172911">
+        <From>
+          <StopPointRef>9300WYR</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300ROU</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="ORAOF03_002">
+      <RouteLink id="ORAOF03_002_172913">
+        <From>
+          <StopPointRef>9300ROU</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300TWL</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="ORAOF03_003">
+      <RouteLink id="ORAOF03_003_172915">
+        <From>
+          <StopPointRef>9300TWL</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300ROU</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="ORAOF03_007">
+      <RouteLink id="ORAOF03_007_172917">
+        <From>
+          <StopPointRef>9300ROU</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300WYR</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="ORAOF03_004">
+      <RouteLink id="ORAOF03_004_172919">
+        <From>
+          <StopPointRef>9300WYR</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300ROU</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="ORAOF03_008">
+      <RouteLink id="ORAOF03_008_172921">
+        <From>
+          <StopPointRef>9300ROU</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300WYR</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ORAOF03_008_172922">
+        <From>
+          <StopPointRef>9300WYR</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300TWL</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ORAOF03_008_172923">
+        <From>
+          <StopPointRef>9300TWL</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300ROU</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="ORAOF03_009">
+      <RouteLink id="ORAOF03_009_172925">
+        <From>
+          <StopPointRef>9300ROU</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300WYR</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ORAOF03_009_172926">
+        <From>
+          <StopPointRef>9300WYR</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300EGI</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ORAOF03_009_172927">
+        <From>
+          <StopPointRef>9300EGI</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300ROU</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="ORAOF03_001">
+      <Description>Rousay Egilsay + Wyre circular - Orkney
+</Description>
+      <RouteSectionRef>ORAOF03_001</RouteSectionRef>
+    </Route>
+    <Route id="ORAOF03_002">
+      <Description>Rousay Egilsay + Wyre circular - Orkney
+</Description>
+      <RouteSectionRef>ORAOF03_002</RouteSectionRef>
+    </Route>
+    <Route id="ORAOF03_003">
+      <Description>Rousay Egilsay + Wyre circular - Orkney
+</Description>
+      <RouteSectionRef>ORAOF03_003</RouteSectionRef>
+    </Route>
+    <Route id="ORAOF03_007">
+      <Description>Rousay Egilsay + Wyre circular - Orkney
+</Description>
+      <RouteSectionRef>ORAOF03_007</RouteSectionRef>
+    </Route>
+    <Route id="ORAOF03_004">
+      <Description>Rousay Egilsay + Wyre circular - Orkney
+</Description>
+      <RouteSectionRef>ORAOF03_004</RouteSectionRef>
+    </Route>
+    <Route id="ORAOF03_008">
+      <Description>Rousay Egilsay + Wyre circular - Orkney
+</Description>
+      <RouteSectionRef>ORAOF03_008</RouteSectionRef>
+    </Route>
+    <Route id="ORAOF03_009">
+      <Description>Rousay Egilsay + Wyre circular - Orkney
+</Description>
+      <RouteSectionRef>ORAOF03_009</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_ORAOF03-8">
+      <JourneyPatternTimingLink id="JPS_ORAOF03-8_172909">
+        <From>
+          <StopPointRef>9300ROU</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300EGI</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>ORAOF03_001_172909</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT900S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ORAOF03-8_172910">
+        <From>
+          <WaitTime>PT300S</WaitTime>
+          <StopPointRef>9300EGI</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300WYR</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>ORAOF03_001_172910</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT900S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ORAOF03-8_172911">
+        <From>
+          <WaitTime>PT300S</WaitTime>
+          <StopPointRef>9300WYR</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300ROU</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>ORAOF03_001_172911</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT600S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_ORAOF03-9">
+      <JourneyPatternTimingLink id="JPS_ORAOF03-9_172913">
+        <From>
+          <StopPointRef>9300ROU</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300TWL</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>ORAOF03_002_172913</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1800S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_ORAOF03-10">
+      <JourneyPatternTimingLink id="JPS_ORAOF03-10_172915">
+        <From>
+          <StopPointRef>9300TWL</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300ROU</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>ORAOF03_003_172915</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1500S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_ORAOF03-11">
+      <JourneyPatternTimingLink id="JPS_ORAOF03-11_172915">
+        <From>
+          <StopPointRef>9300TWL</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300ROU</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>ORAOF03_003_172915</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1800S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_ORAOF03-12">
+      <JourneyPatternTimingLink id="JPS_ORAOF03-12_172917">
+        <From>
+          <StopPointRef>9300ROU</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300WYR</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>ORAOF03_007_172917</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_ORAOF03-13">
+      <JourneyPatternTimingLink id="JPS_ORAOF03-13_172919">
+        <From>
+          <StopPointRef>9300WYR</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300ROU</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>ORAOF03_004_172919</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_ORAOF03-14">
+      <JourneyPatternTimingLink id="JPS_ORAOF03-14_172921">
+        <From>
+          <StopPointRef>9300ROU</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300WYR</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>ORAOF03_008_172921</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ORAOF03-14_172922">
+        <From>
+          <WaitTime>PT300S</WaitTime>
+          <StopPointRef>9300WYR</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300TWL</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>ORAOF03_008_172922</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1800S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ORAOF03-14_172923">
+        <From>
+          <WaitTime>PT300S</WaitTime>
+          <StopPointRef>9300TWL</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300ROU</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>ORAOF03_008_172923</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1500S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_ORAOF03-15">
+      <JourneyPatternTimingLink id="JPS_ORAOF03-15_172921">
+        <From>
+          <StopPointRef>9300ROU</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300WYR</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>ORAOF03_008_172921</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ORAOF03-15_172922">
+        <From>
+          <WaitTime>PT300S</WaitTime>
+          <StopPointRef>9300WYR</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300TWL</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>ORAOF03_008_172922</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1800S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ORAOF03-15_172923">
+        <From>
+          <WaitTime>PT180S</WaitTime>
+          <StopPointRef>9300TWL</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300ROU</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>ORAOF03_008_172923</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1620S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_ORAOF03-16">
+      <JourneyPatternTimingLink id="JPS_ORAOF03-16_172919">
+        <From>
+          <StopPointRef>9300WYR</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300ROU</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>ORAOF03_004_172919</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT600S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_ORAOF03-17">
+      <JourneyPatternTimingLink id="JPS_ORAOF03-17_172925">
+        <From>
+          <StopPointRef>9300ROU</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300WYR</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>ORAOF03_009_172925</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ORAOF03-17_172926">
+        <From>
+          <WaitTime>PT300S</WaitTime>
+          <StopPointRef>9300WYR</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300EGI</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>ORAOF03_009_172926</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT900S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ORAOF03-17_172927">
+        <From>
+          <WaitTime>PT300S</WaitTime>
+          <StopPointRef>9300EGI</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300ROU</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>ORAOF03_009_172927</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT900S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="OKF">
+      <NationalOperatorCode>OKFL</NationalOperatorCode>
+      <OperatorCode>OKF</OperatorCode>
+      <OperatorShortName>Orkney Ferries</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>ORAOF03</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>OF3</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2019-09-30</StartDate>
+        <EndDate>2049-12-31</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>OKF</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>ferry</Mode>
+      <Description>Rousay Egilsay + Wyre circular - Orkney</Description>
+      <StandardService>
+        <Origin>Rousay Egilsay + Wyre circular</Origin>
+        <Destination>Orkney</Destination>
+        <JourneyPattern id="JPS_ORAOF03-8">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_ORAOF03-8</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_ORAOF03-9">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_ORAOF03-9</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_ORAOF03-10">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_ORAOF03-10</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_ORAOF03-11">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_ORAOF03-11</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_ORAOF03-12">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_ORAOF03-12</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_ORAOF03-13">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_ORAOF03-13</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_ORAOF03-14">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_ORAOF03-14</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_ORAOF03-15">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_ORAOF03-15</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_ORAOF03-16">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_ORAOF03-16</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_ORAOF03-17">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_ORAOF03-17</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>OKF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53870</VehicleJourneyCode>
+      <ServiceRef>ORAOF03</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ORAOF03-8</JourneyPatternRef>
+      <DepartureTime>06:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OKF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53871</VehicleJourneyCode>
+      <ServiceRef>ORAOF03</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ORAOF03-8</JourneyPatternRef>
+      <Note>
+        <NoteCode>BK9</NoteCode>
+        <NoteText>Must be booked by 0900 on day of travel</NoteText>
+      </Note>
+      <DepartureTime>13:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OKF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53872</VehicleJourneyCode>
+      <ServiceRef>ORAOF03</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ORAOF03-9</JourneyPatternRef>
+      <DepartureTime>07:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OKF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53873</VehicleJourneyCode>
+      <ServiceRef>ORAOF03</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ORAOF03-9</JourneyPatternRef>
+      <DepartureTime>10:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OKF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53874</VehicleJourneyCode>
+      <ServiceRef>ORAOF03</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ORAOF03-9</JourneyPatternRef>
+      <DepartureTime>11:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OKF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53875</VehicleJourneyCode>
+      <ServiceRef>ORAOF03</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ORAOF03-9</JourneyPatternRef>
+      <DepartureTime>14:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OKF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53876</VehicleJourneyCode>
+      <ServiceRef>ORAOF03</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ORAOF03-9</JourneyPatternRef>
+      <DepartureTime>17:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OKF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53877</VehicleJourneyCode>
+      <ServiceRef>ORAOF03</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ORAOF03-10</JourneyPatternRef>
+      <DepartureTime>08:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OKF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53878</VehicleJourneyCode>
+      <ServiceRef>ORAOF03</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ORAOF03-11</JourneyPatternRef>
+      <DepartureTime>10:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OKF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53879</VehicleJourneyCode>
+      <ServiceRef>ORAOF03</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ORAOF03-11</JourneyPatternRef>
+      <DepartureTime>14:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OKF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53880</VehicleJourneyCode>
+      <ServiceRef>ORAOF03</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ORAOF03-10</JourneyPatternRef>
+      <DepartureTime>18:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OKF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53881</VehicleJourneyCode>
+      <ServiceRef>ORAOF03</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ORAOF03-12</JourneyPatternRef>
+      <DepartureTime>08:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OKF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53882</VehicleJourneyCode>
+      <ServiceRef>ORAOF03</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ORAOF03-13</JourneyPatternRef>
+      <DepartureTime>09:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OKF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53883</VehicleJourneyCode>
+      <ServiceRef>ORAOF03</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ORAOF03-8</JourneyPatternRef>
+      <DepartureTime>09:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OKF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53884</VehicleJourneyCode>
+      <ServiceRef>ORAOF03</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ORAOF03-8</JourneyPatternRef>
+      <DepartureTime>16:35:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OKF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53885</VehicleJourneyCode>
+      <ServiceRef>ORAOF03</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ORAOF03-14</JourneyPatternRef>
+      <DepartureTime>15:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OKF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53887</VehicleJourneyCode>
+      <ServiceRef>ORAOF03</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ORAOF03-10</JourneyPatternRef>
+      <DepartureTime>11:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OKF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53888</VehicleJourneyCode>
+      <ServiceRef>ORAOF03</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ORAOF03-8</JourneyPatternRef>
+      <Note>
+        <NoteCode>BK5</NoteCode>
+        <NoteText>Must be booked by 1700 on day before travel</NoteText>
+      </Note>
+      <DepartureTime>06:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OKF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53889</VehicleJourneyCode>
+      <ServiceRef>ORAOF03</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ORAOF03-8</JourneyPatternRef>
+      <Note>
+        <NoteCode>RQE</NoteCode>
+        <NoteText>On request to Egilsay book by 1700 previous day</NoteText>
+      </Note>
+      <DepartureTime>09:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OKF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53890</VehicleJourneyCode>
+      <ServiceRef>ORAOF03</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ORAOF03-8</JourneyPatternRef>
+      <Note>
+        <NoteCode>BK5</NoteCode>
+        <NoteText>Must be booked by 1700 on day before travel</NoteText>
+      </Note>
+      <DepartureTime>13:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OKF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53891</VehicleJourneyCode>
+      <ServiceRef>ORAOF03</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ORAOF03-9</JourneyPatternRef>
+      <DepartureTime>07:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OKF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53892</VehicleJourneyCode>
+      <ServiceRef>ORAOF03</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ORAOF03-9</JourneyPatternRef>
+      <DepartureTime>10:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OKF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53893</VehicleJourneyCode>
+      <ServiceRef>ORAOF03</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ORAOF03-9</JourneyPatternRef>
+      <DepartureTime>11:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OKF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53894</VehicleJourneyCode>
+      <ServiceRef>ORAOF03</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ORAOF03-9</JourneyPatternRef>
+      <DepartureTime>14:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OKF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53895</VehicleJourneyCode>
+      <ServiceRef>ORAOF03</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ORAOF03-9</JourneyPatternRef>
+      <DepartureTime>17:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OKF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53896</VehicleJourneyCode>
+      <ServiceRef>ORAOF03</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ORAOF03-10</JourneyPatternRef>
+      <DepartureTime>08:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OKF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53897</VehicleJourneyCode>
+      <ServiceRef>ORAOF03</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ORAOF03-11</JourneyPatternRef>
+      <DepartureTime>10:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OKF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53898</VehicleJourneyCode>
+      <ServiceRef>ORAOF03</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ORAOF03-10</JourneyPatternRef>
+      <DepartureTime>11:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OKF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53899</VehicleJourneyCode>
+      <ServiceRef>ORAOF03</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ORAOF03-11</JourneyPatternRef>
+      <DepartureTime>14:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OKF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53900</VehicleJourneyCode>
+      <ServiceRef>ORAOF03</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ORAOF03-10</JourneyPatternRef>
+      <DepartureTime>18:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OKF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53901</VehicleJourneyCode>
+      <ServiceRef>ORAOF03</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ORAOF03-15</JourneyPatternRef>
+      <DepartureTime>15:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OKF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53902</VehicleJourneyCode>
+      <ServiceRef>ORAOF03</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ORAOF03-12</JourneyPatternRef>
+      <Note>
+        <NoteCode>BK11</NoteCode>
+        <NoteText>Must be booked by 1100 on Saturday</NoteText>
+      </Note>
+      <DepartureTime>17:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OKF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53903</VehicleJourneyCode>
+      <ServiceRef>ORAOF03</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ORAOF03-16</JourneyPatternRef>
+      <Note>
+        <NoteCode>BK11</NoteCode>
+        <NoteText>Must be booked by 1100 on Saturday</NoteText>
+      </Note>
+      <DepartureTime>17:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OKF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53905</VehicleJourneyCode>
+      <ServiceRef>ORAOF03</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ORAOF03-8</JourneyPatternRef>
+      <Note>
+        <NoteCode>BK5</NoteCode>
+        <NoteText>Must be booked by 1700 on day before travel</NoteText>
+      </Note>
+      <DepartureTime>06:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OKF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53906</VehicleJourneyCode>
+      <ServiceRef>ORAOF03</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ORAOF03-8</JourneyPatternRef>
+      <Note>
+        <NoteCode>BK5</NoteCode>
+        <NoteText>Must be booked by 1700 on day before travel</NoteText>
+      </Note>
+      <DepartureTime>13:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OKF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Wednesday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53907</VehicleJourneyCode>
+      <ServiceRef>ORAOF03</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ORAOF03-10</JourneyPatternRef>
+      <DepartureTime>12:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OKF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53886</VehicleJourneyCode>
+      <ServiceRef>ORAOF03</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ORAOF03-17</JourneyPatternRef>
+      <Note>
+        <NoteCode>BK12</NoteCode>
+        <NoteText>Must be booked by 1200 on day of travel</NoteText>
+      </Note>
+      <DepartureTime>18:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OKF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>53904</VehicleJourneyCode>
+      <ServiceRef>ORAOF03</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ORAOF03-17</JourneyPatternRef>
+      <Note>
+        <NoteCode>BK11</NoteCode>
+        <NoteText>Must be booked by 1100 on Saturday</NoteText>
+      </Note>
+      <DepartureTime>18:30:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

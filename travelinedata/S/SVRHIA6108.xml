@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:19:00-00:00" ModificationDateTime="2019-10-07T13:19:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRHIA6108.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <ServicedOrganisations>
+    <ServicedOrganisation>
+      <OrganisationCode>1088</OrganisationCode>
+      <Name>
+QE0 : Cif-6108-ALI-20140924_20190726_081118.cif
+</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2019-07-26</StartDate>
+          <EndDate>2019-08-19</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-09-15</StartDate>
+          <EndDate>2019-09-17</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-10-13</StartDate>
+          <EndDate>2019-10-26</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-12-22</StartDate>
+          <EndDate>2020-01-04</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-02-16</StartDate>
+          <EndDate>2020-02-19</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-03-29</StartDate>
+          <EndDate>2020-04-13</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-07-03</StartDate>
+          <EndDate>2020-07-25</EndDate>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+  </ServicedOrganisations>
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>670030016</StopPointRef>
+      <CommonName>Hotel</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>670030014</StopPointRef>
+      <CommonName>Kilmuir Rd End</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>670030013</StopPointRef>
+      <CommonName>Fairy Bridge Rd End</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6700712956A</StopPointRef>
+      <CommonName>Post Office</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6700712757</StopPointRef>
+      <CommonName>Post Office</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6700713238A</StopPointRef>
+      <CommonName>Church</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6700712363</StopPointRef>
+      <CommonName>Church</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6700713238</StopPointRef>
+      <CommonName>Church</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6700712757A</StopPointRef>
+      <CommonName>Post Office</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6700712956</StopPointRef>
+      <CommonName>Post Office</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6700714129</StopPointRef>
+      <CommonName>Fairy Bridge Rd End</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="HIA6108_002">
+      <RouteLink id="HIA6108_002_313873">
+        <From>
+          <StopPointRef>670030016</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>670030014</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="HIA6108_002_313874">
+        <From>
+          <StopPointRef>670030014</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>670030013</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="HIA6108_002_313875">
+        <From>
+          <StopPointRef>670030013</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6700712956A</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="HIA6108_002_313876">
+        <From>
+          <StopPointRef>6700712956A</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6700712757</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="HIA6108_002_313877">
+        <From>
+          <StopPointRef>6700712757</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6700713238A</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="HIA6108_002_313878">
+        <From>
+          <StopPointRef>6700713238A</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6700712363</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="HIA6108_001">
+      <RouteLink id="HIA6108_001_313880">
+        <From>
+          <StopPointRef>6700712363</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6700713238</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="HIA6108_001_313881">
+        <From>
+          <StopPointRef>6700713238</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6700712757A</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="HIA6108_001_313882">
+        <From>
+          <StopPointRef>6700712757A</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6700712956</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="HIA6108_001_313883">
+        <From>
+          <StopPointRef>6700712956</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6700714129</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="HIA6108_001_313884">
+        <From>
+          <StopPointRef>6700714129</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>670030016</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="HIA6108_002">
+      <Description>Dunvegan - Trumpan
+</Description>
+      <RouteSectionRef>HIA6108_002</RouteSectionRef>
+    </Route>
+    <Route id="HIA6108_001">
+      <Description>Trumpan - Dunvegan
+</Description>
+      <RouteSectionRef>HIA6108_001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_HIA6108-3">
+      <JourneyPatternTimingLink id="JPS_HIA6108-3_313873">
+        <From>
+          <StopPointRef>670030016</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>670030014</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>HIA6108_002_313873</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_HIA6108-3_313874">
+        <From>
+          <StopPointRef>670030014</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>670030013</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>HIA6108_002_313874</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_HIA6108-3_313875">
+        <From>
+          <StopPointRef>670030013</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6700712956A</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>HIA6108_002_313875</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT600S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_HIA6108-3_313876">
+        <From>
+          <StopPointRef>6700712956A</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6700712757</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>HIA6108_002_313876</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT480S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_HIA6108-3_313877">
+        <From>
+          <StopPointRef>6700712757</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6700713238A</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>HIA6108_002_313877</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_HIA6108-3_313878">
+        <From>
+          <StopPointRef>6700713238A</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6700712363</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>HIA6108_002_313878</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_HIA6108-4">
+      <JourneyPatternTimingLink id="JPS_HIA6108-4_313880">
+        <From>
+          <StopPointRef>6700712363</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6700713238</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>HIA6108_001_313880</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_HIA6108-4_313881">
+        <From>
+          <StopPointRef>6700713238</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6700712757A</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>HIA6108_001_313881</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_HIA6108-4_313882">
+        <From>
+          <StopPointRef>6700712757A</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6700712956</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>HIA6108_001_313882</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT540S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_HIA6108-4_313883">
+        <From>
+          <StopPointRef>6700712956</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6700714129</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>HIA6108_001_313883</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT480S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_HIA6108-4_313884">
+        <From>
+          <StopPointRef>6700714129</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>670030016</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>HIA6108_001_313884</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT660S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="ALI">
+      <NationalOperatorCode>AMAC</NationalOperatorCode>
+      <OperatorCode>ALI</OperatorCode>
+      <OperatorShortName>A MacDonald</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>HIA6108</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>6108</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2014-09-24</StartDate>
+        <EndDate>2020-07-26</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>ALI</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Trumpan - Dunvegan</Description>
+      <StandardService>
+        <Origin>Trumpan</Origin>
+        <Destination>Dunvegan</Destination>
+        <JourneyPattern id="JPS_HIA6108-3">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_HIA6108-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_HIA6108-4">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_HIA6108-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>ALI</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>1088</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-05-04</StartDate>
+              <EndDate>2020-05-04</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-06-01</StartDate>
+              <EndDate>2020-06-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>102722</VehicleJourneyCode>
+      <ServiceRef>HIA6108</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_HIA6108-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>Sch-7</NoteCode>
+        <NoteText>School Days Only</NoteText>
+      </Note>
+      <DepartureTime>16:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ALI</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>1088</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-05-04</StartDate>
+              <EndDate>2020-05-04</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-06-01</StartDate>
+              <EndDate>2020-06-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>102723</VehicleJourneyCode>
+      <ServiceRef>HIA6108</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_HIA6108-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>Sch-7</NoteCode>
+        <NoteText>School Days Only</NoteText>
+      </Note>
+      <DepartureTime>07:40:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

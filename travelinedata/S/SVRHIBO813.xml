@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:19:00-00:00" ModificationDateTime="2019-10-07T13:19:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRHIBO813.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>670072007</StopPointRef>
+      <CommonName>Junction</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>67001050</StopPointRef>
+      <CommonName>Leckmelm Farm</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>670086751</StopPointRef>
+      <CommonName>Ferry Terminal</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6700731696</StopPointRef>
+      <CommonName>Latheron Lane Car Park</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6700731954</StopPointRef>
+      <CommonName>Vyner Place</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>67001051</StopPointRef>
+      <CommonName>Leckmelm Farm</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6700713438</StopPointRef>
+      <CommonName>Corrieshalloch Gorge</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6700712462</StopPointRef>
+      <CommonName>Junction</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="HIBO813_002">
+      <RouteLink id="HIBO813_002_337179">
+        <From>
+          <StopPointRef>670072007</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>67001050</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="HIBO813_002_337180">
+        <From>
+          <StopPointRef>67001050</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>670086751</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="HIBO813_002_337181">
+        <From>
+          <StopPointRef>670086751</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6700731696</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="HIBO813_002_337182">
+        <From>
+          <StopPointRef>6700731696</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6700731954</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="HIBO813_001">
+      <RouteLink id="HIBO813_001_337184">
+        <From>
+          <StopPointRef>6700731954</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6700731696</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="HIBO813_001_337185">
+        <From>
+          <StopPointRef>6700731696</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>670086751</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="HIBO813_001_337186">
+        <From>
+          <StopPointRef>670086751</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>67001051</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="HIBO813_001_337187">
+        <From>
+          <StopPointRef>67001051</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6700713438</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="HIBO813_001_337188">
+        <From>
+          <StopPointRef>6700713438</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6700712462</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="HIBO813_002">
+      <Description>Braemore Junction - Ullapool or Badenscallie
+</Description>
+      <RouteSectionRef>HIBO813_002</RouteSectionRef>
+    </Route>
+    <Route id="HIBO813_001">
+      <Description>Ullapool - Braemore Junction
+</Description>
+      <RouteSectionRef>HIBO813_001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_HIBO813-3">
+      <JourneyPatternTimingLink id="JPS_HIBO813-3_337179">
+        <From>
+          <StopPointRef>670072007</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>67001050</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>HIBO813_002_337179</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT840S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_HIBO813-3_337180">
+        <From>
+          <StopPointRef>67001050</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>670086751</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>HIBO813_002_337180</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_HIBO813-3_337181">
+        <From>
+          <StopPointRef>670086751</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6700731696</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>HIBO813_002_337181</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_HIBO813-3_337182">
+        <From>
+          <StopPointRef>6700731696</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6700731954</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>HIBO813_002_337182</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_HIBO813-4">
+      <JourneyPatternTimingLink id="JPS_HIBO813-4_337184">
+        <From>
+          <StopPointRef>6700731954</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6700731696</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>HIBO813_001_337184</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_HIBO813-4_337185">
+        <From>
+          <StopPointRef>6700731696</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>670086751</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>HIBO813_001_337185</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_HIBO813-4_337186">
+        <From>
+          <StopPointRef>670086751</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>67001051</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>HIBO813_001_337186</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_HIBO813-4_337187">
+        <From>
+          <StopPointRef>67001051</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6700713438</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>HIBO813_001_337187</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT720S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_HIBO813-4_337188">
+        <From>
+          <StopPointRef>6700713438</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6700712462</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>HIBO813_001_337188</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="DEC">
+      <NationalOperatorCode>DECO</NationalOperatorCode>
+      <OperatorCode>DEC</OperatorCode>
+      <OperatorShortName>D + E Coaches</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>HIBO813</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>813</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2016-05-23</StartDate>
+        <EndDate>2020-07-26</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>DEC</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Ullapool - Braemore Junction</Description>
+      <StandardService>
+        <Origin>Ullapool</Origin>
+        <Destination>Braemore Junction</Destination>
+        <JourneyPattern id="JPS_HIBO813-3">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_HIBO813-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_HIBO813-4">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_HIBO813-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>DEC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Wednesday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>106392</VehicleJourneyCode>
+      <ServiceRef>HIBO813</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_HIBO813-3</JourneyPatternRef>
+      <DepartureTime>09:11:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>DEC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Wednesday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>106393</VehicleJourneyCode>
+      <ServiceRef>HIBO813</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_HIBO813-3</JourneyPatternRef>
+      <DepartureTime>18:41:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>DEC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>106394</VehicleJourneyCode>
+      <ServiceRef>HIBO813</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_HIBO813-3</JourneyPatternRef>
+      <DepartureTime>09:11:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>DEC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>106395</VehicleJourneyCode>
+      <ServiceRef>HIBO813</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_HIBO813-3</JourneyPatternRef>
+      <DepartureTime>18:41:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>DEC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Wednesday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>106396</VehicleJourneyCode>
+      <ServiceRef>HIBO813</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_HIBO813-4</JourneyPatternRef>
+      <DepartureTime>18:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>DEC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>106397</VehicleJourneyCode>
+      <ServiceRef>HIBO813</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_HIBO813-4</JourneyPatternRef>
+      <DepartureTime>08:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>DEC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>106398</VehicleJourneyCode>
+      <ServiceRef>HIBO813</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_HIBO813-4</JourneyPatternRef>
+      <DepartureTime>18:10:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

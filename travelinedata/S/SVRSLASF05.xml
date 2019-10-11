@@ -1,0 +1,3134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:23:00-00:00" ModificationDateTime="2019-10-07T13:23:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRSLASF05.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300SYM</StopPointRef>
+      <CommonName>Whalsay Shetland Ferry Terminal</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300LAX</StopPointRef>
+      <CommonName>Laxo Shetland Ferry Terminal</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="SLASF05_001">
+      <RouteLink id="SLASF05_001_197912">
+        <From>
+          <StopPointRef>9300SYM</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300LAX</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="SLASF05_002">
+      <RouteLink id="SLASF05_002_197914">
+        <From>
+          <StopPointRef>9300LAX</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300SYM</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="SLASF05_001">
+      <Description>Whalsay - Shetland
+</Description>
+      <RouteSectionRef>SLASF05_001</RouteSectionRef>
+    </Route>
+    <Route id="SLASF05_002">
+      <Description>Shetland - Whalsay
+</Description>
+      <RouteSectionRef>SLASF05_002</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_SLASF05-3">
+      <JourneyPatternTimingLink id="JPS_SLASF05-3_197912">
+        <From>
+          <StopPointRef>9300SYM</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300LAX</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>SLASF05_001_197912</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1800S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_SLASF05-4">
+      <JourneyPatternTimingLink id="JPS_SLASF05-4_197914">
+        <From>
+          <StopPointRef>9300LAX</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300SYM</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>SLASF05_002_197914</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1800S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="SHT">
+      <NationalOperatorCode>SHET</NationalOperatorCode>
+      <OperatorCode>SHT</OperatorCode>
+      <OperatorShortName>Shetland Ferries</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>SLASF05</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>SF5</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2019-10-07</StartDate>
+        <EndDate>2049-12-31</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>SHT</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>ferry</Mode>
+      <Description>Shetland - Whalsay</Description>
+      <StandardService>
+        <Origin>Shetland</Origin>
+        <Destination>Whalsay</Destination>
+        <JourneyPattern id="JPS_SLASF05-3">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_SLASF05-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_SLASF05-4">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_SLASF05-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-01-29</StartDate>
+              <EndDate>2020-01-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-13</StartDate>
+              <EndDate>2020-04-13</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58320</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <DepartureTime>06:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-01-29</StartDate>
+              <EndDate>2020-01-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-13</StartDate>
+              <EndDate>2020-04-13</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58321</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <DepartureTime>07:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-01-29</StartDate>
+              <EndDate>2020-01-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-13</StartDate>
+              <EndDate>2020-04-13</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58322</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <DepartureTime>07:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-01-29</StartDate>
+              <EndDate>2020-01-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-13</StartDate>
+              <EndDate>2020-04-13</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58323</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <DepartureTime>08:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-01-29</StartDate>
+              <EndDate>2020-01-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-13</StartDate>
+              <EndDate>2020-04-13</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58324</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <DepartureTime>09:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-01-29</StartDate>
+              <EndDate>2020-01-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-13</StartDate>
+              <EndDate>2020-04-13</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58325</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <DepartureTime>10:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-01-29</StartDate>
+              <EndDate>2020-01-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-13</StartDate>
+              <EndDate>2020-04-13</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58326</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <DepartureTime>11:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-01-29</StartDate>
+              <EndDate>2020-01-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-13</StartDate>
+              <EndDate>2020-04-13</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58327</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <DepartureTime>14:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-01-29</StartDate>
+              <EndDate>2020-01-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-13</StartDate>
+              <EndDate>2020-04-13</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58328</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <DepartureTime>14:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-01-29</StartDate>
+              <EndDate>2020-01-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-13</StartDate>
+              <EndDate>2020-04-13</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58329</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <DepartureTime>15:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-01-29</StartDate>
+              <EndDate>2020-01-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-13</StartDate>
+              <EndDate>2020-04-13</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58330</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <DepartureTime>16:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-01-29</StartDate>
+              <EndDate>2020-01-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-13</StartDate>
+              <EndDate>2020-04-13</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58331</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <DepartureTime>17:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-01-29</StartDate>
+              <EndDate>2020-01-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-13</StartDate>
+              <EndDate>2020-04-13</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58332</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <DepartureTime>17:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-01-29</StartDate>
+              <EndDate>2020-01-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-13</StartDate>
+              <EndDate>2020-04-13</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58333</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <DepartureTime>19:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-01-29</StartDate>
+              <EndDate>2020-01-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-13</StartDate>
+              <EndDate>2020-04-13</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58334</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <DepartureTime>21:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-01-29</StartDate>
+              <EndDate>2020-01-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-13</StartDate>
+              <EndDate>2020-04-13</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58335</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>ADV</NoteCode>
+        <NoteText>Must be booked in advance, contact operator</NoteText>
+      </Note>
+      <DepartureTime>22:35:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-04-13</StartDate>
+              <EndDate>2020-04-13</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58336</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>12:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-01-29</StartDate>
+              <EndDate>2020-01-29</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58348</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>12:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-01-29</StartDate>
+              <EndDate>2020-01-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-13</StartDate>
+              <EndDate>2020-04-13</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58371</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>07:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-01-29</StartDate>
+              <EndDate>2020-01-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-13</StartDate>
+              <EndDate>2020-04-13</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58372</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>07:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-01-29</StartDate>
+              <EndDate>2020-01-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-13</StartDate>
+              <EndDate>2020-04-13</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58373</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>08:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-01-29</StartDate>
+              <EndDate>2020-01-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-13</StartDate>
+              <EndDate>2020-04-13</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58374</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>09:35:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-01-29</StartDate>
+              <EndDate>2020-01-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-13</StartDate>
+              <EndDate>2020-04-13</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58375</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>10:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-01-29</StartDate>
+              <EndDate>2020-01-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-13</StartDate>
+              <EndDate>2020-04-13</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58376</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>11:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-01-29</StartDate>
+              <EndDate>2020-01-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-13</StartDate>
+              <EndDate>2020-04-13</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58377</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>12:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-01-29</StartDate>
+              <EndDate>2020-01-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-13</StartDate>
+              <EndDate>2020-04-13</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58378</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>14:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-01-29</StartDate>
+              <EndDate>2020-01-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-13</StartDate>
+              <EndDate>2020-04-13</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58379</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>15:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-01-29</StartDate>
+              <EndDate>2020-01-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-13</StartDate>
+              <EndDate>2020-04-13</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58380</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>16:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-01-29</StartDate>
+              <EndDate>2020-01-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-13</StartDate>
+              <EndDate>2020-04-13</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58381</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>17:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-01-29</StartDate>
+              <EndDate>2020-01-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-13</StartDate>
+              <EndDate>2020-04-13</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58382</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>17:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-01-29</StartDate>
+              <EndDate>2020-01-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-13</StartDate>
+              <EndDate>2020-04-13</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58383</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>18:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-01-29</StartDate>
+              <EndDate>2020-01-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-13</StartDate>
+              <EndDate>2020-04-13</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58384</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>20:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-01-29</StartDate>
+              <EndDate>2020-01-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-13</StartDate>
+              <EndDate>2020-04-13</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58385</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>22:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-01-29</StartDate>
+              <EndDate>2020-01-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-13</StartDate>
+              <EndDate>2020-04-13</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58386</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>ADV</NoteCode>
+        <NoteText>Must be booked in advance, contact operator</NoteText>
+      </Note>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>23:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-04-13</StartDate>
+              <EndDate>2020-04-13</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58387</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>14:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-01-29</StartDate>
+              <EndDate>2020-01-29</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58399</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>12:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>58337</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>06:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>58338</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>07:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>58339</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>09:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>58340</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>11:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>58341</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>12:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>58342</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>14:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>58343</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>16:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>58344</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>17:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>58345</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>19:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>58346</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>21:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>58347</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>ADV</NoteCode>
+        <NoteText>Must be booked in advance, contact operator</NoteText>
+      </Note>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>22:35:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>58388</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>07:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>58389</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>08:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>58390</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>10:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>58391</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>12:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>58392</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>14:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>58393</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>15:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>58394</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>17:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>58395</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>18:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>58396</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>20:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>58397</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>22:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>58398</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>ADV</NoteCode>
+        <NoteText>Must be booked in advance, contact operator</NoteText>
+      </Note>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>23:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Wednesday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-07</StartDate>
+              <EndDate>2020-01-28</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-30</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58349</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>06:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Wednesday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-07</StartDate>
+              <EndDate>2020-01-28</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-30</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58350</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>07:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Wednesday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-07</StartDate>
+              <EndDate>2020-01-28</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-30</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58351</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>09:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Wednesday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-07</StartDate>
+              <EndDate>2020-01-28</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-30</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58352</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>11:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Wednesday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-07</StartDate>
+              <EndDate>2020-01-28</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-30</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58353</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>12:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Wednesday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-07</StartDate>
+              <EndDate>2020-01-28</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-30</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58354</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>14:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Wednesday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-07</StartDate>
+              <EndDate>2020-01-28</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-30</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58355</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>16:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Wednesday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-07</StartDate>
+              <EndDate>2020-01-28</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-30</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58356</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>17:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Wednesday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-07</StartDate>
+              <EndDate>2020-01-28</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-30</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58357</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>19:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Wednesday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-07</StartDate>
+              <EndDate>2020-01-28</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-30</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58358</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>21:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Wednesday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-07</StartDate>
+              <EndDate>2020-01-28</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-30</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58359</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>ADV</NoteCode>
+        <NoteText>Must be booked in advance, contact operator</NoteText>
+      </Note>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>22:35:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Wednesday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-07</StartDate>
+              <EndDate>2020-01-28</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-30</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58400</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>07:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Wednesday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-07</StartDate>
+              <EndDate>2020-01-28</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-30</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58401</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>08:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Wednesday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-07</StartDate>
+              <EndDate>2020-01-28</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-30</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58402</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>10:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Wednesday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-07</StartDate>
+              <EndDate>2020-01-28</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-30</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58403</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>12:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Wednesday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-07</StartDate>
+              <EndDate>2020-01-28</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-30</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58404</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>14:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Wednesday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-07</StartDate>
+              <EndDate>2020-01-28</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-30</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58405</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>15:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Wednesday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-07</StartDate>
+              <EndDate>2020-01-28</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-30</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58406</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>17:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Wednesday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-07</StartDate>
+              <EndDate>2020-01-28</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-30</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58407</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>18:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Wednesday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-07</StartDate>
+              <EndDate>2020-01-28</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-30</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58408</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>20:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Wednesday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-07</StartDate>
+              <EndDate>2020-01-28</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-30</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58409</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>22:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Wednesday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-07</StartDate>
+              <EndDate>2020-01-28</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-30</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58410</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>ADV</NoteCode>
+        <NoteText>Must be booked in advance, contact operator</NoteText>
+      </Note>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>23:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-07</StartDate>
+              <EndDate>2020-04-12</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-14</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58309</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>06:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-07</StartDate>
+              <EndDate>2020-04-12</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-14</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58310</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>07:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-07</StartDate>
+              <EndDate>2020-04-12</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-14</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58311</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>09:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-07</StartDate>
+              <EndDate>2020-04-12</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-14</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58312</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>11:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-07</StartDate>
+              <EndDate>2020-04-12</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-14</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58313</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>12:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-07</StartDate>
+              <EndDate>2020-04-12</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-14</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58314</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>14:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-07</StartDate>
+              <EndDate>2020-04-12</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-14</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58315</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>16:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-07</StartDate>
+              <EndDate>2020-04-12</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-14</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58316</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>17:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-07</StartDate>
+              <EndDate>2020-04-12</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-14</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58317</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>19:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-07</StartDate>
+              <EndDate>2020-04-12</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-14</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58318</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>21:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-07</StartDate>
+              <EndDate>2020-04-12</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-14</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58319</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>ADV</NoteCode>
+        <NoteText>Must be booked in advance, contact operator</NoteText>
+      </Note>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>22:35:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-07</StartDate>
+              <EndDate>2020-04-12</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-14</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58360</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>07:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-07</StartDate>
+              <EndDate>2020-04-12</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-14</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58361</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>08:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-07</StartDate>
+              <EndDate>2020-04-12</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-14</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58362</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>10:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-07</StartDate>
+              <EndDate>2020-04-12</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-14</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58363</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>12:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-07</StartDate>
+              <EndDate>2020-04-12</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-14</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58364</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>14:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-07</StartDate>
+              <EndDate>2020-04-12</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-14</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58365</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>15:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-07</StartDate>
+              <EndDate>2020-04-12</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-14</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58366</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>17:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-07</StartDate>
+              <EndDate>2020-04-12</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-14</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58367</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>18:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-07</StartDate>
+              <EndDate>2020-04-12</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-14</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58368</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>20:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-07</StartDate>
+              <EndDate>2020-04-12</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-14</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58369</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>22:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-10-07</StartDate>
+              <EndDate>2020-04-12</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-14</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58370</VehicleJourneyCode>
+      <ServiceRef>SLASF05</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF05-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>ADV</NoteCode>
+        <NoteText>Must be booked in advance, contact operator</NoteText>
+      </Note>
+      <Note>
+        <NoteCode>VID</NoteCode>
+        <NoteText>May sail to and from Vidlin in certain conditions</NoteText>
+      </Note>
+      <DepartureTime>23:10:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

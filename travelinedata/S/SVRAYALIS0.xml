@@ -1,0 +1,1701 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:21:00-00:00" ModificationDateTime="2019-10-07T13:21:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRAYALIS0.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <ServicedOrganisations>
+    <ServicedOrganisation>
+      <OrganisationCode>925</OrganisationCode>
+      <Name>
+QE0 : Cif-LIS-ABF-20190321_20190509_163251.cif
+</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2019-10-27</StartDate>
+          <EndDate>2020-03-28</EndDate>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+    <ServicedOrganisation>
+      <OrganisationCode>927</OrganisationCode>
+      <Name>
+QE0 : Cif-LIS-ABF-20190321_20190509_163251.cif
+</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2019-05-09</StartDate>
+          <EndDate>2019-10-26</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-03-29</StartDate>
+          <EndDate>2020-05-09</EndDate>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+    <ServicedOrganisation>
+      <OrganisationCode>928</OrganisationCode>
+      <Name>
+QE0 : Cif-LIS-ABF-20190321_20190509_163251.cif
+</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2019-11-03</StartDate>
+          <EndDate>2020-04-04</EndDate>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+    <ServicedOrganisation>
+      <OrganisationCode>929</OrganisationCode>
+      <Name>
+QE0 : Cif-LIS-ABF-20190321_20190509_163251.cif
+</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2019-05-12</StartDate>
+          <EndDate>2019-11-02</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-04-05</StartDate>
+          <EndDate>2020-05-09</EndDate>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+    <ServicedOrganisation>
+      <OrganisationCode>930</OrganisationCode>
+      <Name>
+QE0 : Cif-LIS-ABF-20190321_20190509_163251.cif
+</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2019-05-12</StartDate>
+          <EndDate>2019-06-01</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-11-03</StartDate>
+          <EndDate>2020-05-09</EndDate>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+    <ServicedOrganisation>
+      <OrganisationCode>926</OrganisationCode>
+      <Name>
+QE0 : Cif-LIS-ABF-20190321_20190509_163251.cif
+</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2019-05-09</StartDate>
+          <EndDate>2019-10-26</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-03-29</StartDate>
+          <EndDate>2020-04-04</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-04-12</StartDate>
+          <EndDate>2020-05-09</EndDate>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+    <ServicedOrganisation>
+      <OrganisationCode>931</OrganisationCode>
+      <Name>
+QE0 : Cif-LIS-ABF-20190321_20190509_163251.cif
+</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2019-11-01</StartDate>
+          <EndDate>2020-03-31</EndDate>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+    <ServicedOrganisation>
+      <OrganisationCode>932</OrganisationCode>
+      <Name>
+QE0 : Cif-LIS-ABF-20190321_20190509_163251.cif
+</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2019-05-09</StartDate>
+          <EndDate>2019-10-31</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-04-01</StartDate>
+          <EndDate>2020-05-09</EndDate>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+  </ServicedOrganisations>
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300PRA</StopPointRef>
+      <CommonName>Port Ramsay Lismore Ferry Terminal</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300PAP</StopPointRef>
+      <CommonName>Port Appin Ferry Terminal</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="AYALIS0_002">
+      <RouteLink id="AYALIS0_002_286054">
+        <From>
+          <StopPointRef>9300PRA</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300PAP</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="AYALIS0_001">
+      <RouteLink id="AYALIS0_001_286056">
+        <From>
+          <StopPointRef>9300PAP</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300PRA</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="AYALIS0_002">
+      <Description>Lismore - Port Appin
+</Description>
+      <RouteSectionRef>AYALIS0_002</RouteSectionRef>
+    </Route>
+    <Route id="AYALIS0_001">
+      <Description>Port Appin - Lismore
+</Description>
+      <RouteSectionRef>AYALIS0_001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_AYALIS0-3">
+      <JourneyPatternTimingLink id="JPS_AYALIS0-3_286054">
+        <From>
+          <StopPointRef>9300PRA</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300PAP</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AYALIS0_002_286054</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT600S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_AYALIS0-4">
+      <JourneyPatternTimingLink id="JPS_AYALIS0-4_286056">
+        <From>
+          <StopPointRef>9300PAP</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300PRA</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AYALIS0_001_286056</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT600S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="ABF">
+      <NationalOperatorCode>ABCF</NationalOperatorCode>
+      <OperatorCode>ABF</OperatorCode>
+      <OperatorShortName>Argyll + Bute Council Fe</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>AYALIS0</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>LIS</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2019-03-21</StartDate>
+        <EndDate>2020-05-09</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>ABF</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>ferry</Mode>
+      <Description>Port Appin - Lismore</Description>
+      <StandardService>
+        <Origin>Port Appin</Origin>
+        <Destination>Lismore</Destination>
+        <JourneyPattern id="JPS_AYALIS0-3">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_AYALIS0-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_AYALIS0-4">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_AYALIS0-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97553</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-3</JourneyPatternRef>
+      <DepartureTime>07:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97554</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-3</JourneyPatternRef>
+      <DepartureTime>07:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97555</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-3</JourneyPatternRef>
+      <DepartureTime>08:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97556</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-3</JourneyPatternRef>
+      <DepartureTime>09:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97557</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-3</JourneyPatternRef>
+      <DepartureTime>10:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97558</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-3</JourneyPatternRef>
+      <DepartureTime>11:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97559</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-3</JourneyPatternRef>
+      <DepartureTime>12:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97560</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-3</JourneyPatternRef>
+      <DepartureTime>14:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97561</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-3</JourneyPatternRef>
+      <DepartureTime>15:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97562</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-3</JourneyPatternRef>
+      <DepartureTime>16:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97563</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-3</JourneyPatternRef>
+      <DepartureTime>17:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97564</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-3</JourneyPatternRef>
+      <DepartureTime>18:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97565</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-3</JourneyPatternRef>
+      <DepartureTime>07:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97566</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-3</JourneyPatternRef>
+      <DepartureTime>07:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97567</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-3</JourneyPatternRef>
+      <DepartureTime>08:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97568</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-3</JourneyPatternRef>
+      <DepartureTime>09:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97569</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-3</JourneyPatternRef>
+      <DepartureTime>10:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97570</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-3</JourneyPatternRef>
+      <DepartureTime>11:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97571</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-3</JourneyPatternRef>
+      <DepartureTime>12:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97572</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-3</JourneyPatternRef>
+      <DepartureTime>14:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97573</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-3</JourneyPatternRef>
+      <DepartureTime>15:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97574</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-3</JourneyPatternRef>
+      <DepartureTime>16:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97575</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-3</JourneyPatternRef>
+      <DepartureTime>17:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97576</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-3</JourneyPatternRef>
+      <DepartureTime>18:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>925</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97577</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-3</JourneyPatternRef>
+      <DepartureTime>21:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>927</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97578</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-3</JourneyPatternRef>
+      <DepartureTime>21:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97579</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-3</JourneyPatternRef>
+      <DepartureTime>09:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97580</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-3</JourneyPatternRef>
+      <DepartureTime>10:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>930</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97581</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-3</JourneyPatternRef>
+      <DepartureTime>11:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97582</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-3</JourneyPatternRef>
+      <DepartureTime>12:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97583</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-3</JourneyPatternRef>
+      <DepartureTime>14:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>930</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97584</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-3</JourneyPatternRef>
+      <DepartureTime>15:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97585</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-3</JourneyPatternRef>
+      <DepartureTime>16:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>930</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97586</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-3</JourneyPatternRef>
+      <DepartureTime>17:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97587</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-3</JourneyPatternRef>
+      <DepartureTime>18:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>928</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97588</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-3</JourneyPatternRef>
+      <DepartureTime>20:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>929</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97589</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-3</JourneyPatternRef>
+      <DepartureTime>20:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <HolidaysOnly />
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97590</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-4</JourneyPatternRef>
+      <DepartureTime>21:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>925</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97591</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-4</JourneyPatternRef>
+      <DepartureTime>21:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>926</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97592</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-4</JourneyPatternRef>
+      <DepartureTime>21:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97593</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-4</JourneyPatternRef>
+      <DepartureTime>07:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97594</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-4</JourneyPatternRef>
+      <DepartureTime>07:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97595</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-4</JourneyPatternRef>
+      <DepartureTime>08:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97596</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-4</JourneyPatternRef>
+      <DepartureTime>09:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97597</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-4</JourneyPatternRef>
+      <DepartureTime>10:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97598</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-4</JourneyPatternRef>
+      <DepartureTime>11:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97599</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-4</JourneyPatternRef>
+      <DepartureTime>12:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97600</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-4</JourneyPatternRef>
+      <DepartureTime>14:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97601</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-4</JourneyPatternRef>
+      <DepartureTime>15:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97602</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-4</JourneyPatternRef>
+      <DepartureTime>16:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97603</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-4</JourneyPatternRef>
+      <DepartureTime>17:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97604</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-4</JourneyPatternRef>
+      <DepartureTime>18:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>931</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97605</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-4</JourneyPatternRef>
+      <DepartureTime>20:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>932</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97606</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-4</JourneyPatternRef>
+      <DepartureTime>20:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97607</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-4</JourneyPatternRef>
+      <DepartureTime>07:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97608</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-4</JourneyPatternRef>
+      <DepartureTime>07:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97609</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-4</JourneyPatternRef>
+      <DepartureTime>08:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97610</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-4</JourneyPatternRef>
+      <DepartureTime>09:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97611</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-4</JourneyPatternRef>
+      <DepartureTime>10:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97612</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-4</JourneyPatternRef>
+      <DepartureTime>11:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97613</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-4</JourneyPatternRef>
+      <DepartureTime>12:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97614</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-4</JourneyPatternRef>
+      <DepartureTime>14:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97615</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-4</JourneyPatternRef>
+      <DepartureTime>15:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97616</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-4</JourneyPatternRef>
+      <DepartureTime>16:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97617</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-4</JourneyPatternRef>
+      <DepartureTime>17:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97618</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-4</JourneyPatternRef>
+      <DepartureTime>18:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>925</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97619</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-4</JourneyPatternRef>
+      <DepartureTime>21:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>927</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97620</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-4</JourneyPatternRef>
+      <DepartureTime>21:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97621</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-4</JourneyPatternRef>
+      <DepartureTime>09:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97622</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-4</JourneyPatternRef>
+      <DepartureTime>10:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>930</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97623</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-4</JourneyPatternRef>
+      <DepartureTime>11:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97624</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-4</JourneyPatternRef>
+      <DepartureTime>12:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97625</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-4</JourneyPatternRef>
+      <DepartureTime>14:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>930</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97626</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-4</JourneyPatternRef>
+      <DepartureTime>15:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97627</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-4</JourneyPatternRef>
+      <DepartureTime>16:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>930</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97628</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-4</JourneyPatternRef>
+      <DepartureTime>17:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97629</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-4</JourneyPatternRef>
+      <DepartureTime>18:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>928</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97630</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-4</JourneyPatternRef>
+      <DepartureTime>20:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>929</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97631</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-4</JourneyPatternRef>
+      <DepartureTime>20:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>925</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97551</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-3</JourneyPatternRef>
+      <DepartureTime>21:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ABF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>926</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>97552</VehicleJourneyCode>
+      <ServiceRef>AYALIS0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYALIS0-3</JourneyPatternRef>
+      <DepartureTime>21:45:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

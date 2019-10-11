@@ -1,0 +1,3478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:23:00-00:00" ModificationDateTime="2019-10-07T13:23:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRTLCP001.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>66004114901</StopPointRef>
+      <CommonName>Springkerse Park and Ride</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>66004114030</StopPointRef>
+      <CommonName>Morrisons</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>66004111036</StopPointRef>
+      <CommonName>Forthbank Stadium</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>66004111038</StopPointRef>
+      <CommonName>Skoda Garage</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>66004115901</StopPointRef>
+      <CommonName>Vue Cinema</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>66004115004</StopPointRef>
+      <CommonName>Frankie and Bennys</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>66004115002</StopPointRef>
+      <CommonName>Shore Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>66004000043</StopPointRef>
+      <CommonName>Railway Station</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>66004999101</StopPointRef>
+      <CommonName>Bus Station</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>66004000023</StopPointRef>
+      <CommonName>Stance D</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>66004115001</StopPointRef>
+      <CommonName>Shore Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>66004115003</StopPointRef>
+      <CommonName>Frankie and Bennys</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>66004115902</StopPointRef>
+      <CommonName>Premier Inn</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>66004111037</StopPointRef>
+      <CommonName>Sewage Works</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>66004111035</StopPointRef>
+      <CommonName>The Peak</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>66004114025</StopPointRef>
+      <CommonName>Morrisons</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="TLCP001_001">
+      <RouteLink id="TLCP001_001_344504">
+        <From>
+          <StopPointRef>66004114901</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>66004114030</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="TLCP001_001_344505">
+        <From>
+          <StopPointRef>66004114030</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>66004111036</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="TLCP001_001_344506">
+        <From>
+          <StopPointRef>66004111036</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>66004111038</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="TLCP001_001_344507">
+        <From>
+          <StopPointRef>66004111038</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>66004115901</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="TLCP001_001_344508">
+        <From>
+          <StopPointRef>66004115901</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>66004115004</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="TLCP001_001_344509">
+        <From>
+          <StopPointRef>66004115004</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>66004115002</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="TLCP001_001_344510">
+        <From>
+          <StopPointRef>66004115002</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>66004000043</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="TLCP001_001_344511">
+        <From>
+          <StopPointRef>66004000043</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>66004999101</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="TLCP001_004">
+      <RouteLink id="TLCP001_004_344513">
+        <From>
+          <StopPointRef>66004999101</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>66004000023</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="TLCP001_004_344514">
+        <From>
+          <StopPointRef>66004000023</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>66004115001</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="TLCP001_004_344515">
+        <From>
+          <StopPointRef>66004115001</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>66004115003</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="TLCP001_004_344516">
+        <From>
+          <StopPointRef>66004115003</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>66004115902</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="TLCP001_004_344517">
+        <From>
+          <StopPointRef>66004115902</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>66004111037</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="TLCP001_004_344518">
+        <From>
+          <StopPointRef>66004111037</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>66004111035</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="TLCP001_004_344519">
+        <From>
+          <StopPointRef>66004111035</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>66004114025</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="TLCP001_004_344520">
+        <From>
+          <StopPointRef>66004114025</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>66004114901</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="TLCP001_001">
+      <Description>Springkerse Park and Ride - Stirling
+</Description>
+      <RouteSectionRef>TLCP001_001</RouteSectionRef>
+    </Route>
+    <Route id="TLCP001_004">
+      <Description>Stirling - Springkerse Park and Ride
+</Description>
+      <RouteSectionRef>TLCP001_004</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_TLCP001-3">
+      <JourneyPatternTimingLink id="JPS_TLCP001-3_344504">
+        <From>
+          <StopPointRef>66004114901</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>66004114030</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>TLCP001_001_344504</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_TLCP001-3_344505">
+        <From>
+          <StopPointRef>66004114030</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>66004111036</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>TLCP001_001_344505</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_TLCP001-3_344506">
+        <From>
+          <StopPointRef>66004111036</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>66004111038</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>TLCP001_001_344506</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_TLCP001-3_344507">
+        <From>
+          <StopPointRef>66004111038</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>66004115901</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>TLCP001_001_344507</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_TLCP001-3_344508">
+        <From>
+          <StopPointRef>66004115901</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>66004115004</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>TLCP001_001_344508</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_TLCP001-3_344509">
+        <From>
+          <StopPointRef>66004115004</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>66004115002</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>TLCP001_001_344509</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_TLCP001-3_344510">
+        <From>
+          <StopPointRef>66004115002</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>66004000043</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>TLCP001_001_344510</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_TLCP001-3_344511">
+        <From>
+          <StopPointRef>66004000043</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>66004999101</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>TLCP001_001_344511</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_TLCP001-4">
+      <JourneyPatternTimingLink id="JPS_TLCP001-4_344513">
+        <From>
+          <StopPointRef>66004999101</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>66004000023</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>TLCP001_004_344513</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_TLCP001-4_344514">
+        <From>
+          <StopPointRef>66004000023</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>66004115001</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>TLCP001_004_344514</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_TLCP001-4_344515">
+        <From>
+          <StopPointRef>66004115001</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>66004115003</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>TLCP001_004_344515</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_TLCP001-4_344516">
+        <From>
+          <StopPointRef>66004115003</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>66004115902</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>TLCP001_004_344516</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_TLCP001-4_344517">
+        <From>
+          <StopPointRef>66004115902</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>66004111037</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>TLCP001_004_344517</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_TLCP001-4_344518">
+        <From>
+          <StopPointRef>66004111037</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>66004111035</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>TLCP001_004_344518</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_TLCP001-4_344519">
+        <From>
+          <StopPointRef>66004111035</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>66004114025</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>TLCP001_004_344519</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_TLCP001-4_344520">
+        <From>
+          <StopPointRef>66004114025</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>66004114901</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>TLCP001_004_344520</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="HEX">
+      <NationalOperatorCode>HEXC</NationalOperatorCode>
+      <OperatorCode>HEX</OperatorCode>
+      <OperatorShortName>Hunters Executive Coache</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>TLCP001</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>P1</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2018-12-24</StartDate>
+        <EndDate>2020-09-20</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>HEX</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Stirling - Springkerse Park and Ride</Description>
+      <StandardService>
+        <Origin>Stirling</Origin>
+        <Destination>Springkerse Park and Ride</Destination>
+        <JourneyPattern id="JPS_TLCP001-3">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_TLCP001-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_TLCP001-4">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_TLCP001-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109043</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>07:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109044</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>07:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109045</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>08:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109046</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>08:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109047</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>08:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109048</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>08:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109049</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>09:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109050</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>09:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109051</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>09:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109052</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>09:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109053</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>10:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109054</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>10:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109055</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>10:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109056</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>10:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109057</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>11:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109058</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>11:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109059</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>11:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109060</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>11:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109061</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>12:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109062</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>12:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109063</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>12:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109064</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>12:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109065</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>13:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109066</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>13:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109067</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>13:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109068</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>13:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109069</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>14:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109070</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>14:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109071</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>14:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109072</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>14:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109073</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>15:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109074</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>15:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109075</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>15:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109076</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>15:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109077</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>16:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109078</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>16:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109079</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>16:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109080</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>16:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109081</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>17:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109082</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>17:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109083</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>17:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109084</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>17:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109085</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>18:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109086</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>18:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109087</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>07:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109088</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>07:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109089</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>08:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109090</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>08:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109091</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>08:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109092</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>08:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109093</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>09:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109094</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>09:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109095</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>09:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109096</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>09:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109097</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>10:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109098</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>10:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109099</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>10:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109100</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>10:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109101</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>11:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109102</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>11:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109103</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>11:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109104</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>11:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109105</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>12:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109106</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>12:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109107</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>12:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109108</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>12:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109109</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>13:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109110</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>13:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109111</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>13:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109112</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>13:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109113</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>14:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109114</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>14:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109115</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>14:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109116</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>14:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109117</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>15:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109118</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>15:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109119</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>15:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109120</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>15:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109121</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>16:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109122</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>16:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109123</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>16:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109124</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>16:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109125</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>17:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109126</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>17:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109127</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>17:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109128</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>17:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109129</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>18:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109130</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-3</JourneyPatternRef>
+      <DepartureTime>18:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109131</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>07:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109132</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>08:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109133</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>08:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109134</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>08:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109135</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>08:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109136</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>09:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109137</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>09:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109138</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>09:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109139</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>09:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109140</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>10:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109141</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>10:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109142</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>10:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109143</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>10:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109144</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>11:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109145</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>11:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109146</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>11:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109147</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>11:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109148</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>12:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109149</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>12:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109150</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>12:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109151</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>12:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109152</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>13:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109153</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>13:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109154</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>13:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109155</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>13:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109156</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>14:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109157</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>14:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109158</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>14:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109159</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>14:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109160</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>15:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109161</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>15:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109162</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>15:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109163</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>15:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109164</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>16:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109165</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>16:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109166</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>16:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109167</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>16:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109168</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>17:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109169</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>17:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109170</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>17:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109171</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>17:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109172</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>18:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109173</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>18:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109174</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>18:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109175</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>07:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109176</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>08:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109177</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>08:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109178</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>08:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109179</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>08:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109180</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>09:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109181</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>09:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109182</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>09:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109183</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>09:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109184</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>10:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109185</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>10:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109186</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>10:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109187</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>10:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109188</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>11:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109189</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>11:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109190</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>11:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109191</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>11:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109192</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>12:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109193</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>12:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109194</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>12:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109195</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>12:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109196</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>13:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109197</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>13:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109198</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>13:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109199</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>13:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109200</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>14:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109201</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>14:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109202</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>14:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109203</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>14:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109204</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>15:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109205</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>15:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109206</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>15:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109207</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>15:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109208</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>16:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109209</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>16:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109210</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>16:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109211</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>16:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109212</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>17:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109213</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>17:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109214</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>17:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109215</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>17:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109216</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>18:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109217</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>18:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>HEX</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>109218</VehicleJourneyCode>
+      <ServiceRef>TLCP001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_TLCP001-4</JourneyPatternRef>
+      <DepartureTime>18:30:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T12:01:00-00:00" ModificationDateTime="2019-10-07T12:01:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRAYBO478.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <ServicedOrganisations>
+    <ServicedOrganisation>
+      <OrganisationCode>1080</OrganisationCode>
+      <Name>
+QE0 : Cif-478-CRA-20150601_20190509_161215.cif
+</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2019-06-30</StartDate>
+          <EndDate>2019-08-14</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-10-06</StartDate>
+          <EndDate>2019-10-19</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-12-22</StartDate>
+          <EndDate>2020-01-04</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-02-09</StartDate>
+          <EndDate>2020-02-15</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-04-05</StartDate>
+          <EndDate>2020-04-18</EndDate>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+  </ServicedOrganisations>
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60707406</StopPointRef>
+      <CommonName>Royal Hotel</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60707576</StopPointRef>
+      <CommonName>junction</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60709553</StopPointRef>
+      <CommonName>Woodlands Cottage</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60709554</StopPointRef>
+      <CommonName>Road End</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60707554</StopPointRef>
+      <CommonName>Road End</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60707553</StopPointRef>
+      <CommonName>Woodlands Cottage</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60707550</StopPointRef>
+      <CommonName>Hotel</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60709576</StopPointRef>
+      <CommonName>junction</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60709482</StopPointRef>
+      <CommonName>turning area</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60707482</StopPointRef>
+      <CommonName>turning area</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60709406</StopPointRef>
+      <CommonName>Royal Hotel</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60707559</StopPointRef>
+      <CommonName>Kames Kabin</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60709403</StopPointRef>
+      <CommonName>Post Office</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60709407</StopPointRef>
+      <CommonName>Crossroads</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="AYBO478_001">
+      <RouteLink id="AYBO478_001_304809">
+        <From>
+          <StopPointRef>60707406</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60707576</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AYBO478_001_304810">
+        <From>
+          <StopPointRef>60707576</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60709553</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AYBO478_001_304811">
+        <From>
+          <StopPointRef>60709553</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60709554</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AYBO478_001_304812">
+        <From>
+          <StopPointRef>60709554</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60707554</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AYBO478_001_304813">
+        <From>
+          <StopPointRef>60707554</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60707553</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AYBO478_001_304814">
+        <From>
+          <StopPointRef>60707553</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60707550</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AYBO478_001_304815">
+        <From>
+          <StopPointRef>60707550</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60709576</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="AYBO478_001_304816">
+        <From>
+          <StopPointRef>60709576</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60709482</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="AYBO478_002">
+      <RouteLink id="AYBO478_002_304818">
+        <From>
+          <StopPointRef>60707482</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60707576</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AYBO478_002_304819">
+        <From>
+          <StopPointRef>60707576</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60709406</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AYBO478_002_304820">
+        <From>
+          <StopPointRef>60709406</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60707559</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AYBO478_002_304821">
+        <From>
+          <StopPointRef>60707559</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60709403</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="AYBO478_002_304822">
+        <From>
+          <StopPointRef>60709403</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60709407</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="AYBO478_001">
+      <Description>Tighnabruaich - Auchenbreck
+</Description>
+      <RouteSectionRef>AYBO478_001</RouteSectionRef>
+    </Route>
+    <Route id="AYBO478_002">
+      <Description>Auchenbreck - Millhouse
+</Description>
+      <RouteSectionRef>AYBO478_002</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_AYBO478-3">
+      <JourneyPatternTimingLink id="JPS_AYBO478-3_304809">
+        <From>
+          <StopPointRef>60707406</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60707576</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AYBO478_001_304809</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT960S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AYBO478-3_304810">
+        <From>
+          <StopPointRef>60707576</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60709553</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AYBO478_001_304810</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT360S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AYBO478-3_304811">
+        <From>
+          <StopPointRef>60709553</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60709554</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AYBO478_001_304811</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AYBO478-3_304812">
+        <From>
+          <StopPointRef>60709554</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60707554</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AYBO478_001_304812</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AYBO478-3_304813">
+        <From>
+          <StopPointRef>60707554</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60707553</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AYBO478_001_304813</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AYBO478-3_304814">
+        <From>
+          <StopPointRef>60707553</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60707550</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AYBO478_001_304814</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AYBO478-3_304815">
+        <From>
+          <StopPointRef>60707550</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60709576</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AYBO478_001_304815</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AYBO478-3_304816">
+        <From>
+          <StopPointRef>60709576</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60709482</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AYBO478_001_304816</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_AYBO478-4">
+      <JourneyPatternTimingLink id="JPS_AYBO478-4_304818">
+        <From>
+          <StopPointRef>60707482</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60707576</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AYBO478_002_304818</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AYBO478-4_304819">
+        <From>
+          <StopPointRef>60707576</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60709406</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AYBO478_002_304819</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT960S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AYBO478-4_304820">
+        <From>
+          <StopPointRef>60709406</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60707559</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>AYBO478_002_304820</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AYBO478-4_304821">
+        <From>
+          <StopPointRef>60707559</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60709403</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AYBO478_002_304821</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_AYBO478-4_304822">
+        <From>
+          <StopPointRef>60709403</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60709407</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>AYBO478_002_304822</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="CRA">
+      <NationalOperatorCode>CRAS</NationalOperatorCode>
+      <OperatorCode>CRA</OperatorCode>
+      <OperatorShortName>Tighnabruaich Service St</OperatorShortName>
+    </Operator>
+    <Operator id="WCM">
+      <NationalOperatorCode>WCMO</NationalOperatorCode>
+      <OperatorCode>WCM</OperatorCode>
+      <OperatorShortName>West Coast Motors</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>AYBO478</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>478</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2015-06-01</StartDate>
+        <EndDate>2020-05-09</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>CRA</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Auchenbreck - Millhouse</Description>
+      <StandardService>
+        <Origin>Auchenbreck</Origin>
+        <Destination>Millhouse</Destination>
+        <JourneyPattern id="JPS_AYBO478-3">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_AYBO478-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_AYBO478-4">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_AYBO478-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>CRA</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>1080</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-11-25</StartDate>
+              <EndDate>2019-11-25</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>99677</VehicleJourneyCode>
+      <ServiceRef>AYBO478</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYBO478-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>Sch-7</NoteCode>
+        <NoteText>School Days Only</NoteText>
+      </Note>
+      <DepartureTime>07:24:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CRA</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>1080</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-11-25</StartDate>
+              <EndDate>2019-11-25</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>99678</VehicleJourneyCode>
+      <ServiceRef>AYBO478</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_AYBO478-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>Sch-7</NoteCode>
+        <NoteText>School Days Only</NoteText>
+      </Note>
+      <DepartureTime>08:07:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

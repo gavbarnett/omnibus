@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:23:00-00:00" ModificationDateTime="2019-10-07T13:23:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRDMAS001.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000051501</StopPointRef>
+      <CommonName>Harbour Square</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000373501</StopPointRef>
+      <CommonName>Merse Park</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000941333</StopPointRef>
+      <CommonName>Mill Hall</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000940333</StopPointRef>
+      <CommonName>Brighouse Bay Rd End</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680004042501</StopPointRef>
+      <CommonName>Brighouse Bay Caravan Park</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000460333</StopPointRef>
+      <CommonName>Village Hall</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000938333</StopPointRef>
+      <CommonName>Roberton Farm</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000939333</StopPointRef>
+      <CommonName>Knockbrex</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000937333</StopPointRef>
+      <CommonName>Lennox Plunton</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000929333</StopPointRef>
+      <CommonName>Bypass</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000928333</StopPointRef>
+      <CommonName>Townhead Farm</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000927333</StopPointRef>
+      <CommonName>Cally Palace</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000093501</StopPointRef>
+      <CommonName>Murray Arms</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000093333</StopPointRef>
+      <CommonName>Mill on the Fleet</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000093444</StopPointRef>
+      <CommonName>Mill on the Fleet</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000093502</StopPointRef>
+      <CommonName>Murray Arms</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000927444</StopPointRef>
+      <CommonName>Cally Palace</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000928444</StopPointRef>
+      <CommonName>Townhead Farm</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000929444</StopPointRef>
+      <CommonName>Bypass</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000937444</StopPointRef>
+      <CommonName>Lennox Plunton</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000939444</StopPointRef>
+      <CommonName>Knockbrex</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000938444</StopPointRef>
+      <CommonName>Roberton Farm</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000460444</StopPointRef>
+      <CommonName>Village Hall</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000940444</StopPointRef>
+      <CommonName>Brighouse Bay Rd End</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000941444</StopPointRef>
+      <CommonName>Mill Hall</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000373502</StopPointRef>
+      <CommonName>Merse Park</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="DMAS001_023">
+      <RouteLink id="DMAS001_023_71025">
+        <From>
+          <StopPointRef>680000051501</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000373501</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMAS001_023_71026">
+        <From>
+          <StopPointRef>680000373501</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000941333</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMAS001_023_71027">
+        <From>
+          <StopPointRef>680000941333</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000940333</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMAS001_023_71028">
+        <From>
+          <StopPointRef>680000940333</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680004042501</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMAS001_023_71029">
+        <From>
+          <StopPointRef>680004042501</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000460333</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMAS001_023_71030">
+        <From>
+          <StopPointRef>680000460333</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000938333</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMAS001_023_71031">
+        <From>
+          <StopPointRef>680000938333</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000939333</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMAS001_023_71032">
+        <From>
+          <StopPointRef>680000939333</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000937333</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMAS001_023_71033">
+        <From>
+          <StopPointRef>680000937333</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000929333</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMAS001_023_71034">
+        <From>
+          <StopPointRef>680000929333</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000928333</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMAS001_023_71035">
+        <From>
+          <StopPointRef>680000928333</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000927333</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMAS001_023_71036">
+        <From>
+          <StopPointRef>680000927333</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000093501</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMAS001_023_71037">
+        <From>
+          <StopPointRef>680000093501</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000093333</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="DMAS001_024">
+      <RouteLink id="DMAS001_024_71039">
+        <From>
+          <StopPointRef>680000093444</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000093502</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMAS001_024_71040">
+        <From>
+          <StopPointRef>680000093502</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000927444</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMAS001_024_71041">
+        <From>
+          <StopPointRef>680000927444</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000928444</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMAS001_024_71042">
+        <From>
+          <StopPointRef>680000928444</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000929444</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMAS001_024_71043">
+        <From>
+          <StopPointRef>680000929444</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000937444</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMAS001_024_71044">
+        <From>
+          <StopPointRef>680000937444</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000939444</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMAS001_024_71045">
+        <From>
+          <StopPointRef>680000939444</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000938444</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMAS001_024_71046">
+        <From>
+          <StopPointRef>680000938444</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000460444</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMAS001_024_71047">
+        <From>
+          <StopPointRef>680000460444</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000940444</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMAS001_024_71048">
+        <From>
+          <StopPointRef>680000940444</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680004042501</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMAS001_024_71049">
+        <From>
+          <StopPointRef>680004042501</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000941444</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMAS001_024_71050">
+        <From>
+          <StopPointRef>680000941444</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000373502</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMAS001_024_71051">
+        <From>
+          <StopPointRef>680000373502</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000051501</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="DMAS001_023">
+      <Description>Kirkcudbright - Gatehouse of Fleet
+</Description>
+      <RouteSectionRef>DMAS001_023</RouteSectionRef>
+    </Route>
+    <Route id="DMAS001_024">
+      <Description>Gatehouse of Fleet - Kirkcudbright
+</Description>
+      <RouteSectionRef>DMAS001_024</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_DMAS001-3">
+      <JourneyPatternTimingLink id="JPS_DMAS001-3_71025">
+        <From>
+          <StopPointRef>680000051501</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000373501</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>DMAS001_023_71025</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMAS001-3_71026">
+        <From>
+          <StopPointRef>680000373501</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000941333</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>DMAS001_023_71026</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT420S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMAS001-3_71027">
+        <From>
+          <StopPointRef>680000941333</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000940333</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>DMAS001_023_71027</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMAS001-3_71028">
+        <From>
+          <StopPointRef>680000940333</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680004042501</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMAS001_023_71028</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT240S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMAS001-3_71029">
+        <From>
+          <StopPointRef>680004042501</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000460333</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMAS001_023_71029</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT600S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMAS001-3_71030">
+        <From>
+          <StopPointRef>680000460333</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000938333</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>DMAS001_023_71030</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMAS001-3_71031">
+        <From>
+          <StopPointRef>680000938333</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000939333</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>DMAS001_023_71031</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT240S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMAS001-3_71032">
+        <From>
+          <StopPointRef>680000939333</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000937333</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>DMAS001_023_71032</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT240S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMAS001-3_71033">
+        <From>
+          <StopPointRef>680000937333</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000929333</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>DMAS001_023_71033</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMAS001-3_71034">
+        <From>
+          <StopPointRef>680000929333</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000928333</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>DMAS001_023_71034</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMAS001-3_71035">
+        <From>
+          <StopPointRef>680000928333</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000927333</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>DMAS001_023_71035</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMAS001-3_71036">
+        <From>
+          <StopPointRef>680000927333</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000093501</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>DMAS001_023_71036</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMAS001-3_71037">
+        <From>
+          <StopPointRef>680000093501</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000093333</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMAS001_023_71037</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_DMAS001-4">
+      <JourneyPatternTimingLink id="JPS_DMAS001-4_71039">
+        <From>
+          <StopPointRef>680000093444</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000093502</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMAS001_024_71039</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMAS001-4_71040">
+        <From>
+          <StopPointRef>680000093502</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000927444</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>DMAS001_024_71040</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMAS001-4_71041">
+        <From>
+          <StopPointRef>680000927444</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000928444</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>DMAS001_024_71041</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMAS001-4_71042">
+        <From>
+          <StopPointRef>680000928444</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000929444</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>DMAS001_024_71042</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMAS001-4_71043">
+        <From>
+          <StopPointRef>680000929444</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000937444</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMAS001_024_71043</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT360S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMAS001-4_71044">
+        <From>
+          <StopPointRef>680000937444</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000939444</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMAS001_024_71044</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT600S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMAS001-4_71045">
+        <From>
+          <StopPointRef>680000939444</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000938444</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>DMAS001_024_71045</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMAS001-4_71046">
+        <From>
+          <StopPointRef>680000938444</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000460444</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMAS001_024_71046</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT420S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMAS001-4_71047">
+        <From>
+          <StopPointRef>680000460444</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000940444</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>DMAS001_024_71047</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMAS001-4_71048">
+        <From>
+          <StopPointRef>680000940444</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680004042501</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMAS001_024_71048</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMAS001-4_71049">
+        <From>
+          <StopPointRef>680004042501</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000941444</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>DMAS001_024_71049</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT360S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMAS001-4_71050">
+        <From>
+          <StopPointRef>680000941444</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000373502</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>DMAS001_024_71050</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT480S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMAS001-4_71051">
+        <From>
+          <StopPointRef>680000373502</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000051501</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMAS001_024_71051</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="DGC">
+      <NationalOperatorCode>DGCB</NationalOperatorCode>
+      <OperatorCode>DGC</OperatorCode>
+      <OperatorShortName>DGC Buses</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>DMAS001</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>S1</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2019-04-01</StartDate>
+        <EndDate>2049-12-31</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>DGC</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Gatehouse of Fleet - Kirkcudbright</Description>
+      <StandardService>
+        <Origin>Gatehouse of Fleet</Origin>
+        <Destination>Kirkcudbright</Destination>
+        <JourneyPattern id="JPS_DMAS001-3">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_DMAS001-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_DMAS001-4">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_DMAS001-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>DGC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>17307</VehicleJourneyCode>
+      <ServiceRef>DMAS001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DMAS001-3</JourneyPatternRef>
+      <DepartureTime>15:42:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>DGC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>17308</VehicleJourneyCode>
+      <ServiceRef>DMAS001</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DMAS001-4</JourneyPatternRef>
+      <DepartureTime>07:59:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

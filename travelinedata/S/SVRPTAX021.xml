@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T12:00:00-00:00" ModificationDateTime="2019-10-07T12:00:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRPTAX021.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>609020</StopPointRef>
+      <CommonName>Pavillion Theatre</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6090170</StopPointRef>
+      <CommonName>Wellington Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6090183</StopPointRef>
+      <CommonName>West Regent Lane</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6090191</StopPointRef>
+      <CommonName>West Campbell Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6090192</StopPointRef>
+      <CommonName>Pitt Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>0000SPT22087</StopPointRef>
+      <CommonName>RENFREW, HILLINGTON RD RBT/M8 SLIP RD</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6140101</StopPointRef>
+      <CommonName>Tirry Avenue</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>614099</StopPointRef>
+      <CommonName>Balfour Kilpatrick</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>614098</StopPointRef>
+      <CommonName>Dean Park Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6140105</StopPointRef>
+      <CommonName>Brora Drive</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6140108</StopPointRef>
+      <CommonName>Camps Crescent</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6140110</StopPointRef>
+      <CommonName>Cairn Avenue</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6140111</StopPointRef>
+      <CommonName>Ambassador Way</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6140112</StopPointRef>
+      <CommonName>York Way</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6140967</StopPointRef>
+      <CommonName>Vanguard Way</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6140968</StopPointRef>
+      <CommonName>Nevis Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6140152</StopPointRef>
+      <CommonName>Wright Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6140154</StopPointRef>
+      <CommonName>Sandyford Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6140257</StopPointRef>
+      <CommonName>Trident House</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6140255</StopPointRef>
+      <CommonName>Dundonald Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6140252</StopPointRef>
+      <CommonName>St Margarets Court</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6140250</StopPointRef>
+      <CommonName>West College Scotland</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6140249</StopPointRef>
+      <CommonName>West College Scotland</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6140247</StopPointRef>
+      <CommonName>Hamilton Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6140288</StopPointRef>
+      <CommonName>Brick Lane</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6140242</StopPointRef>
+      <CommonName>Gauze Street</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="PTAX021_001">
+      <RouteLink id="PTAX021_001_223306">
+        <From>
+          <StopPointRef>609020</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6090170</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAX021_001_223307">
+        <From>
+          <StopPointRef>6090170</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6090183</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAX021_001_223308">
+        <From>
+          <StopPointRef>6090183</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6090191</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAX021_001_223309">
+        <From>
+          <StopPointRef>6090191</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6090192</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAX021_001_223310">
+        <From>
+          <StopPointRef>6090192</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>0000SPT22087</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAX021_001_223311">
+        <From>
+          <StopPointRef>0000SPT22087</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6140101</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAX021_001_223312">
+        <From>
+          <StopPointRef>6140101</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>614099</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAX021_001_223313">
+        <From>
+          <StopPointRef>614099</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>614098</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAX021_001_223314">
+        <From>
+          <StopPointRef>614098</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6140105</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAX021_001_223315">
+        <From>
+          <StopPointRef>6140105</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6140108</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAX021_001_223316">
+        <From>
+          <StopPointRef>6140108</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6140110</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAX021_001_223317">
+        <From>
+          <StopPointRef>6140110</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6140111</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAX021_001_223318">
+        <From>
+          <StopPointRef>6140111</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6140112</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAX021_001_223319">
+        <From>
+          <StopPointRef>6140112</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6140967</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAX021_001_223320">
+        <From>
+          <StopPointRef>6140967</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6140968</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAX021_001_223321">
+        <From>
+          <StopPointRef>6140968</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6140152</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAX021_001_223322">
+        <From>
+          <StopPointRef>6140152</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6140154</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAX021_001_223323">
+        <From>
+          <StopPointRef>6140154</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6140257</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAX021_001_223324">
+        <From>
+          <StopPointRef>6140257</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6140255</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAX021_001_223325">
+        <From>
+          <StopPointRef>6140255</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6140252</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAX021_001_223326">
+        <From>
+          <StopPointRef>6140252</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6140250</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAX021_001_223327">
+        <From>
+          <StopPointRef>6140250</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6140249</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAX021_001_223328">
+        <From>
+          <StopPointRef>6140249</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6140247</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAX021_001_223329">
+        <From>
+          <StopPointRef>6140247</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6140288</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTAX021_001_223330">
+        <From>
+          <StopPointRef>6140288</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6140242</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="PTAX021_001">
+      <Description>Glasgow - Paisley
+</Description>
+      <RouteSectionRef>PTAX021_001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_PTAX021-2">
+      <JourneyPatternTimingLink id="JPS_PTAX021-2_223306">
+        <From>
+          <StopPointRef>609020</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090170</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAX021_001_223306</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT129S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAX021-2_223307">
+        <From>
+          <StopPointRef>6090170</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090183</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAX021_001_223307</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT72S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAX021-2_223308">
+        <From>
+          <StopPointRef>6090183</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090191</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAX021_001_223308</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT219S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAX021-2_223309">
+        <From>
+          <StopPointRef>6090191</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090192</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAX021_001_223309</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT31S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAX021-2_223310">
+        <From>
+          <StopPointRef>6090192</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>0000SPT22087</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAX021_001_223310</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT749S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAX021-2_223311">
+        <From>
+          <StopPointRef>0000SPT22087</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6140101</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAX021_001_223311</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT34S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAX021-2_223312">
+        <From>
+          <StopPointRef>6140101</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>614099</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAX021_001_223312</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT30S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAX021-2_223313">
+        <From>
+          <StopPointRef>614099</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>614098</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAX021_001_223313</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT14S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAX021-2_223314">
+        <From>
+          <StopPointRef>614098</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6140105</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAX021_001_223314</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT29S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAX021-2_223315">
+        <From>
+          <StopPointRef>6140105</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6140108</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAX021_001_223315</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT29S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAX021-2_223316">
+        <From>
+          <StopPointRef>6140108</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6140110</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAX021_001_223316</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT26S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAX021-2_223317">
+        <From>
+          <StopPointRef>6140110</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6140111</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAX021_001_223317</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT26S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAX021-2_223318">
+        <From>
+          <StopPointRef>6140111</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6140112</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAX021_001_223318</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT27S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAX021-2_223319">
+        <From>
+          <StopPointRef>6140112</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6140967</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAX021_001_223319</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT25S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAX021-2_223320">
+        <From>
+          <StopPointRef>6140967</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6140968</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAX021_001_223320</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT50S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAX021-2_223321">
+        <From>
+          <StopPointRef>6140968</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6140152</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAX021_001_223321</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT40S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAX021-2_223322">
+        <From>
+          <StopPointRef>6140152</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6140154</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAX021_001_223322</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT30S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAX021-2_223323">
+        <From>
+          <StopPointRef>6140154</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6140257</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAX021_001_223323</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT38S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAX021-2_223324">
+        <From>
+          <StopPointRef>6140257</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6140255</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAX021_001_223324</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT78S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAX021-2_223325">
+        <From>
+          <StopPointRef>6140255</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6140252</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAX021_001_223325</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT61S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAX021-2_223326">
+        <From>
+          <StopPointRef>6140252</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6140250</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAX021_001_223326</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT41S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAX021-2_223327">
+        <From>
+          <StopPointRef>6140250</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6140249</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAX021_001_223327</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT32S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAX021-2_223328">
+        <From>
+          <StopPointRef>6140249</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6140247</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAX021_001_223328</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT59S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAX021-2_223329">
+        <From>
+          <StopPointRef>6140247</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6140288</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAX021_001_223329</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT51S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTAX021-2_223330">
+        <From>
+          <StopPointRef>6140288</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6140242</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTAX021_001_223330</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="MCG">
+      <NationalOperatorCode>MCGL</NationalOperatorCode>
+      <OperatorCode>MCG</OperatorCode>
+      <OperatorShortName>McGills Bus Service</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PTAX021</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>X21</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2019-04-01</StartDate>
+        <EndDate>2099-01-01</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>MCG</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Paisley - Glasgow</Description>
+      <StandardService>
+        <Origin>Paisley</Origin>
+        <Destination>Glasgow</Destination>
+        <JourneyPattern id="JPS_PTAX021-2">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_PTAX021-2</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>MCG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-03</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>68654</VehicleJourneyCode>
+      <ServiceRef>PTAX021</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTAX021-2</JourneyPatternRef>
+      <DepartureTime>17:33:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

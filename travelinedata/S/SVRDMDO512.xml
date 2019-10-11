@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T11:50:00-00:00" ModificationDateTime="2019-10-07T11:50:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRDMDO512.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680001004111</StopPointRef>
+      <CommonName>Railway Terrace</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000345111</StopPointRef>
+      <CommonName>Cairnsmore Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680001005222</StopPointRef>
+      <CommonName>Abercromby Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000349520</StopPointRef>
+      <CommonName>Cotton Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680001006222</StopPointRef>
+      <CommonName>Jubille Terrace</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000046503</StopPointRef>
+      <CommonName>Carlingwark Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680001007222</StopPointRef>
+      <CommonName>Whitepark Rd</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680003002222</StopPointRef>
+      <CommonName>Queen Elizabeth Drive</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000349505</StopPointRef>
+      <CommonName>Markethill</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000349501</StopPointRef>
+      <CommonName>Swimming Pool</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680001003444</StopPointRef>
+      <CommonName>Oakwell Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680001002503</StopPointRef>
+      <CommonName>Whitelaw Avenue</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680001002501</StopPointRef>
+      <CommonName>Gordon Drive</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000344501</StopPointRef>
+      <CommonName>Brown Crescent</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680001003333</StopPointRef>
+      <CommonName>Oakwell Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000952503</StopPointRef>
+      <CommonName>Ernespie Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000952444</StopPointRef>
+      <CommonName>Ernespie Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000952111</StopPointRef>
+      <CommonName>Medical centre</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="DMDO512_003">
+      <RouteLink id="DMDO512_003_78068">
+        <From>
+          <StopPointRef>680001004111</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000345111</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMDO512_003_78069">
+        <From>
+          <StopPointRef>680000345111</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680001005222</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMDO512_003_78070">
+        <From>
+          <StopPointRef>680001005222</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000349520</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMDO512_003_78071">
+        <From>
+          <StopPointRef>680000349520</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680001006222</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMDO512_003_78072">
+        <From>
+          <StopPointRef>680001006222</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000046503</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMDO512_003_78073">
+        <From>
+          <StopPointRef>680000046503</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680001007222</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMDO512_003_78074">
+        <From>
+          <StopPointRef>680001007222</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680003002222</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMDO512_003_78075">
+        <From>
+          <StopPointRef>680003002222</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000349505</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMDO512_003_78076">
+        <From>
+          <StopPointRef>680000349505</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000349501</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMDO512_003_78077">
+        <From>
+          <StopPointRef>680000349501</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680001003444</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMDO512_003_78078">
+        <From>
+          <StopPointRef>680001003444</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680001002503</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMDO512_003_78079">
+        <From>
+          <StopPointRef>680001002503</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680001002501</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMDO512_003_78080">
+        <From>
+          <StopPointRef>680001002501</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000344501</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMDO512_003_78081">
+        <From>
+          <StopPointRef>680000344501</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680001003333</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMDO512_003_78082">
+        <From>
+          <StopPointRef>680001003333</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000952503</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMDO512_003_78083">
+        <From>
+          <StopPointRef>680000952503</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000952444</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMDO512_003_78084">
+        <From>
+          <StopPointRef>680000952444</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000952111</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="DMDO512_003">
+      <Description>Castle Douglas - Town service
+</Description>
+      <RouteSectionRef>DMDO512_003</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_DMDO512-2">
+      <JourneyPatternTimingLink id="JPS_DMDO512-2_78068">
+        <From>
+          <StopPointRef>680001004111</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000345111</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMDO512_003_78068</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMDO512-2_78069">
+        <From>
+          <StopPointRef>680000345111</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680001005222</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>DMDO512_003_78069</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMDO512-2_78070">
+        <From>
+          <StopPointRef>680001005222</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000349520</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>DMDO512_003_78070</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMDO512-2_78071">
+        <From>
+          <StopPointRef>680000349520</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680001006222</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>DMDO512_003_78071</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMDO512-2_78072">
+        <From>
+          <StopPointRef>680001006222</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000046503</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>DMDO512_003_78072</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMDO512-2_78073">
+        <From>
+          <StopPointRef>680000046503</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680001007222</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>DMDO512_003_78073</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMDO512-2_78074">
+        <From>
+          <StopPointRef>680001007222</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680003002222</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMDO512_003_78074</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMDO512-2_78075">
+        <From>
+          <StopPointRef>680003002222</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000349505</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>DMDO512_003_78075</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT240S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMDO512-2_78076">
+        <From>
+          <StopPointRef>680000349505</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000349501</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMDO512_003_78076</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMDO512-2_78077">
+        <From>
+          <StopPointRef>680000349501</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680001003444</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>DMDO512_003_78077</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMDO512-2_78078">
+        <From>
+          <StopPointRef>680001003444</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680001002503</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMDO512_003_78078</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMDO512-2_78079">
+        <From>
+          <StopPointRef>680001002503</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680001002501</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>DMDO512_003_78079</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMDO512-2_78080">
+        <From>
+          <StopPointRef>680001002501</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000344501</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMDO512_003_78080</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMDO512-2_78081">
+        <From>
+          <StopPointRef>680000344501</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680001003333</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>DMDO512_003_78081</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMDO512-2_78082">
+        <From>
+          <StopPointRef>680001003333</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000952503</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>DMDO512_003_78082</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMDO512-2_78083">
+        <From>
+          <StopPointRef>680000952503</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000952444</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>DMDO512_003_78083</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMDO512-2_78084">
+        <From>
+          <StopPointRef>680000952444</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000952111</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMDO512_003_78084</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="DGC">
+      <NationalOperatorCode>DGCB</NationalOperatorCode>
+      <OperatorCode>DGC</OperatorCode>
+      <OperatorShortName>DGC Buses</OperatorShortName>
+    </Operator>
+    <Operator id="HNM">
+      <NationalOperatorCode>HNMI</NationalOperatorCode>
+      <OperatorCode>HNM</OperatorCode>
+      <OperatorShortName>Houstons Minicoaches</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>DMDO512</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>512</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2017-04-03</StartDate>
+        <EndDate>2049-12-31</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>DGC</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Castle Douglas - Town service</Description>
+      <StandardService>
+        <Origin>Castle Douglas</Origin>
+        <Destination>Town service</Destination>
+        <JourneyPattern id="JPS_DMDO512-2">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_DMDO512-2</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>DGC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2017-04-03</StartDate>
+              <EndDate>2019-03-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>18425</VehicleJourneyCode>
+      <ServiceRef>DMDO512</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DMDO512-2</JourneyPatternRef>
+      <DepartureTime>09:03:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

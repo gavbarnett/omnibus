@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:21:00-00:00" ModificationDateTime="2019-10-07T13:21:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRFSALL01.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300LUS</StopPointRef>
+      <CommonName>Luss Pier</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300ROW</StopPointRef>
+      <CommonName>Rowardennan Pier</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300TAR</StopPointRef>
+      <CommonName>Tarbet (Loch Lomond) Pier</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="FSALL01_002">
+      <RouteLink id="FSALL01_002_260397">
+        <From>
+          <StopPointRef>9300LUS</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300ROW</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSALL01_002_260398">
+        <From>
+          <StopPointRef>9300ROW</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300TAR</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSALL01_001">
+      <RouteLink id="FSALL01_001_260400">
+        <From>
+          <StopPointRef>9300TAR</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300ROW</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSALL01_001_260401">
+        <From>
+          <StopPointRef>9300ROW</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300LUS</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="FSALL01_002">
+      <Description>Luss - Rowardennan or Tarbet
+</Description>
+      <RouteSectionRef>FSALL01_002</RouteSectionRef>
+    </Route>
+    <Route id="FSALL01_001">
+      <Description>Tarbet or Rowardennan - Luss
+</Description>
+      <RouteSectionRef>FSALL01_001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_FSALL01-3">
+      <JourneyPatternTimingLink id="JPS_FSALL01-3_260397">
+        <From>
+          <StopPointRef>9300LUS</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300ROW</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSALL01_002_260397</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1800S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSALL01-3_260398">
+        <From>
+          <StopPointRef>9300ROW</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300TAR</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSALL01_002_260398</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT2700S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSALL01-4">
+      <JourneyPatternTimingLink id="JPS_FSALL01-4_260400">
+        <From>
+          <StopPointRef>9300TAR</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300ROW</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSALL01_001_260400</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2700S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSALL01-4_260401">
+        <From>
+          <StopPointRef>9300ROW</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300LUS</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSALL01_001_260401</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2700S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="CLL">
+      <NationalOperatorCode>NCLL</NationalOperatorCode>
+      <OperatorCode>CLL</OperatorCode>
+      <OperatorShortName>Cruise Loch Lomond</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>FSALL01</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>LL1</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2019-03-30</StartDate>
+        <EndDate>2019-11-03</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>CLL</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>ferry</Mode>
+      <Description>Tarbet or Rowardennan - Luss</Description>
+      <StandardService>
+        <Origin>Tarbet or Rowardennan</Origin>
+        <Destination>Luss</Destination>
+        <JourneyPattern id="JPS_FSALL01-3">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSALL01-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSALL01-4">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSALL01-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>CLL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82677</VehicleJourneyCode>
+      <ServiceRef>FSALL01</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALL01-3</JourneyPatternRef>
+      <DepartureTime>16:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CLL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82678</VehicleJourneyCode>
+      <ServiceRef>FSALL01</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSALL01-4</JourneyPatternRef>
+      <DepartureTime>08:45:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

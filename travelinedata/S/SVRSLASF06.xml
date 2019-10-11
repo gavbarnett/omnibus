@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:23:00-00:00" ModificationDateTime="2019-10-07T13:23:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRSLASF06.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300PST</StopPointRef>
+      <CommonName>Papa Stour Shetland Ferry Terminal</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300WBU</StopPointRef>
+      <CommonName>West Burrafirth Shetland Ferry Terminal</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="SLASF06_001">
+      <RouteLink id="SLASF06_001_197916">
+        <From>
+          <StopPointRef>9300PST</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300WBU</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="SLASF06_002">
+      <RouteLink id="SLASF06_002_197918">
+        <From>
+          <StopPointRef>9300WBU</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300PST</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="SLASF06_001">
+      <Description>Papa Stour - Shetland
+</Description>
+      <RouteSectionRef>SLASF06_001</RouteSectionRef>
+    </Route>
+    <Route id="SLASF06_002">
+      <Description>Shetland - Papa Stour
+</Description>
+      <RouteSectionRef>SLASF06_002</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_SLASF06-3">
+      <JourneyPatternTimingLink id="JPS_SLASF06-3_197916">
+        <From>
+          <StopPointRef>9300PST</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300WBU</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>SLASF06_001_197916</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT2400S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_SLASF06-4">
+      <JourneyPatternTimingLink id="JPS_SLASF06-4_197918">
+        <From>
+          <StopPointRef>9300WBU</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300PST</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>SLASF06_002_197918</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2400S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="SHT">
+      <NationalOperatorCode>SHET</NationalOperatorCode>
+      <OperatorCode>SHT</OperatorCode>
+      <OperatorShortName>Shetland Ferries</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>SLASF06</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>SF6</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2019-10-07</StartDate>
+        <EndDate>2049-12-31</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>SHT</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>ferry</Mode>
+      <Description>Shetland - Papa Stour</Description>
+      <StandardService>
+        <Origin>Shetland</Origin>
+        <Destination>Papa Stour</Destination>
+        <JourneyPattern id="JPS_SLASF06-3">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_SLASF06-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_SLASF06-4">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_SLASF06-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>58411</VehicleJourneyCode>
+      <ServiceRef>SLASF06</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF06-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>ADV</NoteCode>
+        <NoteText>Must be booked in advance, contact operator</NoteText>
+      </Note>
+      <DepartureTime>10:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>58412</VehicleJourneyCode>
+      <ServiceRef>SLASF06</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF06-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>ADV</NoteCode>
+        <NoteText>Must be booked in advance, contact operator</NoteText>
+      </Note>
+      <DepartureTime>18:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>58413</VehicleJourneyCode>
+      <ServiceRef>SLASF06</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF06-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>ADV</NoteCode>
+        <NoteText>Must be booked in advance, contact operator</NoteText>
+      </Note>
+      <DepartureTime>10:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>58414</VehicleJourneyCode>
+      <ServiceRef>SLASF06</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF06-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>ADV</NoteCode>
+        <NoteText>Must be booked in advance, contact operator</NoteText>
+      </Note>
+      <DepartureTime>18:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>58415</VehicleJourneyCode>
+      <ServiceRef>SLASF06</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF06-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>ADV</NoteCode>
+        <NoteText>Must be booked in advance, contact operator</NoteText>
+      </Note>
+      <DepartureTime>18:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Wednesday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-01-29</StartDate>
+              <EndDate>2020-01-29</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58416</VehicleJourneyCode>
+      <ServiceRef>SLASF06</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF06-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>ADV</NoteCode>
+        <NoteText>Must be booked in advance, contact operator</NoteText>
+      </Note>
+      <DepartureTime>10:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Wednesday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-01-29</StartDate>
+              <EndDate>2020-01-29</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58417</VehicleJourneyCode>
+      <ServiceRef>SLASF06</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF06-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>ADV</NoteCode>
+        <NoteText>Must be booked in advance, contact operator</NoteText>
+      </Note>
+      <DepartureTime>15:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>58418</VehicleJourneyCode>
+      <ServiceRef>SLASF06</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF06-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>ADV</NoteCode>
+        <NoteText>Must be booked in advance, contact operator</NoteText>
+      </Note>
+      <DepartureTime>09:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>58419</VehicleJourneyCode>
+      <ServiceRef>SLASF06</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF06-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>ADV</NoteCode>
+        <NoteText>Must be booked in advance, contact operator</NoteText>
+      </Note>
+      <DepartureTime>18:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>58420</VehicleJourneyCode>
+      <ServiceRef>SLASF06</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF06-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>ADV</NoteCode>
+        <NoteText>Must be booked in advance, contact operator</NoteText>
+      </Note>
+      <DepartureTime>09:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>58421</VehicleJourneyCode>
+      <ServiceRef>SLASF06</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF06-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>ADV</NoteCode>
+        <NoteText>Must be booked in advance, contact operator</NoteText>
+      </Note>
+      <DepartureTime>18:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>58422</VehicleJourneyCode>
+      <ServiceRef>SLASF06</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF06-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>ADV</NoteCode>
+        <NoteText>Must be booked in advance, contact operator</NoteText>
+      </Note>
+      <DepartureTime>18:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Wednesday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-01-29</StartDate>
+              <EndDate>2020-01-29</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58423</VehicleJourneyCode>
+      <ServiceRef>SLASF06</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF06-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>ADV</NoteCode>
+        <NoteText>Must be booked in advance, contact operator</NoteText>
+      </Note>
+      <DepartureTime>09:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Wednesday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-01-29</StartDate>
+              <EndDate>2020-01-29</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58424</VehicleJourneyCode>
+      <ServiceRef>SLASF06</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF06-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>ADV</NoteCode>
+        <NoteText>Must be booked in advance, contact operator</NoteText>
+      </Note>
+      <DepartureTime>15:00:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

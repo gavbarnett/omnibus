@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T11:39:00-00:00" ModificationDateTime="2019-10-07T11:39:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRPKAO091B.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>64801295</StopPointRef>
+      <CommonName>Chapel Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>64803016</StopPointRef>
+      <CommonName>Farragon Drive</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>64801306</StopPointRef>
+      <CommonName>Moness Crescent</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>64801307</StopPointRef>
+      <CommonName>The Square</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>64803092</StopPointRef>
+      <CommonName>Breadalbane Community Campus</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>64801926</StopPointRef>
+      <CommonName>Alma Avenue</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>64803339</StopPointRef>
+      <CommonName>Duntaylor Avenue</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>64803340</StopPointRef>
+      <CommonName>Dalweem</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>64803017</StopPointRef>
+      <CommonName>Taybridge Terrace</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="PKAO091B001">
+      <RouteLink id="PKAO091B001_186711">
+        <From>
+          <StopPointRef>64801295</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64803016</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PKAO091B001_186712">
+        <From>
+          <StopPointRef>64803016</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64801306</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PKAO091B001_186713">
+        <From>
+          <StopPointRef>64801306</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64801307</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PKAO091B001_186714">
+        <From>
+          <StopPointRef>64801307</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64803092</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PKAO091B001_186715">
+        <From>
+          <StopPointRef>64803092</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64801926</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PKAO091B001_186716">
+        <From>
+          <StopPointRef>64801926</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64803339</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PKAO091B001_186717">
+        <From>
+          <StopPointRef>64803339</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64803340</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PKAO091B001_186718">
+        <From>
+          <StopPointRef>64803340</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64803017</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PKAO091B001_186719">
+        <From>
+          <StopPointRef>64803017</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>64801295</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="PKAO091B001">
+      <Description>local service - Aberfeldy
+</Description>
+      <RouteSectionRef>PKAO091B001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_PKAO091B-2">
+      <JourneyPatternTimingLink id="JPS_PKAO091B-2_186711">
+        <From>
+          <StopPointRef>64801295</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64803016</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PKAO091B001_186711</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKAO091B-2_186712">
+        <From>
+          <StopPointRef>64803016</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64801306</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PKAO091B001_186712</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKAO091B-2_186713">
+        <From>
+          <StopPointRef>64801306</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64801307</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PKAO091B001_186713</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKAO091B-2_186714">
+        <From>
+          <StopPointRef>64801307</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64803092</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PKAO091B001_186714</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKAO091B-2_186715">
+        <From>
+          <StopPointRef>64803092</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64801926</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PKAO091B001_186715</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKAO091B-2_186716">
+        <From>
+          <StopPointRef>64801926</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64803339</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PKAO091B001_186716</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKAO091B-2_186717">
+        <From>
+          <StopPointRef>64803339</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64803340</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PKAO091B001_186717</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKAO091B-2_186718">
+        <From>
+          <StopPointRef>64803340</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64803017</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PKAO091B001_186718</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PKAO091B-2_186719">
+        <From>
+          <StopPointRef>64803017</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>64801295</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PKAO091B001_186719</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="SWG">
+      <NationalOperatorCode>SWGG</NationalOperatorCode>
+      <OperatorCode>SWG</OperatorCode>
+      <OperatorShortName>Sweeneys Garage</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PKAO091B</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>91B</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2019-04-15</StartDate>
+        <EndDate>2020-09-26</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>SWG</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>local service - Aberfeldy</Description>
+      <StandardService>
+        <Origin>local service</Origin>
+        <Destination>Aberfeldy</Destination>
+        <JourneyPattern id="JPS_PKAO091B-2">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_PKAO091B-2</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>SWG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-26</StartDate>
+              <EndDate>2019-12-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-02</StartDate>
+              <EndDate>2020-01-02</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>56929</VehicleJourneyCode>
+      <ServiceRef>PKAO091B</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PKAO091B-2</JourneyPatternRef>
+      <DepartureTime>10:18:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SWG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-26</StartDate>
+              <EndDate>2019-12-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-02</StartDate>
+              <EndDate>2020-01-02</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>56930</VehicleJourneyCode>
+      <ServiceRef>PKAO091B</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PKAO091B-2</JourneyPatternRef>
+      <DepartureTime>11:28:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SWG</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-26</StartDate>
+              <EndDate>2019-12-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-02</StartDate>
+              <EndDate>2020-01-02</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>56931</VehicleJourneyCode>
+      <ServiceRef>PKAO091B</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PKAO091B-2</JourneyPatternRef>
+      <DepartureTime>14:32:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

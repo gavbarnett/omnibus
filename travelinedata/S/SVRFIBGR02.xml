@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:21:00-00:00" ModificationDateTime="2019-10-07T13:21:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRFIBGR02.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <ServicedOrganisations>
+    <ServicedOrganisation>
+      <OrganisationCode>784</OrganisationCode>
+      <Name>
+QE0 : Cif-GR1-MW-20190107_20190925_222846.cif
+</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2019-09-25</StartDate>
+          <EndDate>2021-01-03</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2021-01-05</StartDate>
+          <EndDate>2021-12-25</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2022-01-09</StartDate>
+          <EndDate>2022-12-24</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2023-01-08</StartDate>
+          <EndDate>2023-12-23</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2024-01-07</StartDate>
+          <EndDate>2027-01-03</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2027-01-05</StartDate>
+          <EndDate>2027-12-04</EndDate>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+  </ServicedOrganisations>
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500K9604</StopPointRef>
+      <CommonName>Glenrothes High School</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500K0706</StopPointRef>
+      <CommonName>Willow Crescent</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500K0708</StopPointRef>
+      <CommonName>Jubilee Grove</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500K1519</StopPointRef>
+      <CommonName>Riverside Park</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500K0666</StopPointRef>
+      <CommonName>Lodge Rise</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500K9509</StopPointRef>
+      <CommonName>Aspen Avenue</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500K9199</StopPointRef>
+      <CommonName>Lodge Rise Turning Circle</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500K1515</StopPointRef>
+      <CommonName>Aspen Avenue</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500K0656</StopPointRef>
+      <CommonName>Huntsmans Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500K0659</StopPointRef>
+      <CommonName>Fire Station</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500K0660</StopPointRef>
+      <CommonName>Julian Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500K1603</StopPointRef>
+      <CommonName>Gilvenbank Park</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500K0924</StopPointRef>
+      <CommonName>Kilmichael Road - South</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500K0662</StopPointRef>
+      <CommonName>Kilmichael Road - North</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500K1422</StopPointRef>
+      <CommonName>Strathyre Place</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500K1423</StopPointRef>
+      <CommonName>Glengarry Court</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500K1053</StopPointRef>
+      <CommonName>Tummel Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500K1435</StopPointRef>
+      <CommonName>Blairadam Court</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500K1403</StopPointRef>
+      <CommonName>Affric Road</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="FIBGR02_001">
+      <RouteLink id="FIBGR02_001_133140">
+        <From>
+          <StopPointRef>6500K9604</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500K0706</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIBGR02_001_133141">
+        <From>
+          <StopPointRef>6500K0706</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500K0708</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIBGR02_001_133142">
+        <From>
+          <StopPointRef>6500K0708</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500K1519</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIBGR02_001_133143">
+        <From>
+          <StopPointRef>6500K1519</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500K0666</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIBGR02_001_133144">
+        <From>
+          <StopPointRef>6500K0666</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500K9509</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIBGR02_001_133145">
+        <From>
+          <StopPointRef>6500K9509</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500K9199</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIBGR02_001_133146">
+        <From>
+          <StopPointRef>6500K9199</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500K1515</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIBGR02_001_133147">
+        <From>
+          <StopPointRef>6500K1515</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500K0656</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIBGR02_001_133148">
+        <From>
+          <StopPointRef>6500K0656</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500K0659</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIBGR02_001_133149">
+        <From>
+          <StopPointRef>6500K0659</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500K0660</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIBGR02_001_133150">
+        <From>
+          <StopPointRef>6500K0660</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500K1603</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIBGR02_001_133151">
+        <From>
+          <StopPointRef>6500K1603</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500K0924</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIBGR02_001_133152">
+        <From>
+          <StopPointRef>6500K0924</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500K0662</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIBGR02_001_133153">
+        <From>
+          <StopPointRef>6500K0662</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500K1422</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIBGR02_001_133154">
+        <From>
+          <StopPointRef>6500K1422</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500K1423</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIBGR02_001_133155">
+        <From>
+          <StopPointRef>6500K1423</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500K1053</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIBGR02_001_133156">
+        <From>
+          <StopPointRef>6500K1053</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500K1435</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIBGR02_001_133157">
+        <From>
+          <StopPointRef>6500K1435</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500K1403</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="FIBGR02_001">
+      <Description>Glenrothes High School - Balfarg
+</Description>
+      <RouteSectionRef>FIBGR02_001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_FIBGR02-2">
+      <JourneyPatternTimingLink id="JPS_FIBGR02-2_133140">
+        <From>
+          <StopPointRef>6500K9604</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500K0706</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIBGR02_001_133140</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIBGR02-2_133141">
+        <From>
+          <StopPointRef>6500K0706</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500K0708</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIBGR02_001_133141</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIBGR02-2_133142">
+        <From>
+          <StopPointRef>6500K0708</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500K1519</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIBGR02_001_133142</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIBGR02-2_133143">
+        <From>
+          <StopPointRef>6500K1519</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500K0666</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIBGR02_001_133143</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIBGR02-2_133144">
+        <From>
+          <StopPointRef>6500K0666</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500K9509</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIBGR02_001_133144</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIBGR02-2_133145">
+        <From>
+          <StopPointRef>6500K9509</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500K9199</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FIBGR02_001_133145</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIBGR02-2_133146">
+        <From>
+          <StopPointRef>6500K9199</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500K1515</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIBGR02_001_133146</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIBGR02-2_133147">
+        <From>
+          <StopPointRef>6500K1515</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500K0656</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIBGR02_001_133147</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIBGR02-2_133148">
+        <From>
+          <StopPointRef>6500K0656</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500K0659</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FIBGR02_001_133148</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIBGR02-2_133149">
+        <From>
+          <StopPointRef>6500K0659</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500K0660</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIBGR02_001_133149</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIBGR02-2_133150">
+        <From>
+          <StopPointRef>6500K0660</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500K1603</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIBGR02_001_133150</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIBGR02-2_133151">
+        <From>
+          <StopPointRef>6500K1603</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500K0924</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIBGR02_001_133151</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIBGR02-2_133152">
+        <From>
+          <StopPointRef>6500K0924</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500K0662</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIBGR02_001_133152</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIBGR02-2_133153">
+        <From>
+          <StopPointRef>6500K0662</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500K1422</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIBGR02_001_133153</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIBGR02-2_133154">
+        <From>
+          <StopPointRef>6500K1422</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500K1423</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIBGR02_001_133154</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIBGR02-2_133155">
+        <From>
+          <StopPointRef>6500K1423</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500K1053</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIBGR02_001_133155</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIBGR02-2_133156">
+        <From>
+          <StopPointRef>6500K1053</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500K1435</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIBGR02_001_133156</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIBGR02-2_133157">
+        <From>
+          <StopPointRef>6500K1435</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500K1403</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FIBGR02_001_133157</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="MOF">
+      <NationalOperatorCode>MOFF</NationalOperatorCode>
+      <OperatorCode>MOF</OperatorCode>
+      <OperatorShortName>Moffat + Williamson</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>FIBGR02</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>GR2</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2019-01-07</StartDate>
+        <EndDate>2027-12-05</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>MOF</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Glenrothes High School - Balfarg</Description>
+      <StandardService>
+        <Origin>Glenrothes High School</Origin>
+        <Destination>Balfarg</Destination>
+        <JourneyPattern id="JPS_FIBGR02-2">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FIBGR02-2</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>MOF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>784</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>32562</VehicleJourneyCode>
+      <ServiceRef>FIBGR02</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FIBGR02-2</JourneyPatternRef>
+      <DepartureTime>14:45:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

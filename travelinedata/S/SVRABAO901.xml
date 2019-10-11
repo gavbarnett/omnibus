@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:19:00-00:00" ModificationDateTime="2019-10-07T13:19:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRABAO901.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>630041681</StopPointRef>
+      <CommonName>Auchendryne Square</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>630041671</StopPointRef>
+      <CommonName>Post Office</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>630067971</StopPointRef>
+      <CommonName>Castle Car Park</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>630064112</StopPointRef>
+      <CommonName>Invercauld Bridge</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>630064113</StopPointRef>
+      <CommonName>Inver Hotel</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>630067988</StopPointRef>
+      <CommonName>Balnault Farm</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>630041662</StopPointRef>
+      <CommonName>Balmoral Rd End</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>630060226</StopPointRef>
+      <CommonName>Suspension Bridge</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>630060223</StopPointRef>
+      <CommonName>Coilacriech Inn</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>630068055</StopPointRef>
+      <CommonName>Bridge of Gairn</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>630045241</StopPointRef>
+      <CommonName>Craigendarroch Circle</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>630042052</StopPointRef>
+      <CommonName>Invercauld Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>630042061</StopPointRef>
+      <CommonName>Golf Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>630042051</StopPointRef>
+      <CommonName>Invercauld Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>630045242</StopPointRef>
+      <CommonName>Craigendarroch Circle</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>630068054</StopPointRef>
+      <CommonName>Bridge of Gairn</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>630060224</StopPointRef>
+      <CommonName>Coilacriech Inn</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>630060225</StopPointRef>
+      <CommonName>Suspension Bridge</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>630041661</StopPointRef>
+      <CommonName>Balmoral Rd End</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>630067987</StopPointRef>
+      <CommonName>Balnault Farm</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>630064111</StopPointRef>
+      <CommonName>Inver Hotel</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>630064121</StopPointRef>
+      <CommonName>Invercauld Bridge</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>630041672</StopPointRef>
+      <CommonName>Post Office</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="ABAO901_002">
+      <RouteLink id="ABAO901_002_22849">
+        <From>
+          <StopPointRef>630041681</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>630041671</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="ABAO901_002_22850">
+        <From>
+          <StopPointRef>630041671</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>630067971</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="ABAO901_002_22851">
+        <From>
+          <StopPointRef>630067971</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>630064112</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="ABAO901_002_22852">
+        <From>
+          <StopPointRef>630064112</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>630064113</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="ABAO901_002_22853">
+        <From>
+          <StopPointRef>630064113</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>630067988</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="ABAO901_002_22854">
+        <From>
+          <StopPointRef>630067988</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>630041662</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="ABAO901_002_22855">
+        <From>
+          <StopPointRef>630041662</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>630060226</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="ABAO901_002_22856">
+        <From>
+          <StopPointRef>630060226</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>630060223</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="ABAO901_002_22857">
+        <From>
+          <StopPointRef>630060223</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>630068055</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="ABAO901_002_22858">
+        <From>
+          <StopPointRef>630068055</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>630045241</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="ABAO901_002_22859">
+        <From>
+          <StopPointRef>630045241</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>630042052</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="ABAO901_002_22860">
+        <From>
+          <StopPointRef>630042052</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>630042061</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="ABAO901_001">
+      <RouteLink id="ABAO901_001_22862">
+        <From>
+          <StopPointRef>630042061</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>630042051</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ABAO901_001_22863">
+        <From>
+          <StopPointRef>630042051</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>630045242</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ABAO901_001_22864">
+        <From>
+          <StopPointRef>630045242</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>630068054</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ABAO901_001_22865">
+        <From>
+          <StopPointRef>630068054</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>630060224</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ABAO901_001_22866">
+        <From>
+          <StopPointRef>630060224</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>630060225</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ABAO901_001_22867">
+        <From>
+          <StopPointRef>630060225</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>630041661</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ABAO901_001_22868">
+        <From>
+          <StopPointRef>630041661</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>630067987</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ABAO901_001_22869">
+        <From>
+          <StopPointRef>630067987</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>630064111</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ABAO901_001_22870">
+        <From>
+          <StopPointRef>630064111</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>630064121</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ABAO901_001_22871">
+        <From>
+          <StopPointRef>630064121</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>630041672</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="ABAO901_001_22872">
+        <From>
+          <StopPointRef>630041672</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>630041681</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="ABAO901_002">
+      <Description>Braemar - Ballater
+</Description>
+      <RouteSectionRef>ABAO901_002</RouteSectionRef>
+    </Route>
+    <Route id="ABAO901_001">
+      <Description>Ballater - Braemar
+</Description>
+      <RouteSectionRef>ABAO901_001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_ABAO901-3">
+      <JourneyPatternTimingLink id="JPS_ABAO901-3_22849">
+        <From>
+          <StopPointRef>630041681</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>630041671</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ABAO901_002_22849</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ABAO901-3_22850">
+        <From>
+          <StopPointRef>630041671</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>630067971</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ABAO901_002_22850</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ABAO901-3_22851">
+        <From>
+          <StopPointRef>630067971</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>630064112</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ABAO901_002_22851</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ABAO901-3_22852">
+        <From>
+          <StopPointRef>630064112</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>630064113</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ABAO901_002_22852</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT360S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ABAO901-3_22853">
+        <From>
+          <StopPointRef>630064113</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>630067988</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ABAO901_002_22853</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ABAO901-3_22854">
+        <From>
+          <StopPointRef>630067988</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>630041662</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>ABAO901_002_22854</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ABAO901-3_22855">
+        <From>
+          <StopPointRef>630041662</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>630060226</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ABAO901_002_22855</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ABAO901-3_22856">
+        <From>
+          <StopPointRef>630060226</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>630060223</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ABAO901_002_22856</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT240S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ABAO901-3_22857">
+        <From>
+          <StopPointRef>630060223</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>630068055</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ABAO901_002_22857</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ABAO901-3_22858">
+        <From>
+          <StopPointRef>630068055</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>630045241</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ABAO901_002_22858</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ABAO901-3_22859">
+        <From>
+          <StopPointRef>630045241</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>630042052</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ABAO901_002_22859</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ABAO901-3_22860">
+        <From>
+          <StopPointRef>630042052</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>630042061</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>ABAO901_002_22860</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_ABAO901-4">
+      <JourneyPatternTimingLink id="JPS_ABAO901-4_22862">
+        <From>
+          <StopPointRef>630042061</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>630042051</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ABAO901_001_22862</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ABAO901-4_22863">
+        <From>
+          <StopPointRef>630042051</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>630045242</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ABAO901_001_22863</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ABAO901-4_22864">
+        <From>
+          <StopPointRef>630045242</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>630068054</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ABAO901_001_22864</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ABAO901-4_22865">
+        <From>
+          <StopPointRef>630068054</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>630060224</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ABAO901_001_22865</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ABAO901-4_22866">
+        <From>
+          <StopPointRef>630060224</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>630060225</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ABAO901_001_22866</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT240S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ABAO901-4_22867">
+        <From>
+          <StopPointRef>630060225</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>630041661</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>ABAO901_001_22867</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ABAO901-4_22868">
+        <From>
+          <StopPointRef>630041661</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>630067987</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ABAO901_001_22868</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ABAO901-4_22869">
+        <From>
+          <StopPointRef>630067987</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>630064111</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ABAO901_001_22869</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ABAO901-4_22870">
+        <From>
+          <StopPointRef>630064111</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>630064121</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ABAO901_001_22870</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT360S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ABAO901-4_22871">
+        <From>
+          <StopPointRef>630064121</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>630041672</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>ABAO901_001_22871</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT240S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_ABAO901-4_22872">
+        <From>
+          <StopPointRef>630041672</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>630041681</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>ABAO901_001_22872</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="BLB">
+      <NationalOperatorCode>SBLB</NationalOperatorCode>
+      <OperatorCode>BLB</OperatorCode>
+      <OperatorShortName>Stagecoach North Scotlan</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>ABAO901</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>901</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2019-08-19</StartDate>
+        <EndDate>2021-08-19</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>BLB</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Ballater - Braemar</Description>
+      <StandardService>
+        <Origin>Ballater</Origin>
+        <Destination>Braemar</Destination>
+        <JourneyPattern id="JPS_ABAO901-3">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_ABAO901-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_ABAO901-4">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_ABAO901-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>BLB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>9955</VehicleJourneyCode>
+      <ServiceRef>ABAO901</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ABAO901-3</JourneyPatternRef>
+      <DepartureTime>09:38:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>BLB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>9956</VehicleJourneyCode>
+      <ServiceRef>ABAO901</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ABAO901-3</JourneyPatternRef>
+      <DepartureTime>11:13:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>BLB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>9957</VehicleJourneyCode>
+      <ServiceRef>ABAO901</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ABAO901-3</JourneyPatternRef>
+      <DepartureTime>13:13:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>BLB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>9958</VehicleJourneyCode>
+      <ServiceRef>ABAO901</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ABAO901-3</JourneyPatternRef>
+      <DepartureTime>15:13:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>BLB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>9959</VehicleJourneyCode>
+      <ServiceRef>ABAO901</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ABAO901-3</JourneyPatternRef>
+      <DepartureTime>17:13:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>BLB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>9960</VehicleJourneyCode>
+      <ServiceRef>ABAO901</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ABAO901-3</JourneyPatternRef>
+      <DepartureTime>18:13:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>BLB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>9961</VehicleJourneyCode>
+      <ServiceRef>ABAO901</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ABAO901-3</JourneyPatternRef>
+      <DepartureTime>20:58:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>BLB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>9962</VehicleJourneyCode>
+      <ServiceRef>ABAO901</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ABAO901-4</JourneyPatternRef>
+      <DepartureTime>09:08:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>BLB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>9963</VehicleJourneyCode>
+      <ServiceRef>ABAO901</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ABAO901-4</JourneyPatternRef>
+      <DepartureTime>09:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>BLB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>9964</VehicleJourneyCode>
+      <ServiceRef>ABAO901</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ABAO901-4</JourneyPatternRef>
+      <DepartureTime>11:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>BLB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>9965</VehicleJourneyCode>
+      <ServiceRef>ABAO901</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ABAO901-4</JourneyPatternRef>
+      <DepartureTime>13:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>BLB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>9966</VehicleJourneyCode>
+      <ServiceRef>ABAO901</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ABAO901-4</JourneyPatternRef>
+      <DepartureTime>15:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>BLB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>9967</VehicleJourneyCode>
+      <ServiceRef>ABAO901</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ABAO901-4</JourneyPatternRef>
+      <DepartureTime>17:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>BLB</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>9968</VehicleJourneyCode>
+      <ServiceRef>ABAO901</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_ABAO901-4</JourneyPatternRef>
+      <DepartureTime>20:21:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

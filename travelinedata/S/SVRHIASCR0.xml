@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:23:00-00:00" ModificationDateTime="2019-10-07T13:23:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRHIASCR0.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300SCG</StopPointRef>
+      <CommonName>Scoraig Ferry Landing</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300BAD</StopPointRef>
+      <CommonName>Badluarach Ferry Landing</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="HIASCR0_001">
+      <RouteLink id="HIASCR0_001_333523">
+        <From>
+          <StopPointRef>9300SCG</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300BAD</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="HIASCR0_002">
+      <RouteLink id="HIASCR0_002_333525">
+        <From>
+          <StopPointRef>9300BAD</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300SCG</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="HIASCR0_001">
+      <Description>Scoraig - Badluarach
+</Description>
+      <RouteSectionRef>HIASCR0_001</RouteSectionRef>
+    </Route>
+    <Route id="HIASCR0_002">
+      <Description>Badluarach - Scoraig
+</Description>
+      <RouteSectionRef>HIASCR0_002</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_HIASCR0-3">
+      <JourneyPatternTimingLink id="JPS_HIASCR0-3_333523">
+        <From>
+          <StopPointRef>9300SCG</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300BAD</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>HIASCR0_001_333523</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT900S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_HIASCR0-4">
+      <JourneyPatternTimingLink id="JPS_HIASCR0-4_333525">
+        <From>
+          <StopPointRef>9300BAD</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300SCG</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>HIASCR0_002_333525</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT900S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="SCR">
+      <NationalOperatorCode>NSCR</NationalOperatorCode>
+      <OperatorCode>SCR</OperatorCode>
+      <OperatorShortName>Scoraig Ferry</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>HIASCR0</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>SCR</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2011-03-14</StartDate>
+        <EndDate>2049-12-31</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>SCR</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>ferry</Mode>
+      <Description>Badluarach - Scoraig</Description>
+      <StandardService>
+        <Origin>Badluarach</Origin>
+        <Destination>Scoraig</Destination>
+        <JourneyPattern id="JPS_HIASCR0-3">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_HIASCR0-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_HIASCR0-4">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_HIASCR0-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>SCR</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Wednesday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>105958</VehicleJourneyCode>
+      <ServiceRef>HIASCR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_HIASCR0-3</JourneyPatternRef>
+      <DepartureTime>10:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SCR</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Wednesday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>105959</VehicleJourneyCode>
+      <ServiceRef>HIASCR0</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_HIASCR0-4</JourneyPatternRef>
+      <DepartureTime>10:45:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

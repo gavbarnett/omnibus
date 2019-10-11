@@ -1,0 +1,1391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:20:00-00:00" ModificationDateTime="2019-10-07T13:20:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRFSACM19.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300MLG</StopPointRef>
+      <CommonName>Mallaig (CalMac) Ferry Terminal</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300PTM</StopPointRef>
+      <CommonName>Muck Ferry Terminal</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300GAL</StopPointRef>
+      <CommonName>Eigg Ferry Terminal</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300KLH</StopPointRef>
+      <CommonName>Rum Ferry Terminal</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300CAN</StopPointRef>
+      <CommonName>Canna Ferry Terminal</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="FSACM19_039">
+      <RouteLink id="FSACM19_039_260239">
+        <From>
+          <StopPointRef>9300MLG</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300PTM</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSACM19_039_260240">
+        <From>
+          <StopPointRef>9300PTM</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300GAL</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSACM19_039_260241">
+        <From>
+          <StopPointRef>9300GAL</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300MLG</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSACM19_036">
+      <RouteLink id="FSACM19_036_260249">
+        <From>
+          <StopPointRef>9300MLG</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300GAL</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSACM19_036_260250">
+        <From>
+          <StopPointRef>9300GAL</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300KLH</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSACM19_036_260251">
+        <From>
+          <StopPointRef>9300KLH</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300CAN</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSACM19_036_260252">
+        <From>
+          <StopPointRef>9300CAN</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300KLH</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSACM19_036_260253">
+        <From>
+          <StopPointRef>9300KLH</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300GAL</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSACM19_036_260254">
+        <From>
+          <StopPointRef>9300GAL</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300MLG</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSACM19_037">
+      <RouteLink id="FSACM19_037_260276">
+        <From>
+          <StopPointRef>9300MLG</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300PTM</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSACM19_037_260277">
+        <From>
+          <StopPointRef>9300PTM</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300GAL</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSACM19_038">
+      <RouteLink id="FSACM19_038_260279">
+        <From>
+          <StopPointRef>9300GAL</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300PTM</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSACM19_038_260280">
+        <From>
+          <StopPointRef>9300PTM</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300MLG</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSACM19_003">
+      <RouteLink id="FSACM19_003_260282">
+        <From>
+          <StopPointRef>9300MLG</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300GAL</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSACM19_003_260283">
+        <From>
+          <StopPointRef>9300GAL</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300PTM</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSACM19_004">
+      <RouteLink id="FSACM19_004_260285">
+        <From>
+          <StopPointRef>9300PTM</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300GAL</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSACM19_004_260286">
+        <From>
+          <StopPointRef>9300GAL</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300MLG</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSACM19_001">
+      <RouteLink id="FSACM19_001_260243">
+        <From>
+          <StopPointRef>9300MLG</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300KLH</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSACM19_001_260244">
+        <From>
+          <StopPointRef>9300KLH</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300CAN</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSACM19_002">
+      <RouteLink id="FSACM19_002_260246">
+        <From>
+          <StopPointRef>9300CAN</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300KLH</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSACM19_002_260247">
+        <From>
+          <StopPointRef>9300KLH</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300MLG</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSACM19_040">
+      <RouteLink id="FSACM19_040_260256">
+        <From>
+          <StopPointRef>9300MLG</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300KLH</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSACM19_040_260257">
+        <From>
+          <StopPointRef>9300KLH</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300CAN</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSACM19_040_260258">
+        <From>
+          <StopPointRef>9300CAN</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300PTM</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSACM19_040_260259">
+        <From>
+          <StopPointRef>9300PTM</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300GAL</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSACM19_040_260260">
+        <From>
+          <StopPointRef>9300GAL</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300MLG</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSACM19_041">
+      <RouteLink id="FSACM19_041_260262">
+        <From>
+          <StopPointRef>9300MLG</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300GAL</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSACM19_041_260263">
+        <From>
+          <StopPointRef>9300GAL</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300PTM</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSACM19_041_260264">
+        <From>
+          <StopPointRef>9300PTM</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300CAN</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSACM19_041_260265">
+        <From>
+          <StopPointRef>9300CAN</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300KLH</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSACM19_041_260266">
+        <From>
+          <StopPointRef>9300KLH</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300MLG</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSACM19_042">
+      <RouteLink id="FSACM19_042_260268">
+        <From>
+          <StopPointRef>9300MLG</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300KLH</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSACM19_042_260269">
+        <From>
+          <StopPointRef>9300KLH</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300CAN</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSACM19_042_260270">
+        <From>
+          <StopPointRef>9300CAN</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300MLG</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FSACM19_043">
+      <RouteLink id="FSACM19_043_260272">
+        <From>
+          <StopPointRef>9300MLG</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300GAL</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSACM19_043_260273">
+        <From>
+          <StopPointRef>9300GAL</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300PTM</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FSACM19_043_260274">
+        <From>
+          <StopPointRef>9300PTM</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300MLG</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="FSACM19_039">
+      <Description>Mallaig - Canna Eigg Muck Rum
+</Description>
+      <RouteSectionRef>FSACM19_039</RouteSectionRef>
+    </Route>
+    <Route id="FSACM19_036">
+      <Description>Mallaig - Canna Eigg Muck Rum
+</Description>
+      <RouteSectionRef>FSACM19_036</RouteSectionRef>
+    </Route>
+    <Route id="FSACM19_037">
+      <Description>Mallaig - Canna Eigg Muck Rum
+</Description>
+      <RouteSectionRef>FSACM19_037</RouteSectionRef>
+    </Route>
+    <Route id="FSACM19_038">
+      <Description>Mallaig - Canna Eigg Muck Rum
+</Description>
+      <RouteSectionRef>FSACM19_038</RouteSectionRef>
+    </Route>
+    <Route id="FSACM19_003">
+      <Description>Mallaig - Canna Eigg Muck Rum
+</Description>
+      <RouteSectionRef>FSACM19_003</RouteSectionRef>
+    </Route>
+    <Route id="FSACM19_004">
+      <Description>Mallaig - Canna Eigg Muck Rum
+</Description>
+      <RouteSectionRef>FSACM19_004</RouteSectionRef>
+    </Route>
+    <Route id="FSACM19_001">
+      <Description>Mallaig - Canna Eigg Muck Rum
+</Description>
+      <RouteSectionRef>FSACM19_001</RouteSectionRef>
+    </Route>
+    <Route id="FSACM19_002">
+      <Description>Mallaig - Canna Eigg Muck Rum
+</Description>
+      <RouteSectionRef>FSACM19_002</RouteSectionRef>
+    </Route>
+    <Route id="FSACM19_040">
+      <Description>Mallaig - Canna Eigg Muck Rum
+</Description>
+      <RouteSectionRef>FSACM19_040</RouteSectionRef>
+    </Route>
+    <Route id="FSACM19_041">
+      <Description>Mallaig - Canna Eigg Muck Rum
+</Description>
+      <RouteSectionRef>FSACM19_041</RouteSectionRef>
+    </Route>
+    <Route id="FSACM19_042">
+      <Description>Mallaig - Canna Eigg Muck Rum
+</Description>
+      <RouteSectionRef>FSACM19_042</RouteSectionRef>
+    </Route>
+    <Route id="FSACM19_043">
+      <Description>Mallaig - Canna Eigg Muck Rum
+</Description>
+      <RouteSectionRef>FSACM19_043</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_FSACM19-13">
+      <JourneyPatternTimingLink id="JPS_FSACM19-13_260239">
+        <From>
+          <StopPointRef>9300MLG</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300PTM</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM19_039_260239</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT6000S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSACM19-13_260240">
+        <From>
+          <WaitTime>PT600S</WaitTime>
+          <StopPointRef>9300PTM</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300GAL</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM19_039_260240</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2100S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSACM19-13_260241">
+        <From>
+          <WaitTime>PT900S</WaitTime>
+          <StopPointRef>9300GAL</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300MLG</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM19_039_260241</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT4500S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSACM19-14">
+      <JourneyPatternTimingLink id="JPS_FSACM19-14_260249">
+        <From>
+          <StopPointRef>9300MLG</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300GAL</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM19_036_260249</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT4500S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSACM19-14_260250">
+        <From>
+          <WaitTime>PT600S</WaitTime>
+          <StopPointRef>9300GAL</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300KLH</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM19_036_260250</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT3600S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSACM19-14_260251">
+        <From>
+          <WaitTime>PT600S</WaitTime>
+          <StopPointRef>9300KLH</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300CAN</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM19_036_260251</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT3600S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSACM19-14_260252">
+        <From>
+          <WaitTime>PT600S</WaitTime>
+          <StopPointRef>9300CAN</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300KLH</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM19_036_260252</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT3600S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSACM19-14_260253">
+        <From>
+          <WaitTime>PT900S</WaitTime>
+          <StopPointRef>9300KLH</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300GAL</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM19_036_260253</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT3600S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSACM19-14_260254">
+        <From>
+          <WaitTime>PT900S</WaitTime>
+          <StopPointRef>9300GAL</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300MLG</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM19_036_260254</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT4500S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSACM19-15">
+      <JourneyPatternTimingLink id="JPS_FSACM19-15_260276">
+        <From>
+          <StopPointRef>9300MLG</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300PTM</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM19_037_260276</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT6000S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSACM19-15_260277">
+        <From>
+          <WaitTime>PT900S</WaitTime>
+          <StopPointRef>9300PTM</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300GAL</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM19_037_260277</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2100S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSACM19-16">
+      <JourneyPatternTimingLink id="JPS_FSACM19-16_260279">
+        <From>
+          <StopPointRef>9300GAL</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300PTM</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM19_038_260279</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2100S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSACM19-16_260280">
+        <From>
+          <WaitTime>PT900S</WaitTime>
+          <StopPointRef>9300PTM</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300MLG</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM19_038_260280</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT6300S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSACM19-17">
+      <JourneyPatternTimingLink id="JPS_FSACM19-17_260282">
+        <From>
+          <StopPointRef>9300MLG</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300GAL</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM19_003_260282</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT4500S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSACM19-17_260283">
+        <From>
+          <WaitTime>PT600S</WaitTime>
+          <StopPointRef>9300GAL</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300PTM</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM19_003_260283</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2100S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSACM19-18">
+      <JourneyPatternTimingLink id="JPS_FSACM19-18_260285">
+        <From>
+          <StopPointRef>9300PTM</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300GAL</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM19_004_260285</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2100S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSACM19-18_260286">
+        <From>
+          <WaitTime>PT900S</WaitTime>
+          <StopPointRef>9300GAL</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300MLG</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM19_004_260286</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT4500S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSACM19-19">
+      <JourneyPatternTimingLink id="JPS_FSACM19-19_260243">
+        <From>
+          <StopPointRef>9300MLG</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300KLH</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM19_001_260243</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT4800S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSACM19-19_260244">
+        <From>
+          <WaitTime>PT900S</WaitTime>
+          <StopPointRef>9300KLH</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300CAN</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM19_001_260244</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT3600S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSACM19-20">
+      <JourneyPatternTimingLink id="JPS_FSACM19-20_260246">
+        <From>
+          <StopPointRef>9300CAN</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300KLH</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM19_002_260246</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT3600S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSACM19-20_260247">
+        <From>
+          <WaitTime>PT900S</WaitTime>
+          <StopPointRef>9300KLH</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300MLG</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM19_002_260247</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT4800S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSACM19-21">
+      <JourneyPatternTimingLink id="JPS_FSACM19-21_260243">
+        <From>
+          <StopPointRef>9300MLG</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300KLH</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM19_001_260243</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT4800S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSACM19-21_260244">
+        <From>
+          <WaitTime>PT600S</WaitTime>
+          <StopPointRef>9300KLH</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300CAN</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM19_001_260244</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT3600S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSACM19-22">
+      <JourneyPatternTimingLink id="JPS_FSACM19-22_260246">
+        <From>
+          <StopPointRef>9300CAN</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300KLH</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM19_002_260246</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT3600S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSACM19-22_260247">
+        <From>
+          <WaitTime>PT600S</WaitTime>
+          <StopPointRef>9300KLH</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300MLG</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM19_002_260247</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT4800S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSACM19-23">
+      <JourneyPatternTimingLink id="JPS_FSACM19-23_260256">
+        <From>
+          <StopPointRef>9300MLG</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300KLH</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM19_040_260256</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT4800S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSACM19-23_260257">
+        <From>
+          <WaitTime>PT600S</WaitTime>
+          <StopPointRef>9300KLH</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300CAN</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM19_040_260257</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT3600S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSACM19-23_260258">
+        <From>
+          <WaitTime>PT900S</WaitTime>
+          <StopPointRef>9300CAN</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300PTM</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM19_040_260258</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT5700S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSACM19-23_260259">
+        <From>
+          <WaitTime>PT600S</WaitTime>
+          <StopPointRef>9300PTM</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300GAL</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM19_040_260259</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2100S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSACM19-23_260260">
+        <From>
+          <WaitTime>PT900S</WaitTime>
+          <StopPointRef>9300GAL</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300MLG</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM19_040_260260</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT4500S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSACM19-24">
+      <JourneyPatternTimingLink id="JPS_FSACM19-24_260262">
+        <From>
+          <StopPointRef>9300MLG</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300GAL</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM19_041_260262</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT4500S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSACM19-24_260263">
+        <From>
+          <WaitTime>PT600S</WaitTime>
+          <StopPointRef>9300GAL</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300PTM</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM19_041_260263</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2100S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSACM19-24_260264">
+        <From>
+          <WaitTime>PT600S</WaitTime>
+          <StopPointRef>9300PTM</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300CAN</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM19_041_260264</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT5700S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSACM19-24_260265">
+        <From>
+          <WaitTime>PT600S</WaitTime>
+          <StopPointRef>9300CAN</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300KLH</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM19_041_260265</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT3600S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSACM19-24_260266">
+        <From>
+          <WaitTime>PT600S</WaitTime>
+          <StopPointRef>9300KLH</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300MLG</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM19_041_260266</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT4800S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSACM19-25">
+      <JourneyPatternTimingLink id="JPS_FSACM19-25_260268">
+        <From>
+          <StopPointRef>9300MLG</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300KLH</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM19_042_260268</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT4800S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSACM19-25_260269">
+        <From>
+          <WaitTime>PT600S</WaitTime>
+          <StopPointRef>9300KLH</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300CAN</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM19_042_260269</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT3600S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSACM19-25_260270">
+        <From>
+          <WaitTime>PT600S</WaitTime>
+          <StopPointRef>9300CAN</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300MLG</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM19_042_260270</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT7500S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FSACM19-26">
+      <JourneyPatternTimingLink id="JPS_FSACM19-26_260272">
+        <From>
+          <StopPointRef>9300MLG</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300GAL</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM19_043_260272</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT4500S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSACM19-26_260273">
+        <From>
+          <WaitTime>PT900S</WaitTime>
+          <StopPointRef>9300GAL</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300PTM</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM19_043_260273</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2100S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FSACM19-26_260274">
+        <From>
+          <WaitTime>PT600S</WaitTime>
+          <StopPointRef>9300PTM</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300MLG</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FSACM19_043_260274</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT6000S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="CAL">
+      <NationalOperatorCode>CALM</NationalOperatorCode>
+      <OperatorCode>CAL</OperatorCode>
+      <OperatorShortName>Caledonian MacBrayne</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>FSACM19</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>CM19</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2019-03-29</StartDate>
+        <EndDate>2049-12-31</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>CAL</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>ferry</Mode>
+      <Description>Mallaig - Canna Eigg Muck Rum</Description>
+      <StandardService>
+        <Origin>Mallaig</Origin>
+        <Destination>Canna Eigg Muck Rum</Destination>
+        <JourneyPattern id="JPS_FSACM19-13">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSACM19-13</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSACM19-14">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSACM19-14</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSACM19-15">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSACM19-15</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSACM19-16">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSACM19-16</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSACM19-17">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSACM19-17</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSACM19-18">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSACM19-18</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSACM19-19">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSACM19-19</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSACM19-20">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSACM19-20</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSACM19-21">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSACM19-21</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSACM19-22">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSACM19-22</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSACM19-23">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSACM19-23</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSACM19-24">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSACM19-24</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSACM19-25">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSACM19-25</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FSACM19-26">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FSACM19-26</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>CAL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82321</VehicleJourneyCode>
+      <ServiceRef>FSACM19</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSACM19-13</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>08:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CAL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82324</VehicleJourneyCode>
+      <ServiceRef>FSACM19</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSACM19-14</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>10:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CAL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82329</VehicleJourneyCode>
+      <ServiceRef>FSACM19</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSACM19-15</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>10:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CAL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82330</VehicleJourneyCode>
+      <ServiceRef>FSACM19</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSACM19-16</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>12:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CAL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82331</VehicleJourneyCode>
+      <ServiceRef>FSACM19</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSACM19-17</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>10:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CAL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82332</VehicleJourneyCode>
+      <ServiceRef>FSACM19</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSACM19-18</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>12:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CAL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Wednesday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82333</VehicleJourneyCode>
+      <ServiceRef>FSACM19</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSACM19-19</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>10:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CAL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Wednesday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82334</VehicleJourneyCode>
+      <ServiceRef>FSACM19</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSACM19-20</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>15:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CAL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82322</VehicleJourneyCode>
+      <ServiceRef>FSACM19</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSACM19-21</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>12:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CAL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82323</VehicleJourneyCode>
+      <ServiceRef>FSACM19</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSACM19-22</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>15:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CAL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82325</VehicleJourneyCode>
+      <ServiceRef>FSACM19</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSACM19-23</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>07:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CAL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82326</VehicleJourneyCode>
+      <ServiceRef>FSACM19</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSACM19-24</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>14:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CAL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82327</VehicleJourneyCode>
+      <ServiceRef>FSACM19</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSACM19-25</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>09:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>CAL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>82328</VehicleJourneyCode>
+      <ServiceRef>FSACM19</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FSACM19-26</JourneyPatternRef>
+      <Note>
+        <NoteCode>FER</NoteCode>
+        <NoteText>Passengers should check-in 10 mins before ferry departure time shown</NoteText>
+      </Note>
+      <DepartureTime>14:20:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

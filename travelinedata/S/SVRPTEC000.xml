@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:20:00-00:00" ModificationDateTime="2019-10-07T13:20:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRPTEC000.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60901126</StopPointRef>
+      <CommonName>Springburn Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60904277</StopPointRef>
+      <CommonName>Huntingdon Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60901129</StopPointRef>
+      <CommonName>Fountainwell Square</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60901143</StopPointRef>
+      <CommonName>St Rollox Church</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60901141</StopPointRef>
+      <CommonName>Baird Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60901139</StopPointRef>
+      <CommonName>Sports Ground</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6090132</StopPointRef>
+      <CommonName>Glebe Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6090134</StopPointRef>
+      <CommonName>Cathedral Square</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6090136</StopPointRef>
+      <CommonName>Duke Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>609095</StopPointRef>
+      <CommonName>High St Station</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>609068</StopPointRef>
+      <CommonName>Albion Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60903710</StopPointRef>
+      <CommonName>Trongate</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6090103</StopPointRef>
+      <CommonName>Candleriggs</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60903713</StopPointRef>
+      <CommonName>High Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>609097</StopPointRef>
+      <CommonName>Blackfriars Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>609094</StopPointRef>
+      <CommonName>High St Station</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6090135</StopPointRef>
+      <CommonName>Rottenrow East</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6090131</StopPointRef>
+      <CommonName>Glebe Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60901138</StopPointRef>
+      <CommonName>Sports Ground</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60901140</StopPointRef>
+      <CommonName>Baird Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>60901142</StopPointRef>
+      <CommonName>Fountainwell Road</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="PTEC000_001">
+      <RouteLink id="PTEC000_001_246968">
+        <From>
+          <StopPointRef>60901126</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60904277</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTEC000_001_246969">
+        <From>
+          <StopPointRef>60904277</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60901129</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTEC000_001_246970">
+        <From>
+          <StopPointRef>60901129</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60901143</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTEC000_001_246971">
+        <From>
+          <StopPointRef>60901143</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60901141</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTEC000_001_246972">
+        <From>
+          <StopPointRef>60901141</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60901139</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTEC000_001_246973">
+        <From>
+          <StopPointRef>60901139</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6090132</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTEC000_001_246974">
+        <From>
+          <StopPointRef>6090132</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6090134</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTEC000_001_246975">
+        <From>
+          <StopPointRef>6090134</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6090136</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTEC000_001_246976">
+        <From>
+          <StopPointRef>6090136</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>609095</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTEC000_001_246977">
+        <From>
+          <StopPointRef>609095</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>609068</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTEC000_001_246978">
+        <From>
+          <StopPointRef>609068</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60903710</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTEC000_001_246979">
+        <From>
+          <StopPointRef>60903710</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6090103</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTEC000_001_246980">
+        <From>
+          <StopPointRef>6090103</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60903713</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTEC000_001_246981">
+        <From>
+          <StopPointRef>60903713</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>609097</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTEC000_001_246982">
+        <From>
+          <StopPointRef>609097</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>609094</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTEC000_001_246983">
+        <From>
+          <StopPointRef>609094</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6090135</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTEC000_001_246984">
+        <From>
+          <StopPointRef>6090135</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6090131</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTEC000_001_246985">
+        <From>
+          <StopPointRef>6090131</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60901138</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTEC000_001_246986">
+        <From>
+          <StopPointRef>60901138</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60901140</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTEC000_001_246987">
+        <From>
+          <StopPointRef>60901140</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60901142</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTEC000_001_246988">
+        <From>
+          <StopPointRef>60901142</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>60901126</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="PTEC000_001">
+      <Description>Glasgow City Centre circular - Sighthill
+</Description>
+      <RouteSectionRef>PTEC000_001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_PTEC000-2">
+      <JourneyPatternTimingLink id="JPS_PTEC000-2_246968">
+        <From>
+          <StopPointRef>60901126</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60904277</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTEC000_001_246968</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT50S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTEC000-2_246969">
+        <From>
+          <StopPointRef>60904277</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60901129</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTEC000_001_246969</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT26S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTEC000-2_246970">
+        <From>
+          <StopPointRef>60901129</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60901143</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTEC000_001_246970</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT104S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTEC000-2_246971">
+        <From>
+          <StopPointRef>60901143</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60901141</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTEC000_001_246971</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT136S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTEC000-2_246972">
+        <From>
+          <StopPointRef>60901141</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60901139</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTEC000_001_246972</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT45S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTEC000-2_246973">
+        <From>
+          <StopPointRef>60901139</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090132</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTEC000_001_246973</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT119S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTEC000-2_246974">
+        <From>
+          <StopPointRef>6090132</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090134</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTEC000_001_246974</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT94S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTEC000-2_246975">
+        <From>
+          <StopPointRef>6090134</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090136</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTEC000_001_246975</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT71S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTEC000-2_246976">
+        <From>
+          <StopPointRef>6090136</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>609095</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTEC000_001_246976</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT52S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTEC000-2_246977">
+        <From>
+          <StopPointRef>609095</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>609068</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTEC000_001_246977</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT65S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTEC000-2_246978">
+        <From>
+          <StopPointRef>609068</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60903710</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTEC000_001_246978</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT142S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTEC000-2_246979">
+        <From>
+          <StopPointRef>60903710</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090103</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTEC000_001_246979</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT56S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTEC000-2_246980">
+        <From>
+          <StopPointRef>6090103</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60903713</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTEC000_001_246980</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT59S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTEC000-2_246981">
+        <From>
+          <StopPointRef>60903713</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>609097</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTEC000_001_246981</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT72S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTEC000-2_246982">
+        <From>
+          <StopPointRef>609097</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>609094</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTEC000_001_246982</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT65S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTEC000-2_246983">
+        <From>
+          <StopPointRef>609094</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090135</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTEC000_001_246983</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT89S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTEC000-2_246984">
+        <From>
+          <StopPointRef>6090135</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6090131</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTEC000_001_246984</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT135S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTEC000-2_246985">
+        <From>
+          <StopPointRef>6090131</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60901138</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTEC000_001_246985</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT119S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTEC000-2_246986">
+        <From>
+          <StopPointRef>60901138</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60901140</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTEC000_001_246986</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT43S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTEC000-2_246987">
+        <From>
+          <StopPointRef>60901140</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60901142</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTEC000_001_246987</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT138S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTEC000-2_246988">
+        <From>
+          <StopPointRef>60901142</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>60901126</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTEC000_001_246988</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="NAT">
+      <NationalOperatorCode>NNAT</NationalOperatorCode>
+      <OperatorCode>NAT</OperatorCode>
+      <OperatorShortName>North Area Transport Ass</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PTEC000</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>CB4</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2016-05-23</StartDate>
+        <EndDate>2099-01-01</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>NAT</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Glasgow City Centre circular - Sighthill</Description>
+      <StandardService>
+        <Origin>Glasgow City Centre circular</Origin>
+        <Destination>Sighthill</Destination>
+        <JourneyPattern id="JPS_PTEC000-2">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_PTEC000-2</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>NAT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>76868</VehicleJourneyCode>
+      <ServiceRef>PTEC000</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTEC000-2</JourneyPatternRef>
+      <DepartureTime>09:32:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>NAT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>76869</VehicleJourneyCode>
+      <ServiceRef>PTEC000</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTEC000-2</JourneyPatternRef>
+      <DepartureTime>10:08:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>NAT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>76870</VehicleJourneyCode>
+      <ServiceRef>PTEC000</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTEC000-2</JourneyPatternRef>
+      <DepartureTime>10:46:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>NAT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>76871</VehicleJourneyCode>
+      <ServiceRef>PTEC000</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTEC000-2</JourneyPatternRef>
+      <DepartureTime>11:22:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>NAT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>76872</VehicleJourneyCode>
+      <ServiceRef>PTEC000</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTEC000-2</JourneyPatternRef>
+      <DepartureTime>12:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>NAT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>76873</VehicleJourneyCode>
+      <ServiceRef>PTEC000</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTEC000-2</JourneyPatternRef>
+      <DepartureTime>12:38:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>NAT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>76874</VehicleJourneyCode>
+      <ServiceRef>PTEC000</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTEC000-2</JourneyPatternRef>
+      <DepartureTime>13:17:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>NAT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>76875</VehicleJourneyCode>
+      <ServiceRef>PTEC000</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTEC000-2</JourneyPatternRef>
+      <DepartureTime>13:56:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

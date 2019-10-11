@@ -1,0 +1,1587 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T11:49:00-00:00" ModificationDateTime="2019-10-07T11:49:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRDMCO120.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000377111</StopPointRef>
+      <CommonName>Meikleholmside</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000382222</StopPointRef>
+      <CommonName>Holmwood Drive</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000378222</StopPointRef>
+      <CommonName>Academy</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000379444</StopPointRef>
+      <CommonName>Caroline Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000217222</StopPointRef>
+      <CommonName>Post Office</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000380222</StopPointRef>
+      <CommonName>COOP</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000637111</StopPointRef>
+      <CommonName>Flats</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000217111</StopPointRef>
+      <CommonName>High Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000217502</StopPointRef>
+      <CommonName>Park</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000380111</StopPointRef>
+      <CommonName>COOP</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000379333</StopPointRef>
+      <CommonName>Caroline Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000378111</StopPointRef>
+      <CommonName>Academy</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>680000382111</StopPointRef>
+      <CommonName>Holmwood Drive</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="DMCO120_005">
+      <RouteLink id="DMCO120_005_75205">
+        <From>
+          <StopPointRef>680000377111</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000382222</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMCO120_005_75206">
+        <From>
+          <StopPointRef>680000382222</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000378222</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMCO120_005_75207">
+        <From>
+          <StopPointRef>680000378222</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000379444</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMCO120_005_75208">
+        <From>
+          <StopPointRef>680000379444</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000217222</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="DMCO120_006">
+      <RouteLink id="DMCO120_006_75210">
+        <From>
+          <StopPointRef>680000217222</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000380222</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="DMCO120_010">
+      <RouteLink id="DMCO120_010_75212">
+        <From>
+          <StopPointRef>680000380222</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000637111</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMCO120_010_75213">
+        <From>
+          <StopPointRef>680000637111</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000217111</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMCO120_010_75214">
+        <From>
+          <StopPointRef>680000217111</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000217502</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="DMCO120_008">
+      <RouteLink id="DMCO120_008_75216">
+        <From>
+          <StopPointRef>680000377111</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000382222</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMCO120_008_75217">
+        <From>
+          <StopPointRef>680000382222</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000378222</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMCO120_008_75218">
+        <From>
+          <StopPointRef>680000378222</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000379444</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMCO120_008_75219">
+        <From>
+          <StopPointRef>680000379444</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000217222</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMCO120_008_75220">
+        <From>
+          <StopPointRef>680000217222</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000380222</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="DMCO120_007">
+      <RouteLink id="DMCO120_007_75222">
+        <From>
+          <StopPointRef>680000380222</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000637111</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMCO120_007_75223">
+        <From>
+          <StopPointRef>680000637111</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000217111</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="DMCO120_009">
+      <RouteLink id="DMCO120_009_75225">
+        <From>
+          <StopPointRef>680000217111</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000217502</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="DMCO120_002">
+      <RouteLink id="DMCO120_002_75227">
+        <From>
+          <StopPointRef>680000380111</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000217111</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMCO120_002_75228">
+        <From>
+          <StopPointRef>680000217111</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000379333</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMCO120_002_75229">
+        <From>
+          <StopPointRef>680000379333</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000378111</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMCO120_002_75230">
+        <From>
+          <StopPointRef>680000378111</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000382111</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="DMCO120_002_75231">
+        <From>
+          <StopPointRef>680000382111</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>680000377111</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="DMCO120_005">
+      <Description>New Langholm - Langholm
+</Description>
+      <RouteSectionRef>DMCO120_005</RouteSectionRef>
+    </Route>
+    <Route id="DMCO120_006">
+      <Description>New Langholm - Langholm
+</Description>
+      <RouteSectionRef>DMCO120_006</RouteSectionRef>
+    </Route>
+    <Route id="DMCO120_010">
+      <Description>New Langholm - Langholm
+</Description>
+      <RouteSectionRef>DMCO120_010</RouteSectionRef>
+    </Route>
+    <Route id="DMCO120_008">
+      <Description>New Langholm - Langholm
+</Description>
+      <RouteSectionRef>DMCO120_008</RouteSectionRef>
+    </Route>
+    <Route id="DMCO120_007">
+      <Description>New Langholm - Langholm
+</Description>
+      <RouteSectionRef>DMCO120_007</RouteSectionRef>
+    </Route>
+    <Route id="DMCO120_009">
+      <Description>New Langholm - Langholm
+</Description>
+      <RouteSectionRef>DMCO120_009</RouteSectionRef>
+    </Route>
+    <Route id="DMCO120_002">
+      <Description>Langholm - New Langholm
+</Description>
+      <RouteSectionRef>DMCO120_002</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_DMCO120-8">
+      <JourneyPatternTimingLink id="JPS_DMCO120-8_75205">
+        <From>
+          <StopPointRef>680000377111</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000382222</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMCO120_005_75205</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMCO120-8_75206">
+        <From>
+          <StopPointRef>680000382222</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000378222</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>DMCO120_005_75206</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMCO120-8_75207">
+        <From>
+          <StopPointRef>680000378222</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000379444</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMCO120_005_75207</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMCO120-8_75208">
+        <From>
+          <StopPointRef>680000379444</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000217222</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMCO120_005_75208</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_DMCO120-9">
+      <JourneyPatternTimingLink id="JPS_DMCO120-9_75210">
+        <From>
+          <StopPointRef>680000217222</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000380222</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMCO120_006_75210</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_DMCO120-10">
+      <JourneyPatternTimingLink id="JPS_DMCO120-10_75212">
+        <From>
+          <StopPointRef>680000380222</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000637111</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>DMCO120_010_75212</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMCO120-10_75213">
+        <From>
+          <StopPointRef>680000637111</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000217111</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMCO120_010_75213</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMCO120-10_75214">
+        <From>
+          <StopPointRef>680000217111</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000217502</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMCO120_010_75214</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_DMCO120-11">
+      <JourneyPatternTimingLink id="JPS_DMCO120-11_75216">
+        <From>
+          <StopPointRef>680000377111</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000382222</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMCO120_008_75216</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMCO120-11_75217">
+        <From>
+          <StopPointRef>680000382222</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000378222</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>DMCO120_008_75217</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMCO120-11_75218">
+        <From>
+          <StopPointRef>680000378222</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000379444</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMCO120_008_75218</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMCO120-11_75219">
+        <From>
+          <StopPointRef>680000379444</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000217222</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMCO120_008_75219</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMCO120-11_75220">
+        <From>
+          <StopPointRef>680000217222</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000380222</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMCO120_008_75220</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_DMCO120-12">
+      <JourneyPatternTimingLink id="JPS_DMCO120-12_75216">
+        <From>
+          <StopPointRef>680000377111</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000382222</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMCO120_008_75216</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMCO120-12_75217">
+        <From>
+          <StopPointRef>680000382222</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000378222</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>DMCO120_008_75217</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMCO120-12_75218">
+        <From>
+          <StopPointRef>680000378222</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000379444</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMCO120_008_75218</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMCO120-12_75219">
+        <From>
+          <StopPointRef>680000379444</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000217222</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMCO120_008_75219</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMCO120-12_75220">
+        <From>
+          <StopPointRef>680000217222</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000380222</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMCO120_008_75220</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_DMCO120-13">
+      <JourneyPatternTimingLink id="JPS_DMCO120-13_75216">
+        <From>
+          <StopPointRef>680000377111</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000382222</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMCO120_008_75216</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMCO120-13_75217">
+        <From>
+          <StopPointRef>680000382222</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000378222</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>DMCO120_008_75217</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMCO120-13_75218">
+        <From>
+          <StopPointRef>680000378222</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000379444</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMCO120_008_75218</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMCO120-13_75219">
+        <From>
+          <StopPointRef>680000379444</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000217222</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMCO120_008_75219</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMCO120-13_75220">
+        <From>
+          <StopPointRef>680000217222</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000380222</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMCO120_008_75220</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_DMCO120-14">
+      <JourneyPatternTimingLink id="JPS_DMCO120-14_75222">
+        <From>
+          <StopPointRef>680000380222</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000637111</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>DMCO120_007_75222</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMCO120-14_75223">
+        <From>
+          <StopPointRef>680000637111</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000217111</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMCO120_007_75223</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_DMCO120-15">
+      <JourneyPatternTimingLink id="JPS_DMCO120-15_75222">
+        <From>
+          <StopPointRef>680000380222</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000637111</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>DMCO120_007_75222</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMCO120-15_75223">
+        <From>
+          <StopPointRef>680000637111</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000217111</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMCO120_007_75223</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_DMCO120-16">
+      <JourneyPatternTimingLink id="JPS_DMCO120-16_75225">
+        <From>
+          <StopPointRef>680000217111</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000217502</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMCO120_009_75225</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_DMCO120-17">
+      <JourneyPatternTimingLink id="JPS_DMCO120-17_75225">
+        <From>
+          <StopPointRef>680000217111</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000217502</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMCO120_009_75225</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_DMCO120-18">
+      <JourneyPatternTimingLink id="JPS_DMCO120-18_75227">
+        <From>
+          <StopPointRef>680000380111</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000217111</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMCO120_002_75227</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMCO120-18_75228">
+        <From>
+          <StopPointRef>680000217111</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000379333</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMCO120_002_75228</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMCO120-18_75229">
+        <From>
+          <StopPointRef>680000379333</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000378111</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>DMCO120_002_75229</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMCO120-18_75230">
+        <From>
+          <StopPointRef>680000378111</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000382111</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMCO120_002_75230</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMCO120-18_75231">
+        <From>
+          <StopPointRef>680000382111</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000377111</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMCO120_002_75231</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT720S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_DMCO120-19">
+      <JourneyPatternTimingLink id="JPS_DMCO120-19_75227">
+        <From>
+          <StopPointRef>680000380111</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000217111</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMCO120_002_75227</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMCO120-19_75228">
+        <From>
+          <StopPointRef>680000217111</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000379333</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMCO120_002_75228</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMCO120-19_75229">
+        <From>
+          <StopPointRef>680000379333</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000378111</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>DMCO120_002_75229</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMCO120-19_75230">
+        <From>
+          <StopPointRef>680000378111</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000382111</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMCO120_002_75230</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMCO120-19_75231">
+        <From>
+          <StopPointRef>680000382111</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000377111</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMCO120_002_75231</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_DMCO120-20">
+      <JourneyPatternTimingLink id="JPS_DMCO120-20_75227">
+        <From>
+          <StopPointRef>680000380111</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000217111</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMCO120_002_75227</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMCO120-20_75228">
+        <From>
+          <StopPointRef>680000217111</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000379333</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMCO120_002_75228</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMCO120-20_75229">
+        <From>
+          <StopPointRef>680000379333</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000378111</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>DMCO120_002_75229</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMCO120-20_75230">
+        <From>
+          <StopPointRef>680000378111</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000382111</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMCO120_002_75230</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_DMCO120-20_75231">
+        <From>
+          <StopPointRef>680000382111</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>680000377111</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>DMCO120_002_75231</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="TEL">
+      <NationalOperatorCode>TELF</NationalOperatorCode>
+      <OperatorCode>TEL</OperatorCode>
+      <OperatorShortName>Telfords Coaches</OperatorShortName>
+    </Operator>
+    <Operator id="DGC">
+      <NationalOperatorCode>DGCB</NationalOperatorCode>
+      <OperatorCode>DGC</OperatorCode>
+      <OperatorShortName>DGC Buses</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>DMCO120</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>120</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2018-07-02</StartDate>
+        <EndDate>2049-12-31</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>TEL</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Langholm - New Langholm</Description>
+      <StandardService>
+        <Origin>Langholm</Origin>
+        <Destination>New Langholm</Destination>
+        <JourneyPattern id="JPS_DMCO120-8">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_DMCO120-8</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_DMCO120-9">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_DMCO120-9</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_DMCO120-10">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_DMCO120-10</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_DMCO120-11">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_DMCO120-11</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_DMCO120-12">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_DMCO120-12</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_DMCO120-13">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_DMCO120-13</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_DMCO120-14">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_DMCO120-14</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_DMCO120-15">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_DMCO120-15</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_DMCO120-16">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_DMCO120-16</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_DMCO120-17">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_DMCO120-17</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_DMCO120-18">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_DMCO120-18</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_DMCO120-19">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_DMCO120-19</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_DMCO120-20">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_DMCO120-20</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>TEL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2018-07-02</StartDate>
+              <EndDate>2018-07-06</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>18067</VehicleJourneyCode>
+      <ServiceRef>DMCO120</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DMCO120-8</JourneyPatternRef>
+      <DepartureTime>09:22:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TEL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2018-07-02</StartDate>
+              <EndDate>2018-07-06</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>18068</VehicleJourneyCode>
+      <ServiceRef>DMCO120</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DMCO120-9</JourneyPatternRef>
+      <DepartureTime>09:29:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TEL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2018-07-02</StartDate>
+              <EndDate>2018-07-06</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>18069</VehicleJourneyCode>
+      <ServiceRef>DMCO120</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DMCO120-10</JourneyPatternRef>
+      <DepartureTime>09:31:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TEL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2018-07-02</StartDate>
+              <EndDate>2018-07-06</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>18070</VehicleJourneyCode>
+      <ServiceRef>DMCO120</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DMCO120-11</JourneyPatternRef>
+      <DepartureTime>10:23:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TEL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2018-07-02</StartDate>
+              <EndDate>2018-07-06</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>18071</VehicleJourneyCode>
+      <ServiceRef>DMCO120</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DMCO120-11</JourneyPatternRef>
+      <DepartureTime>11:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TEL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2018-07-02</StartDate>
+              <EndDate>2018-07-06</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>18072</VehicleJourneyCode>
+      <ServiceRef>DMCO120</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DMCO120-11</JourneyPatternRef>
+      <DepartureTime>12:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TEL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2018-07-02</StartDate>
+              <EndDate>2018-07-06</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>18073</VehicleJourneyCode>
+      <ServiceRef>DMCO120</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DMCO120-12</JourneyPatternRef>
+      <DepartureTime>14:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TEL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2018-07-02</StartDate>
+              <EndDate>2018-07-06</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>18074</VehicleJourneyCode>
+      <ServiceRef>DMCO120</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DMCO120-12</JourneyPatternRef>
+      <DepartureTime>15:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TEL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2018-07-02</StartDate>
+              <EndDate>2018-07-06</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>18075</VehicleJourneyCode>
+      <ServiceRef>DMCO120</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DMCO120-13</JourneyPatternRef>
+      <DepartureTime>16:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TEL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2018-07-02</StartDate>
+              <EndDate>2018-07-06</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>18076</VehicleJourneyCode>
+      <ServiceRef>DMCO120</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DMCO120-14</JourneyPatternRef>
+      <DepartureTime>10:31:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TEL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2018-07-02</StartDate>
+              <EndDate>2018-07-06</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>18077</VehicleJourneyCode>
+      <ServiceRef>DMCO120</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DMCO120-14</JourneyPatternRef>
+      <DepartureTime>11:28:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TEL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2018-07-02</StartDate>
+              <EndDate>2018-07-06</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>18078</VehicleJourneyCode>
+      <ServiceRef>DMCO120</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DMCO120-14</JourneyPatternRef>
+      <DepartureTime>12:28:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TEL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2018-07-02</StartDate>
+              <EndDate>2018-07-06</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>18079</VehicleJourneyCode>
+      <ServiceRef>DMCO120</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DMCO120-15</JourneyPatternRef>
+      <DepartureTime>14:29:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TEL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2018-07-02</StartDate>
+              <EndDate>2018-07-06</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>18080</VehicleJourneyCode>
+      <ServiceRef>DMCO120</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DMCO120-15</JourneyPatternRef>
+      <DepartureTime>15:29:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TEL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2018-07-02</StartDate>
+              <EndDate>2018-07-06</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>18081</VehicleJourneyCode>
+      <ServiceRef>DMCO120</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DMCO120-14</JourneyPatternRef>
+      <DepartureTime>16:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TEL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2018-07-02</StartDate>
+              <EndDate>2018-07-06</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>18082</VehicleJourneyCode>
+      <ServiceRef>DMCO120</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DMCO120-16</JourneyPatternRef>
+      <DepartureTime>10:33:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TEL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2018-07-02</StartDate>
+              <EndDate>2018-07-06</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>18083</VehicleJourneyCode>
+      <ServiceRef>DMCO120</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DMCO120-17</JourneyPatternRef>
+      <DepartureTime>11:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TEL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2018-07-02</StartDate>
+              <EndDate>2018-07-06</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>18084</VehicleJourneyCode>
+      <ServiceRef>DMCO120</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DMCO120-17</JourneyPatternRef>
+      <DepartureTime>12:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TEL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2018-07-02</StartDate>
+              <EndDate>2018-07-06</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>18085</VehicleJourneyCode>
+      <ServiceRef>DMCO120</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DMCO120-17</JourneyPatternRef>
+      <DepartureTime>15:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TEL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2018-07-02</StartDate>
+              <EndDate>2018-07-06</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>18086</VehicleJourneyCode>
+      <ServiceRef>DMCO120</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DMCO120-18</JourneyPatternRef>
+      <DepartureTime>10:12:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TEL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2018-07-02</StartDate>
+              <EndDate>2018-07-06</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>18087</VehicleJourneyCode>
+      <ServiceRef>DMCO120</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DMCO120-19</JourneyPatternRef>
+      <DepartureTime>10:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TEL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2018-07-02</StartDate>
+              <EndDate>2018-07-06</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>18088</VehicleJourneyCode>
+      <ServiceRef>DMCO120</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DMCO120-19</JourneyPatternRef>
+      <DepartureTime>11:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TEL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2018-07-02</StartDate>
+              <EndDate>2018-07-06</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>18089</VehicleJourneyCode>
+      <ServiceRef>DMCO120</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DMCO120-19</JourneyPatternRef>
+      <DepartureTime>12:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TEL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2018-07-02</StartDate>
+              <EndDate>2018-07-06</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>18090</VehicleJourneyCode>
+      <ServiceRef>DMCO120</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DMCO120-19</JourneyPatternRef>
+      <DepartureTime>14:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TEL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2018-07-02</StartDate>
+              <EndDate>2018-07-06</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>18091</VehicleJourneyCode>
+      <ServiceRef>DMCO120</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DMCO120-19</JourneyPatternRef>
+      <DepartureTime>15:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>TEL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2018-07-02</StartDate>
+              <EndDate>2018-07-06</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>18092</VehicleJourneyCode>
+      <ServiceRef>DMCO120</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_DMCO120-20</JourneyPatternRef>
+      <DepartureTime>16:50:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

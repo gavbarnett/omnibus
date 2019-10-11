@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T12:54:00-00:00" ModificationDateTime="2019-10-07T12:54:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRBOAO046.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6900455</StopPointRef>
+      <CommonName>Mart Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>69001602</StopPointRef>
+      <CommonName>Horse</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>69001820</StopPointRef>
+      <CommonName>Orchard Ter</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>69001821</StopPointRef>
+      <CommonName>Twirlees Ter</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6900453</StopPointRef>
+      <CommonName>Trinity Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6900855</StopPointRef>
+      <CommonName>Trinity Steps</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6900853</StopPointRef>
+      <CommonName>Salisbury Avenue</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6900851</StopPointRef>
+      <CommonName>Oliver Bank</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6900850</StopPointRef>
+      <CommonName>Weensland Park</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="BOAO046_001">
+      <RouteLink id="BOAO046_001_52626">
+        <From>
+          <StopPointRef>6900455</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>69001602</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="BOAO046_001_52627">
+        <From>
+          <StopPointRef>69001602</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>69001820</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="BOAO046_001_52628">
+        <From>
+          <StopPointRef>69001820</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>69001821</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="BOAO046_001_52629">
+        <From>
+          <StopPointRef>69001821</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6900455</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="BOAO046_002">
+      <RouteLink id="BOAO046_002_52631">
+        <From>
+          <StopPointRef>6900455</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>69001602</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="BOAO046_002_52632">
+        <From>
+          <StopPointRef>69001602</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>69001820</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="BOAO046_002_52633">
+        <From>
+          <StopPointRef>69001820</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>69001821</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="BOAO046_002_52634">
+        <From>
+          <StopPointRef>69001821</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6900455</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="BOAO046_002_52635">
+        <From>
+          <StopPointRef>6900455</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6900453</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="BOAO046_002_52636">
+        <From>
+          <StopPointRef>6900453</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6900855</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="BOAO046_002_52637">
+        <From>
+          <StopPointRef>6900855</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6900853</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="BOAO046_002_52638">
+        <From>
+          <StopPointRef>6900853</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6900851</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="BOAO046_002_52639">
+        <From>
+          <StopPointRef>6900851</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6900850</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="BOAO046_001">
+      <Description>Orchard Terrace circular + Weensland Pk - Hawick
+</Description>
+      <RouteSectionRef>BOAO046_001</RouteSectionRef>
+    </Route>
+    <Route id="BOAO046_002">
+      <Description>Orchard Terrace circular + Weensland Pk - Hawick
+</Description>
+      <RouteSectionRef>BOAO046_002</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_BOAO046-3">
+      <JourneyPatternTimingLink id="JPS_BOAO046-3_52626">
+        <From>
+          <StopPointRef>6900455</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>69001602</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>BOAO046_001_52626</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_BOAO046-3_52627">
+        <From>
+          <StopPointRef>69001602</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>69001820</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>BOAO046_001_52627</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_BOAO046-3_52628">
+        <From>
+          <StopPointRef>69001820</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>69001821</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>BOAO046_001_52628</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_BOAO046-3_52629">
+        <From>
+          <StopPointRef>69001821</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6900455</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>BOAO046_001_52629</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_BOAO046-4">
+      <JourneyPatternTimingLink id="JPS_BOAO046-4_52631">
+        <From>
+          <StopPointRef>6900455</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>69001602</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>BOAO046_002_52631</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_BOAO046-4_52632">
+        <From>
+          <StopPointRef>69001602</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>69001820</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>BOAO046_002_52632</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_BOAO046-4_52633">
+        <From>
+          <StopPointRef>69001820</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>69001821</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>BOAO046_002_52633</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_BOAO046-4_52634">
+        <From>
+          <StopPointRef>69001821</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6900455</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>BOAO046_002_52634</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_BOAO046-4_52635">
+        <From>
+          <WaitTime>PT60S</WaitTime>
+          <StopPointRef>6900455</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6900453</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>BOAO046_002_52635</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_BOAO046-4_52636">
+        <From>
+          <StopPointRef>6900453</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6900855</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>BOAO046_002_52636</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_BOAO046-4_52637">
+        <From>
+          <StopPointRef>6900855</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6900853</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>BOAO046_002_52637</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_BOAO046-4_52638">
+        <From>
+          <StopPointRef>6900853</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6900851</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>BOAO046_002_52638</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_BOAO046-4_52639">
+        <From>
+          <StopPointRef>6900851</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6900850</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>BOAO046_002_52639</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="SBC">
+      <NationalOperatorCode>NSBC</NationalOperatorCode>
+      <OperatorCode>SBC</OperatorCode>
+      <OperatorShortName>Scottish Borders Council</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>BOAO046</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>46</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2015-09-23</StartDate>
+        <EndDate>2020-09-11</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>SBC</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Orchard Terrace circular + Weensland Pk - Hawick</Description>
+      <StandardService>
+        <Origin>Orchard Terrace circular + Weensland Pk</Origin>
+        <Destination>Hawick</Destination>
+        <JourneyPattern id="JPS_BOAO046-3">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_BOAO046-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_BOAO046-4">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_BOAO046-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>SBC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-02</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-10</StartDate>
+              <EndDate>2020-04-10</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-04</StartDate>
+              <EndDate>2020-05-04</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-25</StartDate>
+              <EndDate>2020-05-25</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>14264</VehicleJourneyCode>
+      <ServiceRef>BOAO046</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_BOAO046-3</JourneyPatternRef>
+      <DepartureTime>09:35:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SBC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-02</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-10</StartDate>
+              <EndDate>2020-04-10</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-04</StartDate>
+              <EndDate>2020-05-04</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-25</StartDate>
+              <EndDate>2020-05-25</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>14265</VehicleJourneyCode>
+      <ServiceRef>BOAO046</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_BOAO046-3</JourneyPatternRef>
+      <DepartureTime>13:35:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SBC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-02</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-04-10</StartDate>
+              <EndDate>2020-04-10</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-04</StartDate>
+              <EndDate>2020-05-04</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-25</StartDate>
+              <EndDate>2020-05-25</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>14266</VehicleJourneyCode>
+      <ServiceRef>BOAO046</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_BOAO046-4</JourneyPatternRef>
+      <DepartureTime>11:35:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:18:00-00:00" ModificationDateTime="2019-10-07T13:18:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRBOAO602.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <ServicedOrganisations>
+    <ServicedOrganisation>
+      <OrganisationCode>218</OrganisationCode>
+      <Name>
+QE0 : Cif-602-BRD-20170326_20190911_185435.cif
+</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2019-10-13</StartDate>
+          <EndDate>2019-10-21</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-12-22</StartDate>
+          <EndDate>2020-01-04</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-02-16</StartDate>
+          <EndDate>2020-02-18</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-04-05</StartDate>
+          <EndDate>2020-04-18</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-07-01</StartDate>
+          <EndDate>2020-09-11</EndDate>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+  </ServicedOrganisations>
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>69001377</StopPointRef>
+      <CommonName>Oakview Day Centre</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6900322</StopPointRef>
+      <CommonName>St John Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6900391</StopPointRef>
+      <CommonName>St Peter's School</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6900428</StopPointRef>
+      <CommonName>Fire Station</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6900430</StopPointRef>
+      <CommonName>Archies Walk</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6900347</StopPointRef>
+      <CommonName>Galafoot Bridge</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>69001033</StopPointRef>
+      <CommonName>Tweedbank Loch</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>69001036</StopPointRef>
+      <CommonName>Cotgreen Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>69001038</StopPointRef>
+      <CommonName>Neidpath Court</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>69001040</StopPointRef>
+      <CommonName>Jura Drive</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>69002000</StopPointRef>
+      <CommonName>Tweedbank Station</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="BOAO602_001">
+      <RouteLink id="BOAO602_001_54671">
+        <From>
+          <StopPointRef>69001377</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6900322</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="BOAO602_001_54672">
+        <From>
+          <StopPointRef>6900322</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6900391</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="BOAO602_001_54673">
+        <From>
+          <StopPointRef>6900391</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6900428</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="BOAO602_001_54674">
+        <From>
+          <StopPointRef>6900428</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6900430</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="BOAO602_001_54675">
+        <From>
+          <StopPointRef>6900430</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6900347</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="BOAO602_001_54676">
+        <From>
+          <StopPointRef>6900347</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>69001033</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="BOAO602_001_54677">
+        <From>
+          <StopPointRef>69001033</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>69001036</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="BOAO602_001_54678">
+        <From>
+          <StopPointRef>69001036</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>69001038</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="BOAO602_001_54679">
+        <From>
+          <StopPointRef>69001038</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>69001040</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="BOAO602_001_54680">
+        <From>
+          <StopPointRef>69001040</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>69002000</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="BOAO602_001">
+      <Description>Galashiels Academy - Tweedbank
+</Description>
+      <RouteSectionRef>BOAO602_001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_BOAO602-2">
+      <JourneyPatternTimingLink id="JPS_BOAO602-2_54671">
+        <From>
+          <StopPointRef>69001377</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6900322</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>BOAO602_001_54671</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_BOAO602-2_54672">
+        <From>
+          <StopPointRef>6900322</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6900391</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>BOAO602_001_54672</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_BOAO602-2_54673">
+        <From>
+          <StopPointRef>6900391</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6900428</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>BOAO602_001_54673</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_BOAO602-2_54674">
+        <From>
+          <StopPointRef>6900428</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6900430</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>BOAO602_001_54674</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_BOAO602-2_54675">
+        <From>
+          <StopPointRef>6900430</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6900347</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>BOAO602_001_54675</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_BOAO602-2_54676">
+        <From>
+          <StopPointRef>6900347</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>69001033</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>BOAO602_001_54676</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_BOAO602-2_54677">
+        <From>
+          <StopPointRef>69001033</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>69001036</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>BOAO602_001_54677</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_BOAO602-2_54678">
+        <From>
+          <StopPointRef>69001036</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>69001038</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>BOAO602_001_54678</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_BOAO602-2_54679">
+        <From>
+          <StopPointRef>69001038</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>69001040</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>BOAO602_001_54679</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_BOAO602-2_54680">
+        <From>
+          <StopPointRef>69001040</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>69002000</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>BOAO602_001_54680</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="BOR">
+      <NationalOperatorCode>BORD</NationalOperatorCode>
+      <OperatorCode>BOR</OperatorCode>
+      <OperatorShortName>Borders Buses</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>BOAO602</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>602</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2017-03-26</StartDate>
+        <EndDate>2020-09-11</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>BOR</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Galashiels Academy - Tweedbank</Description>
+      <StandardService>
+        <Origin>Galashiels Academy</Origin>
+        <Destination>Tweedbank</Destination>
+        <JourneyPattern id="JPS_BOAO602-2">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_BOAO602-2</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>BOR</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>218</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-02</StartDate>
+              <EndDate>2019-12-02</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-04</StartDate>
+              <EndDate>2020-05-04</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-25</StartDate>
+              <EndDate>2020-05-25</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>14575</VehicleJourneyCode>
+      <ServiceRef>BOAO602</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_BOAO602-2</JourneyPatternRef>
+      <DepartureTime>15:50:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

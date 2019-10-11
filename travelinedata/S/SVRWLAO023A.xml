@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T12:43:00-00:00" ModificationDateTime="2019-10-07T12:43:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRWLAO023A.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6290LW09</StopPointRef>
+      <CommonName>Cross</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6290LW06</StopPointRef>
+      <CommonName>Back Station Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6290LW05</StopPointRef>
+      <CommonName>St Magdalenes</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6290LW02</StopPointRef>
+      <CommonName>St Michaels Hospital</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6290LW57</StopPointRef>
+      <CommonName>Kingscavil Cemetery</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6290PH01</StopPointRef>
+      <CommonName>Church Court</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6290PH03</StopPointRef>
+      <CommonName>Windyridge Cottage</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6290A904</StopPointRef>
+      <CommonName>Abercorn Road End</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6290NEWT02</StopPointRef>
+      <CommonName>Duddingstone Terrace</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6200203270</StopPointRef>
+      <CommonName>Echline Corner</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6200203280</StopPointRef>
+      <CommonName>Springfield Crescent</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6200203290</StopPointRef>
+      <CommonName>Springfield View</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6200203300</StopPointRef>
+      <CommonName>Walker Drive</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6200203340</StopPointRef>
+      <CommonName>Queensferry Police Station</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6200246595</StopPointRef>
+      <CommonName>The Loan</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6200246600</StopPointRef>
+      <CommonName>Viewforth Place</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6200246610</StopPointRef>
+      <CommonName>Lovers Lane</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6200246680</StopPointRef>
+      <CommonName>Moubray Grove</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6200246690</StopPointRef>
+      <CommonName>Atheling Grove</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6200246700</StopPointRef>
+      <CommonName>Provost Milne Grove</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6200246710</StopPointRef>
+      <CommonName>Sommerville Gardens</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="WLAO023A001">
+      <RouteLink id="WLAO023A001_251128">
+        <From>
+          <StopPointRef>6290LW09</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6290LW06</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="WLAO023A001_251129">
+        <From>
+          <StopPointRef>6290LW06</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6290LW05</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="WLAO023A001_251130">
+        <From>
+          <StopPointRef>6290LW05</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6290LW02</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="WLAO023A001_251131">
+        <From>
+          <StopPointRef>6290LW02</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6290LW57</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="WLAO023A001_251132">
+        <From>
+          <StopPointRef>6290LW57</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6290PH01</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="WLAO023A001_251133">
+        <From>
+          <StopPointRef>6290PH01</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6290PH03</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="WLAO023A001_251134">
+        <From>
+          <StopPointRef>6290PH03</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6290A904</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="WLAO023A001_251135">
+        <From>
+          <StopPointRef>6290A904</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6290NEWT02</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="WLAO023A001_251136">
+        <From>
+          <StopPointRef>6290NEWT02</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200203270</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="WLAO023A001_251137">
+        <From>
+          <StopPointRef>6200203270</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200203280</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="WLAO023A001_251138">
+        <From>
+          <StopPointRef>6200203280</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200203290</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="WLAO023A001_251139">
+        <From>
+          <StopPointRef>6200203290</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200203300</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="WLAO023A001_251140">
+        <From>
+          <StopPointRef>6200203300</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200203340</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="WLAO023A001_251141">
+        <From>
+          <StopPointRef>6200203340</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200246595</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="WLAO023A001_251142">
+        <From>
+          <StopPointRef>6200246595</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200246600</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="WLAO023A001_251143">
+        <From>
+          <StopPointRef>6200246600</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200246610</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="WLAO023A001_251144">
+        <From>
+          <StopPointRef>6200246610</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200246680</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="WLAO023A001_251145">
+        <From>
+          <StopPointRef>6200246680</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200246690</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="WLAO023A001_251146">
+        <From>
+          <StopPointRef>6200246690</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200246700</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="WLAO023A001_251147">
+        <From>
+          <StopPointRef>6200246700</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6200246710</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="WLAO023A001">
+      <Description>Linlithgow - South Queensferry
+</Description>
+      <RouteSectionRef>WLAO023A001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_WLAO023A-2">
+      <JourneyPatternTimingLink id="JPS_WLAO023A-2_251128">
+        <From>
+          <StopPointRef>6290LW09</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6290LW06</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>WLAO023A001_251128</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_WLAO023A-2_251129">
+        <From>
+          <StopPointRef>6290LW06</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6290LW05</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>WLAO023A001_251129</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_WLAO023A-2_251130">
+        <From>
+          <StopPointRef>6290LW05</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6290LW02</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>WLAO023A001_251130</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_WLAO023A-2_251131">
+        <From>
+          <StopPointRef>6290LW02</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6290LW57</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>WLAO023A001_251131</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_WLAO023A-2_251132">
+        <From>
+          <StopPointRef>6290LW57</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6290PH01</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>WLAO023A001_251132</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT420S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_WLAO023A-2_251133">
+        <From>
+          <StopPointRef>6290PH01</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6290PH03</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>WLAO023A001_251133</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_WLAO023A-2_251134">
+        <From>
+          <StopPointRef>6290PH03</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6290A904</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>WLAO023A001_251134</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_WLAO023A-2_251135">
+        <From>
+          <StopPointRef>6290A904</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6290NEWT02</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>WLAO023A001_251135</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT240S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_WLAO023A-2_251136">
+        <From>
+          <StopPointRef>6290NEWT02</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200203270</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>WLAO023A001_251136</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT240S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_WLAO023A-2_251137">
+        <From>
+          <StopPointRef>6200203270</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200203280</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>WLAO023A001_251137</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_WLAO023A-2_251138">
+        <From>
+          <StopPointRef>6200203280</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200203290</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>WLAO023A001_251138</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_WLAO023A-2_251139">
+        <From>
+          <StopPointRef>6200203290</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200203300</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>WLAO023A001_251139</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_WLAO023A-2_251140">
+        <From>
+          <StopPointRef>6200203300</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200203340</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>WLAO023A001_251140</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_WLAO023A-2_251141">
+        <From>
+          <StopPointRef>6200203340</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200246595</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>WLAO023A001_251141</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_WLAO023A-2_251142">
+        <From>
+          <StopPointRef>6200246595</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200246600</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>WLAO023A001_251142</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_WLAO023A-2_251143">
+        <From>
+          <StopPointRef>6200246600</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200246610</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>WLAO023A001_251143</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_WLAO023A-2_251144">
+        <From>
+          <StopPointRef>6200246610</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200246680</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>WLAO023A001_251144</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_WLAO023A-2_251145">
+        <From>
+          <StopPointRef>6200246680</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200246690</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>WLAO023A001_251145</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_WLAO023A-2_251146">
+        <From>
+          <StopPointRef>6200246690</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200246700</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>WLAO023A001_251146</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_WLAO023A-2_251147">
+        <From>
+          <StopPointRef>6200246700</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6200246710</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>WLAO023A001_251147</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="ATF">
+      <NationalOperatorCode>ATFS</NationalOperatorCode>
+      <OperatorCode>ATF</OperatorCode>
+      <OperatorShortName>All The Fours</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>WLAO023A</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>23A</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2014-05-15</StartDate>
+        <EndDate>2020-08-30</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>ATF</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Linlithgow - South Queensferry</Description>
+      <StandardService>
+        <Origin>Linlithgow</Origin>
+        <Destination>South Queensferry</Destination>
+        <JourneyPattern id="JPS_WLAO023A-2">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_WLAO023A-2</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>ATF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>78339</VehicleJourneyCode>
+      <ServiceRef>WLAO023A</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_WLAO023A-2</JourneyPatternRef>
+      <DepartureTime>06:44:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>ATF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>78340</VehicleJourneyCode>
+      <ServiceRef>WLAO023A</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_WLAO023A-2</JourneyPatternRef>
+      <DepartureTime>07:15:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

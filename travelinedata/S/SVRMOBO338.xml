@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:13:00-00:00" ModificationDateTime="2019-10-07T13:13:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRMOBO338.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <ServicedOrganisations>
+    <ServicedOrganisation>
+      <OrganisationCode>1660</OrganisationCode>
+      <Name>
+QE0 : Cif-338-MCO-20190129_20190821_095414.cif
+</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2019-02-03</StartDate>
+          <EndDate>2019-02-09</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-03-31</StartDate>
+          <EndDate>2019-04-13</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-05-12</StartDate>
+          <EndDate>2019-05-18</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-06-30</StartDate>
+          <EndDate>2019-08-17</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-10-13</StartDate>
+          <EndDate>2019-10-26</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-12-22</StartDate>
+          <EndDate>2020-01-04</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-02-02</StartDate>
+          <EndDate>2020-02-08</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-03-29</StartDate>
+          <EndDate>2020-04-04</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-05-10</StartDate>
+          <EndDate>2020-05-16</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-06-28</StartDate>
+          <EndDate>2020-08-21</EndDate>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+    <ServicedOrganisation>
+      <OrganisationCode>1661</OrganisationCode>
+      <Name>
+QE0 : Cif-338-MCO-20190129_20190821_095414.cif
+</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2019-03-31</StartDate>
+          <EndDate>2019-04-14</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-05-16</StartDate>
+          <EndDate>2019-05-18</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-06-30</StartDate>
+          <EndDate>2019-08-19</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-10-13</StartDate>
+          <EndDate>2019-10-26</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-11-10</StartDate>
+          <EndDate>2019-11-12</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-12-22</StartDate>
+          <EndDate>2020-01-04</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-03-29</StartDate>
+          <EndDate>2020-04-11</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-05-14</StartDate>
+          <EndDate>2020-05-16</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-07-05</StartDate>
+          <EndDate>2020-08-21</EndDate>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+  </ServicedOrganisations>
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>638052992</StopPointRef>
+      <CommonName>The Square</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>638063341</StopPointRef>
+      <CommonName>Speyside High School</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>638052993</StopPointRef>
+      <CommonName>Fleming Hospital &amp; Aberlour Health Centre</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>638063611</StopPointRef>
+      <CommonName>Post Office</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>638064017</StopPointRef>
+      <CommonName>Road End</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>638052991</StopPointRef>
+      <CommonName>The Square</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="MOBO338_002">
+      <RouteLink id="MOBO338_002_400403">
+        <From>
+          <StopPointRef>638052992</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>638063341</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="MOBO338_002_400404">
+        <From>
+          <StopPointRef>638063341</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>638052993</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="MOBO338_002_400405">
+        <From>
+          <StopPointRef>638052993</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>638063611</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="MOBO338_002_400406">
+        <From>
+          <StopPointRef>638063611</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>638064017</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="MOBO338_002_400407">
+        <From>
+          <StopPointRef>638064017</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>638052991</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="MOBO338_001">
+      <RouteLink id="MOBO338_001_400409">
+        <From>
+          <StopPointRef>638052992</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>638063611</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="MOBO338_001_400410">
+        <From>
+          <StopPointRef>638063611</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>638064017</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="MOBO338_001_400411">
+        <From>
+          <StopPointRef>638064017</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>638063341</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="MOBO338_001_400412">
+        <From>
+          <StopPointRef>638063341</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>638052993</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="MOBO338_001_400413">
+        <From>
+          <StopPointRef>638052993</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>638052991</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="MOBO338_002">
+      <Description>Aberlour - Speyside HS and Carron cirular
+</Description>
+      <RouteSectionRef>MOBO338_002</RouteSectionRef>
+    </Route>
+    <Route id="MOBO338_001">
+      <Description>Aberlour - Carron and Speyside HS circular
+</Description>
+      <RouteSectionRef>MOBO338_001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_MOBO338-3">
+      <JourneyPatternTimingLink id="JPS_MOBO338-3_400403">
+        <From>
+          <StopPointRef>638052992</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>638063341</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>MOBO338_002_400403</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_MOBO338-3_400404">
+        <From>
+          <StopPointRef>638063341</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>638052993</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>MOBO338_002_400404</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_MOBO338-3_400405">
+        <From>
+          <StopPointRef>638052993</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>638063611</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>MOBO338_002_400405</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1860S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_MOBO338-3_400406">
+        <From>
+          <StopPointRef>638063611</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>638064017</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>MOBO338_002_400406</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1260S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_MOBO338-3_400407">
+        <From>
+          <StopPointRef>638064017</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>638052991</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>MOBO338_002_400407</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT540S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_MOBO338-4">
+      <JourneyPatternTimingLink id="JPS_MOBO338-4_400409">
+        <From>
+          <StopPointRef>638052992</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>638063611</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>MOBO338_001_400409</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1200S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_MOBO338-4_400410">
+        <From>
+          <StopPointRef>638063611</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>638064017</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>MOBO338_001_400410</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1080S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_MOBO338-4_400411">
+        <From>
+          <StopPointRef>638064017</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>638063341</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>MOBO338_001_400411</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT540S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_MOBO338-4_400412">
+        <From>
+          <StopPointRef>638063341</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>638052993</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>MOBO338_001_400412</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_MOBO338-4_400413">
+        <From>
+          <StopPointRef>638052993</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>638052991</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>MOBO338_001_400413</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_MOBO338-5">
+      <JourneyPatternTimingLink id="JPS_MOBO338-5_400403">
+        <From>
+          <StopPointRef>638052992</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>638063341</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>MOBO338_002_400403</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_MOBO338-5_400404">
+        <From>
+          <StopPointRef>638063341</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>638052993</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>MOBO338_002_400404</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_MOBO338-5_400405">
+        <From>
+          <StopPointRef>638052993</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>638063611</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>MOBO338_002_400405</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1320S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_MOBO338-5_400406">
+        <From>
+          <StopPointRef>638063611</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>638064017</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>MOBO338_002_400406</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1320S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_MOBO338-5_400407">
+        <From>
+          <StopPointRef>638064017</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>638052991</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>MOBO338_002_400407</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT480S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="MCO">
+      <NationalOperatorCode>MCOL</NationalOperatorCode>
+      <OperatorCode>MCO</OperatorCode>
+      <OperatorShortName>Moray Council</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>MOBO338</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>338</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2019-01-29</StartDate>
+        <EndDate>2020-08-21</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>MCO</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Aberlour - Carron and Speyside HS circular</Description>
+      <StandardService>
+        <Origin>Aberlour</Origin>
+        <Destination>Carron and Speyside HS circular</Destination>
+        <JourneyPattern id="JPS_MOBO338-3">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_MOBO338-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_MOBO338-4">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_MOBO338-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_MOBO338-5">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_MOBO338-5</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>MCO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>1660</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-04-10</StartDate>
+              <EndDate>2020-04-10</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>139813</VehicleJourneyCode>
+      <ServiceRef>MOBO338</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_MOBO338-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>Sch-7</NoteCode>
+        <NoteText>School Days Only</NoteText>
+      </Note>
+      <DepartureTime>13:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MCO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>1660</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-04-10</StartDate>
+              <EndDate>2020-04-10</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>139815</VehicleJourneyCode>
+      <ServiceRef>MOBO338</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_MOBO338-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>Sch-7</NoteCode>
+        <NoteText>School Days Only</NoteText>
+      </Note>
+      <DepartureTime>07:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MCO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>1661</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-02-10</StartDate>
+              <EndDate>2020-02-10</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-04</StartDate>
+              <EndDate>2020-05-04</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>139816</VehicleJourneyCode>
+      <ServiceRef>MOBO338</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_MOBO338-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>Sch-7</NoteCode>
+        <NoteText>School Days Only</NoteText>
+      </Note>
+      <DepartureTime>07:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MCO</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>1661</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2020-02-10</StartDate>
+              <EndDate>2020-02-10</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-04</StartDate>
+              <EndDate>2020-05-04</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>139814</VehicleJourneyCode>
+      <ServiceRef>MOBO338</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_MOBO338-5</JourneyPatternRef>
+      <Note>
+        <NoteCode>Sch-7</NoteCode>
+        <NoteText>School Days Only</NoteText>
+      </Note>
+      <DepartureTime>15:10:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:23:00-00:00" ModificationDateTime="2019-10-07T13:23:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRSLASF07.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300FIE</StopPointRef>
+      <CommonName>Fair Isle Shetland Ferry Terminal</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300SUM</StopPointRef>
+      <CommonName>Grutness Shetland Ferry Terminal</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="SLASF07_001">
+      <RouteLink id="SLASF07_001_197920">
+        <From>
+          <StopPointRef>9300FIE</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300SUM</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="SLASF07_002">
+      <RouteLink id="SLASF07_002_197922">
+        <From>
+          <StopPointRef>9300SUM</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300FIE</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="SLASF07_001">
+      <Description>Fair Isle - Shetland
+</Description>
+      <RouteSectionRef>SLASF07_001</RouteSectionRef>
+    </Route>
+    <Route id="SLASF07_002">
+      <Description>Shetland - Fair Isle
+</Description>
+      <RouteSectionRef>SLASF07_002</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_SLASF07-3">
+      <JourneyPatternTimingLink id="JPS_SLASF07-3_197920">
+        <From>
+          <StopPointRef>9300FIE</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300SUM</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>SLASF07_001_197920</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT9600S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_SLASF07-4">
+      <JourneyPatternTimingLink id="JPS_SLASF07-4_197922">
+        <From>
+          <StopPointRef>9300SUM</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300FIE</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>SLASF07_002_197922</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT9600S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="SHT">
+      <NationalOperatorCode>SHET</NationalOperatorCode>
+      <OperatorCode>SHT</OperatorCode>
+      <OperatorShortName>Shetland Ferries</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>SLASF07</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>SF7</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2019-05-06</StartDate>
+        <EndDate>2049-12-31</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>SHT</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>ferry</Mode>
+      <Description>Shetland - Fair Isle</Description>
+      <StandardService>
+        <Origin>Shetland</Origin>
+        <Destination>Fair Isle</Destination>
+        <JourneyPattern id="JPS_SLASF07-3">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_SLASF07-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_SLASF07-4">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_SLASF07-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>58426</VehicleJourneyCode>
+      <ServiceRef>SLASF07</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF07-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>RES</NoteCode>
+        <NoteText>Reservations essential</NoteText>
+      </Note>
+      <DepartureTime>07:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>58428</VehicleJourneyCode>
+      <ServiceRef>SLASF07</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF07-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>RES</NoteCode>
+        <NoteText>Reservations essential</NoteText>
+      </Note>
+      <DepartureTime>11:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-05-06</StartDate>
+              <EndDate>2020-05-01</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-03</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58425</VehicleJourneyCode>
+      <ServiceRef>SLASF07</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF07-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>RES</NoteCode>
+        <NoteText>Reservations essential</NoteText>
+      </Note>
+      <DepartureTime>07:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SHT</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-05-06</StartDate>
+              <EndDate>2020-05-01</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-03</StartDate>
+              <EndDate>2049-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>58427</VehicleJourneyCode>
+      <ServiceRef>SLASF07</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_SLASF07-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>RES</NoteCode>
+        <NoteText>Reservations essential</NoteText>
+      </Note>
+      <DepartureTime>11:30:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

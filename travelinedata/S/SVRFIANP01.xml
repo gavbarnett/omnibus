@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:23:00-00:00" ModificationDateTime="2019-10-07T13:23:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRFIANP01.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <ServicedOrganisations>
+    <ServicedOrganisation>
+      <OrganisationCode>533</OrganisationCode>
+      <Name>
+QE0 : Cif-NP1-MW-20160909_20190925_211434.cif
+</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2019-10-06</StartDate>
+          <EndDate>2019-10-21</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-12-22</StartDate>
+          <EndDate>2020-01-06</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-02-12</StartDate>
+          <EndDate>2020-02-15</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-04-05</StartDate>
+          <EndDate>2020-04-18</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-05-31</StartDate>
+          <EndDate>2020-06-02</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-07-03</StartDate>
+          <EndDate>2020-08-18</EndDate>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+  </ServicedOrganisations>
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500N9547</StopPointRef>
+      <CommonName>Primary School</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500N9224</StopPointRef>
+      <CommonName>Forgan Arts Centre</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500N0077</StopPointRef>
+      <CommonName>South Access</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500N0075</StopPointRef>
+      <CommonName>Bank Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500N0072</StopPointRef>
+      <CommonName>Robert Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500N0073</StopPointRef>
+      <CommonName>Post Office</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500N0066</StopPointRef>
+      <CommonName>Kinbrae Park Turning Circle</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500N0069</StopPointRef>
+      <CommonName>Boat Brae</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500N0070</StopPointRef>
+      <CommonName>Boat Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500N0518</StopPointRef>
+      <CommonName>Post Office</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500N0078</StopPointRef>
+      <CommonName>Station Brae</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500N0650</StopPointRef>
+      <CommonName>Forgan Roundabout</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500N9022</StopPointRef>
+      <CommonName>Garage</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500N9046</StopPointRef>
+      <CommonName>Forgan Drive</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500N9045</StopPointRef>
+      <CommonName>Craigie House</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500N0402</StopPointRef>
+      <CommonName>Garage</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500N0651</StopPointRef>
+      <CommonName>Forgan Roundabout</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="FIANP01_002">
+      <RouteLink id="FIANP01_002_99175">
+        <From>
+          <StopPointRef>6500N9547</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500N9224</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIANP01_002_99176">
+        <From>
+          <StopPointRef>6500N9224</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500N0077</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIANP01_002_99177">
+        <From>
+          <StopPointRef>6500N0077</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500N0075</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIANP01_002_99178">
+        <From>
+          <StopPointRef>6500N0075</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500N0072</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIANP01_002_99179">
+        <From>
+          <StopPointRef>6500N0072</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500N0073</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIANP01_002_99180">
+        <From>
+          <StopPointRef>6500N0073</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500N0066</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIANP01_002_99181">
+        <From>
+          <StopPointRef>6500N0066</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500N0069</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIANP01_002_99182">
+        <From>
+          <StopPointRef>6500N0069</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500N0070</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIANP01_002_99183">
+        <From>
+          <StopPointRef>6500N0070</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500N0518</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIANP01_002_99184">
+        <From>
+          <StopPointRef>6500N0518</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500N0078</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIANP01_002_99185">
+        <From>
+          <StopPointRef>6500N0078</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500N0650</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIANP01_002_99186">
+        <From>
+          <StopPointRef>6500N0650</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500N9022</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIANP01_002_99187">
+        <From>
+          <StopPointRef>6500N9022</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500N9046</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FIANP01_003">
+      <RouteLink id="FIANP01_003_99189">
+        <From>
+          <StopPointRef>6500N9046</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500N9045</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIANP01_003_99190">
+        <From>
+          <StopPointRef>6500N9045</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500N0402</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIANP01_003_99191">
+        <From>
+          <StopPointRef>6500N0402</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500N0651</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIANP01_003_99192">
+        <From>
+          <StopPointRef>6500N0651</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500N0077</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIANP01_003_99193">
+        <From>
+          <StopPointRef>6500N0077</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500N0075</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIANP01_003_99194">
+        <From>
+          <StopPointRef>6500N0075</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500N0072</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIANP01_003_99195">
+        <From>
+          <StopPointRef>6500N0072</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500N0073</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIANP01_003_99196">
+        <From>
+          <StopPointRef>6500N0073</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500N0066</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIANP01_003_99197">
+        <From>
+          <StopPointRef>6500N0066</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500N0069</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIANP01_003_99198">
+        <From>
+          <StopPointRef>6500N0069</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500N0070</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIANP01_003_99199">
+        <From>
+          <StopPointRef>6500N0070</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500N0518</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIANP01_003_99200">
+        <From>
+          <StopPointRef>6500N0518</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500N0078</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIANP01_003_99201">
+        <From>
+          <StopPointRef>6500N0078</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500N9547</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="FIANP01_002">
+      <Description>Newport Primary School - Drumoig
+</Description>
+      <RouteSectionRef>FIANP01_002</RouteSectionRef>
+    </Route>
+    <Route id="FIANP01_003">
+      <Description>Drumoig - Newport Primary School
+</Description>
+      <RouteSectionRef>FIANP01_003</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_FIANP01-3">
+      <JourneyPatternTimingLink id="JPS_FIANP01-3_99175">
+        <From>
+          <StopPointRef>6500N9547</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500N9224</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIANP01_002_99175</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIANP01-3_99176">
+        <From>
+          <StopPointRef>6500N9224</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500N0077</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FIANP01_002_99176</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIANP01-3_99177">
+        <From>
+          <StopPointRef>6500N0077</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500N0075</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FIANP01_002_99177</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT240S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIANP01-3_99178">
+        <From>
+          <StopPointRef>6500N0075</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500N0072</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIANP01_002_99178</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIANP01-3_99179">
+        <From>
+          <StopPointRef>6500N0072</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500N0073</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIANP01_002_99179</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIANP01-3_99180">
+        <From>
+          <StopPointRef>6500N0073</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500N0066</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FIANP01_002_99180</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIANP01-3_99181">
+        <From>
+          <StopPointRef>6500N0066</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500N0069</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIANP01_002_99181</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIANP01-3_99182">
+        <From>
+          <StopPointRef>6500N0069</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500N0070</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIANP01_002_99182</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIANP01-3_99183">
+        <From>
+          <StopPointRef>6500N0070</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500N0518</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIANP01_002_99183</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIANP01-3_99184">
+        <From>
+          <StopPointRef>6500N0518</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500N0078</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FIANP01_002_99184</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIANP01-3_99185">
+        <From>
+          <StopPointRef>6500N0078</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500N0650</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIANP01_002_99185</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIANP01-3_99186">
+        <From>
+          <StopPointRef>6500N0650</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500N9022</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FIANP01_002_99186</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT360S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIANP01-3_99187">
+        <From>
+          <StopPointRef>6500N9022</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500N9046</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FIANP01_002_99187</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FIANP01-4">
+      <JourneyPatternTimingLink id="JPS_FIANP01-4_99189">
+        <From>
+          <StopPointRef>6500N9046</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500N9045</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIANP01_003_99189</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIANP01-4_99190">
+        <From>
+          <StopPointRef>6500N9045</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500N0402</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FIANP01_003_99190</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIANP01-4_99191">
+        <From>
+          <StopPointRef>6500N0402</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500N0651</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIANP01_003_99191</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIANP01-4_99192">
+        <From>
+          <StopPointRef>6500N0651</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500N0077</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FIANP01_003_99192</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIANP01-4_99193">
+        <From>
+          <StopPointRef>6500N0077</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500N0075</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FIANP01_003_99193</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIANP01-4_99194">
+        <From>
+          <StopPointRef>6500N0075</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500N0072</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIANP01_003_99194</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIANP01-4_99195">
+        <From>
+          <StopPointRef>6500N0072</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500N0073</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIANP01_003_99195</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIANP01-4_99196">
+        <From>
+          <StopPointRef>6500N0073</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500N0066</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FIANP01_003_99196</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIANP01-4_99197">
+        <From>
+          <StopPointRef>6500N0066</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500N0069</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIANP01_003_99197</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIANP01-4_99198">
+        <From>
+          <StopPointRef>6500N0069</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500N0070</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIANP01_003_99198</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIANP01-4_99199">
+        <From>
+          <StopPointRef>6500N0070</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500N0518</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIANP01_003_99199</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIANP01-4_99200">
+        <From>
+          <StopPointRef>6500N0518</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500N0078</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FIANP01_003_99200</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIANP01-4_99201">
+        <From>
+          <StopPointRef>6500N0078</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500N9547</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FIANP01_003_99201</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="MOF">
+      <NationalOperatorCode>MOFF</NationalOperatorCode>
+      <OperatorCode>MOF</OperatorCode>
+      <OperatorShortName>Moffat + Williamson</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>FIANP01</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>NP1</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2016-09-09</StartDate>
+        <EndDate>2020-09-25</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>MOF</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Drumoig - Newport Primary School</Description>
+      <StandardService>
+        <Origin>Drumoig</Origin>
+        <Destination>Newport Primary School</Destination>
+        <JourneyPattern id="JPS_FIANP01-3">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FIANP01-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FIANP01-4">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FIANP01-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>MOF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>533</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-11-15</StartDate>
+              <EndDate>2019-11-15</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-04</StartDate>
+              <EndDate>2020-05-04</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>23807</VehicleJourneyCode>
+      <ServiceRef>FIANP01</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FIANP01-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>SCH-2</NoteCode>
+        <NoteText>Operates on Fife schooldays only</NoteText>
+      </Note>
+      <DepartureTime>15:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>MOF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>533</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-11-15</StartDate>
+              <EndDate>2019-11-15</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-04</StartDate>
+              <EndDate>2020-05-04</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>23808</VehicleJourneyCode>
+      <ServiceRef>FIANP01</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FIANP01-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>SCH-2</NoteCode>
+        <NoteText>Operates on Fife schooldays only</NoteText>
+      </Note>
+      <DepartureTime>08:27:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

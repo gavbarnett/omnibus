@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:22:00-00:00" ModificationDateTime="2019-10-07T13:22:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRFIAML01.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <ServicedOrganisations>
+    <ServicedOrganisation>
+      <OrganisationCode>527</OrganisationCode>
+      <Name>
+QE0 : Cif-FQA1-SIF-20161024_20190925_215521.cif
+</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2019-10-06</StartDate>
+          <EndDate>2019-10-21</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-12-22</StartDate>
+          <EndDate>2020-01-06</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-02-12</StartDate>
+          <EndDate>2020-02-15</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-04-05</StartDate>
+          <EndDate>2020-04-18</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-05-31</StartDate>
+          <EndDate>2020-06-02</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-07-03</StartDate>
+          <EndDate>2020-08-18</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-10-11</StartDate>
+          <EndDate>2020-10-24</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-12-23</StartDate>
+          <EndDate>2021-01-03</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2021-02-17</StartDate>
+          <EndDate>2021-02-20</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2021-03-28</StartDate>
+          <EndDate>2021-04-10</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2021-07-02</StartDate>
+          <EndDate>2022-01-03</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2022-01-05</StartDate>
+          <EndDate>2023-01-02</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2023-01-04</StartDate>
+          <EndDate>2027-01-03</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2027-01-05</StartDate>
+          <EndDate>2027-06-22</EndDate>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+  </ServicedOrganisations>
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500D0289</StopPointRef>
+      <CommonName>McLean Primary School</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500D0291</StopPointRef>
+      <CommonName>Trenchard Place</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500D0296</StopPointRef>
+      <CommonName>Broomhead Flats</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500D0295</StopPointRef>
+      <CommonName>Queen Anne High School</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500D0294</StopPointRef>
+      <CommonName>Wellwood Community Centre</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500D9908</StopPointRef>
+      <CommonName>Springbank Terrace</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500D0293</StopPointRef>
+      <CommonName>Wellwood Community Centre</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500D9265</StopPointRef>
+      <CommonName>Queen Anne High School</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500D0766</StopPointRef>
+      <CommonName>Queen Anne High School</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500D0298</StopPointRef>
+      <CommonName>Broomhead Drive</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500D0297</StopPointRef>
+      <CommonName>Broomhead Flats</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500D0292</StopPointRef>
+      <CommonName>Trenchard Place</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6500D0290</StopPointRef>
+      <CommonName>McLean Primary School</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="FIAML01_002">
+      <RouteLink id="FIAML01_002_98930">
+        <From>
+          <StopPointRef>6500D0289</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500D0291</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIAML01_002_98931">
+        <From>
+          <StopPointRef>6500D0291</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500D0296</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIAML01_002_98932">
+        <From>
+          <StopPointRef>6500D0296</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500D0295</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIAML01_002_98933">
+        <From>
+          <StopPointRef>6500D0295</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500D0294</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIAML01_002_98934">
+        <From>
+          <StopPointRef>6500D0294</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500D9908</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIAML01_002_98935">
+        <From>
+          <StopPointRef>6500D9908</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500D0293</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIAML01_002_98936">
+        <From>
+          <StopPointRef>6500D0293</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500D9265</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FIAML01_003">
+      <RouteLink id="FIAML01_003_98938">
+        <From>
+          <StopPointRef>6500D9265</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500D0295</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIAML01_003_98939">
+        <From>
+          <StopPointRef>6500D0295</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500D0294</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIAML01_003_98940">
+        <From>
+          <StopPointRef>6500D0294</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500D9908</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIAML01_003_98941">
+        <From>
+          <StopPointRef>6500D9908</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500D0293</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIAML01_003_98942">
+        <From>
+          <StopPointRef>6500D0293</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500D0766</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIAML01_003_98943">
+        <From>
+          <StopPointRef>6500D0766</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500D0298</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIAML01_003_98944">
+        <From>
+          <StopPointRef>6500D0298</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500D0297</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIAML01_003_98945">
+        <From>
+          <StopPointRef>6500D0297</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500D0292</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FIAML01_003_98946">
+        <From>
+          <StopPointRef>6500D0292</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6500D0290</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="FIAML01_002">
+      <Description>McLean Primary School - Dunfermline
+</Description>
+      <RouteSectionRef>FIAML01_002</RouteSectionRef>
+    </Route>
+    <Route id="FIAML01_003">
+      <Description>Dunfermline - McLean Primary School
+</Description>
+      <RouteSectionRef>FIAML01_003</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_FIAML01-3">
+      <JourneyPatternTimingLink id="JPS_FIAML01-3_98930">
+        <From>
+          <StopPointRef>6500D0289</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D0291</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIAML01_002_98930</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIAML01-3_98931">
+        <From>
+          <StopPointRef>6500D0291</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D0296</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FIAML01_002_98931</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIAML01-3_98932">
+        <From>
+          <StopPointRef>6500D0296</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D0295</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIAML01_002_98932</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIAML01-3_98933">
+        <From>
+          <StopPointRef>6500D0295</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D0294</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIAML01_002_98933</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIAML01-3_98934">
+        <From>
+          <StopPointRef>6500D0294</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D9908</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIAML01_002_98934</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIAML01-3_98935">
+        <From>
+          <StopPointRef>6500D9908</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D0293</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FIAML01_002_98935</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIAML01-3_98936">
+        <From>
+          <StopPointRef>6500D0293</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D9265</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FIAML01_002_98936</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FIAML01-4">
+      <JourneyPatternTimingLink id="JPS_FIAML01-4_98938">
+        <From>
+          <StopPointRef>6500D9265</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D0295</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIAML01_003_98938</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIAML01-4_98939">
+        <From>
+          <StopPointRef>6500D0295</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D0294</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIAML01_003_98939</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIAML01-4_98940">
+        <From>
+          <StopPointRef>6500D0294</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D9908</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIAML01_003_98940</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIAML01-4_98941">
+        <From>
+          <StopPointRef>6500D9908</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D0293</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FIAML01_003_98941</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIAML01-4_98942">
+        <From>
+          <StopPointRef>6500D0293</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D0766</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIAML01_003_98942</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIAML01-4_98943">
+        <From>
+          <StopPointRef>6500D0766</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D0298</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIAML01_003_98943</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIAML01-4_98944">
+        <From>
+          <StopPointRef>6500D0298</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D0297</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FIAML01_003_98944</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIAML01-4_98945">
+        <From>
+          <StopPointRef>6500D0297</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D0292</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FIAML01_003_98945</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FIAML01-4_98946">
+        <From>
+          <StopPointRef>6500D0292</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6500D0290</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FIAML01_003_98946</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="SIF">
+      <NationalOperatorCode>SCFI</NationalOperatorCode>
+      <OperatorCode>SIF</OperatorCode>
+      <OperatorShortName>Stagecoach East Scotland</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>FIAML01</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>ML1</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2016-10-24</StartDate>
+        <EndDate>2027-06-22</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>SIF</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Dunfermline - McLean Primary School</Description>
+      <StandardService>
+        <Origin>Dunfermline</Origin>
+        <Destination>McLean Primary School</Destination>
+        <JourneyPattern id="JPS_FIAML01-3">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FIAML01-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FIAML01-4">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FIAML01-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>SIF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>527</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-11-15</StartDate>
+              <EndDate>2019-11-15</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-04</StartDate>
+              <EndDate>2020-05-04</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>23769</VehicleJourneyCode>
+      <ServiceRef>FIAML01</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FIAML01-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>SCH-2</NoteCode>
+        <NoteText>Operates on Fife schooldays only</NoteText>
+      </Note>
+      <DepartureTime>15:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>SIF</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfNonOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>527</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfNonOperation>
+        </ServicedOrganisationDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-11-15</StartDate>
+              <EndDate>2019-11-15</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-05-04</StartDate>
+              <EndDate>2020-05-04</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>23770</VehicleJourneyCode>
+      <ServiceRef>FIAML01</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FIAML01-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>SCH-2</NoteCode>
+        <NoteText>Operates on Fife schooldays only</NoteText>
+      </Note>
+      <DepartureTime>08:40:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

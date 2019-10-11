@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:13:00-00:00" ModificationDateTime="2019-10-07T13:13:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRPTBO333.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61801049</StopPointRef>
+      <CommonName>Jean Armour Drive</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61801050</StopPointRef>
+      <CommonName>Jean Armour Drive</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61801095</StopPointRef>
+      <CommonName>Irvine Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61801132</StopPointRef>
+      <CommonName>Annandale Industrial Estate</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6180220</StopPointRef>
+      <CommonName>Irvine Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6180218</StopPointRef>
+      <CommonName>Munro Avenue</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6180207</StopPointRef>
+      <CommonName>Peace Avenue</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6180202</StopPointRef>
+      <CommonName>Fullarton Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6180435</StopPointRef>
+      <CommonName>North Hamilton Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6180228</StopPointRef>
+      <CommonName>Nelson Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6180229</StopPointRef>
+      <CommonName>Dunlop Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6180117</StopPointRef>
+      <CommonName>Soulis Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6180738</StopPointRef>
+      <CommonName>Palace Theatre</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6180198</StopPointRef>
+      <CommonName>Waterside Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61801106</StopPointRef>
+      <CommonName>South Hamilton Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6180201</StopPointRef>
+      <CommonName>Fullarton Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6180208</StopPointRef>
+      <CommonName>Stevenston Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6180217</StopPointRef>
+      <CommonName>Munro Avenue</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6180219</StopPointRef>
+      <CommonName>Annanhill Avenue</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61801133</StopPointRef>
+      <CommonName>Annandale Industrial Estate</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="PTBO333_003">
+      <RouteLink id="PTBO333_003_231376">
+        <From>
+          <StopPointRef>61801049</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61801050</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO333_003_231377">
+        <From>
+          <StopPointRef>61801050</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61801095</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO333_003_231378">
+        <From>
+          <StopPointRef>61801095</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61801132</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO333_003_231379">
+        <From>
+          <StopPointRef>61801132</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6180220</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO333_003_231380">
+        <From>
+          <StopPointRef>6180220</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6180218</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO333_003_231381">
+        <From>
+          <StopPointRef>6180218</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6180207</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO333_003_231382">
+        <From>
+          <StopPointRef>6180207</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6180202</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO333_003_231383">
+        <From>
+          <StopPointRef>6180202</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6180435</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO333_003_231384">
+        <From>
+          <StopPointRef>6180435</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6180228</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO333_003_231385">
+        <From>
+          <StopPointRef>6180228</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6180229</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO333_003_231386">
+        <From>
+          <StopPointRef>6180229</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6180117</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO333_003_231387">
+        <From>
+          <StopPointRef>6180117</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6180738</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="PTBO333_001">
+      <RouteLink id="PTBO333_001_231389">
+        <From>
+          <StopPointRef>6180738</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6180198</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO333_001_231390">
+        <From>
+          <StopPointRef>6180198</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61801106</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO333_001_231391">
+        <From>
+          <StopPointRef>61801106</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6180201</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO333_001_231392">
+        <From>
+          <StopPointRef>6180201</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6180208</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO333_001_231393">
+        <From>
+          <StopPointRef>6180208</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6180217</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO333_001_231394">
+        <From>
+          <StopPointRef>6180217</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6180219</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO333_001_231395">
+        <From>
+          <StopPointRef>6180219</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61801133</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO333_001_231396">
+        <From>
+          <StopPointRef>61801133</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61801049</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="PTBO333_001_231397">
+        <From>
+          <StopPointRef>61801049</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61801050</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="PTBO333_003">
+      <Description>Moorfield North Industrial Park - Kilmarnock
+</Description>
+      <RouteSectionRef>PTBO333_003</RouteSectionRef>
+    </Route>
+    <Route id="PTBO333_001">
+      <Description>Kilmarnock - Moorfield North Industrial Park
+</Description>
+      <RouteSectionRef>PTBO333_001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_PTBO333-3">
+      <JourneyPatternTimingLink id="JPS_PTBO333-3_231376">
+        <From>
+          <StopPointRef>61801049</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61801050</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO333_003_231376</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT27S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO333-3_231377">
+        <From>
+          <StopPointRef>61801050</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61801095</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO333_003_231377</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT186S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO333-3_231378">
+        <From>
+          <StopPointRef>61801095</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61801132</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO333_003_231378</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT71S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO333-3_231379">
+        <From>
+          <StopPointRef>61801132</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6180220</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO333_003_231379</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT30S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO333-3_231380">
+        <From>
+          <StopPointRef>6180220</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6180218</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO333_003_231380</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT45S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO333-3_231381">
+        <From>
+          <StopPointRef>6180218</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6180207</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO333_003_231381</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT100S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO333-3_231382">
+        <From>
+          <StopPointRef>6180207</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6180202</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO333_003_231382</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT52S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO333-3_231383">
+        <From>
+          <StopPointRef>6180202</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6180435</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO333_003_231383</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT42S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO333-3_231384">
+        <From>
+          <StopPointRef>6180435</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6180228</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO333_003_231384</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT60S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO333-3_231385">
+        <From>
+          <StopPointRef>6180228</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6180229</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO333_003_231385</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT54S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO333-3_231386">
+        <From>
+          <StopPointRef>6180229</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6180117</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO333_003_231386</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT59S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO333-3_231387">
+        <From>
+          <StopPointRef>6180117</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6180738</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO333_003_231387</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT54S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_PTBO333-4">
+      <JourneyPatternTimingLink id="JPS_PTBO333-4_231389">
+        <From>
+          <StopPointRef>6180738</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6180198</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO333_001_231389</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT72S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO333-4_231390">
+        <From>
+          <StopPointRef>6180198</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61801106</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO333_001_231390</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT81S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO333-4_231391">
+        <From>
+          <StopPointRef>61801106</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6180201</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO333_001_231391</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT40S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO333-4_231392">
+        <From>
+          <StopPointRef>6180201</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6180208</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO333_001_231392</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT82S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO333-4_231393">
+        <From>
+          <StopPointRef>6180208</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6180217</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO333_001_231393</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT95S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO333-4_231394">
+        <From>
+          <StopPointRef>6180217</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6180219</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO333_001_231394</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT53S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO333-4_231395">
+        <From>
+          <StopPointRef>6180219</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61801133</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO333_001_231395</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT69S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO333-4_231396">
+        <From>
+          <StopPointRef>61801133</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61801049</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO333_001_231396</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT197S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_PTBO333-4_231397">
+        <From>
+          <StopPointRef>61801049</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61801050</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>PTBO333_001_231397</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT31S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="STW">
+      <NationalOperatorCode>STWS</NationalOperatorCode>
+      <OperatorCode>STW</OperatorCode>
+      <OperatorShortName>Stagecoach West Scotland</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PTBO333</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>333</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2017-10-23</StartDate>
+        <EndDate>2099-01-01</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>STW</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>Kilmarnock - Moorfield North Industrial Park</Description>
+      <StandardService>
+        <Origin>Kilmarnock</Origin>
+        <Destination>Moorfield North Industrial Park</Destination>
+        <JourneyPattern id="JPS_PTBO333-3">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_PTBO333-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_PTBO333-4">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_PTBO333-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>STW</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71380</VehicleJourneyCode>
+      <ServiceRef>PTBO333</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO333-3</JourneyPatternRef>
+      <DepartureTime>16:17:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>STW</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2019-12-25</StartDate>
+              <EndDate>2019-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2020-01-01</StartDate>
+              <EndDate>2020-01-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>71381</VehicleJourneyCode>
+      <ServiceRef>PTBO333</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_PTBO333-4</JourneyPatternRef>
+      <DepartureTime>07:45:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

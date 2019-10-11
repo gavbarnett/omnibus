@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:03:00-00:00" ModificationDateTime="2019-10-07T13:03:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRFWAO120.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <ServicedOrganisations>
+    <ServicedOrganisation>
+      <OrganisationCode>1586</OrganisationCode>
+      <Name>
+QE1 : 120MFI59N.cif
+</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2019-10-01</StartDate>
+          <EndDate>2019-10-11</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-10-21</StartDate>
+          <EndDate>2019-12-20</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-01-06</StartDate>
+          <EndDate>2020-04-03</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-04-20</StartDate>
+          <EndDate>2020-05-07</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-05-11</StartDate>
+          <EndDate>2020-06-26</EndDate>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+    <ServicedOrganisation>
+      <OrganisationCode>1587</OrganisationCode>
+      <Name>
+QE1 : 120MFO59N.cif
+</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2019-10-01</StartDate>
+          <EndDate>2019-10-11</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2019-10-21</StartDate>
+          <EndDate>2019-12-20</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-01-06</StartDate>
+          <EndDate>2020-04-03</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-04-20</StartDate>
+          <EndDate>2020-05-07</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2020-05-11</StartDate>
+          <EndDate>2020-06-26</EndDate>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+  </ServicedOrganisations>
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61501730</StopPointRef>
+      <CommonName>South Lanarkshire College</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6150935</StopPointRef>
+      <CommonName>Scottish Enterprise Technology Park</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>61501663</StopPointRef>
+      <CommonName>Bus Station</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>6150936</StopPointRef>
+      <CommonName>Scottish Enterprise Technology Park</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="FWAO120_002">
+      <RouteLink id="FWAO120_002_385978">
+        <From>
+          <StopPointRef>61501730</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6150935</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="FWAO120_002_385979">
+        <From>
+          <StopPointRef>6150935</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61501663</StopPointRef>
+        </To>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="FWAO120_001">
+      <RouteLink id="FWAO120_001_385981">
+        <From>
+          <StopPointRef>61501663</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>6150936</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="FWAO120_001_385982">
+        <From>
+          <StopPointRef>6150936</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>61501730</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="FWAO120_002">
+      <Description>South Lanarkshire College - East Kilbride
+</Description>
+      <RouteSectionRef>FWAO120_002</RouteSectionRef>
+    </Route>
+    <Route id="FWAO120_001">
+      <Description>East Kilbride - South Lanarkshire College
+</Description>
+      <RouteSectionRef>FWAO120_001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_FWAO120-3">
+      <JourneyPatternTimingLink id="JPS_FWAO120-3_385978">
+        <From>
+          <StopPointRef>61501730</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6150935</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO120_002_385978</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FWAO120-3_385979">
+        <From>
+          <StopPointRef>6150935</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61501663</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO120_002_385979</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT180S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_FWAO120-4">
+      <JourneyPatternTimingLink id="JPS_FWAO120-4_385981">
+        <From>
+          <StopPointRef>61501663</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>6150936</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO120_001_385981</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT120S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_FWAO120-4_385982">
+        <From>
+          <StopPointRef>6150936</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>61501730</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>FWAO120_001_385982</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT300S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="FGL">
+      <NationalOperatorCode>FGLA</NationalOperatorCode>
+      <OperatorCode>FGL</OperatorCode>
+      <OperatorShortName>First Glasgow</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>FWAO120</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>120</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2019-08-19</StartDate>
+        <EndDate>2050-01-01</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>FGL</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <Description>East Kilbride - South Lanarkshire College</Description>
+      <StandardService>
+        <Origin>East Kilbride</Origin>
+        <Destination>South Lanarkshire College</Destination>
+        <JourneyPattern id="JPS_FWAO120-3">
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FWAO120-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_FWAO120-4">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_FWAO120-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>FGL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>1586</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>130711</VehicleJourneyCode>
+      <ServiceRef>FWAO120</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FWAO120-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>CD</NoteCode>
+        <NoteText>College Days Only</NoteText>
+      </Note>
+      <DepartureTime>08:34:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>FGL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>1586</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>130712</VehicleJourneyCode>
+      <ServiceRef>FWAO120</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FWAO120-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>CD</NoteCode>
+        <NoteText>College Days Only</NoteText>
+      </Note>
+      <DepartureTime>08:54:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>FGL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>1586</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>130713</VehicleJourneyCode>
+      <ServiceRef>FWAO120</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FWAO120-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>CD</NoteCode>
+        <NoteText>College Days Only</NoteText>
+      </Note>
+      <DepartureTime>16:08:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>FGL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>1586</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>130714</VehicleJourneyCode>
+      <ServiceRef>FWAO120</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FWAO120-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>CD</NoteCode>
+        <NoteText>College Days Only</NoteText>
+      </Note>
+      <DepartureTime>16:28:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>FGL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>1586</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>130715</VehicleJourneyCode>
+      <ServiceRef>FWAO120</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FWAO120-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>CD</NoteCode>
+        <NoteText>College Days Only</NoteText>
+      </Note>
+      <DepartureTime>16:48:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>FGL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>1587</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>130716</VehicleJourneyCode>
+      <ServiceRef>FWAO120</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FWAO120-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>CD</NoteCode>
+        <NoteText>College Days Only</NoteText>
+      </Note>
+      <DepartureTime>08:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>FGL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>1587</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>130717</VehicleJourneyCode>
+      <ServiceRef>FWAO120</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FWAO120-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>CD</NoteCode>
+        <NoteText>College Days Only</NoteText>
+      </Note>
+      <DepartureTime>08:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>FGL</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>1587</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>130718</VehicleJourneyCode>
+      <ServiceRef>FWAO120</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_FWAO120-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>CD</NoteCode>
+        <NoteText>College Days Only</NoteText>
+      </Note>
+      <DepartureTime>09:08:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

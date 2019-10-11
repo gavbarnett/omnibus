@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2019-10-07T13:20:00-00:00" ModificationDateTime="2019-10-07T13:20:00-00:00" Modification="new" RevisionNumber="0" FileName="SVRHIAF007.xml" SchemaVersion="2.1" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300MGK</StopPointRef>
+      <CommonName>Mallaig (for Knoydart) Ferry Terminal</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300IVE</StopPointRef>
+      <CommonName>Inverie Ferry Landing</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9300TLN</StopPointRef>
+      <CommonName>Tarbet (Loch Nevis) Ferry Landing</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="HIAF007_001">
+      <RouteLink id="HIAF007_001_313963">
+        <From>
+          <StopPointRef>9300MGK</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300IVE</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="HIAF007_002">
+      <RouteLink id="HIAF007_002_313965">
+        <From>
+          <StopPointRef>9300IVE</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300MGK</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="HIAF007_003">
+      <RouteLink id="HIAF007_003_313967">
+        <From>
+          <StopPointRef>9300MGK</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300IVE</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="HIAF007_003_313968">
+        <From>
+          <StopPointRef>9300IVE</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300TLN</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="HIAF007_004">
+      <RouteLink id="HIAF007_004_313970">
+        <From>
+          <StopPointRef>9300TLN</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300IVE</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="HIAF007_004_313971">
+        <From>
+          <StopPointRef>9300IVE</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9300MGK</StopPointRef>
+        </To>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="HIAF007_001">
+      <Description>Mallaig - Inverie and Tarbet
+</Description>
+      <RouteSectionRef>HIAF007_001</RouteSectionRef>
+    </Route>
+    <Route id="HIAF007_002">
+      <Description>Mallaig - Inverie and Tarbet
+</Description>
+      <RouteSectionRef>HIAF007_002</RouteSectionRef>
+    </Route>
+    <Route id="HIAF007_003">
+      <Description>Mallaig - Inverie and Tarbet
+</Description>
+      <RouteSectionRef>HIAF007_003</RouteSectionRef>
+    </Route>
+    <Route id="HIAF007_004">
+      <Description>Mallaig - Inverie and Tarbet
+</Description>
+      <RouteSectionRef>HIAF007_004</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_HIAF007-5">
+      <JourneyPatternTimingLink id="JPS_HIAF007-5_313963">
+        <From>
+          <StopPointRef>9300MGK</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300IVE</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>HIAF007_001_313963</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2700S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_HIAF007-6">
+      <JourneyPatternTimingLink id="JPS_HIAF007-6_313965">
+        <From>
+          <StopPointRef>9300IVE</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300MGK</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>HIAF007_002_313965</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2700S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_HIAF007-7">
+      <JourneyPatternTimingLink id="JPS_HIAF007-7_313963">
+        <From>
+          <StopPointRef>9300MGK</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300IVE</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>HIAF007_001_313963</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1800S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_HIAF007-8">
+      <JourneyPatternTimingLink id="JPS_HIAF007-8_313965">
+        <From>
+          <StopPointRef>9300IVE</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300MGK</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>HIAF007_002_313965</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1800S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_HIAF007-9">
+      <JourneyPatternTimingLink id="JPS_HIAF007-9_313967">
+        <From>
+          <StopPointRef>9300MGK</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300IVE</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>HIAF007_003_313967</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2700S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_HIAF007-9_313968">
+        <From>
+          <StopPointRef>9300IVE</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300TLN</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>HIAF007_003_313968</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1800S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_HIAF007-10">
+      <JourneyPatternTimingLink id="JPS_HIAF007-10_313970">
+        <From>
+          <StopPointRef>9300TLN</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300IVE</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>HIAF007_004_313970</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2700S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_HIAF007-10_313971">
+        <From>
+          <StopPointRef>9300IVE</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9300MGK</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>HIAF007_004_313971</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2700S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="WIC">
+      <NationalOperatorCode>WICS</NationalOperatorCode>
+      <OperatorCode>WIC</OperatorCode>
+      <OperatorShortName>Western Isles Cruises</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>HIAF007</ServiceCode>
+      <Lines>
+        <Line id="0">
+          <LineName>F7</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2018-04-01</StartDate>
+        <EndDate>2049-12-31</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>WIC</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>ferry</Mode>
+      <Description>Mallaig - Inverie and Tarbet</Description>
+      <StandardService>
+        <Origin>Mallaig</Origin>
+        <Destination>Inverie and Tarbet</Destination>
+        <JourneyPattern id="JPS_HIAF007-5">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_HIAF007-5</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_HIAF007-6">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_HIAF007-6</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_HIAF007-7">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_HIAF007-7</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_HIAF007-8">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_HIAF007-8</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_HIAF007-9">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_HIAF007-9</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS_HIAF007-10">
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_HIAF007-10</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>WIC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>102775</VehicleJourneyCode>
+      <ServiceRef>HIAF007</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_HIAF007-5</JourneyPatternRef>
+      <Note>
+        <NoteCode>REC</NoteCode>
+        <NoteText>Reservations recommended, contact operator.</NoteText>
+      </Note>
+      <DepartureTime>07:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>WIC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>102776</VehicleJourneyCode>
+      <ServiceRef>HIAF007</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_HIAF007-6</JourneyPatternRef>
+      <Note>
+        <NoteCode>REC</NoteCode>
+        <NoteText>Reservations recommended, contact operator.</NoteText>
+      </Note>
+      <DepartureTime>08:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>WIC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>102777</VehicleJourneyCode>
+      <ServiceRef>HIAF007</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_HIAF007-5</JourneyPatternRef>
+      <Note>
+        <NoteCode>REC</NoteCode>
+        <NoteText>Reservations recommended, contact operator.</NoteText>
+      </Note>
+      <DepartureTime>10:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>WIC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>102778</VehicleJourneyCode>
+      <ServiceRef>HIAF007</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_HIAF007-7</JourneyPatternRef>
+      <Note>
+        <NoteCode>REC</NoteCode>
+        <NoteText>Reservations recommended, contact operator.</NoteText>
+      </Note>
+      <DepartureTime>18:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>WIC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>102779</VehicleJourneyCode>
+      <ServiceRef>HIAF007</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_HIAF007-6</JourneyPatternRef>
+      <Note>
+        <NoteCode>REC</NoteCode>
+        <NoteText>Reservations recommended, contact operator.</NoteText>
+      </Note>
+      <DepartureTime>11:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>WIC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>102780</VehicleJourneyCode>
+      <ServiceRef>HIAF007</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_HIAF007-8</JourneyPatternRef>
+      <Note>
+        <NoteCode>REC</NoteCode>
+        <NoteText>Reservations recommended, contact operator.</NoteText>
+      </Note>
+      <DepartureTime>18:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>WIC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>102781</VehicleJourneyCode>
+      <ServiceRef>HIAF007</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_HIAF007-9</JourneyPatternRef>
+      <Note>
+        <NoteCode>REC</NoteCode>
+        <NoteText>Reservations recommended, contact operator.</NoteText>
+      </Note>
+      <DepartureTime>14:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>WIC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>102782</VehicleJourneyCode>
+      <ServiceRef>HIAF007</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_HIAF007-10</JourneyPatternRef>
+      <Note>
+        <NoteCode>REC</NoteCode>
+        <NoteText>Reservations recommended, contact operator.</NoteText>
+      </Note>
+      <DepartureTime>15:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>WIC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>102783</VehicleJourneyCode>
+      <ServiceRef>HIAF007</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_HIAF007-7</JourneyPatternRef>
+      <Note>
+        <NoteCode>REC</NoteCode>
+        <NoteText>Reservations recommended, contact operator.</NoteText>
+      </Note>
+      <DepartureTime>08:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>WIC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>102784</VehicleJourneyCode>
+      <ServiceRef>HIAF007</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_HIAF007-7</JourneyPatternRef>
+      <Note>
+        <NoteCode>REC</NoteCode>
+        <NoteText>Reservations recommended, contact operator.</NoteText>
+      </Note>
+      <DepartureTime>10:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>WIC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>102785</VehicleJourneyCode>
+      <ServiceRef>HIAF007</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_HIAF007-7</JourneyPatternRef>
+      <Note>
+        <NoteCode>REC</NoteCode>
+        <NoteText>Reservations recommended, contact operator.</NoteText>
+      </Note>
+      <DepartureTime>14:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>WIC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>102786</VehicleJourneyCode>
+      <ServiceRef>HIAF007</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_HIAF007-7</JourneyPatternRef>
+      <Note>
+        <NoteCode>REC</NoteCode>
+        <NoteText>Reservations recommended, contact operator.</NoteText>
+      </Note>
+      <DepartureTime>18:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>WIC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>102787</VehicleJourneyCode>
+      <ServiceRef>HIAF007</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_HIAF007-8</JourneyPatternRef>
+      <Note>
+        <NoteCode>REC</NoteCode>
+        <NoteText>Reservations recommended, contact operator.</NoteText>
+      </Note>
+      <DepartureTime>09:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>WIC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>102788</VehicleJourneyCode>
+      <ServiceRef>HIAF007</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_HIAF007-8</JourneyPatternRef>
+      <Note>
+        <NoteCode>REC</NoteCode>
+        <NoteText>Reservations recommended, contact operator.</NoteText>
+      </Note>
+      <DepartureTime>10:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>WIC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>102789</VehicleJourneyCode>
+      <ServiceRef>HIAF007</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_HIAF007-8</JourneyPatternRef>
+      <Note>
+        <NoteCode>REC</NoteCode>
+        <NoteText>Reservations recommended, contact operator.</NoteText>
+      </Note>
+      <DepartureTime>14:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>WIC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>102790</VehicleJourneyCode>
+      <ServiceRef>HIAF007</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_HIAF007-8</JourneyPatternRef>
+      <Note>
+        <NoteCode>REC</NoteCode>
+        <NoteText>Reservations recommended, contact operator.</NoteText>
+      </Note>
+      <DepartureTime>18:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>WIC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>102791</VehicleJourneyCode>
+      <ServiceRef>HIAF007</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_HIAF007-7</JourneyPatternRef>
+      <Note>
+        <NoteCode>REC</NoteCode>
+        <NoteText>Reservations recommended, contact operator.</NoteText>
+      </Note>
+      <DepartureTime>09:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>WIC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>102792</VehicleJourneyCode>
+      <ServiceRef>HIAF007</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_HIAF007-7</JourneyPatternRef>
+      <Note>
+        <NoteCode>REC</NoteCode>
+        <NoteText>Reservations recommended, contact operator.</NoteText>
+      </Note>
+      <DepartureTime>12:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>WIC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>102793</VehicleJourneyCode>
+      <ServiceRef>HIAF007</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_HIAF007-7</JourneyPatternRef>
+      <Note>
+        <NoteCode>REC</NoteCode>
+        <NoteText>Reservations recommended, contact operator.</NoteText>
+      </Note>
+      <DepartureTime>18:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>WIC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>102794</VehicleJourneyCode>
+      <ServiceRef>HIAF007</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_HIAF007-8</JourneyPatternRef>
+      <Note>
+        <NoteCode>REC</NoteCode>
+        <NoteText>Reservations recommended, contact operator.</NoteText>
+      </Note>
+      <DepartureTime>09:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>WIC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>102795</VehicleJourneyCode>
+      <ServiceRef>HIAF007</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_HIAF007-8</JourneyPatternRef>
+      <Note>
+        <NoteCode>REC</NoteCode>
+        <NoteText>Reservations recommended, contact operator.</NoteText>
+      </Note>
+      <DepartureTime>13:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>WIC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>102796</VehicleJourneyCode>
+      <ServiceRef>HIAF007</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_HIAF007-8</JourneyPatternRef>
+      <Note>
+        <NoteCode>REC</NoteCode>
+        <NoteText>Reservations recommended, contact operator.</NoteText>
+      </Note>
+      <DepartureTime>18:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>WIC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>102797</VehicleJourneyCode>
+      <ServiceRef>HIAF007</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_HIAF007-5</JourneyPatternRef>
+      <Note>
+        <NoteCode>REC</NoteCode>
+        <NoteText>Reservations recommended, contact operator.</NoteText>
+      </Note>
+      <DepartureTime>07:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>WIC</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <VehicleJourneyCode>102798</VehicleJourneyCode>
+      <ServiceRef>HIAF007</ServiceRef>
+      <LineRef>0</LineRef>
+      <JourneyPatternRef>JPS_HIAF007-8</JourneyPatternRef>
+      <Note>
+        <NoteCode>REC</NoteCode>
+        <NoteText>Reservations recommended, contact operator.</NoteText>
+      </Note>
+      <DepartureTime>08:15:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>
